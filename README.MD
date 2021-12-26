@@ -1,4 +1,11 @@
 # DE.py
+This the implementation of the DE on MLP for the UT Algo Project 2021. The DE is applied on optimizing the network structure on both : 
+
+1. Number of Hidden layer
+2. Numer of neurons for each layer
+
+Reference : https://github.com/OUStudent/EvolutionaryComputation
+
 ## Class structure
 The file consist of 2 classes - DNN and DE_MLP/
 
@@ -14,17 +21,19 @@ It is the class that for the Differenal Evo.
 3. The first generation (configuration) will use to do the initial training by fit() function per configuration.
 4. The best loss for each configuration will stored in scores array.
 5. DE Section : 
+```
 6.      For each generation until Maxiter  :  (generation level)
-7.          for j in the size of population (configurations) :
-8.              let parent = configuration[j]
-9.              **prepare the unit vector**
-9.              x1,xs[0],xs[1] randomly choose 3 config from the population
-10.             perform mutation with those 3 config and product a unit vector
-11.             perform crossover operation with parent and unit vector which output a child config
-12.             best_loss = perform fit() with the child config
-13.             if the best_loss is better than the parent's scorce
-14.                 update scores[j] = best_loss
-15.                 update the population[j] to the child config
+8.          for j in the size of population (configurations) :
+9.              let parent = configuration[j]
+10.              **prepare the unit vector**
+11.              x1,xs[0],xs[1] randomly choose 3 config from the population
+12.             perform mutation with those 3 config and product a unit vector
+13.             perform crossover operation with parent and unit vector which output a child config
+14.             best_loss = perform fit() with the child config
+15.             if the best_loss is better than the parent's scorce
+16.                 update scores[j] = best_loss
+17.                 update the population[j] to the child config
+```
 
 The first two steps is done in the constructor (__init__) , and the rest is done in the run() function
 
@@ -76,22 +85,23 @@ As those x1 , xs[0] and xs[1] is come with different lenght, so it is not possib
 1. apply mutation on x1, xs[0] and xs[1] from 0 to minlenght
     x1[:newminlen] + beta * (xs[0][:newminlen] - xs[1][:newminlen])
 2. for the rest, (the new hidden layers number - minlen) , it is better to explain by example ... :P  
-   x1    : [15 12 11] (3 hidden layers)
-   xs[0] : [6 7 8 9 4] (5 hidden layers)
-   xs[1] : [8 2 4 5 5 1 11 12 13] (9 hidden layers)
-   New Target lenght :  (6 hidden layers) , minimum lenght : 3 (x1 is the shortest) 
-   So, as said above ,during the first phase the mutation formula will be apply from 0 to 2 (index) which is :
-       2a. 15 + 0.5 * (6-8)
-       2b. 12 + 0.5 * (7-2)
-       2c. 11 + 0.5 * (8-4)
-   which the unit vector is now [14 , 14.5 , 13 , __ , ___ ,___ ] , still got 3 to go. 
-   for the remaining, which is from 3 to 5 (index) (3 positions remain), we get the number one by one by perform : 
-       2d. x1 is already used up , so generate a random number in range of minneuron to maxneuron , let it be a 
-       2e. xs[0] still got items (9) , let it be b 
-       2f .xs[1] still got items (5) , let it be c
-       2g. t = a + beta * (b -c)  : 15 + 0.5 * (9-5) = 17
-       2h. so the t will be fill in the position 3 -> [14 , 14.5 , 13 , 17 , ___ ,___ ]
-    continuous until it fill up those remaining slots.
+                                      x1    : [15 12 11] (3 hidden layers) </br>
+   xs[0] : [6 7 8 9 4] (5 hidden layers)</br>
+   xs[1] : [8 2 4 5 5 1 11 12 13] (9 hidden layers)</br>
+   New Target lenght :  (6 hidden layers) , minimum lenght : 3 (x1 is the shortest) </br>
+   So, as said above ,during the first phase the mutation formula will be apply from 0 to 2 (index) which is :</br>
+   - 2a. 15 + 0.5 * (6-8)</br>
+   - 2b. 12 + 0.5 * (7-2)</br>
+   - 2c. 11 + 0.5 * (8-4)</br>
+  
+which the unit vector is now [14 , 14.5 , 13 , __ , ___ ,___ ] , still got 3 to go.for the remaining, which is from 3 to 5 (index) (3 positions remain), we get the number one by one by perform : </br>
+
+   - 2d. x1 is already used up , so generate a random number in range of minneuron to maxneuron , let it be a </br>
+   - 2e. xs[0] still got items (9) , let it be b </br>
+   - 2f .xs[1] still got items (5) , let it be c</br>
+   - 2g. t = a + beta * (b -c)  : 15 + 0.5 * (9-5) = 17</br>
+   - 2h. so the t will be fill in the position 3 -> [14 , 14.5 , 13 , 17 , ___ ,___ ]</br>
+    continuous until it fill up those remaining slots.</br>
 3. After the above steps, apply boundary restriction (max and min number of neuron , round off decimal) to the unit vector
 4. Its Done ~~~ 
 
