@@ -230,8 +230,8 @@ class DE_MLP():
         scores = np.zeros((self.pplSize))
         #initial Run
         print('Initial Run Start')
-        for i in range(len(self.MLPlayerlist)):
-            b,_,_ = self.fit(self.MLPlayerlist[i],i)
+        for i in range(len(current_gen)):
+            b,_,_ = self.fit(current_gen[i],i)
             scores[i]=b
         print('Initial Run End')
         currentbest = np.min(scores)
@@ -247,8 +247,8 @@ class DE_MLP():
             for j in range(self.pplSize):
                 parent = current_gen[j]
                 midxs = np.random.choice(range(0,self.pplSize),3,replace=False)
-                target = self.MLPlayerlist[midxs[2]]
-                unitvector = self.mutation_1_2_z(target,self.MLPlayerlist[0:2],beta)
+                target = current_gen[midxs[2]]
+                unitvector = self.mutation_1_2_z(target,current_gen[0:2],beta)
                 #print(f'U: {unitvector}')
                 #print(f'P: {parent}')
                 if(self.crossover==1):
