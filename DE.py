@@ -153,6 +153,10 @@ class DE_MLP():
             targetlen=x1.shape[0]
         elif(targetlen<0):
             targetlen=abs(targetlen)
+        if(targetlen<self.mindepth):
+            targetlen=self.mindepth
+        if(targetlen>self.maxdepth):
+            targetlen=self.maxdepth
         if(targetlen < minlen):
             newminlen=targetlen
         if(debug):
@@ -160,7 +164,6 @@ class DE_MLP():
 
         #node mutation
         #As x1'len , xs' len and new len will be different, it will first do the node number mutation for min len, then apply the same rule to remaining if need.
-        xa = np.zeros((targetlen),dtype=int)
         # Node number mutation up to min len
         xa = x1[:newminlen] + beta * (xs[0][:newminlen] - xs[1][:newminlen]) # mutate on node with minlen
         # Node number mutation for the rest
