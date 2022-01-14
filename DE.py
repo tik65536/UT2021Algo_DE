@@ -171,17 +171,17 @@ class DE_MLP():
             c=None
             for i in range(targetlen-newminlen):
                 if(x1.shape[0]<=newminlen+i):
-                    a=np.random.choice(range(self.mindepth,self.maxdepth),1,replace=False)[0]
+                    a=np.random.choice(range(self.minneuron,self.maxneuron),1,replace=False)[0]
                 if(x1.shape[0]>newminlen+i):
                     a=x1[newminlen+i]
 
                 if(xs[0].shape[0]<=newminlen+i):
-                    b=np.random.choice(range(self.mindepth,self.maxdepth),1,replace=False)[0]
+                    b=np.random.choice(range(self.minneuron,self.maxneuron),1,replace=False)[0]
                 elif(xs[0].shape[0]>newminlen+i):
                     b=xs[0][newminlen+i]
 
                 if(xs[1].shape[0]<=newminlen+i):
-                    c=np.random.choice(range(self.mindepth,self.maxdepth),1,replace=False)[0]
+                    c=np.random.choice(range(self.minneuron,self.maxneuron),1,replace=False)[0]
                 elif(xs[1].shape[0]>newminlen+i):
                     c=xs[1][newminlen+i]
 
@@ -190,10 +190,10 @@ class DE_MLP():
             xa = np.concatenate((xa, xaa), axis=None)
 
         for i in range(xa.shape[0]):
-            if(xa[i]>self.maxdepth):
-                 xa[i]=self.maxdepth
-            elif(xa[i]<self.mindepth):
-                  xa[i]=self.mindepth
+            if(xa[i]>self.maxneuron):
+                 xa[i]=self.maxneuron
+            elif(xa[i]<self.minneuron):
+                  xa[i]=self.minneuron
             xa[i] = np.floor(xa[i])
         xa = np.concatenate((np.array(indim,dtype=int),np.array(xa,dtype=int),np.array(self.outdim,dtype=int)), axis=None,dtype=int)
         return xa
