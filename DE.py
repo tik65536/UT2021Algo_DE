@@ -251,7 +251,7 @@ class DE_MLP():
                 parent = current_gen[j]
                 midxs = np.random.choice(range(0,self.pplSize),3,replace=False)
                 target = current_gen[midxs[2]]
-                unitvector = self.mutation_1_2_z(target,current_gen[0:2],beta)
+                unitvector = self.mutation_1_2_z(target,current_gen[midxs[0:2]],beta)
                 #print(f'U: {unitvector}')
                 #print(f'P: {parent}')
                 if(self.crossover==1):
@@ -295,78 +295,3 @@ class DE_MLP():
         return
 
 
-    def runMP(self,beta=0.5,nump=2):
-
-        scores = pymp.shared.array((self.pplSize), dtype='float')
-        current_gen=pymp.shared.list()
-        with pymp.Parallel(nump) as p:
-            for i in p.range(0, len(self.MLPlayerlist)):
-                current_gen[i]=self.MLPlayerlist[i]
-
-        #initial Run
-        print('Initial Run Start')
-        with pymp.Parallel(nump) as p:
-            for i in p.range(0, len(self.MLPlayerlist)):
-                b,_,_ = self.fit(self.MLPlayerlist[i],i,p.thread_num)
-                scores[i]=b
-        print('Initial Run End')
-        currentbest = np.min(scores)
-        currentmean = np.mean(scores)
-        currentbestidx = np.argmin(scores)
-        print(f'Init Run Best: {currentbest}, Mean: {currentmean}, ID:{currentbestidx}, config: {current_gen[currentbestidx]}')
-        #Generation Run
-        for i in range(self.maxiter):
-            structureStatistic=pymp.shared.array((self.pplSize,5), dtype='float')
-            updatecount = pymp.shared.array((1), dtype='int')
-            updatecount[0]=0
-            start=time.time()
-            print(f'Gen {i} Run Start')
-            with pymp.Parallel(nump) as p:
-                for j in p.range(0, len(self.pplSize)):
-                    parent = current_gen[j]
-                    midxs = np.random.choice(range(0,self.pplSize),3,replace=False)
-                    target = self.MLPlayerlist[midxs[2]]
-                    unitvector = self.mutation_1_2_z(target,self.MLPlayerlist[0:2],beta)
-                    #print(f'U: {unitvector}')
-                    #print(f'P: {parent}')
-                    if(self.crossover==1):
-                        nextGen = self.crossoverMean(parent,unitvector)
-                    else:
-                        nextGen = self.crossoverRandomSwap(parent,unitvector)
-                    print(f'Next Gen: {nextGen}')
-                    structureStatistic[j,0]= nextGen.shape[0]-2
-                    structureStatistic[j,1]= np.mean(nextGen[1:-1])
-                    structureStatistic[j,2]= np.median(nextGen[1:-1])
-                    structureStatistic[j,3]= np.quantile(nextGen[1:-1],0.25)
-                    structureStatistic[j,4]= np.quantile(nextGen[1:-1],0.75)
-                    s,_,_ = self.fit(nextGen,j,p.thread_num)
-                    if(s<scores[j]):
-                        with p.lock:
-                            updatecount[0]+=1
-                        scores[j]=s
-                        current_gen[j]=nextGen
-                print(f'Gen {i} Run End')
-                end=time.time()
-                currentbest = np.min(scores)
-                currentmean = np.mean(scores)
-                currentmedian = np.median(scores)
-                currentq25 = np.quantile(scores,0.25)
-                currentq75 = np.quantile(scores,0.75)
-                currentbestidx = np.argmin(scores)
-                genMeanLen = np.mean(structureStatistic[:,0])
-                genMedianLen = np.median(structureStatistic[:,0])
-                genq25Len = np.quantile(structureStatistic[:,0],0.25)
-                genq75Len = np.quantile(structureStatistic[:,0],0.75)
-                genMeanNode=np.median(structureStatistic[:,1])
-                genMedianNode=np.median(structureStatistic[:,2])
-                genq25Node = np.median(structureStatistic[:,3])
-                genq75Node = np.median(structureStatistic[:,4])
-                print(f'Run {i:3d} Best: {currentbest}, Mean: {currentmean}, ID:{currentbestidx}, config: {current_gen[currentbestidx]}, updatecount: {updatecount:3d}, Generation RunTime: {(end-start):10.8f}')
-                self.tb.add_scalars("Scores Statistic (Generation)", {'best':currentbest,'mean':currentmean,'median':currentmedian,'q25':currentq25,'q75':currentq75}, i)
-                self.tb.add_scalars("Structure Statistic (Generation) #HiddenLayer", {'mean':genMeanLen,'median':genMedianLen,'q25':genq25Len,'q75':genq75Len}, i)
-                self.tb.add_scalars("Structure Statistic (Generation) #Node", {'mean':genMeanNode,'median':genMedianNode,'q25':genq25Node,'q75':genq75Node}, i)
-                self.tb.add_scalar('Update Count',updatecount[0],i)
-                self.tb.add_scalar('RunTime',(end-start),i)
-            print(f'Run Completed : Best Score(loss): {np.min(scores)} , Config: {current_gen[np.argmin(scores)]}')
-
-        return
