@@ -120,6 +120,7 @@ class DE_MLP():
                 vyhat = dnn(vdata)
                 vl = loss(vyhat,vy)
                 vloss += vl.item()
+            vloss=vloss/vbatch
             if(vloss<best):
                 best=vloss
             else:
