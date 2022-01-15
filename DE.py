@@ -134,7 +134,7 @@ class DE_MLP():
             if(stop>=self.stopcount):
                 return best,config,id_
 
-    def mutation_1_2_z(self,x1,xs,beta,debug=False):
+    def mutation_rand_1(self,x1,xs,beta,debug=False):
         indim = x1[0]
         x1 = x1[1:-1] # remove in/out dim
         xs[0] = xs[0][1:-1]
@@ -251,7 +251,7 @@ class DE_MLP():
                 parent = current_gen[j]
                 midxs = np.random.choice(range(0,self.pplSize),3,replace=False)
                 target = current_gen[midxs[2]]
-                unitvector = self.mutation_1_2_z(target,current_gen[midxs[0:2]],beta)
+                unitvector = self.mutation_rand_1(target,current_gen[midxs[0:2]],beta)
                 #print(f'U: {unitvector}')
                 #print(f'P: {parent}')
                 if(self.crossover==1):
