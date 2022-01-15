@@ -127,11 +127,11 @@ class DE_MLP():
                 stop+=1
             end=time.time()
             if(p is not None):
-                print(f'Process: {p:3d}, ConfigID: {id_:3d}, Epoch: {e:3d}, Training Loss: {(batchloss/batch):10.8f}, Validation Loss: {(vloss/vbatch):10.8f},\
-                    Best: {best/vbatch:10.8f}, StopCount/Limit: {stop:3d}/{self.stopcount:3d}, Time:{(end-start):10.8f}')
+                print(f'Process: {p:3d}, ConfigID: {id_:3d}, Epoch: {e:3d}, Training Loss: {(batchloss/batch):10.8f}, Validation Loss: {(vloss):10.8f},\
+                    Best: {best:10.8f}, StopCount/Limit: {stop:3d}/{self.stopcount:3d}, Time:{(end-start):10.8f}')
             else:
-                print(f'ConfigID: {id_:3d}, Epoch: {e:3d}, Training Loss: {(batchloss/batch):10.8f}, Validation Loss: {(vloss/vbatch):10.8f},\
-                    Best: {best/vbatch:10.8f}, StopCount/Limit: {stop:3d}/{self.stopcount:3d}, Time:{(end-start):10.8f}')
+                print(f'ConfigID: {id_:3d}, Epoch: {e:3d}, Training Loss: {(batchloss/batch):10.8f}, Validation Loss: {(vloss):10.8f},\
+                    Best: {best:10.8f}, StopCount/Limit: {stop:3d}/{self.stopcount:3d}, Time:{(end-start):10.8f}')
             if(stop>=self.stopcount):
                 return best,config,id_
 
