@@ -12,9 +12,6 @@ import sys
 sys.path.append('../Utils')
 from DE.DNN import DNN
 
-
-## Asssume the dim of Traing and Testing are in shape [N,C,H,W]
-
 class JADE_MLP():
     def __init__(self, outdim=1,maxdepth=70,mindepth=5,minneuron=4,maxneuron=10,bsize=10,epoch=100,initSize=20,maxiter=10,stopcount=3,\
                  trainingset=None,validationset=None,trainingTarget=None,validateTarget=None,crossover=1,tb=None):
@@ -92,7 +89,6 @@ class JADE_MLP():
             vloss=0
             accuracy = 0
             for i in range(vbatch):
-                accuracy = 0
                 vidx=vidxs[i*self.bsize:i*self.bsize+self.bsize]
                 vdata = self.validationSet[vidx]
                 vy = self.validationTarget[vidx]
@@ -124,6 +120,72 @@ class JADE_MLP():
         if(r2 < tau1): beta = round(beta1 + r1 * betau,3) # else, keep the beta same
         if(r4 < tau2): cr = r3
         return beta,cr
+
+    def find_pbest(self,scores,p):
+        pi = int(p*len(scores)+1) # it is taken p% out of length and then ceiling
+        fits = scores.copy() # keep scores and its indexes
+        fits = sorted(fits)[::-1] # sort fits desc
+        idx = np.random.choice(range(pi),1,replace=False)[0] # random index for sorted fits
+        return list(scores).index(fits[idx]) # return the index from sorted
+
+    def self_adaptive_beta(self,beta):
+        tau,beta1,betau = self.adap_conf
+        r1,r2 = np.random.uniform(0,1,2)
+        if(r2 < tau): beta = round(beta1 + r1 * betau,3) # else, keep the beta same
+        return beta
+
+    def mutation_pbest_1_z(self,x,x1,xs,beta,debug=False):
+        indim = x[0]
+        # forget first and last layers
+        x,x1,xs[0],xs[1] = x[1:-1],x1[1:-1],xs[0][1:-1],xs[1][1:-1]
+        if(debug):
+            print(f'M1 : x len {x.shape[0]} x1 len {x1.shape[0]} xs0 len {xs[0].shape[0]} xs1 len {xs[1].shape[0]}')
+            print(f'M1 : x {x} \nM1 : x1 {x1} \nM1 : xs0 {xs[0]} \nM1 : xs1 len {xs[1]}')
+        #
+        # A. Mutating the # of layers
+        minlen = np.min([x.shape[0],x1.shape[0],xs[0].shape[0],xs[1].shape[0]])
+        if(debug): print(f'M1 : minlen {minlen}')
+        newminlen = minlen
+        targetlen=int(np.floor( (x.shape[0]) + beta * (x1.shape[0] - x.shape[0]) + beta * (xs[0].shape[0] - xs[1].shape[0]) ))
+        # check the sign of targetlen: if the new length == 0 , set it back to target len , if <0 , take abs
+        if(targetlen==0): targetlen=x1.shape[0]
+        elif(targetlen<0): targetlen=abs(targetlen)
+        # check if new length is between mindepth and maxdepth
+        if(targetlen < self.mindepth): targetlen = self.mindepth
+        elif(targetlen > self.maxdepth): targetlen = self.maxdepth
+        # new minimum length is min of minlen and targetlen
+        if(targetlen < minlen): newminlen=targetlen
+        if(debug): print(f'M1 : New Min Len :{newminlen}, Length Mutation :{targetlen}')
+        #
+        # B. Mutating the # of neurons
+        # As lengths of x, x1, xs[0], xs[1] and new length can possibly be different,
+        # 1) do the mutation for # of neurons for new minlen,
+        # 2) apply the same rule to remaining if needed
+        # xa = np.zeros((targetlen),dtype=int)
+        # Mutating the number of neurons up to min len layers
+        xa = x[:newminlen] + beta * (x1[:newminlen] - x[:newminlen]) + beta * (xs[0][:newminlen] - xs[1][:newminlen]) # mutate on node with minlen
+        # Mutating the number of neurons for the rest layers
+        if(targetlen>minlen):
+            xaa = np.zeros((targetlen-minlen))
+            a,b,c,d=None,None,None,None
+            for i in range(targetlen-newminlen): # if number of neurons missing in vector, generate random from range (min)
+                if(x.shape[0]<=newminlen+i): a=np.random.choice(range(self.minneuron,self.maxneuron),1,replace=False)[0]
+                elif(x.shape[0]>newminlen+i): a=x[newminlen+i]
+                if(x1.shape[0]<=newminlen+i): b=np.random.choice(range(self.minneuron,self.maxneuron),1,replace=False)[0]
+                elif(x1.shape[0]>newminlen+i): b=x1[newminlen+i]
+                if(xs[0].shape[0]<=newminlen+i): c=np.random.choice(range(self.minneuron,self.maxneuron),1,replace=False)[0]
+                elif(xs[0].shape[0]>newminlen+i): c=xs[0][newminlen+i]
+                if(xs[1].shape[0]<=newminlen+i): d=np.random.choice(range(self.minneuron,self.maxneuron),1,replace=False)[0]
+                elif(xs[1].shape[0]>newminlen+i): d=xs[1][newminlen+i]
+                xaa[i] = a + beta * (b - a) + beta * (c - d)
+            xa = np.concatenate((xa, xaa), axis=None)
+        # check if numbers of neurons are in allowed range
+        for i in range(xa.shape[0]):
+            if(xa[i]>self.maxneuron): xa[i]=self.maxneuron
+            elif(xa[i]<self.minneuron): xa[i]=self.minneuron
+            xa[i] = np.floor(xa[i])
+        xa = np.concatenate((np.array(indim,dtype=int),np.array(xa,dtype=int),np.array(self.outdim,dtype=int)), axis=None,dtype=int)
+        return xa
 
     def mutation_rand_1_z(self,x1,xs,beta,debug=False):
         indim = x1[0]
@@ -199,21 +261,7 @@ class JADE_MLP():
         child.append(parent[-1])
         return np.array(child).copy()
 
-    def crossoverJDESwap(self,parent,u,cr):
-        # the first one is with min len
-        order = [parent[1:-1],u[1:-1]]
-        child = [parent[0]]
-        if(parent.shape[0] > u.shape[0]): order = [u[1:-1],parent[1:-1]]
-        order[0] = np.resize(order[0],order[1].shape[0])
-        swap = np.random.randint(0,2,order[0].shape[0])
-        for i in range(len(swap)):
-            r = np.random.uniform(0,1,1)[0]
-            if(swap[i]==0 or r<=cr): child.append(order[0][i])
-            else: child.append(order[1][i])
-        child.append(parent[-1])
-        return np.array(child).copy()
-
-    def run(self,beta=0.5,cr=0.9):
+    def run(self,beta=0.5,p=0.2):
         current_gen=self.MLPlayerlist
         scores = np.zeros((self.pplSize))
         accuracy = np.zeros((self.pplSize))
@@ -240,16 +288,20 @@ class JADE_MLP():
             start=time.time()
             print(f'JADE Gen {i} Run Start')
             betas = np.ones(self.pplSize)*beta
-            crs = np.ones(self.pplSize)*cr
             for j in range(self.pplSize):
                 parent = current_gen[j]
-                idx0,idx1,idxt = np.random.choice(range(0,self.pplSize),3,replace=False)
-                target = current_gen[idxt]
-                diff = [current_gen[idx0],current_gen[idx1]]
-                betas[j],crs[j] = self.jde_params(betas[j],crs[j])
-                unitvector = self.mutation_rand_1_z(target,diff,betas[j])
-                nextGen = self.crossoverJDESwap(parent,unitvector,crs[j])
-                print(f'JADE Next Gen: {nextGen}')
+                # factors
+                betas[j] = self.self_adaptive_beta(betas[j])
+                # mutation
+                tidx = self.find_pbest(scores,p)
+                idx1,idx2 = np.array(np.random.choice(np.delete(np.arange(self.pplSize),tidx),2,replace=False),dtype=int)
+                target = current_gen[tidx]
+                diff = [current_gen[idx1],current_gen[idx2]]
+                unitvector = self.mutation_pbest_1_z(parent,target,diff,betas[j])
+                # crossover
+                if(self.crossover==1): nextGen = self.crossoverMean(parent,unitvector)
+                else: nextGen = self.crossoverRandomSwap(parent,unitvector)
+                print(f'Next Gen: {nextGen}')
                 structureStatistic[j,0]= nextGen.shape[0]-2
                 structureStatistic[j,1]= np.mean(nextGen[1:-1])
                 structureStatistic[j,2]= np.median(nextGen[1:-1])
@@ -259,7 +311,7 @@ class JADE_MLP():
                 if(s<scores[j]):
                     updatecount+=1
                     scores[j]=s
-                    accuracy[j]=a
+            		accuracy[j]=a
                     current_gen[j]=nextGen
             print(f'JADE Gen {i} Run End')
             end=time.time()
