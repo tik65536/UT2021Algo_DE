@@ -30,7 +30,7 @@ class JADE_MLP():
         self.MLPlayerlist = []
         self.depthlist=np.random.choice(range(self.mindepth,self.maxdepth),self.pplSize,replace=True)
         self.crossover=crossover
-        self.adap_conf = (0.1,0.1,0.1,0.9)
+        self.adap_conf = (0.1,0.1,0.9)
         self.tb = tb
         #if torch.cuda.is_available():
         #    self.device = torch.device('cuda')

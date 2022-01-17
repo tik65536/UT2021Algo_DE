@@ -196,19 +196,19 @@ class JDEV2_MLP():
         child.append(parent[-1])
         return np.array(child).copy()
 
-    def crossoverJDESwap(self,parent,u,cr):
-        # the first one is with min len
-        order = [parent[1:-1],u[1:-1]]
+    def crossoverUnif(self,parent,unit,cr):
+        r = np.random.uniform(0,1,1)[0]
+        p = parent[1:-1]
+        u = unit[1:-1]
         child = [parent[0]]
-        if(parent.shape[0] > u.shape[0]): order = [u[1:-1],parent[1:-1]]
-        order[0] = np.resize(order[0],order[1].shape[0])
-        swap = np.random.randint(0,2,order[0].shape[0])
-        for i in range(len(swap)):
-            r = np.random.uniform(0,1,1)[0]
-            if(swap[i]==0 or r<=cr): child.append(order[0][i])
-            else: child.append(order[1][i])
+        if(p.shape[0] > u.shape[0]): u = np.resize(u,p.shape[0])
+        elif(u.shape[0] > p.shape[0]): p = np.resize(p,u.shape[0])
+        jr = np.random.choice(range(u.shape[0]),size=1)[0]
+        for j in range(u.shape[0]):
+            if r <= cr or j == jr: child.append(u[j])
+            else: child.append(p[j])
         child.append(parent[-1])
-        return np.array(child).copy()
+        return np.array(child)
 
     def run(self,beta=0.5,cr=0.9):
         current_gen=self.MLPlayerlist
@@ -235,18 +235,21 @@ class JDEV2_MLP():
             structureStatistic=np.zeros((self.pplSize,5))
             updatecount=0
             start=time.time()
-            print(f'JDE Gen {i} Run Start')
+            print(f'Gen {i} Run Start')
             betas = np.ones(self.pplSize)*beta
             crs = np.ones(self.pplSize)*cr
             for j in range(self.pplSize):
                 parent = current_gen[j]
+                # factors
+                betas[j],crs[j] = self.jde_params(betas[j],crs[j])
+                # mutation
                 idx0,idx1,idxt = np.random.choice(range(0,self.pplSize),3,replace=False)
                 target = current_gen[idxt]
                 diff = [current_gen[idx0],current_gen[idx1]]
-                betas[j],crs[j] = self.jde_params(betas[j],crs[j])
                 unitvector = self.mutation_rand_1_z(target,diff,betas[j])
-                nextGen = self.crossoverJDESwap(parent,unitvector,crs[j])
-                print(f'JDE Next Gen: {nextGen}')
+                # crossover
+                nextGen = self.crossoverUnif(parent,unitvector,crs[j])
+                print(f'Next Gen: {nextGen}')
                 structureStatistic[j,0]= nextGen.shape[0]-2
                 structureStatistic[j,1]= np.mean(nextGen[1:-1])
                 structureStatistic[j,2]= np.median(nextGen[1:-1])
