@@ -311,7 +311,7 @@ class JADE_MLP():
                 if(s<scores[j]):
                     updatecount+=1
                     scores[j]=s
-            		accuracy[j]=a
+                    accuracy[j]=a
                     current_gen[j]=nextGen
             print(f'JADE Gen {i} Run End')
             end=time.time()
