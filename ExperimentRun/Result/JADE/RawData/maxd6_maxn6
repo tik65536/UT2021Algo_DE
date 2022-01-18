@@ -1,0 +1,1043 @@
+JADE Test Run Start: maxdepth:6, maxneuron:6
+JADE Initial Run Start
+JADE ConfigID:   0, Epoch:   0, Training Loss: 0.30370464, Validation Loss: 0.26673344,Best: 0.26673344, Accuracy: 0.2868, StopCount/Limit:   0/  3, Time:4.40276909
+JADE ConfigID:   0, Epoch:   1, Training Loss: 0.26489806, Validation Loss: 0.26189622,Best: 0.26189622, Accuracy: 0.2891, StopCount/Limit:   0/  3, Time:4.42114091
+JADE ConfigID:   0, Epoch:   2, Training Loss: 0.26172009, Validation Loss: 0.25811791,Best: 0.25811791, Accuracy: 0.3115, StopCount/Limit:   0/  3, Time:4.42879319
+JADE ConfigID:   0, Epoch:   3, Training Loss: 0.26046006, Validation Loss: 0.25808983,Best: 0.25808983, Accuracy: 0.3139, StopCount/Limit:   0/  3, Time:4.42003989
+JADE ConfigID:   0, Epoch:   4, Training Loss: 0.25977416, Validation Loss: 0.25666943,Best: 0.25666943, Accuracy: 0.3204, StopCount/Limit:   0/  3, Time:4.41497970
+JADE ConfigID:   0, Epoch:   5, Training Loss: 0.25937563, Validation Loss: 0.25819902,Best: 0.25666943, Accuracy: 0.3138, StopCount/Limit:   1/  3, Time:4.42532277
+JADE ConfigID:   0, Epoch:   6, Training Loss: 0.25895270, Validation Loss: 0.25625920,Best: 0.25625920, Accuracy: 0.3344, StopCount/Limit:   1/  3, Time:4.42112803
+JADE ConfigID:   0, Epoch:   7, Training Loss: 0.25681525, Validation Loss: 0.25419844,Best: 0.25419844, Accuracy: 0.3336, StopCount/Limit:   1/  3, Time:4.42529821
+JADE ConfigID:   0, Epoch:   8, Training Loss: 0.25466037, Validation Loss: 0.25222573,Best: 0.25222573, Accuracy: 0.3304, StopCount/Limit:   1/  3, Time:4.43229103
+JADE ConfigID:   0, Epoch:   9, Training Loss: 0.25367579, Validation Loss: 0.25182916,Best: 0.25182916, Accuracy: 0.3399, StopCount/Limit:   1/  3, Time:4.45971513
+JADE ConfigID:   0, Epoch:  10, Training Loss: 0.25348317, Validation Loss: 0.25174762,Best: 0.25174762, Accuracy: 0.3367, StopCount/Limit:   1/  3, Time:4.47801447
+JADE ConfigID:   0, Epoch:  11, Training Loss: 0.25278984, Validation Loss: 0.25044905,Best: 0.25044905, Accuracy: 0.3309, StopCount/Limit:   1/  3, Time:4.49424314
+JADE ConfigID:   0, Epoch:  12, Training Loss: 0.25273405, Validation Loss: 0.25052484,Best: 0.25044905, Accuracy: 0.334, StopCount/Limit:   2/  3, Time:4.54893470
+JADE ConfigID:   0, Epoch:  13, Training Loss: 0.25282601, Validation Loss: 0.25038211,Best: 0.25038211, Accuracy: 0.3393, StopCount/Limit:   2/  3, Time:4.60713506
+JADE ConfigID:   0, Epoch:  14, Training Loss: 0.25212552, Validation Loss: 0.24967058,Best: 0.24967058, Accuracy: 0.3416, StopCount/Limit:   2/  3, Time:4.59475279
+JADE ConfigID:   0, Epoch:  15, Training Loss: 0.25228500, Validation Loss: 0.24948584,Best: 0.24948584, Accuracy: 0.3404, StopCount/Limit:   2/  3, Time:4.59035897
+JADE ConfigID:   0, Epoch:  16, Training Loss: 0.25146432, Validation Loss: 0.25471016,Best: 0.24948584, Accuracy: 0.3317, StopCount/Limit:   3/  3, Time:4.59518814
+JADE ConfigID:   1, Epoch:   0, Training Loss: 0.38235836, Validation Loss: 0.32505948,Best: 0.32505948, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.51843047
+JADE ConfigID:   1, Epoch:   1, Training Loss: 0.30043393, Validation Loss: 0.28136559,Best: 0.28136559, Accuracy: 0.2548, StopCount/Limit:   0/  3, Time:4.51902223
+JADE ConfigID:   1, Epoch:   2, Training Loss: 0.27788858, Validation Loss: 0.27570425,Best: 0.27570425, Accuracy: 0.2831, StopCount/Limit:   0/  3, Time:4.52566886
+JADE ConfigID:   1, Epoch:   3, Training Loss: 0.27532255, Validation Loss: 0.27463055,Best: 0.27463055, Accuracy: 0.305, StopCount/Limit:   0/  3, Time:4.52748418
+JADE ConfigID:   1, Epoch:   4, Training Loss: 0.27391651, Validation Loss: 0.27374903,Best: 0.27374903, Accuracy: 0.3024, StopCount/Limit:   0/  3, Time:4.53233790
+JADE ConfigID:   1, Epoch:   5, Training Loss: 0.27350657, Validation Loss: 0.27339602,Best: 0.27339602, Accuracy: 0.3071, StopCount/Limit:   0/  3, Time:4.52636647
+JADE ConfigID:   1, Epoch:   6, Training Loss: 0.27321657, Validation Loss: 0.27241449,Best: 0.27241449, Accuracy: 0.3106, StopCount/Limit:   0/  3, Time:4.52562451
+JADE ConfigID:   1, Epoch:   7, Training Loss: 0.27246976, Validation Loss: 0.27390553,Best: 0.27241449, Accuracy: 0.3015, StopCount/Limit:   1/  3, Time:4.52814412
+JADE ConfigID:   1, Epoch:   8, Training Loss: 0.27250720, Validation Loss: 0.27298927,Best: 0.27241449, Accuracy: 0.31, StopCount/Limit:   2/  3, Time:4.54483271
+JADE ConfigID:   1, Epoch:   9, Training Loss: 0.27259490, Validation Loss: 0.27334189,Best: 0.27241449, Accuracy: 0.3134, StopCount/Limit:   3/  3, Time:4.56937361
+JADE ConfigID:   2, Epoch:   0, Training Loss: 0.37582416, Validation Loss: 0.32499228,Best: 0.32499228, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.20045185
+JADE ConfigID:   2, Epoch:   1, Training Loss: 0.32496098, Validation Loss: 0.32490638,Best: 0.32490638, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.21857905
+JADE ConfigID:   2, Epoch:   2, Training Loss: 0.32495330, Validation Loss: 0.32492477,Best: 0.32490638, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.22389436
+JADE ConfigID:   2, Epoch:   3, Training Loss: 0.32495889, Validation Loss: 0.32492558,Best: 0.32490638, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.22606111
+JADE ConfigID:   2, Epoch:   4, Training Loss: 0.32495699, Validation Loss: 0.32493035,Best: 0.32490638, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.22054434
+JADE ConfigID:   3, Epoch:   0, Training Loss: 0.38036352, Validation Loss: 0.32501549,Best: 0.32501549, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.44215417
+JADE ConfigID:   3, Epoch:   1, Training Loss: 0.32496468, Validation Loss: 0.32491103,Best: 0.32491103, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.45223808
+JADE ConfigID:   3, Epoch:   2, Training Loss: 0.32495545, Validation Loss: 0.32494076,Best: 0.32491103, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.45485616
+JADE ConfigID:   3, Epoch:   3, Training Loss: 0.32494637, Validation Loss: 0.32491792,Best: 0.32491103, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.45707226
+JADE ConfigID:   3, Epoch:   4, Training Loss: 0.32495550, Validation Loss: 0.32494413,Best: 0.32491103, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.46086287
+JADE ConfigID:   4, Epoch:   0, Training Loss: 0.37110902, Validation Loss: 0.29149993,Best: 0.29149993, Accuracy: 0.2184, StopCount/Limit:   0/  3, Time:5.04484439
+JADE ConfigID:   4, Epoch:   1, Training Loss: 0.28041717, Validation Loss: 0.27595674,Best: 0.27595674, Accuracy: 0.2366, StopCount/Limit:   0/  3, Time:5.05258203
+JADE ConfigID:   4, Epoch:   2, Training Loss: 0.27437601, Validation Loss: 0.27329565,Best: 0.27329565, Accuracy: 0.2308, StopCount/Limit:   0/  3, Time:5.05741739
+JADE ConfigID:   4, Epoch:   3, Training Loss: 0.27181643, Validation Loss: 0.27167429,Best: 0.27167429, Accuracy: 0.2145, StopCount/Limit:   0/  3, Time:5.05792427
+JADE ConfigID:   4, Epoch:   4, Training Loss: 0.27003249, Validation Loss: 0.27089046,Best: 0.27089046, Accuracy: 0.222, StopCount/Limit:   0/  3, Time:5.06509900
+JADE ConfigID:   4, Epoch:   5, Training Loss: 0.26931043, Validation Loss: 0.26976160,Best: 0.26976160, Accuracy: 0.213, StopCount/Limit:   0/  3, Time:5.06116366
+JADE ConfigID:   4, Epoch:   6, Training Loss: 0.26910248, Validation Loss: 0.26992587,Best: 0.26976160, Accuracy: 0.2182, StopCount/Limit:   1/  3, Time:5.06416726
+JADE ConfigID:   4, Epoch:   7, Training Loss: 0.26879048, Validation Loss: 0.27025842,Best: 0.26976160, Accuracy: 0.2119, StopCount/Limit:   2/  3, Time:5.06860161
+JADE ConfigID:   4, Epoch:   8, Training Loss: 0.26882391, Validation Loss: 0.26984848,Best: 0.26976160, Accuracy: 0.2103, StopCount/Limit:   3/  3, Time:5.05268121
+JADE ConfigID:   5, Epoch:   0, Training Loss: 0.29751765, Validation Loss: 0.25595463,Best: 0.25595463, Accuracy: 0.2905, StopCount/Limit:   0/  3, Time:4.40223622
+JADE ConfigID:   5, Epoch:   1, Training Loss: 0.25529433, Validation Loss: 0.25403738,Best: 0.25403738, Accuracy: 0.2906, StopCount/Limit:   0/  3, Time:4.42073250
+JADE ConfigID:   5, Epoch:   2, Training Loss: 0.25176003, Validation Loss: 0.24796657,Best: 0.24796657, Accuracy: 0.2883, StopCount/Limit:   0/  3, Time:4.42530060
+JADE ConfigID:   5, Epoch:   3, Training Loss: 0.24735476, Validation Loss: 0.24375743,Best: 0.24375743, Accuracy: 0.2961, StopCount/Limit:   0/  3, Time:4.42566252
+JADE ConfigID:   5, Epoch:   4, Training Loss: 0.24563485, Validation Loss: 0.24365906,Best: 0.24365906, Accuracy: 0.3023, StopCount/Limit:   0/  3, Time:4.41642785
+JADE ConfigID:   5, Epoch:   5, Training Loss: 0.24409229, Validation Loss: 0.24254772,Best: 0.24254772, Accuracy: 0.2964, StopCount/Limit:   0/  3, Time:4.42393351
+JADE ConfigID:   5, Epoch:   6, Training Loss: 0.24375841, Validation Loss: 0.24369132,Best: 0.24254772, Accuracy: 0.2983, StopCount/Limit:   1/  3, Time:4.42358661
+JADE ConfigID:   5, Epoch:   7, Training Loss: 0.24354569, Validation Loss: 0.24321292,Best: 0.24254772, Accuracy: 0.2981, StopCount/Limit:   2/  3, Time:4.41923070
+JADE ConfigID:   5, Epoch:   8, Training Loss: 0.24318623, Validation Loss: 0.24354001,Best: 0.24254772, Accuracy: 0.3034, StopCount/Limit:   3/  3, Time:4.42004967
+JADE ConfigID:   6, Epoch:   0, Training Loss: 0.32066983, Validation Loss: 0.28028248,Best: 0.28028248, Accuracy: 0.3526, StopCount/Limit:   0/  3, Time:5.12275290
+JADE ConfigID:   6, Epoch:   1, Training Loss: 0.26802272, Validation Loss: 0.26261866,Best: 0.26261866, Accuracy: 0.3592, StopCount/Limit:   0/  3, Time:5.14969206
+JADE ConfigID:   6, Epoch:   2, Training Loss: 0.26355479, Validation Loss: 0.25933086,Best: 0.25933086, Accuracy: 0.3795, StopCount/Limit:   0/  3, Time:5.15458012
+JADE ConfigID:   6, Epoch:   3, Training Loss: 0.25907278, Validation Loss: 0.25450593,Best: 0.25450593, Accuracy: 0.3559, StopCount/Limit:   0/  3, Time:5.14383388
+JADE ConfigID:   6, Epoch:   4, Training Loss: 0.25486966, Validation Loss: 0.25202151,Best: 0.25202151, Accuracy: 0.3383, StopCount/Limit:   0/  3, Time:5.13913083
+JADE ConfigID:   6, Epoch:   5, Training Loss: 0.25333599, Validation Loss: 0.24992227,Best: 0.24992227, Accuracy: 0.349, StopCount/Limit:   0/  3, Time:5.13943672
+JADE ConfigID:   6, Epoch:   6, Training Loss: 0.25274361, Validation Loss: 0.24987035,Best: 0.24987035, Accuracy: 0.3254, StopCount/Limit:   0/  3, Time:5.13736987
+JADE ConfigID:   6, Epoch:   7, Training Loss: 0.25233144, Validation Loss: 0.24981483,Best: 0.24981483, Accuracy: 0.3276, StopCount/Limit:   0/  3, Time:5.14762640
+JADE ConfigID:   6, Epoch:   8, Training Loss: 0.25208349, Validation Loss: 0.24946915,Best: 0.24946915, Accuracy: 0.3221, StopCount/Limit:   0/  3, Time:5.18707132
+JADE ConfigID:   6, Epoch:   9, Training Loss: 0.25190656, Validation Loss: 0.25070272,Best: 0.24946915, Accuracy: 0.3048, StopCount/Limit:   1/  3, Time:5.22100449
+JADE ConfigID:   6, Epoch:  10, Training Loss: 0.25133024, Validation Loss: 0.24986118,Best: 0.24946915, Accuracy: 0.3126, StopCount/Limit:   2/  3, Time:5.23331022
+JADE ConfigID:   6, Epoch:  11, Training Loss: 0.25145776, Validation Loss: 0.24908358,Best: 0.24908358, Accuracy: 0.328, StopCount/Limit:   2/  3, Time:5.30389476
+JADE ConfigID:   6, Epoch:  12, Training Loss: 0.25109748, Validation Loss: 0.24992956,Best: 0.24908358, Accuracy: 0.3096, StopCount/Limit:   3/  3, Time:5.40335298
+JADE ConfigID:   7, Epoch:   0, Training Loss: 0.34135928, Validation Loss: 0.32493099,Best: 0.32493099, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.05221963
+JADE ConfigID:   7, Epoch:   1, Training Loss: 0.32502323, Validation Loss: 0.32502459,Best: 0.32493099, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.07286859
+JADE ConfigID:   7, Epoch:   2, Training Loss: 0.32504042, Validation Loss: 0.32500667,Best: 0.32493099, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.07931662
+JADE ConfigID:   7, Epoch:   3, Training Loss: 0.32503146, Validation Loss: 0.32497881,Best: 0.32493099, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.08651495
+JADE ConfigID:   8, Epoch:   0, Training Loss: 0.33661531, Validation Loss: 0.32502330,Best: 0.32502330, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.38036442
+JADE ConfigID:   8, Epoch:   1, Training Loss: 0.32510407, Validation Loss: 0.32507311,Best: 0.32502330, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.39820671
+JADE ConfigID:   8, Epoch:   2, Training Loss: 0.32509190, Validation Loss: 0.32502376,Best: 0.32502330, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.38919950
+JADE ConfigID:   8, Epoch:   3, Training Loss: 0.32510284, Validation Loss: 0.32504893,Best: 0.32502330, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.39547801
+JADE ConfigID:   9, Epoch:   0, Training Loss: 0.31382248, Validation Loss: 0.28109940,Best: 0.28109940, Accuracy: 0.2777, StopCount/Limit:   0/  3, Time:4.39851594
+JADE ConfigID:   9, Epoch:   1, Training Loss: 0.27897051, Validation Loss: 0.27866597,Best: 0.27866597, Accuracy: 0.2779, StopCount/Limit:   0/  3, Time:4.42030096
+JADE ConfigID:   9, Epoch:   2, Training Loss: 0.27630816, Validation Loss: 0.27765267,Best: 0.27765267, Accuracy: 0.3213, StopCount/Limit:   0/  3, Time:4.42304993
+JADE ConfigID:   9, Epoch:   3, Training Loss: 0.27155292, Validation Loss: 0.26434221,Best: 0.26434221, Accuracy: 0.3224, StopCount/Limit:   0/  3, Time:4.42109561
+JADE ConfigID:   9, Epoch:   4, Training Loss: 0.25565192, Validation Loss: 0.25515232,Best: 0.25515232, Accuracy: 0.328, StopCount/Limit:   0/  3, Time:4.42681384
+JADE ConfigID:   9, Epoch:   5, Training Loss: 0.25268642, Validation Loss: 0.25600817,Best: 0.25515232, Accuracy: 0.3257, StopCount/Limit:   1/  3, Time:4.42806005
+JADE ConfigID:   9, Epoch:   6, Training Loss: 0.25175917, Validation Loss: 0.25361821,Best: 0.25361821, Accuracy: 0.3232, StopCount/Limit:   1/  3, Time:4.42144179
+JADE ConfigID:   9, Epoch:   7, Training Loss: 0.25107668, Validation Loss: 0.25272619,Best: 0.25272619, Accuracy: 0.3335, StopCount/Limit:   1/  3, Time:4.42471242
+JADE ConfigID:   9, Epoch:   8, Training Loss: 0.25026229, Validation Loss: 0.25207380,Best: 0.25207380, Accuracy: 0.3321, StopCount/Limit:   1/  3, Time:4.42771006
+JADE ConfigID:   9, Epoch:   9, Training Loss: 0.24883558, Validation Loss: 0.25031612,Best: 0.25031612, Accuracy: 0.3442, StopCount/Limit:   1/  3, Time:4.44270754
+JADE ConfigID:   9, Epoch:  10, Training Loss: 0.24661629, Validation Loss: 0.24748975,Best: 0.24748975, Accuracy: 0.3497, StopCount/Limit:   1/  3, Time:4.47339582
+JADE ConfigID:   9, Epoch:  11, Training Loss: 0.24456325, Validation Loss: 0.24798947,Best: 0.24748975, Accuracy: 0.3571, StopCount/Limit:   2/  3, Time:4.48952174
+JADE ConfigID:   9, Epoch:  12, Training Loss: 0.24294770, Validation Loss: 0.24457064,Best: 0.24457064, Accuracy: 0.3828, StopCount/Limit:   2/  3, Time:4.51727748
+JADE ConfigID:   9, Epoch:  13, Training Loss: 0.24223210, Validation Loss: 0.24323233,Best: 0.24323233, Accuracy: 0.3761, StopCount/Limit:   2/  3, Time:4.58648324
+JADE ConfigID:   9, Epoch:  14, Training Loss: 0.24159011, Validation Loss: 0.24529500,Best: 0.24323233, Accuracy: 0.3665, StopCount/Limit:   3/  3, Time:4.60833526
+JADE Initial Run End
+JADE Init Run Best: 0.24254772149771453, Mean: 0.28262972662374375, ID:5, config: [784   3   3   3   4  10]
+JADE Gen 0 Run Start
+Next Gen: [784   2   2   5   2  10]
+JADE ConfigID:   0, Epoch:   0, Training Loss: 0.34444953, Validation Loss: 0.32493882,Best: 0.32493882, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.36795044
+JADE ConfigID:   0, Epoch:   1, Training Loss: 0.32501306, Validation Loss: 0.32493943,Best: 0.32493882, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.37434530
+JADE ConfigID:   0, Epoch:   2, Training Loss: 0.32501559, Validation Loss: 0.32503027,Best: 0.32493882, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.38133335
+JADE ConfigID:   0, Epoch:   3, Training Loss: 0.32499254, Validation Loss: 0.32499589,Best: 0.32493882, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:4.38452864
+Next Gen: [784   5   5   4   3  10]
+JADE ConfigID:   1, Epoch:   0, Training Loss: 0.33896105, Validation Loss: 0.25737990,Best: 0.25737990, Accuracy: 0.3147, StopCount/Limit:   0/  3, Time:4.51981139
+JADE ConfigID:   1, Epoch:   1, Training Loss: 0.24155658, Validation Loss: 0.23099625,Best: 0.23099625, Accuracy: 0.3872, StopCount/Limit:   0/  3, Time:4.53359032
+JADE ConfigID:   1, Epoch:   2, Training Loss: 0.22394924, Validation Loss: 0.22484374,Best: 0.22484374, Accuracy: 0.4039, StopCount/Limit:   0/  3, Time:4.52385521
+JADE ConfigID:   1, Epoch:   3, Training Loss: 0.21968485, Validation Loss: 0.21687869,Best: 0.21687869, Accuracy: 0.4232, StopCount/Limit:   0/  3, Time:4.52876210
+JADE ConfigID:   1, Epoch:   4, Training Loss: 0.21789330, Validation Loss: 0.21513765,Best: 0.21513765, Accuracy: 0.4234, StopCount/Limit:   0/  3, Time:4.52898622
+JADE ConfigID:   1, Epoch:   5, Training Loss: 0.21671127, Validation Loss: 0.21435331,Best: 0.21435331, Accuracy: 0.4267, StopCount/Limit:   0/  3, Time:4.52886415
+JADE ConfigID:   1, Epoch:   6, Training Loss: 0.21711011, Validation Loss: 0.21620475,Best: 0.21435331, Accuracy: 0.4301, StopCount/Limit:   1/  3, Time:4.52804995
+JADE ConfigID:   1, Epoch:   7, Training Loss: 0.21618527, Validation Loss: 0.21755943,Best: 0.21435331, Accuracy: 0.4304, StopCount/Limit:   2/  3, Time:4.53945374
+JADE ConfigID:   1, Epoch:   8, Training Loss: 0.21622734, Validation Loss: 0.21533326,Best: 0.21435331, Accuracy: 0.4255, StopCount/Limit:   3/  3, Time:4.56024551
+Next Gen: [784   4   4   2  10]
+JADE ConfigID:   2, Epoch:   0, Training Loss: 0.32564456, Validation Loss: 0.27775964,Best: 0.27775964, Accuracy: 0.2767, StopCount/Limit:   0/  3, Time:3.81643772
+JADE ConfigID:   2, Epoch:   1, Training Loss: 0.27570727, Validation Loss: 0.27645522,Best: 0.27645522, Accuracy: 0.2711, StopCount/Limit:   0/  3, Time:3.83896732
+JADE ConfigID:   2, Epoch:   2, Training Loss: 0.27415491, Validation Loss: 0.27432399,Best: 0.27432399, Accuracy: 0.2853, StopCount/Limit:   0/  3, Time:3.83470702
+JADE ConfigID:   2, Epoch:   3, Training Loss: 0.27253581, Validation Loss: 0.27182176,Best: 0.27182176, Accuracy: 0.3125, StopCount/Limit:   0/  3, Time:3.83710670
+JADE ConfigID:   2, Epoch:   4, Training Loss: 0.27163656, Validation Loss: 0.27264435,Best: 0.27182176, Accuracy: 0.2898, StopCount/Limit:   1/  3, Time:3.83639956
+JADE ConfigID:   2, Epoch:   5, Training Loss: 0.27133973, Validation Loss: 0.27054706,Best: 0.27054706, Accuracy: 0.3018, StopCount/Limit:   1/  3, Time:3.83757520
+JADE ConfigID:   2, Epoch:   6, Training Loss: 0.27117954, Validation Loss: 0.27035488,Best: 0.27035488, Accuracy: 0.2935, StopCount/Limit:   1/  3, Time:3.83942127
+JADE ConfigID:   2, Epoch:   7, Training Loss: 0.27114588, Validation Loss: 0.27051883,Best: 0.27035488, Accuracy: 0.2932, StopCount/Limit:   2/  3, Time:3.83801842
+JADE ConfigID:   2, Epoch:   8, Training Loss: 0.27113647, Validation Loss: 0.27046557,Best: 0.27035488, Accuracy: 0.2987, StopCount/Limit:   3/  3, Time:3.84651470
+Next Gen: [784   3   3   3   5   3  10]
+JADE ConfigID:   3, Epoch:   0, Training Loss: 0.38713922, Validation Loss: 0.32502431,Best: 0.32502431, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.02172041
+JADE ConfigID:   3, Epoch:   1, Training Loss: 0.32496817, Validation Loss: 0.32492051,Best: 0.32492051, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.04513812
+JADE ConfigID:   3, Epoch:   2, Training Loss: 0.32495593, Validation Loss: 0.32490564,Best: 0.32490564, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.05685902
+JADE ConfigID:   3, Epoch:   3, Training Loss: 0.32494879, Validation Loss: 0.32492010,Best: 0.32490564, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.05237603
+JADE ConfigID:   3, Epoch:   4, Training Loss: 0.32495633, Validation Loss: 0.32492071,Best: 0.32490564, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.05197120
+JADE ConfigID:   3, Epoch:   5, Training Loss: 0.32495991, Validation Loss: 0.32491530,Best: 0.32490564, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.05906010
+Next Gen: [784   3   5   2   4   2  10]
+JADE ConfigID:   4, Epoch:   0, Training Loss: 0.37773977, Validation Loss: 0.32504521,Best: 0.32504521, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.06261349
+JADE ConfigID:   4, Epoch:   1, Training Loss: 0.32495162, Validation Loss: 0.32494437,Best: 0.32494437, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.08530188
+JADE ConfigID:   4, Epoch:   2, Training Loss: 0.32495448, Validation Loss: 0.32492860,Best: 0.32492860, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.08277440
+JADE ConfigID:   4, Epoch:   3, Training Loss: 0.32495734, Validation Loss: 0.32493051,Best: 0.32492860, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.08366966
+JADE ConfigID:   4, Epoch:   4, Training Loss: 0.32495138, Validation Loss: 0.32492185,Best: 0.32492185, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.07580805
+JADE ConfigID:   4, Epoch:   5, Training Loss: 0.32495314, Validation Loss: 0.32492255,Best: 0.32492185, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.06638360
+JADE ConfigID:   4, Epoch:   6, Training Loss: 0.32495673, Validation Loss: 0.32491381,Best: 0.32491381, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.06485367
+JADE ConfigID:   4, Epoch:   7, Training Loss: 0.32495523, Validation Loss: 0.32492185,Best: 0.32491381, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.07817912
+Next Gen: [784   3   3   3   4  10]
+JADE ConfigID:   5, Epoch:   0, Training Loss: 0.34009825, Validation Loss: 0.32495893,Best: 0.32495893, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.42260814
+JADE ConfigID:   5, Epoch:   1, Training Loss: 0.32508817, Validation Loss: 0.32506328,Best: 0.32495893, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.43848801
+JADE ConfigID:   5, Epoch:   2, Training Loss: 0.32505869, Validation Loss: 0.32496395,Best: 0.32495893, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.44521832
+JADE ConfigID:   5, Epoch:   3, Training Loss: 0.32505781, Validation Loss: 0.32504956,Best: 0.32495893, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.43993044
+Next Gen: [784   5   4   3   2   2  10]
+JADE ConfigID:   6, Epoch:   0, Training Loss: 0.35628360, Validation Loss: 0.32501429,Best: 0.32501429, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.14976859
+JADE ConfigID:   6, Epoch:   1, Training Loss: 0.32499838, Validation Loss: 0.32496276,Best: 0.32496276, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:5.17478871
+JADE ConfigID:   6, Epoch:   2, Training Loss: 0.32501504, Validation Loss: 0.32491402,Best: 0.32491402, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.18172193
+JADE ConfigID:   6, Epoch:   3, Training Loss: 0.32500636, Validation Loss: 0.32507153,Best: 0.32491402, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.18362880
+JADE ConfigID:   6, Epoch:   4, Training Loss: 0.32499406, Validation Loss: 0.32498102,Best: 0.32491402, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.17998195
+JADE ConfigID:   6, Epoch:   5, Training Loss: 0.32499570, Validation Loss: 0.32495638,Best: 0.32491402, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.17557549
+Next Gen: [784   2   5   4   5   2  10]
+JADE ConfigID:   7, Epoch:   0, Training Loss: 0.33718392, Validation Loss: 0.31301352,Best: 0.31301352, Accuracy: 0.1018, StopCount/Limit:   0/  3, Time:4.95274234
+JADE ConfigID:   7, Epoch:   1, Training Loss: 0.29008566, Validation Loss: 0.27657403,Best: 0.27657403, Accuracy: 0.3267, StopCount/Limit:   0/  3, Time:4.96521473
+JADE ConfigID:   7, Epoch:   2, Training Loss: 0.26719116, Validation Loss: 0.26215927,Best: 0.26215927, Accuracy: 0.3991, StopCount/Limit:   0/  3, Time:4.97454858
+JADE ConfigID:   7, Epoch:   3, Training Loss: 0.26082314, Validation Loss: 0.26081164,Best: 0.26081164, Accuracy: 0.3834, StopCount/Limit:   0/  3, Time:4.97111869
+JADE ConfigID:   7, Epoch:   4, Training Loss: 0.25989093, Validation Loss: 0.26340328,Best: 0.26081164, Accuracy: 0.3827, StopCount/Limit:   1/  3, Time:4.98855233
+JADE ConfigID:   7, Epoch:   5, Training Loss: 0.25884400, Validation Loss: 0.26041874,Best: 0.26041874, Accuracy: 0.378, StopCount/Limit:   1/  3, Time:4.97613406
+JADE ConfigID:   7, Epoch:   6, Training Loss: 0.25902722, Validation Loss: 0.26078368,Best: 0.26041874, Accuracy: 0.3648, StopCount/Limit:   2/  3, Time:4.98531461
+JADE ConfigID:   7, Epoch:   7, Training Loss: 0.25867085, Validation Loss: 0.26154944,Best: 0.26041874, Accuracy: 0.3812, StopCount/Limit:   3/  3, Time:5.00524902
+Next Gen: [784   2   5   3   5  10]
+JADE ConfigID:   8, Epoch:   0, Training Loss: 0.30576674, Validation Loss: 0.25324779,Best: 0.25324779, Accuracy: 0.3442, StopCount/Limit:   0/  3, Time:4.34174347
+JADE ConfigID:   8, Epoch:   1, Training Loss: 0.24269088, Validation Loss: 0.23899110,Best: 0.23899110, Accuracy: 0.3987, StopCount/Limit:   0/  3, Time:4.36218190
+JADE ConfigID:   8, Epoch:   2, Training Loss: 0.23385515, Validation Loss: 0.23916779,Best: 0.23899110, Accuracy: 0.3813, StopCount/Limit:   1/  3, Time:4.36402607
+JADE ConfigID:   8, Epoch:   3, Training Loss: 0.22983007, Validation Loss: 0.23073177,Best: 0.23073177, Accuracy: 0.4076, StopCount/Limit:   1/  3, Time:4.36160183
+JADE ConfigID:   8, Epoch:   4, Training Loss: 0.21970283, Validation Loss: 0.22326781,Best: 0.22326781, Accuracy: 0.4028, StopCount/Limit:   1/  3, Time:4.35976315
+JADE ConfigID:   8, Epoch:   5, Training Loss: 0.21550486, Validation Loss: 0.21956563,Best: 0.21956563, Accuracy: 0.4226, StopCount/Limit:   1/  3, Time:4.36092710
+JADE ConfigID:   8, Epoch:   6, Training Loss: 0.21174633, Validation Loss: 0.21824102,Best: 0.21824102, Accuracy: 0.4363, StopCount/Limit:   1/  3, Time:4.35663295
+JADE ConfigID:   8, Epoch:   7, Training Loss: 0.20951218, Validation Loss: 0.21124132,Best: 0.21124132, Accuracy: 0.4522, StopCount/Limit:   1/  3, Time:4.36118340
+JADE ConfigID:   8, Epoch:   8, Training Loss: 0.20799593, Validation Loss: 0.21142912,Best: 0.21124132, Accuracy: 0.4631, StopCount/Limit:   2/  3, Time:4.36255145
+JADE ConfigID:   8, Epoch:   9, Training Loss: 0.20702704, Validation Loss: 0.21164809,Best: 0.21124132, Accuracy: 0.4614, StopCount/Limit:   3/  3, Time:4.36416173
+Next Gen: [784   3   2   3   5  10]
+JADE ConfigID:   9, Epoch:   0, Training Loss: 0.34494287, Validation Loss: 0.32495725,Best: 0.32495725, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.43959975
+JADE ConfigID:   9, Epoch:   1, Training Loss: 0.32499334, Validation Loss: 0.32492818,Best: 0.32492818, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.45453453
+JADE ConfigID:   9, Epoch:   2, Training Loss: 0.32498655, Validation Loss: 0.32495058,Best: 0.32492818, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.45225811
+JADE ConfigID:   9, Epoch:   3, Training Loss: 0.32498969, Validation Loss: 0.32500037,Best: 0.32492818, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.44566298
+JADE ConfigID:   9, Epoch:   4, Training Loss: 0.32498640, Validation Loss: 0.32498188,Best: 0.32492818, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.45325327
+JADE Gen 0 Run End
+JADE Run   0 CurrentBest: 0.21124132, Mean: 0.25353850, OverallBest: 0.21124132/  0, config: [784   2   5   3   5  10], updatecount:   5, Generation RunTime: 318.19952917
+JADE Gen 1 Run Start
+Next Gen: [784   4   3   4   3  10]
+JADE ConfigID:   0, Epoch:   0, Training Loss: 0.37597710, Validation Loss: 0.32498509,Best: 0.32498509, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.49212742
+JADE ConfigID:   0, Epoch:   1, Training Loss: 0.32496296, Validation Loss: 0.32492035,Best: 0.32492035, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.51695609
+JADE ConfigID:   0, Epoch:   2, Training Loss: 0.32495332, Validation Loss: 0.32491425,Best: 0.32491425, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.51808810
+JADE ConfigID:   0, Epoch:   3, Training Loss: 0.32495875, Validation Loss: 0.32492697,Best: 0.32491425, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.51676822
+JADE ConfigID:   0, Epoch:   4, Training Loss: 0.32496087, Validation Loss: 0.32490317,Best: 0.32490317, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.51309109
+JADE ConfigID:   0, Epoch:   5, Training Loss: 0.32494793, Validation Loss: 0.32491489,Best: 0.32490317, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.51972055
+JADE ConfigID:   0, Epoch:   6, Training Loss: 0.32495641, Validation Loss: 0.32491251,Best: 0.32490317, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.51744604
+Next Gen: [784   5   5   3   4  10]
+JADE ConfigID:   1, Epoch:   0, Training Loss: 0.33124751, Validation Loss: 0.28324630,Best: 0.28324630, Accuracy: 0.2074, StopCount/Limit:   0/  3, Time:4.50900865
+JADE ConfigID:   1, Epoch:   1, Training Loss: 0.27127837, Validation Loss: 0.26360827,Best: 0.26360827, Accuracy: 0.3199, StopCount/Limit:   0/  3, Time:4.53363347
+JADE ConfigID:   1, Epoch:   2, Training Loss: 0.26243453, Validation Loss: 0.26674322,Best: 0.26360827, Accuracy: 0.3079, StopCount/Limit:   1/  3, Time:4.53301525
+JADE ConfigID:   1, Epoch:   3, Training Loss: 0.25885832, Validation Loss: 0.25761903,Best: 0.25761903, Accuracy: 0.3253, StopCount/Limit:   1/  3, Time:4.52580500
+JADE ConfigID:   1, Epoch:   4, Training Loss: 0.25656495, Validation Loss: 0.26614851,Best: 0.25761903, Accuracy: 0.2829, StopCount/Limit:   2/  3, Time:4.53793120
+JADE ConfigID:   1, Epoch:   5, Training Loss: 0.25543453, Validation Loss: 0.25742349,Best: 0.25742349, Accuracy: 0.3259, StopCount/Limit:   2/  3, Time:4.53798294
+JADE ConfigID:   1, Epoch:   6, Training Loss: 0.25575901, Validation Loss: 0.25657497,Best: 0.25657497, Accuracy: 0.3247, StopCount/Limit:   2/  3, Time:4.54048252
+JADE ConfigID:   1, Epoch:   7, Training Loss: 0.25361593, Validation Loss: 0.25458690,Best: 0.25458690, Accuracy: 0.344, StopCount/Limit:   2/  3, Time:4.55200624
+JADE ConfigID:   1, Epoch:   8, Training Loss: 0.25309932, Validation Loss: 0.25474536,Best: 0.25458690, Accuracy: 0.3379, StopCount/Limit:   3/  3, Time:4.58967757
+Next Gen: [784   4   2   2  10]
+JADE ConfigID:   2, Epoch:   0, Training Loss: 0.32086495, Validation Loss: 0.28613593,Best: 0.28613593, Accuracy: 0.2821, StopCount/Limit:   0/  3, Time:3.80600190
+JADE ConfigID:   2, Epoch:   1, Training Loss: 0.28095089, Validation Loss: 0.27815972,Best: 0.27815972, Accuracy: 0.2564, StopCount/Limit:   0/  3, Time:3.82349753
+JADE ConfigID:   2, Epoch:   2, Training Loss: 0.27747654, Validation Loss: 0.27640875,Best: 0.27640875, Accuracy: 0.2772, StopCount/Limit:   0/  3, Time:3.81730032
+JADE ConfigID:   2, Epoch:   3, Training Loss: 0.27616479, Validation Loss: 0.27640723,Best: 0.27640723, Accuracy: 0.2891, StopCount/Limit:   0/  3, Time:3.82783461
+JADE ConfigID:   2, Epoch:   4, Training Loss: 0.27538129, Validation Loss: 0.27645344,Best: 0.27640723, Accuracy: 0.2514, StopCount/Limit:   1/  3, Time:3.82061100
+JADE ConfigID:   2, Epoch:   5, Training Loss: 0.27471505, Validation Loss: 0.27374033,Best: 0.27374033, Accuracy: 0.2716, StopCount/Limit:   1/  3, Time:3.82634234
+JADE ConfigID:   2, Epoch:   6, Training Loss: 0.27406848, Validation Loss: 0.27322071,Best: 0.27322071, Accuracy: 0.2766, StopCount/Limit:   1/  3, Time:3.82146835
+JADE ConfigID:   2, Epoch:   7, Training Loss: 0.27331525, Validation Loss: 0.27223937,Best: 0.27223937, Accuracy: 0.2878, StopCount/Limit:   1/  3, Time:3.83452725
+JADE ConfigID:   2, Epoch:   8, Training Loss: 0.27263301, Validation Loss: 0.27161464,Best: 0.27161464, Accuracy: 0.2885, StopCount/Limit:   1/  3, Time:3.85638762
+JADE ConfigID:   2, Epoch:   9, Training Loss: 0.27192090, Validation Loss: 0.27101026,Best: 0.27101026, Accuracy: 0.2876, StopCount/Limit:   1/  3, Time:3.89745212
+JADE ConfigID:   2, Epoch:  10, Training Loss: 0.27158737, Validation Loss: 0.27100418,Best: 0.27100418, Accuracy: 0.2874, StopCount/Limit:   1/  3, Time:3.92771268
+JADE ConfigID:   2, Epoch:  11, Training Loss: 0.27144151, Validation Loss: 0.27108574,Best: 0.27100418, Accuracy: 0.2966, StopCount/Limit:   2/  3, Time:3.96160579
+JADE ConfigID:   2, Epoch:  12, Training Loss: 0.27122007, Validation Loss: 0.27035021,Best: 0.27035021, Accuracy: 0.2899, StopCount/Limit:   2/  3, Time:4.05417681
+JADE ConfigID:   2, Epoch:  13, Training Loss: 0.27114931, Validation Loss: 0.27028637,Best: 0.27028637, Accuracy: 0.3034, StopCount/Limit:   2/  3, Time:4.14711404
+JADE ConfigID:   2, Epoch:  14, Training Loss: 0.27109900, Validation Loss: 0.27009409,Best: 0.27009409, Accuracy: 0.2983, StopCount/Limit:   2/  3, Time:4.14024282
+JADE ConfigID:   2, Epoch:  15, Training Loss: 0.27107819, Validation Loss: 0.27128153,Best: 0.27009409, Accuracy: 0.2908, StopCount/Limit:   3/  3, Time:4.14537215
+Next Gen: [784   3   3   2   5   3  10]
+JADE ConfigID:   3, Epoch:   0, Training Loss: 0.30776734, Validation Loss: 0.26960148,Best: 0.26960148, Accuracy: 0.2501, StopCount/Limit:   0/  3, Time:5.02130079
+JADE ConfigID:   3, Epoch:   1, Training Loss: 0.26322819, Validation Loss: 0.26085537,Best: 0.26085537, Accuracy: 0.2808, StopCount/Limit:   0/  3, Time:5.03837848
+JADE ConfigID:   3, Epoch:   2, Training Loss: 0.25839082, Validation Loss: 0.25839930,Best: 0.25839930, Accuracy: 0.2833, StopCount/Limit:   0/  3, Time:5.03689909
+JADE ConfigID:   3, Epoch:   3, Training Loss: 0.25663498, Validation Loss: 0.25693754,Best: 0.25693754, Accuracy: 0.3031, StopCount/Limit:   0/  3, Time:5.04447150
+JADE ConfigID:   3, Epoch:   4, Training Loss: 0.25507723, Validation Loss: 0.25476874,Best: 0.25476874, Accuracy: 0.32, StopCount/Limit:   0/  3, Time:5.04451680
+JADE ConfigID:   3, Epoch:   5, Training Loss: 0.25263598, Validation Loss: 0.25319515,Best: 0.25319515, Accuracy: 0.3182, StopCount/Limit:   0/  3, Time:5.03697538
+JADE ConfigID:   3, Epoch:   6, Training Loss: 0.25155193, Validation Loss: 0.25278133,Best: 0.25278133, Accuracy: 0.3288, StopCount/Limit:   0/  3, Time:5.03685665
+JADE ConfigID:   3, Epoch:   7, Training Loss: 0.25080026, Validation Loss: 0.25190947,Best: 0.25190947, Accuracy: 0.3347, StopCount/Limit:   0/  3, Time:5.04308319
+JADE ConfigID:   3, Epoch:   8, Training Loss: 0.25039517, Validation Loss: 0.25211202,Best: 0.25190947, Accuracy: 0.335, StopCount/Limit:   1/  3, Time:5.07145047
+JADE ConfigID:   3, Epoch:   9, Training Loss: 0.25009499, Validation Loss: 0.25150540,Best: 0.25150540, Accuracy: 0.3319, StopCount/Limit:   1/  3, Time:5.09160042
+JADE ConfigID:   3, Epoch:  10, Training Loss: 0.24967007, Validation Loss: 0.25260481,Best: 0.25150540, Accuracy: 0.3306, StopCount/Limit:   2/  3, Time:5.10935378
+JADE ConfigID:   3, Epoch:  11, Training Loss: 0.24941339, Validation Loss: 0.25081893,Best: 0.25081893, Accuracy: 0.3412, StopCount/Limit:   2/  3, Time:5.13789773
+JADE ConfigID:   3, Epoch:  12, Training Loss: 0.24916237, Validation Loss: 0.25094838,Best: 0.25081893, Accuracy: 0.3363, StopCount/Limit:   3/  3, Time:5.17825389
+Next Gen: [784   3   6   2   5   2  10]
+JADE ConfigID:   4, Epoch:   0, Training Loss: 0.29005276, Validation Loss: 0.25865114,Best: 0.25865114, Accuracy: 0.3009, StopCount/Limit:   0/  3, Time:5.02778935
+JADE ConfigID:   4, Epoch:   1, Training Loss: 0.25419351, Validation Loss: 0.25302128,Best: 0.25302128, Accuracy: 0.3343, StopCount/Limit:   0/  3, Time:5.05327892
+JADE ConfigID:   4, Epoch:   2, Training Loss: 0.25134130, Validation Loss: 0.25188202,Best: 0.25188202, Accuracy: 0.317, StopCount/Limit:   0/  3, Time:5.05447817
+JADE ConfigID:   4, Epoch:   3, Training Loss: 0.24903790, Validation Loss: 0.25011898,Best: 0.25011898, Accuracy: 0.3368, StopCount/Limit:   0/  3, Time:5.05139542
+JADE ConfigID:   4, Epoch:   4, Training Loss: 0.24754942, Validation Loss: 0.24876953,Best: 0.24876953, Accuracy: 0.3384, StopCount/Limit:   0/  3, Time:5.04932332
+JADE ConfigID:   4, Epoch:   5, Training Loss: 0.24777208, Validation Loss: 0.24878517,Best: 0.24876953, Accuracy: 0.3526, StopCount/Limit:   1/  3, Time:5.05556059
+JADE ConfigID:   4, Epoch:   6, Training Loss: 0.24593771, Validation Loss: 0.24606532,Best: 0.24606532, Accuracy: 0.3494, StopCount/Limit:   1/  3, Time:5.05509758
+JADE ConfigID:   4, Epoch:   7, Training Loss: 0.24594508, Validation Loss: 0.24624227,Best: 0.24606532, Accuracy: 0.3525, StopCount/Limit:   2/  3, Time:5.05213046
+JADE ConfigID:   4, Epoch:   8, Training Loss: 0.24520589, Validation Loss: 0.24467462,Best: 0.24467462, Accuracy: 0.3531, StopCount/Limit:   2/  3, Time:5.06897330
+JADE ConfigID:   4, Epoch:   9, Training Loss: 0.24433731, Validation Loss: 0.24518375,Best: 0.24467462, Accuracy: 0.352, StopCount/Limit:   3/  3, Time:5.09648895
+Next Gen: [784   3   3   3   4  10]
+JADE ConfigID:   5, Epoch:   0, Training Loss: 0.34015220, Validation Loss: 0.32502272,Best: 0.32502272, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:4.42448139
+JADE ConfigID:   5, Epoch:   1, Training Loss: 0.32507793, Validation Loss: 0.32493209,Best: 0.32493209, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.44714332
+JADE ConfigID:   5, Epoch:   2, Training Loss: 0.32504948, Validation Loss: 0.32497344,Best: 0.32493209, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.44925570
+JADE ConfigID:   5, Epoch:   3, Training Loss: 0.32507843, Validation Loss: 0.32505315,Best: 0.32493209, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:4.45172071
+JADE ConfigID:   5, Epoch:   4, Training Loss: 0.32504640, Validation Loss: 0.32500273,Best: 0.32493209, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.44195294
+Next Gen: [784   5   2   3   2   4  10]
+JADE ConfigID:   6, Epoch:   0, Training Loss: 0.34606062, Validation Loss: 0.32497521,Best: 0.32497521, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.02846360
+JADE ConfigID:   6, Epoch:   1, Training Loss: 0.32499332, Validation Loss: 0.32494864,Best: 0.32494864, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.03239179
+JADE ConfigID:   6, Epoch:   2, Training Loss: 0.32498741, Validation Loss: 0.32499494,Best: 0.32494864, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:5.04008198
+JADE ConfigID:   6, Epoch:   3, Training Loss: 0.32499077, Validation Loss: 0.32492000,Best: 0.32492000, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.03231406
+JADE ConfigID:   6, Epoch:   4, Training Loss: 0.32499407, Validation Loss: 0.32493616,Best: 0.32492000, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.02349663
+JADE ConfigID:   6, Epoch:   5, Training Loss: 0.32499580, Validation Loss: 0.32496910,Best: 0.32492000, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.02733135
+Next Gen: [784   4   5   2   3   4  10]
+JADE ConfigID:   7, Epoch:   0, Training Loss: 0.34608491, Validation Loss: 0.32499508,Best: 0.32499508, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:5.12785172
+JADE ConfigID:   7, Epoch:   1, Training Loss: 0.32503197, Validation Loss: 0.32495774,Best: 0.32495774, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.14793539
+JADE ConfigID:   7, Epoch:   2, Training Loss: 0.32501626, Validation Loss: 0.32494115,Best: 0.32494115, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.15410924
+JADE ConfigID:   7, Epoch:   3, Training Loss: 0.32501937, Validation Loss: 0.32495982,Best: 0.32494115, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.16366172
+JADE ConfigID:   7, Epoch:   4, Training Loss: 0.32500075, Validation Loss: 0.32504200,Best: 0.32494115, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.15806031
+JADE ConfigID:   7, Epoch:   5, Training Loss: 0.32502645, Validation Loss: 0.32493737,Best: 0.32493737, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.15413189
+JADE ConfigID:   7, Epoch:   6, Training Loss: 0.32501615, Validation Loss: 0.32502614,Best: 0.32493737, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:5.16509986
+Next Gen: [784   2   5   3   5   2  10]
+JADE ConfigID:   8, Epoch:   0, Training Loss: 0.34563308, Validation Loss: 0.32492109,Best: 0.32492109, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.01792073
+JADE ConfigID:   8, Epoch:   1, Training Loss: 0.32500149, Validation Loss: 0.32499054,Best: 0.32492109, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.03515935
+JADE ConfigID:   8, Epoch:   2, Training Loss: 0.32499607, Validation Loss: 0.32490007,Best: 0.32490007, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.03644681
+JADE ConfigID:   8, Epoch:   3, Training Loss: 0.32499995, Validation Loss: 0.32504321,Best: 0.32490007, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:5.02575207
+JADE ConfigID:   8, Epoch:   4, Training Loss: 0.32500924, Validation Loss: 0.32494672,Best: 0.32490007, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.02664971
+Next Gen: [784   3   2   2   4  10]
+JADE ConfigID:   9, Epoch:   0, Training Loss: 0.34666586, Validation Loss: 0.32499520,Best: 0.32499520, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.41521502
+JADE ConfigID:   9, Epoch:   1, Training Loss: 0.32500258, Validation Loss: 0.32491834,Best: 0.32491834, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.42747784
+JADE ConfigID:   9, Epoch:   2, Training Loss: 0.32500264, Validation Loss: 0.32494620,Best: 0.32491834, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.43156338
+JADE ConfigID:   9, Epoch:   3, Training Loss: 0.32499411, Validation Loss: 0.32501979,Best: 0.32491834, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:4.43197751
+JADE ConfigID:   9, Epoch:   4, Training Loss: 0.32499039, Validation Loss: 0.32495467,Best: 0.32491834, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.43167996
+JADE Gen 1 Run End
+JADE Run   1 CurrentBest: 0.21124132, Mean: 0.24359505, OverallBest: 0.21124132/  0, config: [784   2   5   3   5  10], updatecount:   3, Generation RunTime: 387.40400910
+JADE Gen 2 Run Start
+Next Gen: [784   2   2   4   4  10]
+JADE ConfigID:   0, Epoch:   0, Training Loss: 0.39351433, Validation Loss: 0.32502261,Best: 0.32502261, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.37643003
+JADE ConfigID:   0, Epoch:   1, Training Loss: 0.32496838, Validation Loss: 0.32490745,Best: 0.32490745, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.38243961
+JADE ConfigID:   0, Epoch:   2, Training Loss: 0.32495007, Validation Loss: 0.32496791,Best: 0.32490745, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.38323975
+JADE ConfigID:   0, Epoch:   3, Training Loss: 0.32495654, Validation Loss: 0.32490241,Best: 0.32490241, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.38527036
+JADE ConfigID:   0, Epoch:   4, Training Loss: 0.32495567, Validation Loss: 0.32492800,Best: 0.32490241, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.37815428
+JADE ConfigID:   0, Epoch:   5, Training Loss: 0.32495042, Validation Loss: 0.32493064,Best: 0.32490241, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.37809396
+Next Gen: [784   5   2   4   5  10]
+JADE ConfigID:   1, Epoch:   0, Training Loss: 0.31271586, Validation Loss: 0.25513848,Best: 0.25513848, Accuracy: 0.2874, StopCount/Limit:   0/  3, Time:4.45496678
+JADE ConfigID:   1, Epoch:   1, Training Loss: 0.24775037, Validation Loss: 0.24075169,Best: 0.24075169, Accuracy: 0.3501, StopCount/Limit:   0/  3, Time:4.47821045
+JADE ConfigID:   1, Epoch:   2, Training Loss: 0.23245912, Validation Loss: 0.22689040,Best: 0.22689040, Accuracy: 0.3858, StopCount/Limit:   0/  3, Time:4.48643684
+JADE ConfigID:   1, Epoch:   3, Training Loss: 0.22150386, Validation Loss: 0.21973599,Best: 0.21973599, Accuracy: 0.4597, StopCount/Limit:   0/  3, Time:4.50296640
+JADE ConfigID:   1, Epoch:   4, Training Loss: 0.21603862, Validation Loss: 0.21326135,Best: 0.21326135, Accuracy: 0.4673, StopCount/Limit:   0/  3, Time:4.50251102
+JADE ConfigID:   1, Epoch:   5, Training Loss: 0.21452327, Validation Loss: 0.21137089,Best: 0.21137089, Accuracy: 0.4844, StopCount/Limit:   0/  3, Time:4.49746799
+JADE ConfigID:   1, Epoch:   6, Training Loss: 0.21191765, Validation Loss: 0.21266178,Best: 0.21137089, Accuracy: 0.4928, StopCount/Limit:   1/  3, Time:4.50873613
+JADE ConfigID:   1, Epoch:   7, Training Loss: 0.21080724, Validation Loss: 0.21211120,Best: 0.21137089, Accuracy: 0.4616, StopCount/Limit:   2/  3, Time:4.51066256
+JADE ConfigID:   1, Epoch:   8, Training Loss: 0.21110574, Validation Loss: 0.21120919,Best: 0.21120919, Accuracy: 0.4758, StopCount/Limit:   2/  3, Time:4.52768087
+JADE ConfigID:   1, Epoch:   9, Training Loss: 0.21082305, Validation Loss: 0.21246137,Best: 0.21120919, Accuracy: 0.4944, StopCount/Limit:   3/  3, Time:4.54946327
+Next Gen: [784   4   2   2  10]
+JADE ConfigID:   2, Epoch:   0, Training Loss: 0.34947357, Validation Loss: 0.32493290,Best: 0.32493290, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.83112764
+JADE ConfigID:   2, Epoch:   1, Training Loss: 0.32501496, Validation Loss: 0.32493931,Best: 0.32493290, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.84729123
+JADE ConfigID:   2, Epoch:   2, Training Loss: 0.32500617, Validation Loss: 0.32504267,Best: 0.32493290, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.85449195
+JADE ConfigID:   2, Epoch:   3, Training Loss: 0.32501903, Validation Loss: 0.32497777,Best: 0.32493290, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.84303784
+Next Gen: [784   3   3   2   4   2  10]
+JADE ConfigID:   3, Epoch:   0, Training Loss: 0.37408892, Validation Loss: 0.32499562,Best: 0.32499562, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.04455256
+JADE ConfigID:   3, Epoch:   1, Training Loss: 0.32495785, Validation Loss: 0.32493020,Best: 0.32493020, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.05199456
+JADE ConfigID:   3, Epoch:   2, Training Loss: 0.32495276, Validation Loss: 0.32492105,Best: 0.32492105, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.05404377
+JADE ConfigID:   3, Epoch:   3, Training Loss: 0.32495542, Validation Loss: 0.32491889,Best: 0.32491889, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.04942465
+JADE ConfigID:   3, Epoch:   4, Training Loss: 0.32495397, Validation Loss: 0.32491086,Best: 0.32491086, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.05588531
+JADE ConfigID:   3, Epoch:   5, Training Loss: 0.32495470, Validation Loss: 0.32491835,Best: 0.32491086, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.05203104
+JADE ConfigID:   3, Epoch:   6, Training Loss: 0.32495201, Validation Loss: 0.32491293,Best: 0.32491086, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.06550574
+JADE ConfigID:   3, Epoch:   7, Training Loss: 0.32495621, Validation Loss: 0.32490735,Best: 0.32490735, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.06542754
+JADE ConfigID:   3, Epoch:   8, Training Loss: 0.32495719, Validation Loss: 0.32491207,Best: 0.32490735, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.08791614
+Next Gen: [784   3   6   2   4   2  10]
+JADE ConfigID:   4, Epoch:   0, Training Loss: 0.34704425, Validation Loss: 0.32492930,Best: 0.32492930, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.98399544
+JADE ConfigID:   4, Epoch:   1, Training Loss: 0.32501464, Validation Loss: 0.32492636,Best: 0.32492636, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.98918104
+JADE ConfigID:   4, Epoch:   2, Training Loss: 0.32501111, Validation Loss: 0.32493130,Best: 0.32492636, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.99064255
+JADE ConfigID:   4, Epoch:   3, Training Loss: 0.32501327, Validation Loss: 0.32491303,Best: 0.32491303, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.98770881
+JADE ConfigID:   4, Epoch:   4, Training Loss: 0.32500694, Validation Loss: 0.32496969,Best: 0.32491303, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.98608065
+JADE ConfigID:   4, Epoch:   5, Training Loss: 0.32501159, Validation Loss: 0.32508470,Best: 0.32491303, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.98599529
+Next Gen: [784   3   3   3   5   3  10]
+JADE ConfigID:   5, Epoch:   0, Training Loss: 0.33519376, Validation Loss: 0.30504394,Best: 0.30504394, Accuracy: 0.0996, StopCount/Limit:   0/  3, Time:5.01216578
+JADE ConfigID:   5, Epoch:   1, Training Loss: 0.28352611, Validation Loss: 0.26978563,Best: 0.26978563, Accuracy: 0.3505, StopCount/Limit:   0/  3, Time:5.02479577
+JADE ConfigID:   5, Epoch:   2, Training Loss: 0.26670173, Validation Loss: 0.26563548,Best: 0.26563548, Accuracy: 0.4158, StopCount/Limit:   0/  3, Time:5.02389312
+JADE ConfigID:   5, Epoch:   3, Training Loss: 0.26228371, Validation Loss: 0.25851697,Best: 0.25851697, Accuracy: 0.4332, StopCount/Limit:   0/  3, Time:5.02689028
+JADE ConfigID:   5, Epoch:   4, Training Loss: 0.25802380, Validation Loss: 0.25613137,Best: 0.25613137, Accuracy: 0.4067, StopCount/Limit:   0/  3, Time:5.02991962
+JADE ConfigID:   5, Epoch:   5, Training Loss: 0.25591853, Validation Loss: 0.25734695,Best: 0.25613137, Accuracy: 0.3996, StopCount/Limit:   1/  3, Time:5.02187443
+JADE ConfigID:   5, Epoch:   6, Training Loss: 0.25557844, Validation Loss: 0.25472957,Best: 0.25472957, Accuracy: 0.3951, StopCount/Limit:   1/  3, Time:5.03427100
+JADE ConfigID:   5, Epoch:   7, Training Loss: 0.25390804, Validation Loss: 0.26141724,Best: 0.25472957, Accuracy: 0.381, StopCount/Limit:   2/  3, Time:5.02678442
+JADE ConfigID:   5, Epoch:   8, Training Loss: 0.25352213, Validation Loss: 0.25729606,Best: 0.25472957, Accuracy: 0.392, StopCount/Limit:   3/  3, Time:5.04066849
+Next Gen: [784   5   4   3   5   2  10]
+JADE ConfigID:   6, Epoch:   0, Training Loss: 0.34460221, Validation Loss: 0.32492034,Best: 0.32492034, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.15346980
+JADE ConfigID:   6, Epoch:   1, Training Loss: 0.32499779, Validation Loss: 0.32498783,Best: 0.32492034, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.17617035
+JADE ConfigID:   6, Epoch:   2, Training Loss: 0.32501365, Validation Loss: 0.32493344,Best: 0.32492034, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.16841006
+JADE ConfigID:   6, Epoch:   3, Training Loss: 0.32499806, Validation Loss: 0.32493617,Best: 0.32492034, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.17394137
+Next Gen: [784   2   5   4   5   2  10]
+JADE ConfigID:   7, Epoch:   0, Training Loss: 0.30744993, Validation Loss: 0.26196667,Best: 0.26196667, Accuracy: 0.3347, StopCount/Limit:   0/  3, Time:4.98057485
+JADE ConfigID:   7, Epoch:   1, Training Loss: 0.25950059, Validation Loss: 0.25536272,Best: 0.25536272, Accuracy: 0.3584, StopCount/Limit:   0/  3, Time:4.99762154
+JADE ConfigID:   7, Epoch:   2, Training Loss: 0.25743298, Validation Loss: 0.25503014,Best: 0.25503014, Accuracy: 0.3545, StopCount/Limit:   0/  3, Time:5.00093579
+JADE ConfigID:   7, Epoch:   3, Training Loss: 0.25702954, Validation Loss: 0.25293118,Best: 0.25293118, Accuracy: 0.3492, StopCount/Limit:   0/  3, Time:5.00268507
+JADE ConfigID:   7, Epoch:   4, Training Loss: 0.25641828, Validation Loss: 0.25301216,Best: 0.25293118, Accuracy: 0.3607, StopCount/Limit:   1/  3, Time:4.99933696
+JADE ConfigID:   7, Epoch:   5, Training Loss: 0.25574850, Validation Loss: 0.25607197,Best: 0.25293118, Accuracy: 0.3288, StopCount/Limit:   2/  3, Time:4.99031615
+JADE ConfigID:   7, Epoch:   6, Training Loss: 0.25511997, Validation Loss: 0.25336544,Best: 0.25293118, Accuracy: 0.3601, StopCount/Limit:   3/  3, Time:4.99083376
+Next Gen: [784   2   5   3   5  10]
+JADE ConfigID:   8, Epoch:   0, Training Loss: 0.34125044, Validation Loss: 0.32501004,Best: 0.32501004, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.38642335
+JADE ConfigID:   8, Epoch:   1, Training Loss: 0.32506548, Validation Loss: 0.32500035,Best: 0.32500035, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.40889263
+JADE ConfigID:   8, Epoch:   2, Training Loss: 0.32503815, Validation Loss: 0.32494617,Best: 0.32494617, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.40661240
+JADE ConfigID:   8, Epoch:   3, Training Loss: 0.32503151, Validation Loss: 0.32505159,Best: 0.32494617, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.40243459
+JADE ConfigID:   8, Epoch:   4, Training Loss: 0.32505844, Validation Loss: 0.32498691,Best: 0.32494617, Accuracy: 0.101, StopCount/Limit:   2/  3, Time:4.40537882
+JADE ConfigID:   8, Epoch:   5, Training Loss: 0.32504200, Validation Loss: 0.32499937,Best: 0.32494617, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.40999484
+Next Gen: [784   3   2   5   3  10]
+JADE ConfigID:   9, Epoch:   0, Training Loss: 0.31541205, Validation Loss: 0.26330022,Best: 0.26330022, Accuracy: 0.3172, StopCount/Limit:   0/  3, Time:4.41390228
+JADE ConfigID:   9, Epoch:   1, Training Loss: 0.25770316, Validation Loss: 0.25462413,Best: 0.25462413, Accuracy: 0.3236, StopCount/Limit:   0/  3, Time:4.42999673
+JADE ConfigID:   9, Epoch:   2, Training Loss: 0.25181704, Validation Loss: 0.25503196,Best: 0.25462413, Accuracy: 0.3227, StopCount/Limit:   1/  3, Time:4.42544007
+JADE ConfigID:   9, Epoch:   3, Training Loss: 0.24953126, Validation Loss: 0.24847789,Best: 0.24847789, Accuracy: 0.351, StopCount/Limit:   1/  3, Time:4.41770673
+JADE ConfigID:   9, Epoch:   4, Training Loss: 0.24800016, Validation Loss: 0.24569474,Best: 0.24569474, Accuracy: 0.3437, StopCount/Limit:   1/  3, Time:4.42148328
+JADE ConfigID:   9, Epoch:   5, Training Loss: 0.24422441, Validation Loss: 0.24763371,Best: 0.24569474, Accuracy: 0.3483, StopCount/Limit:   2/  3, Time:4.42531466
+JADE ConfigID:   9, Epoch:   6, Training Loss: 0.24387609, Validation Loss: 0.24500749,Best: 0.24500749, Accuracy: 0.3492, StopCount/Limit:   2/  3, Time:4.42155457
+JADE ConfigID:   9, Epoch:   7, Training Loss: 0.24299942, Validation Loss: 0.24302608,Best: 0.24302608, Accuracy: 0.3681, StopCount/Limit:   2/  3, Time:4.43038535
+JADE ConfigID:   9, Epoch:   8, Training Loss: 0.24244246, Validation Loss: 0.24378783,Best: 0.24302608, Accuracy: 0.3646, StopCount/Limit:   3/  3, Time:4.44492197
+JADE Gen 2 Run End
+JADE Run   2 CurrentBest: 0.21120919, Mean: 0.24251125, OverallBest: 0.21120919/  2, config: [784   5   2   4   5  10], updatecount:   3, Generation RunTime: 329.29225802
+JADE Gen 3 Run Start
+Next Gen: [784   3   2   3   4  10]
+JADE ConfigID:   0, Epoch:   0, Training Loss: 0.32784506, Validation Loss: 0.29160282,Best: 0.29160282, Accuracy: 0.2942, StopCount/Limit:   0/  3, Time:4.37064552
+JADE ConfigID:   0, Epoch:   1, Training Loss: 0.27887822, Validation Loss: 0.27604738,Best: 0.27604738, Accuracy: 0.3052, StopCount/Limit:   0/  3, Time:4.40485978
+JADE ConfigID:   0, Epoch:   2, Training Loss: 0.27395237, Validation Loss: 0.27285608,Best: 0.27285608, Accuracy: 0.3208, StopCount/Limit:   0/  3, Time:4.39945149
+JADE ConfigID:   0, Epoch:   3, Training Loss: 0.26764365, Validation Loss: 0.26619155,Best: 0.26619155, Accuracy: 0.3527, StopCount/Limit:   0/  3, Time:4.39613175
+JADE ConfigID:   0, Epoch:   4, Training Loss: 0.26460586, Validation Loss: 0.26508579,Best: 0.26508579, Accuracy: 0.3961, StopCount/Limit:   0/  3, Time:4.40790987
+JADE ConfigID:   0, Epoch:   5, Training Loss: 0.26223220, Validation Loss: 0.26243052,Best: 0.26243052, Accuracy: 0.3633, StopCount/Limit:   0/  3, Time:4.39984322
+JADE ConfigID:   0, Epoch:   6, Training Loss: 0.25779264, Validation Loss: 0.25889761,Best: 0.25889761, Accuracy: 0.4454, StopCount/Limit:   0/  3, Time:4.39465165
+JADE ConfigID:   0, Epoch:   7, Training Loss: 0.25495875, Validation Loss: 0.26021381,Best: 0.25889761, Accuracy: 0.3817, StopCount/Limit:   1/  3, Time:4.39885831
+JADE ConfigID:   0, Epoch:   8, Training Loss: 0.25381233, Validation Loss: 0.25731800,Best: 0.25731800, Accuracy: 0.3808, StopCount/Limit:   1/  3, Time:4.41012216
+JADE ConfigID:   0, Epoch:   9, Training Loss: 0.25357040, Validation Loss: 0.25805505,Best: 0.25731800, Accuracy: 0.3538, StopCount/Limit:   2/  3, Time:4.41621327
+JADE ConfigID:   0, Epoch:  10, Training Loss: 0.25321566, Validation Loss: 0.25859061,Best: 0.25731800, Accuracy: 0.3419, StopCount/Limit:   3/  3, Time:4.42722750
+Next Gen: [784   5   2   3   6  10]
+JADE ConfigID:   1, Epoch:   0, Training Loss: 0.34536362, Validation Loss: 0.32492976,Best: 0.32492976, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.53077412
+JADE ConfigID:   1, Epoch:   1, Training Loss: 0.32502891, Validation Loss: 0.32505767,Best: 0.32492976, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.55927444
+JADE ConfigID:   1, Epoch:   2, Training Loss: 0.32503031, Validation Loss: 0.32495096,Best: 0.32492976, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.55262399
+JADE ConfigID:   1, Epoch:   3, Training Loss: 0.32501543, Validation Loss: 0.32498756,Best: 0.32492976, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.56081700
+Next Gen: [784   4   2   2  10]
+JADE ConfigID:   2, Epoch:   0, Training Loss: 0.33794841, Validation Loss: 0.27210244,Best: 0.27210244, Accuracy: 0.2287, StopCount/Limit:   0/  3, Time:3.82068372
+JADE ConfigID:   2, Epoch:   1, Training Loss: 0.26614534, Validation Loss: 0.26223975,Best: 0.26223975, Accuracy: 0.2918, StopCount/Limit:   0/  3, Time:3.83204985
+JADE ConfigID:   2, Epoch:   2, Training Loss: 0.25991992, Validation Loss: 0.25833387,Best: 0.25833387, Accuracy: 0.3129, StopCount/Limit:   0/  3, Time:3.83303571
+JADE ConfigID:   2, Epoch:   3, Training Loss: 0.25631294, Validation Loss: 0.25561885,Best: 0.25561885, Accuracy: 0.3486, StopCount/Limit:   0/  3, Time:3.82423687
+JADE ConfigID:   2, Epoch:   4, Training Loss: 0.25479359, Validation Loss: 0.25497843,Best: 0.25497843, Accuracy: 0.3515, StopCount/Limit:   0/  3, Time:3.83412790
+JADE ConfigID:   2, Epoch:   5, Training Loss: 0.25381063, Validation Loss: 0.25378746,Best: 0.25378746, Accuracy: 0.3522, StopCount/Limit:   0/  3, Time:3.83738422
+JADE ConfigID:   2, Epoch:   6, Training Loss: 0.25328743, Validation Loss: 0.25341859,Best: 0.25341859, Accuracy: 0.3534, StopCount/Limit:   0/  3, Time:3.84016204
+JADE ConfigID:   2, Epoch:   7, Training Loss: 0.25293739, Validation Loss: 0.25333655,Best: 0.25333655, Accuracy: 0.3537, StopCount/Limit:   0/  3, Time:3.83116865
+JADE ConfigID:   2, Epoch:   8, Training Loss: 0.25258763, Validation Loss: 0.25225532,Best: 0.25225532, Accuracy: 0.3596, StopCount/Limit:   0/  3, Time:3.86398435
+JADE ConfigID:   2, Epoch:   9, Training Loss: 0.25239796, Validation Loss: 0.25206283,Best: 0.25206283, Accuracy: 0.3556, StopCount/Limit:   0/  3, Time:3.90032887
+JADE ConfigID:   2, Epoch:  10, Training Loss: 0.25217477, Validation Loss: 0.25332917,Best: 0.25206283, Accuracy: 0.3539, StopCount/Limit:   1/  3, Time:3.93394923
+JADE ConfigID:   2, Epoch:  11, Training Loss: 0.25207972, Validation Loss: 0.25264089,Best: 0.25206283, Accuracy: 0.3655, StopCount/Limit:   2/  3, Time:3.94674921
+JADE ConfigID:   2, Epoch:  12, Training Loss: 0.25200716, Validation Loss: 0.25217443,Best: 0.25206283, Accuracy: 0.3715, StopCount/Limit:   3/  3, Time:4.02830291
+Next Gen: [784   3   2   2   3   3  10]
+JADE ConfigID:   3, Epoch:   0, Training Loss: 0.34141224, Validation Loss: 0.32081009,Best: 0.32081009, Accuracy: 0.1911, StopCount/Limit:   0/  3, Time:5.02518106
+JADE ConfigID:   3, Epoch:   1, Training Loss: 0.30674903, Validation Loss: 0.29525911,Best: 0.29525911, Accuracy: 0.2024, StopCount/Limit:   0/  3, Time:5.05109787
+JADE ConfigID:   3, Epoch:   2, Training Loss: 0.29418745, Validation Loss: 0.29074959,Best: 0.29074959, Accuracy: 0.2201, StopCount/Limit:   0/  3, Time:5.05702710
+JADE ConfigID:   3, Epoch:   3, Training Loss: 0.28902948, Validation Loss: 0.28633960,Best: 0.28633960, Accuracy: 0.2406, StopCount/Limit:   0/  3, Time:5.04704094
+JADE ConfigID:   3, Epoch:   4, Training Loss: 0.28665413, Validation Loss: 0.28552248,Best: 0.28552248, Accuracy: 0.2536, StopCount/Limit:   0/  3, Time:5.04961276
+JADE ConfigID:   3, Epoch:   5, Training Loss: 0.28505548, Validation Loss: 0.28315836,Best: 0.28315836, Accuracy: 0.242, StopCount/Limit:   0/  3, Time:5.04899859
+JADE ConfigID:   3, Epoch:   6, Training Loss: 0.28350172, Validation Loss: 0.28270592,Best: 0.28270592, Accuracy: 0.2459, StopCount/Limit:   0/  3, Time:5.04407406
+JADE ConfigID:   3, Epoch:   7, Training Loss: 0.28183460, Validation Loss: 0.28019197,Best: 0.28019197, Accuracy: 0.2665, StopCount/Limit:   0/  3, Time:5.05637288
+JADE ConfigID:   3, Epoch:   8, Training Loss: 0.27952943, Validation Loss: 0.27837309,Best: 0.27837309, Accuracy: 0.2414, StopCount/Limit:   0/  3, Time:5.08604097
+JADE ConfigID:   3, Epoch:   9, Training Loss: 0.27769286, Validation Loss: 0.27648433,Best: 0.27648433, Accuracy: 0.3149, StopCount/Limit:   0/  3, Time:5.11621714
+JADE ConfigID:   3, Epoch:  10, Training Loss: 0.27596734, Validation Loss: 0.27575839,Best: 0.27575839, Accuracy: 0.3112, StopCount/Limit:   0/  3, Time:5.13122630
+JADE ConfigID:   3, Epoch:  11, Training Loss: 0.26618141, Validation Loss: 0.25680080,Best: 0.25680080, Accuracy: 0.3384, StopCount/Limit:   0/  3, Time:5.16708875
+JADE ConfigID:   3, Epoch:  12, Training Loss: 0.25334567, Validation Loss: 0.25098466,Best: 0.25098466, Accuracy: 0.3451, StopCount/Limit:   0/  3, Time:5.25048637
+JADE ConfigID:   3, Epoch:  13, Training Loss: 0.25035033, Validation Loss: 0.24928383,Best: 0.24928383, Accuracy: 0.3422, StopCount/Limit:   0/  3, Time:5.26553035
+JADE ConfigID:   3, Epoch:  14, Training Loss: 0.24900684, Validation Loss: 0.24919416,Best: 0.24919416, Accuracy: 0.3351, StopCount/Limit:   0/  3, Time:5.25920749
+JADE ConfigID:   3, Epoch:  15, Training Loss: 0.24833208, Validation Loss: 0.24823397,Best: 0.24823397, Accuracy: 0.3245, StopCount/Limit:   0/  3, Time:5.25507951
+JADE ConfigID:   3, Epoch:  16, Training Loss: 0.24769588, Validation Loss: 0.24784752,Best: 0.24784752, Accuracy: 0.3352, StopCount/Limit:   0/  3, Time:5.26595902
+JADE ConfigID:   3, Epoch:  17, Training Loss: 0.24722227, Validation Loss: 0.24809001,Best: 0.24784752, Accuracy: 0.3261, StopCount/Limit:   1/  3, Time:5.25793195
+JADE ConfigID:   3, Epoch:  18, Training Loss: 0.24666859, Validation Loss: 0.24711085,Best: 0.24711085, Accuracy: 0.3304, StopCount/Limit:   1/  3, Time:5.26112270
+JADE ConfigID:   3, Epoch:  19, Training Loss: 0.24616598, Validation Loss: 0.24811656,Best: 0.24711085, Accuracy: 0.3411, StopCount/Limit:   2/  3, Time:5.26447415
+JADE ConfigID:   3, Epoch:  20, Training Loss: 0.24541780, Validation Loss: 0.24654977,Best: 0.24654977, Accuracy: 0.3414, StopCount/Limit:   2/  3, Time:5.25600290
+JADE ConfigID:   3, Epoch:  21, Training Loss: 0.24474939, Validation Loss: 0.24724568,Best: 0.24654977, Accuracy: 0.3547, StopCount/Limit:   3/  3, Time:5.26862431
+Next Gen: [784   3   4   2   5   4  10]
+JADE ConfigID:   4, Epoch:   0, Training Loss: 0.30859344, Validation Loss: 0.26501958,Best: 0.26501958, Accuracy: 0.3628, StopCount/Limit:   0/  3, Time:5.02498460
+JADE ConfigID:   4, Epoch:   1, Training Loss: 0.26067048, Validation Loss: 0.25628475,Best: 0.25628475, Accuracy: 0.3754, StopCount/Limit:   0/  3, Time:5.04430532
+JADE ConfigID:   4, Epoch:   2, Training Loss: 0.25812613, Validation Loss: 0.25559364,Best: 0.25559364, Accuracy: 0.377, StopCount/Limit:   0/  3, Time:5.05375910
+JADE ConfigID:   4, Epoch:   3, Training Loss: 0.25738052, Validation Loss: 0.25628786,Best: 0.25559364, Accuracy: 0.3861, StopCount/Limit:   1/  3, Time:5.04917264
+JADE ConfigID:   4, Epoch:   4, Training Loss: 0.25679499, Validation Loss: 0.25592723,Best: 0.25559364, Accuracy: 0.3967, StopCount/Limit:   2/  3, Time:5.05672169
+JADE ConfigID:   4, Epoch:   5, Training Loss: 0.25669743, Validation Loss: 0.25624276,Best: 0.25559364, Accuracy: 0.3532, StopCount/Limit:   3/  3, Time:5.05380011
+Next Gen: [784   2   3   3   4   3  10]
+JADE ConfigID:   5, Epoch:   0, Training Loss: 0.31984349, Validation Loss: 0.28501007,Best: 0.28501007, Accuracy: 0.3322, StopCount/Limit:   0/  3, Time:4.96068048
+JADE ConfigID:   5, Epoch:   1, Training Loss: 0.27489790, Validation Loss: 0.26949163,Best: 0.26949163, Accuracy: 0.3214, StopCount/Limit:   0/  3, Time:4.97649789
+JADE ConfigID:   5, Epoch:   2, Training Loss: 0.25359161, Validation Loss: 0.23657418,Best: 0.23657418, Accuracy: 0.3716, StopCount/Limit:   0/  3, Time:4.98175335
+JADE ConfigID:   5, Epoch:   3, Training Loss: 0.22988805, Validation Loss: 0.22798456,Best: 0.22798456, Accuracy: 0.4263, StopCount/Limit:   0/  3, Time:4.98252940
+JADE ConfigID:   5, Epoch:   4, Training Loss: 0.22358496, Validation Loss: 0.22521838,Best: 0.22521838, Accuracy: 0.4332, StopCount/Limit:   0/  3, Time:4.98430419
+JADE ConfigID:   5, Epoch:   5, Training Loss: 0.22153388, Validation Loss: 0.22130079,Best: 0.22130079, Accuracy: 0.4454, StopCount/Limit:   0/  3, Time:4.97908592
+JADE ConfigID:   5, Epoch:   6, Training Loss: 0.21961489, Validation Loss: 0.22128803,Best: 0.22128803, Accuracy: 0.4368, StopCount/Limit:   0/  3, Time:4.97872496
+JADE ConfigID:   5, Epoch:   7, Training Loss: 0.21942081, Validation Loss: 0.21819742,Best: 0.21819742, Accuracy: 0.4479, StopCount/Limit:   0/  3, Time:4.98079467
+JADE ConfigID:   5, Epoch:   8, Training Loss: 0.21788241, Validation Loss: 0.21941497,Best: 0.21819742, Accuracy: 0.4455, StopCount/Limit:   1/  3, Time:4.97858095
+JADE ConfigID:   5, Epoch:   9, Training Loss: 0.21748710, Validation Loss: 0.21839215,Best: 0.21819742, Accuracy: 0.443, StopCount/Limit:   2/  3, Time:4.99026084
+JADE ConfigID:   5, Epoch:  10, Training Loss: 0.21716905, Validation Loss: 0.21945157,Best: 0.21819742, Accuracy: 0.4381, StopCount/Limit:   3/  3, Time:4.99239874
+Next Gen: [784   4   4   4   2   4  10]
+JADE ConfigID:   6, Epoch:   0, Training Loss: 0.35033430, Validation Loss: 0.32492421,Best: 0.32492421, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.09893203
+JADE ConfigID:   6, Epoch:   1, Training Loss: 0.32502514, Validation Loss: 0.32496096,Best: 0.32492421, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.12547183
+JADE ConfigID:   6, Epoch:   2, Training Loss: 0.32500873, Validation Loss: 0.32500771,Best: 0.32492421, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.12979221
+JADE ConfigID:   6, Epoch:   3, Training Loss: 0.32501517, Validation Loss: 0.32494654,Best: 0.32492421, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.12677288
+Next Gen: [784   2   2   4   5   2  10]
+JADE ConfigID:   7, Epoch:   0, Training Loss: 0.31252758, Validation Loss: 0.26909527,Best: 0.26909527, Accuracy: 0.2566, StopCount/Limit:   0/  3, Time:4.99850869
+JADE ConfigID:   7, Epoch:   1, Training Loss: 0.26586776, Validation Loss: 0.26356851,Best: 0.26356851, Accuracy: 0.2619, StopCount/Limit:   0/  3, Time:4.98824883
+JADE ConfigID:   7, Epoch:   2, Training Loss: 0.26269163, Validation Loss: 0.26216559,Best: 0.26216559, Accuracy: 0.2701, StopCount/Limit:   0/  3, Time:4.99306107
+JADE ConfigID:   7, Epoch:   3, Training Loss: 0.26062890, Validation Loss: 0.25990912,Best: 0.25990912, Accuracy: 0.3023, StopCount/Limit:   0/  3, Time:5.00022817
+JADE ConfigID:   7, Epoch:   4, Training Loss: 0.25873350, Validation Loss: 0.25801425,Best: 0.25801425, Accuracy: 0.319, StopCount/Limit:   0/  3, Time:4.99951100
+JADE ConfigID:   7, Epoch:   5, Training Loss: 0.25573827, Validation Loss: 0.25481090,Best: 0.25481090, Accuracy: 0.3189, StopCount/Limit:   0/  3, Time:5.00100636
+JADE ConfigID:   7, Epoch:   6, Training Loss: 0.25378204, Validation Loss: 0.25370681,Best: 0.25370681, Accuracy: 0.3498, StopCount/Limit:   0/  3, Time:4.98957229
+JADE ConfigID:   7, Epoch:   7, Training Loss: 0.25216032, Validation Loss: 0.25135488,Best: 0.25135488, Accuracy: 0.3551, StopCount/Limit:   0/  3, Time:5.00002575
+JADE ConfigID:   7, Epoch:   8, Training Loss: 0.25105244, Validation Loss: 0.25180849,Best: 0.25135488, Accuracy: 0.3576, StopCount/Limit:   1/  3, Time:5.00196362
+JADE ConfigID:   7, Epoch:   9, Training Loss: 0.25050491, Validation Loss: 0.25153163,Best: 0.25135488, Accuracy: 0.356, StopCount/Limit:   2/  3, Time:5.02941799
+JADE ConfigID:   7, Epoch:  10, Training Loss: 0.25052590, Validation Loss: 0.25087452,Best: 0.25087452, Accuracy: 0.3661, StopCount/Limit:   2/  3, Time:5.02827597
+JADE ConfigID:   7, Epoch:  11, Training Loss: 0.24970469, Validation Loss: 0.25314195,Best: 0.25087452, Accuracy: 0.3411, StopCount/Limit:   3/  3, Time:5.03937912
+Next Gen: [784   2   2   3   3  10]
+JADE ConfigID:   8, Epoch:   0, Training Loss: 0.38027612, Validation Loss: 0.32500069,Best: 0.32500069, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.36814117
+JADE ConfigID:   8, Epoch:   1, Training Loss: 0.32496099, Validation Loss: 0.32492297,Best: 0.32492297, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.37502885
+JADE ConfigID:   8, Epoch:   2, Training Loss: 0.32495244, Validation Loss: 0.32493861,Best: 0.32492297, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.37717104
+JADE ConfigID:   8, Epoch:   3, Training Loss: 0.32495730, Validation Loss: 0.32491934,Best: 0.32491934, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.37176871
+JADE ConfigID:   8, Epoch:   4, Training Loss: 0.32495772, Validation Loss: 0.32491456,Best: 0.32491456, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.37397623
+JADE ConfigID:   8, Epoch:   5, Training Loss: 0.32495333, Validation Loss: 0.32490709,Best: 0.32490709, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.37357879
+JADE ConfigID:   8, Epoch:   6, Training Loss: 0.32495518, Validation Loss: 0.32491882,Best: 0.32490709, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.38029671
+JADE ConfigID:   8, Epoch:   7, Training Loss: 0.32495678, Validation Loss: 0.32492065,Best: 0.32490709, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.37687254
+Next Gen: [784   3   2   5   5   2  10]
+JADE ConfigID:   9, Epoch:   0, Training Loss: 0.34392877, Validation Loss: 0.32494456,Best: 0.32494456, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.98151875
+JADE ConfigID:   9, Epoch:   1, Training Loss: 0.32501439, Validation Loss: 0.32503372,Best: 0.32494456, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.98091817
+JADE ConfigID:   9, Epoch:   2, Training Loss: 0.32502751, Validation Loss: 0.32496963,Best: 0.32494456, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.98034072
+JADE ConfigID:   9, Epoch:   3, Training Loss: 0.32501471, Validation Loss: 0.32492044,Best: 0.32492044, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.98227215
+JADE ConfigID:   9, Epoch:   4, Training Loss: 0.32499625, Validation Loss: 0.32504958,Best: 0.32492044, Accuracy: 0.101, StopCount/Limit:   3/  3, Time:4.97872710
+JADE Gen 3 Run End
+JADE Run   3 CurrentBest: 0.21120919, Mean: 0.23764052, OverallBest: 0.21120919/  2, config: [784   5   2   4   5  10], updatecount:   4, Generation RunTime: 455.99735689
+JADE Gen 4 Run Start
+Next Gen: [784   3   2   4   3  10]
+JADE ConfigID:   0, Epoch:   0, Training Loss: 0.33961176, Validation Loss: 0.32499185,Best: 0.32499185, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.42910051
+JADE ConfigID:   0, Epoch:   1, Training Loss: 0.32506117, Validation Loss: 0.32493864,Best: 0.32493864, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.43633032
+JADE ConfigID:   0, Epoch:   2, Training Loss: 0.32504396, Validation Loss: 0.32504741,Best: 0.32493864, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.43621421
+JADE ConfigID:   0, Epoch:   3, Training Loss: 0.32504727, Validation Loss: 0.32503646,Best: 0.32493864, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:4.42898393
+JADE ConfigID:   0, Epoch:   4, Training Loss: 0.32505272, Validation Loss: 0.32498991,Best: 0.32493864, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.43374968
+Next Gen: [784   5   2   4   5  10]
+JADE ConfigID:   1, Epoch:   0, Training Loss: 0.33808762, Validation Loss: 0.32495210,Best: 0.32495210, Accuracy: 0.101, StopCount/Limit:   0/  3, Time:4.52611732
+JADE ConfigID:   1, Epoch:   1, Training Loss: 0.32504303, Validation Loss: 0.32504664,Best: 0.32495210, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.54351616
+JADE ConfigID:   1, Epoch:   2, Training Loss: 0.32506587, Validation Loss: 0.32498864,Best: 0.32495210, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.55174994
+JADE ConfigID:   1, Epoch:   3, Training Loss: 0.32504901, Validation Loss: 0.32501215,Best: 0.32495210, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.55344367
+Next Gen: [784   4   2   2   5  10]
+JADE ConfigID:   2, Epoch:   0, Training Loss: 0.33916165, Validation Loss: 0.32491317,Best: 0.32491317, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.37152743
+JADE ConfigID:   2, Epoch:   1, Training Loss: 0.32501528, Validation Loss: 0.32504296,Best: 0.32491317, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.37607265
+JADE ConfigID:   2, Epoch:   2, Training Loss: 0.32501994, Validation Loss: 0.32494880,Best: 0.32491317, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.38080621
+JADE ConfigID:   2, Epoch:   3, Training Loss: 0.32500875, Validation Loss: 0.32508374,Best: 0.32491317, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.37514067
+Next Gen: [784   3   2   2   3   3  10]
+JADE ConfigID:   3, Epoch:   0, Training Loss: 0.35257195, Validation Loss: 0.32511824,Best: 0.32511824, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.05311465
+JADE ConfigID:   3, Epoch:   1, Training Loss: 0.32499299, Validation Loss: 0.32514438,Best: 0.32511824, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:5.05968642
+JADE ConfigID:   3, Epoch:   2, Training Loss: 0.32500828, Validation Loss: 0.32502039,Best: 0.32502039, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.06638217
+JADE ConfigID:   3, Epoch:   3, Training Loss: 0.32501893, Validation Loss: 0.32494423,Best: 0.32494423, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.05554509
+JADE ConfigID:   3, Epoch:   4, Training Loss: 0.32499029, Validation Loss: 0.32495146,Best: 0.32494423, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.06643558
+JADE ConfigID:   3, Epoch:   5, Training Loss: 0.32499646, Validation Loss: 0.32497455,Best: 0.32494423, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.06651998
+Next Gen: [784   2   6   2   5   2  10]
+JADE ConfigID:   4, Epoch:   0, Training Loss: 0.34902874, Validation Loss: 0.32496195,Best: 0.32496195, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.01044440
+JADE ConfigID:   4, Epoch:   1, Training Loss: 0.32498639, Validation Loss: 0.32493829,Best: 0.32493829, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.01845336
+JADE ConfigID:   4, Epoch:   2, Training Loss: 0.32499582, Validation Loss: 0.32497214,Best: 0.32493829, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.02325797
+JADE ConfigID:   4, Epoch:   3, Training Loss: 0.32499838, Validation Loss: 0.32492410,Best: 0.32492410, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.01768923
+JADE ConfigID:   4, Epoch:   4, Training Loss: 0.32499706, Validation Loss: 0.32495956,Best: 0.32492410, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.02577782
+JADE ConfigID:   4, Epoch:   5, Training Loss: 0.32498950, Validation Loss: 0.32493924,Best: 0.32492410, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.02413845
+Next Gen: [784   2   3   3   3   2  10]
+JADE ConfigID:   5, Epoch:   0, Training Loss: 0.31059472, Validation Loss: 0.25851604,Best: 0.25851604, Accuracy: 0.295, StopCount/Limit:   0/  3, Time:4.97768331
+JADE ConfigID:   5, Epoch:   1, Training Loss: 0.25547316, Validation Loss: 0.25318082,Best: 0.25318082, Accuracy: 0.2732, StopCount/Limit:   0/  3, Time:4.98922563
+JADE ConfigID:   5, Epoch:   2, Training Loss: 0.25238808, Validation Loss: 0.25106385,Best: 0.25106385, Accuracy: 0.294, StopCount/Limit:   0/  3, Time:4.98351288
+JADE ConfigID:   5, Epoch:   3, Training Loss: 0.25069767, Validation Loss: 0.25025264,Best: 0.25025264, Accuracy: 0.3158, StopCount/Limit:   0/  3, Time:4.98652840
+JADE ConfigID:   5, Epoch:   4, Training Loss: 0.24951518, Validation Loss: 0.25059626,Best: 0.25025264, Accuracy: 0.2888, StopCount/Limit:   1/  3, Time:4.99006486
+JADE ConfigID:   5, Epoch:   5, Training Loss: 0.24894305, Validation Loss: 0.25091163,Best: 0.25025264, Accuracy: 0.2929, StopCount/Limit:   2/  3, Time:4.98782587
+JADE ConfigID:   5, Epoch:   6, Training Loss: 0.24880030, Validation Loss: 0.24911062,Best: 0.24911062, Accuracy: 0.3115, StopCount/Limit:   2/  3, Time:4.99092817
+JADE ConfigID:   5, Epoch:   7, Training Loss: 0.24857793, Validation Loss: 0.24909929,Best: 0.24909929, Accuracy: 0.3191, StopCount/Limit:   2/  3, Time:4.98958325
+JADE ConfigID:   5, Epoch:   8, Training Loss: 0.24861655, Validation Loss: 0.24864628,Best: 0.24864628, Accuracy: 0.3114, StopCount/Limit:   2/  3, Time:4.98409915
+JADE ConfigID:   5, Epoch:   9, Training Loss: 0.24858211, Validation Loss: 0.25031705,Best: 0.24864628, Accuracy: 0.2966, StopCount/Limit:   3/  3, Time:5.00808358
+Next Gen: [784   6   2   2   2   6  10]
+JADE ConfigID:   6, Epoch:   0, Training Loss: 0.33852563, Validation Loss: 0.32496183,Best: 0.32496183, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.16823435
+JADE ConfigID:   6, Epoch:   1, Training Loss: 0.32509148, Validation Loss: 0.32508798,Best: 0.32496183, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.19339490
+JADE ConfigID:   6, Epoch:   2, Training Loss: 0.32509921, Validation Loss: 0.32501912,Best: 0.32496183, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.19046450
+JADE ConfigID:   6, Epoch:   3, Training Loss: 0.32509841, Validation Loss: 0.32498232,Best: 0.32496183, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.19014645
+Next Gen: [784   2   2   4   3   4  10]
+JADE ConfigID:   7, Epoch:   0, Training Loss: 0.33178871, Validation Loss: 0.31410814,Best: 0.31410814, Accuracy: 0.1054, StopCount/Limit:   0/  3, Time:4.98848629
+JADE ConfigID:   7, Epoch:   1, Training Loss: 0.28141744, Validation Loss: 0.27337560,Best: 0.27337560, Accuracy: 0.3119, StopCount/Limit:   0/  3, Time:5.00017858
+JADE ConfigID:   7, Epoch:   2, Training Loss: 0.27324643, Validation Loss: 0.27196568,Best: 0.27196568, Accuracy: 0.2985, StopCount/Limit:   0/  3, Time:5.00728226
+JADE ConfigID:   7, Epoch:   3, Training Loss: 0.27242511, Validation Loss: 0.27147537,Best: 0.27147537, Accuracy: 0.3211, StopCount/Limit:   0/  3, Time:5.00735331
+JADE ConfigID:   7, Epoch:   4, Training Loss: 0.27187852, Validation Loss: 0.27088887,Best: 0.27088887, Accuracy: 0.3067, StopCount/Limit:   0/  3, Time:5.00617194
+JADE ConfigID:   7, Epoch:   5, Training Loss: 0.27136901, Validation Loss: 0.27025343,Best: 0.27025343, Accuracy: 0.3239, StopCount/Limit:   0/  3, Time:4.99577451
+JADE ConfigID:   7, Epoch:   6, Training Loss: 0.27105527, Validation Loss: 0.27021773,Best: 0.27021773, Accuracy: 0.3149, StopCount/Limit:   0/  3, Time:5.00059271
+JADE ConfigID:   7, Epoch:   7, Training Loss: 0.27095010, Validation Loss: 0.27026805,Best: 0.27021773, Accuracy: 0.3062, StopCount/Limit:   1/  3, Time:5.00631332
+JADE ConfigID:   7, Epoch:   8, Training Loss: 0.27089630, Validation Loss: 0.27110829,Best: 0.27021773, Accuracy: 0.3148, StopCount/Limit:   2/  3, Time:5.02578402
+JADE ConfigID:   7, Epoch:   9, Training Loss: 0.27073891, Validation Loss: 0.27139889,Best: 0.27021773, Accuracy: 0.3102, StopCount/Limit:   3/  3, Time:5.04204535
+Next Gen: [784   3   3   3   3  10]
+JADE ConfigID:   8, Epoch:   0, Training Loss: 0.31203151, Validation Loss: 0.25964444,Best: 0.25964444, Accuracy: 0.3114, StopCount/Limit:   0/  3, Time:4.38076639
+JADE ConfigID:   8, Epoch:   1, Training Loss: 0.24885357, Validation Loss: 0.24036307,Best: 0.24036307, Accuracy: 0.3088, StopCount/Limit:   0/  3, Time:4.40767717
+JADE ConfigID:   8, Epoch:   2, Training Loss: 0.24240243, Validation Loss: 0.23954383,Best: 0.23954383, Accuracy: 0.3062, StopCount/Limit:   0/  3, Time:4.40953612
+JADE ConfigID:   8, Epoch:   3, Training Loss: 0.24077314, Validation Loss: 0.23735582,Best: 0.23735582, Accuracy: 0.3068, StopCount/Limit:   0/  3, Time:4.41133785
+JADE ConfigID:   8, Epoch:   4, Training Loss: 0.23999122, Validation Loss: 0.23817954,Best: 0.23735582, Accuracy: 0.327, StopCount/Limit:   1/  3, Time:4.40686059
+JADE ConfigID:   8, Epoch:   5, Training Loss: 0.23933217, Validation Loss: 0.23780297,Best: 0.23735582, Accuracy: 0.314, StopCount/Limit:   2/  3, Time:4.40711808
+JADE ConfigID:   8, Epoch:   6, Training Loss: 0.23861345, Validation Loss: 0.23825326,Best: 0.23735582, Accuracy: 0.3319, StopCount/Limit:   3/  3, Time:4.41076851
+Next Gen: [784   3   3   5   3   3  10]
+JADE ConfigID:   9, Epoch:   0, Training Loss: 0.32322081, Validation Loss: 0.28786899,Best: 0.28786899, Accuracy: 0.2449, StopCount/Limit:   0/  3, Time:5.01536608
+JADE ConfigID:   9, Epoch:   1, Training Loss: 0.27584223, Validation Loss: 0.27017113,Best: 0.27017113, Accuracy: 0.3869, StopCount/Limit:   0/  3, Time:5.03768921
+JADE ConfigID:   9, Epoch:   2, Training Loss: 0.26557439, Validation Loss: 0.26442127,Best: 0.26442127, Accuracy: 0.3914, StopCount/Limit:   0/  3, Time:5.03089523
+JADE ConfigID:   9, Epoch:   3, Training Loss: 0.25620324, Validation Loss: 0.24146812,Best: 0.24146812, Accuracy: 0.3914, StopCount/Limit:   0/  3, Time:5.03030849
+JADE ConfigID:   9, Epoch:   4, Training Loss: 0.22661139, Validation Loss: 0.22318976,Best: 0.22318976, Accuracy: 0.4044, StopCount/Limit:   0/  3, Time:5.01641965
+JADE ConfigID:   9, Epoch:   5, Training Loss: 0.21748103, Validation Loss: 0.21801072,Best: 0.21801072, Accuracy: 0.4623, StopCount/Limit:   0/  3, Time:5.02680206
+JADE ConfigID:   9, Epoch:   6, Training Loss: 0.21123195, Validation Loss: 0.20657367,Best: 0.20657367, Accuracy: 0.5247, StopCount/Limit:   0/  3, Time:5.01360011
+JADE ConfigID:   9, Epoch:   7, Training Loss: 0.20389942, Validation Loss: 0.20344913,Best: 0.20344913, Accuracy: 0.5177, StopCount/Limit:   0/  3, Time:5.02111888
+JADE ConfigID:   9, Epoch:   8, Training Loss: 0.19971938, Validation Loss: 0.20499912,Best: 0.20344913, Accuracy: 0.5348, StopCount/Limit:   1/  3, Time:5.01908875
+JADE ConfigID:   9, Epoch:   9, Training Loss: 0.19663402, Validation Loss: 0.19894978,Best: 0.19894978, Accuracy: 0.5374, StopCount/Limit:   1/  3, Time:5.02309990
+JADE ConfigID:   9, Epoch:  10, Training Loss: 0.19422707, Validation Loss: 0.19824298,Best: 0.19824298, Accuracy: 0.5354, StopCount/Limit:   1/  3, Time:5.01587868
+JADE ConfigID:   9, Epoch:  11, Training Loss: 0.19282583, Validation Loss: 0.19425248,Best: 0.19425248, Accuracy: 0.5393, StopCount/Limit:   1/  3, Time:5.02069449
+JADE ConfigID:   9, Epoch:  12, Training Loss: 0.19152749, Validation Loss: 0.19603912,Best: 0.19425248, Accuracy: 0.5576, StopCount/Limit:   2/  3, Time:5.02398276
+JADE ConfigID:   9, Epoch:  13, Training Loss: 0.19025235, Validation Loss: 0.19337640,Best: 0.19337640, Accuracy: 0.554, StopCount/Limit:   2/  3, Time:5.01954317
+JADE ConfigID:   9, Epoch:  14, Training Loss: 0.18788823, Validation Loss: 0.18849648,Best: 0.18849648, Accuracy: 0.5488, StopCount/Limit:   2/  3, Time:5.02173448
+JADE ConfigID:   9, Epoch:  15, Training Loss: 0.18564103, Validation Loss: 0.18886196,Best: 0.18849648, Accuracy: 0.5704, StopCount/Limit:   3/  3, Time:5.02030420
+JADE Gen 4 Run End
+JADE Run   4 CurrentBest: 0.18849648, Mean: 0.23218756, OverallBest: 0.18849648/  4, config: [784   3   3   5   3   3  10], updatecount:   1, Generation RunTime: 350.26835346
+JADE Gen 5 Run Start
+Next Gen: [784   3   2   3   5  10]
+JADE ConfigID:   0, Epoch:   0, Training Loss: 0.27164779, Validation Loss: 0.22880256,Best: 0.22880256, Accuracy: 0.4451, StopCount/Limit:   0/  3, Time:4.36526084
+JADE ConfigID:   0, Epoch:   1, Training Loss: 0.21356490, Validation Loss: 0.19202063,Best: 0.19202063, Accuracy: 0.5043, StopCount/Limit:   0/  3, Time:4.39318752
+JADE ConfigID:   0, Epoch:   2, Training Loss: 0.18898011, Validation Loss: 0.18329265,Best: 0.18329265, Accuracy: 0.5459, StopCount/Limit:   0/  3, Time:4.40174675
+JADE ConfigID:   0, Epoch:   3, Training Loss: 0.18348580, Validation Loss: 0.18072578,Best: 0.18072578, Accuracy: 0.5443, StopCount/Limit:   0/  3, Time:4.40271401
+JADE ConfigID:   0, Epoch:   4, Training Loss: 0.17910438, Validation Loss: 0.17941499,Best: 0.17941499, Accuracy: 0.5897, StopCount/Limit:   0/  3, Time:4.40328288
+JADE ConfigID:   0, Epoch:   5, Training Loss: 0.17717275, Validation Loss: 0.17626897,Best: 0.17626897, Accuracy: 0.5948, StopCount/Limit:   0/  3, Time:4.38906288
+JADE ConfigID:   0, Epoch:   6, Training Loss: 0.17605733, Validation Loss: 0.17553357,Best: 0.17553357, Accuracy: 0.5923, StopCount/Limit:   0/  3, Time:4.39989948
+JADE ConfigID:   0, Epoch:   7, Training Loss: 0.17493779, Validation Loss: 0.17386584,Best: 0.17386584, Accuracy: 0.603, StopCount/Limit:   0/  3, Time:4.40197325
+JADE ConfigID:   0, Epoch:   8, Training Loss: 0.17425045, Validation Loss: 0.17507148,Best: 0.17386584, Accuracy: 0.5891, StopCount/Limit:   1/  3, Time:4.40903282
+JADE ConfigID:   0, Epoch:   9, Training Loss: 0.17346743, Validation Loss: 0.17373651,Best: 0.17373651, Accuracy: 0.574, StopCount/Limit:   1/  3, Time:4.40866470
+JADE ConfigID:   0, Epoch:  10, Training Loss: 0.17270864, Validation Loss: 0.17135026,Best: 0.17135026, Accuracy: 0.59, StopCount/Limit:   1/  3, Time:4.41623783
+JADE ConfigID:   0, Epoch:  11, Training Loss: 0.17238195, Validation Loss: 0.17089617,Best: 0.17089617, Accuracy: 0.6081, StopCount/Limit:   1/  3, Time:4.42204714
+JADE ConfigID:   0, Epoch:  12, Training Loss: 0.17161329, Validation Loss: 0.17375433,Best: 0.17089617, Accuracy: 0.612, StopCount/Limit:   2/  3, Time:4.43569160
+JADE ConfigID:   0, Epoch:  13, Training Loss: 0.17132438, Validation Loss: 0.17190166,Best: 0.17089617, Accuracy: 0.6015, StopCount/Limit:   3/  3, Time:4.43009448
+Next Gen: [784   5   2   3   5  10]
+JADE ConfigID:   1, Epoch:   0, Training Loss: 0.30615791, Validation Loss: 0.26791830,Best: 0.26791830, Accuracy: 0.3701, StopCount/Limit:   0/  3, Time:4.48928547
+JADE ConfigID:   1, Epoch:   1, Training Loss: 0.26907805, Validation Loss: 0.26696851,Best: 0.26696851, Accuracy: 0.3725, StopCount/Limit:   0/  3, Time:4.51432490
+JADE ConfigID:   1, Epoch:   2, Training Loss: 0.26713752, Validation Loss: 0.26444594,Best: 0.26444594, Accuracy: 0.3876, StopCount/Limit:   0/  3, Time:4.51521206
+JADE ConfigID:   1, Epoch:   3, Training Loss: 0.26613740, Validation Loss: 0.26309238,Best: 0.26309238, Accuracy: 0.369, StopCount/Limit:   0/  3, Time:4.51089525
+JADE ConfigID:   1, Epoch:   4, Training Loss: 0.26614173, Validation Loss: 0.26799736,Best: 0.26309238, Accuracy: 0.39, StopCount/Limit:   1/  3, Time:4.51314163
+JADE ConfigID:   1, Epoch:   5, Training Loss: 0.26598268, Validation Loss: 0.26423993,Best: 0.26309238, Accuracy: 0.4023, StopCount/Limit:   2/  3, Time:4.51943898
+JADE ConfigID:   1, Epoch:   6, Training Loss: 0.26535789, Validation Loss: 0.27076246,Best: 0.26309238, Accuracy: 0.388, StopCount/Limit:   3/  3, Time:4.51968527
+Next Gen: [784   4   2   2  10]
+JADE ConfigID:   2, Epoch:   0, Training Loss: 0.35084233, Validation Loss: 0.32500877,Best: 0.32500877, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.83282566
+JADE ConfigID:   2, Epoch:   1, Training Loss: 0.32502095, Validation Loss: 0.32504621,Best: 0.32500877, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.87171483
+JADE ConfigID:   2, Epoch:   2, Training Loss: 0.32502244, Validation Loss: 0.32498372,Best: 0.32498372, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.87638879
+JADE ConfigID:   2, Epoch:   3, Training Loss: 0.32503104, Validation Loss: 0.32498630,Best: 0.32498372, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.87190342
+JADE ConfigID:   2, Epoch:   4, Training Loss: 0.32502636, Validation Loss: 0.32495745,Best: 0.32495745, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.86903882
+JADE ConfigID:   2, Epoch:   5, Training Loss: 0.32502717, Validation Loss: 0.32498064,Best: 0.32495745, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:3.87072301
+Next Gen: [784   3   3   2   3   3  10]
+JADE ConfigID:   3, Epoch:   0, Training Loss: 0.34148474, Validation Loss: 0.32494482,Best: 0.32494482, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.05109167
+JADE ConfigID:   3, Epoch:   1, Training Loss: 0.32500008, Validation Loss: 0.32500124,Best: 0.32494482, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.06339765
+JADE ConfigID:   3, Epoch:   2, Training Loss: 0.32500253, Validation Loss: 0.32506732,Best: 0.32494482, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.06372452
+JADE ConfigID:   3, Epoch:   3, Training Loss: 0.32502300, Validation Loss: 0.32497747,Best: 0.32494482, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.03360343
+Next Gen: [784   3   6   2   5   4  10]
+JADE ConfigID:   4, Epoch:   0, Training Loss: 0.32925154, Validation Loss: 0.26247661,Best: 0.26247661, Accuracy: 0.3504, StopCount/Limit:   0/  3, Time:4.99459195
+JADE ConfigID:   4, Epoch:   1, Training Loss: 0.25045102, Validation Loss: 0.23960948,Best: 0.23960948, Accuracy: 0.4021, StopCount/Limit:   0/  3, Time:5.02199817
+JADE ConfigID:   4, Epoch:   2, Training Loss: 0.23855042, Validation Loss: 0.23225332,Best: 0.23225332, Accuracy: 0.4494, StopCount/Limit:   0/  3, Time:5.02400780
+JADE ConfigID:   4, Epoch:   3, Training Loss: 0.23252095, Validation Loss: 0.22812070,Best: 0.22812070, Accuracy: 0.4348, StopCount/Limit:   0/  3, Time:5.01881409
+JADE ConfigID:   4, Epoch:   4, Training Loss: 0.23064500, Validation Loss: 0.22646342,Best: 0.22646342, Accuracy: 0.4951, StopCount/Limit:   0/  3, Time:5.02688360
+JADE ConfigID:   4, Epoch:   5, Training Loss: 0.22917087, Validation Loss: 0.22903258,Best: 0.22646342, Accuracy: 0.4584, StopCount/Limit:   1/  3, Time:5.03283405
+JADE ConfigID:   4, Epoch:   6, Training Loss: 0.22748480, Validation Loss: 0.22743268,Best: 0.22646342, Accuracy: 0.4989, StopCount/Limit:   2/  3, Time:5.04505777
+JADE ConfigID:   4, Epoch:   7, Training Loss: 0.22617302, Validation Loss: 0.22536096,Best: 0.22536096, Accuracy: 0.4951, StopCount/Limit:   2/  3, Time:5.04858160
+JADE ConfigID:   4, Epoch:   8, Training Loss: 0.22587605, Validation Loss: 0.22249003,Best: 0.22249003, Accuracy: 0.5068, StopCount/Limit:   2/  3, Time:5.04848075
+JADE ConfigID:   4, Epoch:   9, Training Loss: 0.22382036, Validation Loss: 0.22250579,Best: 0.22249003, Accuracy: 0.4799, StopCount/Limit:   3/  3, Time:5.04268098
+Next Gen: [784   2   2   5   4   3  10]
+JADE ConfigID:   5, Epoch:   0, Training Loss: 0.29445045, Validation Loss: 0.25846869,Best: 0.25846869, Accuracy: 0.3237, StopCount/Limit:   0/  3, Time:4.98453522
+JADE ConfigID:   5, Epoch:   1, Training Loss: 0.25437839, Validation Loss: 0.25078196,Best: 0.25078196, Accuracy: 0.3579, StopCount/Limit:   0/  3, Time:4.99906087
+JADE ConfigID:   5, Epoch:   2, Training Loss: 0.24753937, Validation Loss: 0.24537778,Best: 0.24537778, Accuracy: 0.3822, StopCount/Limit:   0/  3, Time:4.99685073
+JADE ConfigID:   5, Epoch:   3, Training Loss: 0.24314062, Validation Loss: 0.24082364,Best: 0.24082364, Accuracy: 0.3968, StopCount/Limit:   0/  3, Time:4.98927832
+JADE ConfigID:   5, Epoch:   4, Training Loss: 0.23917048, Validation Loss: 0.24034406,Best: 0.24034406, Accuracy: 0.3836, StopCount/Limit:   0/  3, Time:4.98800516
+JADE ConfigID:   5, Epoch:   5, Training Loss: 0.23749683, Validation Loss: 0.23396902,Best: 0.23396902, Accuracy: 0.4148, StopCount/Limit:   0/  3, Time:4.99510884
+JADE ConfigID:   5, Epoch:   6, Training Loss: 0.23559427, Validation Loss: 0.23282316,Best: 0.23282316, Accuracy: 0.4121, StopCount/Limit:   0/  3, Time:4.99390149
+JADE ConfigID:   5, Epoch:   7, Training Loss: 0.23416110, Validation Loss: 0.23512668,Best: 0.23282316, Accuracy: 0.3953, StopCount/Limit:   1/  3, Time:4.99597836
+JADE ConfigID:   5, Epoch:   8, Training Loss: 0.23367944, Validation Loss: 0.23401581,Best: 0.23282316, Accuracy: 0.4113, StopCount/Limit:   2/  3, Time:5.02263594
+JADE ConfigID:   5, Epoch:   9, Training Loss: 0.23252655, Validation Loss: 0.22995135,Best: 0.22995135, Accuracy: 0.4239, StopCount/Limit:   2/  3, Time:5.05737305
+JADE ConfigID:   5, Epoch:  10, Training Loss: 0.23308741, Validation Loss: 0.23410296,Best: 0.22995135, Accuracy: 0.3975, StopCount/Limit:   3/  3, Time:5.05456138
+Next Gen: [784   5   4   3   2   4  10]
+JADE ConfigID:   6, Epoch:   0, Training Loss: 0.33812732, Validation Loss: 0.32506972,Best: 0.32506972, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.16405892
+JADE ConfigID:   6, Epoch:   1, Training Loss: 0.32507506, Validation Loss: 0.32493362,Best: 0.32493362, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.17778873
+JADE ConfigID:   6, Epoch:   2, Training Loss: 0.32508026, Validation Loss: 0.32498620,Best: 0.32493362, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:5.18851423
+JADE ConfigID:   6, Epoch:   3, Training Loss: 0.32505720, Validation Loss: 0.32510544,Best: 0.32493362, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.18864655
+JADE ConfigID:   6, Epoch:   4, Training Loss: 0.32506643, Validation Loss: 0.32497740,Best: 0.32493362, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.15662456
+Next Gen: [784   2   3   4   5   2  10]
+JADE ConfigID:   7, Epoch:   0, Training Loss: 0.32227879, Validation Loss: 0.27884911,Best: 0.27884911, Accuracy: 0.3226, StopCount/Limit:   0/  3, Time:4.96541667
+JADE ConfigID:   7, Epoch:   1, Training Loss: 0.27500923, Validation Loss: 0.27126060,Best: 0.27126060, Accuracy: 0.311, StopCount/Limit:   0/  3, Time:4.99649262
+JADE ConfigID:   7, Epoch:   2, Training Loss: 0.27167073, Validation Loss: 0.26841615,Best: 0.26841615, Accuracy: 0.3814, StopCount/Limit:   0/  3, Time:4.98923326
+JADE ConfigID:   7, Epoch:   3, Training Loss: 0.26972633, Validation Loss: 0.26605142,Best: 0.26605142, Accuracy: 0.3575, StopCount/Limit:   0/  3, Time:4.99014354
+JADE ConfigID:   7, Epoch:   4, Training Loss: 0.26779947, Validation Loss: 0.26770655,Best: 0.26605142, Accuracy: 0.365, StopCount/Limit:   1/  3, Time:4.98721290
+JADE ConfigID:   7, Epoch:   5, Training Loss: 0.26697867, Validation Loss: 0.26553965,Best: 0.26553965, Accuracy: 0.369, StopCount/Limit:   1/  3, Time:4.98735881
+JADE ConfigID:   7, Epoch:   6, Training Loss: 0.26636555, Validation Loss: 0.26467254,Best: 0.26467254, Accuracy: 0.3196, StopCount/Limit:   1/  3, Time:4.98506474
+JADE ConfigID:   7, Epoch:   7, Training Loss: 0.26645037, Validation Loss: 0.26514905,Best: 0.26467254, Accuracy: 0.3765, StopCount/Limit:   2/  3, Time:4.98205185
+JADE ConfigID:   7, Epoch:   8, Training Loss: 0.26577627, Validation Loss: 0.26649316,Best: 0.26467254, Accuracy: 0.3688, StopCount/Limit:   3/  3, Time:4.98715472
+Next Gen: [784   2   3   4   5   2  10]
+JADE ConfigID:   8, Epoch:   0, Training Loss: 0.34740313, Validation Loss: 0.32183119,Best: 0.32183119, Accuracy: 0.1831, StopCount/Limit:   0/  3, Time:4.99385595
+JADE ConfigID:   8, Epoch:   1, Training Loss: 0.31639081, Validation Loss: 0.30037743,Best: 0.30037743, Accuracy: 0.1881, StopCount/Limit:   0/  3, Time:5.01859450
+JADE ConfigID:   8, Epoch:   2, Training Loss: 0.28916020, Validation Loss: 0.28218527,Best: 0.28218527, Accuracy: 0.2854, StopCount/Limit:   0/  3, Time:5.02010870
+JADE ConfigID:   8, Epoch:   3, Training Loss: 0.28256146, Validation Loss: 0.28087758,Best: 0.28087758, Accuracy: 0.2791, StopCount/Limit:   0/  3, Time:5.02687073
+JADE ConfigID:   8, Epoch:   4, Training Loss: 0.28046159, Validation Loss: 0.27825532,Best: 0.27825532, Accuracy: 0.2543, StopCount/Limit:   0/  3, Time:5.03098369
+JADE ConfigID:   8, Epoch:   5, Training Loss: 0.27732783, Validation Loss: 0.27560323,Best: 0.27560323, Accuracy: 0.2107, StopCount/Limit:   0/  3, Time:5.02527285
+JADE ConfigID:   8, Epoch:   6, Training Loss: 0.27481071, Validation Loss: 0.27393177,Best: 0.27393177, Accuracy: 0.2405, StopCount/Limit:   0/  3, Time:5.02184391
+JADE ConfigID:   8, Epoch:   7, Training Loss: 0.27356286, Validation Loss: 0.27374595,Best: 0.27374595, Accuracy: 0.2107, StopCount/Limit:   0/  3, Time:5.03238845
+JADE ConfigID:   8, Epoch:   8, Training Loss: 0.27293063, Validation Loss: 0.27222699,Best: 0.27222699, Accuracy: 0.2104, StopCount/Limit:   0/  3, Time:5.04684210
+JADE ConfigID:   8, Epoch:   9, Training Loss: 0.27253718, Validation Loss: 0.27250692,Best: 0.27222699, Accuracy: 0.2602, StopCount/Limit:   1/  3, Time:5.05282760
+JADE ConfigID:   8, Epoch:  10, Training Loss: 0.27221365, Validation Loss: 0.27176794,Best: 0.27176794, Accuracy: 0.2285, StopCount/Limit:   1/  3, Time:5.04059601
+JADE ConfigID:   8, Epoch:  11, Training Loss: 0.27204195, Validation Loss: 0.27128188,Best: 0.27128188, Accuracy: 0.2371, StopCount/Limit:   1/  3, Time:5.06967068
+JADE ConfigID:   8, Epoch:  12, Training Loss: 0.27191555, Validation Loss: 0.27269094,Best: 0.27128188, Accuracy: 0.203, StopCount/Limit:   2/  3, Time:5.08926153
+JADE ConfigID:   8, Epoch:  13, Training Loss: 0.27171298, Validation Loss: 0.27197889,Best: 0.27128188, Accuracy: 0.2824, StopCount/Limit:   3/  3, Time:5.12214756
+Next Gen: [784   3   3   4   3   3  10]
+JADE ConfigID:   9, Epoch:   0, Training Loss: 0.36155069, Validation Loss: 0.32501626,Best: 0.32501626, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.98394847
+JADE ConfigID:   9, Epoch:   1, Training Loss: 0.32500009, Validation Loss: 0.32493610,Best: 0.32493610, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.98308134
+JADE ConfigID:   9, Epoch:   2, Training Loss: 0.32500494, Validation Loss: 0.32495706,Best: 0.32493610, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.98284507
+JADE ConfigID:   9, Epoch:   3, Training Loss: 0.32500461, Validation Loss: 0.32501947,Best: 0.32493610, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.98876095
+JADE ConfigID:   9, Epoch:   4, Training Loss: 0.32499438, Validation Loss: 0.32497739,Best: 0.32493610, Accuracy: 0.101, StopCount/Limit:   3/  3, Time:4.98366976
+JADE Gen 5 Run End
+JADE Run   5 CurrentBest: 0.17089617, Mean: 0.22211013, OverallBest: 0.17089617/  5, config: [784   3   2   3   5  10], updatecount:   2, Generation RunTime: 408.34365559
+JADE Gen 6 Run Start
+Next Gen: [784   3   2   3   5   3  10]
+JADE ConfigID:   0, Epoch:   0, Training Loss: 0.34732279, Validation Loss: 0.32331241,Best: 0.32331241, Accuracy: 0.1225, StopCount/Limit:   0/  3, Time:5.03305364
+JADE ConfigID:   0, Epoch:   1, Training Loss: 0.31843354, Validation Loss: 0.30917663,Best: 0.30917663, Accuracy: 0.1896, StopCount/Limit:   0/  3, Time:5.05733228
+JADE ConfigID:   0, Epoch:   2, Training Loss: 0.29115078, Validation Loss: 0.27906760,Best: 0.27906760, Accuracy: 0.2723, StopCount/Limit:   0/  3, Time:5.06018257
+JADE ConfigID:   0, Epoch:   3, Training Loss: 0.27613880, Validation Loss: 0.27341208,Best: 0.27341208, Accuracy: 0.3254, StopCount/Limit:   0/  3, Time:5.07009888
+JADE ConfigID:   0, Epoch:   4, Training Loss: 0.27222043, Validation Loss: 0.27097941,Best: 0.27097941, Accuracy: 0.2951, StopCount/Limit:   0/  3, Time:5.07620144
+JADE ConfigID:   0, Epoch:   5, Training Loss: 0.27046067, Validation Loss: 0.26915406,Best: 0.26915406, Accuracy: 0.3034, StopCount/Limit:   0/  3, Time:5.07005978
+JADE ConfigID:   0, Epoch:   6, Training Loss: 0.26949774, Validation Loss: 0.26869506,Best: 0.26869506, Accuracy: 0.3051, StopCount/Limit:   0/  3, Time:5.07549787
+JADE ConfigID:   0, Epoch:   7, Training Loss: 0.26886163, Validation Loss: 0.26816992,Best: 0.26816992, Accuracy: 0.3251, StopCount/Limit:   0/  3, Time:5.07318997
+JADE ConfigID:   0, Epoch:   8, Training Loss: 0.26854581, Validation Loss: 0.26792039,Best: 0.26792039, Accuracy: 0.3236, StopCount/Limit:   0/  3, Time:5.10155368
+JADE ConfigID:   0, Epoch:   9, Training Loss: 0.26901524, Validation Loss: 0.26972815,Best: 0.26792039, Accuracy: 0.3075, StopCount/Limit:   1/  3, Time:5.13639712
+JADE ConfigID:   0, Epoch:  10, Training Loss: 0.26891879, Validation Loss: 0.26979714,Best: 0.26792039, Accuracy: 0.3009, StopCount/Limit:   2/  3, Time:5.15068460
+JADE ConfigID:   0, Epoch:  11, Training Loss: 0.26810528, Validation Loss: 0.26750099,Best: 0.26750099, Accuracy: 0.3162, StopCount/Limit:   2/  3, Time:5.17063522
+JADE ConfigID:   0, Epoch:  12, Training Loss: 0.26785615, Validation Loss: 0.26820129,Best: 0.26750099, Accuracy: 0.3108, StopCount/Limit:   3/  3, Time:5.25957727
+Next Gen: [784   5   2   4   5   5  10]
+JADE ConfigID:   1, Epoch:   0, Training Loss: 0.28831508, Validation Loss: 0.23145621,Best: 0.23145621, Accuracy: 0.3848, StopCount/Limit:   0/  3, Time:5.08009148
+JADE ConfigID:   1, Epoch:   1, Training Loss: 0.21628512, Validation Loss: 0.20566312,Best: 0.20566312, Accuracy: 0.4799, StopCount/Limit:   0/  3, Time:5.10709882
+JADE ConfigID:   1, Epoch:   2, Training Loss: 0.19949658, Validation Loss: 0.19575440,Best: 0.19575440, Accuracy: 0.512, StopCount/Limit:   0/  3, Time:5.11100864
+JADE ConfigID:   1, Epoch:   3, Training Loss: 0.19211971, Validation Loss: 0.19235539,Best: 0.19235539, Accuracy: 0.4999, StopCount/Limit:   0/  3, Time:5.11732197
+JADE ConfigID:   1, Epoch:   4, Training Loss: 0.18898952, Validation Loss: 0.19005331,Best: 0.19005331, Accuracy: 0.5297, StopCount/Limit:   0/  3, Time:5.10852289
+JADE ConfigID:   1, Epoch:   5, Training Loss: 0.18568398, Validation Loss: 0.18721783,Best: 0.18721783, Accuracy: 0.5404, StopCount/Limit:   0/  3, Time:5.11008525
+JADE ConfigID:   1, Epoch:   6, Training Loss: 0.18356934, Validation Loss: 0.18556488,Best: 0.18556488, Accuracy: 0.5308, StopCount/Limit:   0/  3, Time:5.11479902
+JADE ConfigID:   1, Epoch:   7, Training Loss: 0.18246592, Validation Loss: 0.18756437,Best: 0.18556488, Accuracy: 0.5397, StopCount/Limit:   1/  3, Time:5.12975550
+JADE ConfigID:   1, Epoch:   8, Training Loss: 0.18126818, Validation Loss: 0.18536591,Best: 0.18536591, Accuracy: 0.5452, StopCount/Limit:   1/  3, Time:5.15595984
+JADE ConfigID:   1, Epoch:   9, Training Loss: 0.18024474, Validation Loss: 0.18227308,Best: 0.18227308, Accuracy: 0.5448, StopCount/Limit:   1/  3, Time:5.17414618
+JADE ConfigID:   1, Epoch:  10, Training Loss: 0.17817344, Validation Loss: 0.18580755,Best: 0.18227308, Accuracy: 0.5394, StopCount/Limit:   2/  3, Time:5.19477916
+JADE ConfigID:   1, Epoch:  11, Training Loss: 0.17705517, Validation Loss: 0.18478595,Best: 0.18227308, Accuracy: 0.5429, StopCount/Limit:   3/  3, Time:5.22747993
+Next Gen: [784   4   4   2  10]
+JADE ConfigID:   2, Epoch:   0, Training Loss: 0.35234761, Validation Loss: 0.32519166,Best: 0.32519166, Accuracy: 0.101, StopCount/Limit:   0/  3, Time:3.83905768
+JADE ConfigID:   2, Epoch:   1, Training Loss: 0.32510892, Validation Loss: 0.32497550,Best: 0.32497550, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.85825181
+JADE ConfigID:   2, Epoch:   2, Training Loss: 0.32508341, Validation Loss: 0.32500251,Best: 0.32497550, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:3.84571600
+JADE ConfigID:   2, Epoch:   3, Training Loss: 0.32507963, Validation Loss: 0.32500952,Best: 0.32497550, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.84899044
+JADE ConfigID:   2, Epoch:   4, Training Loss: 0.32509072, Validation Loss: 0.32493532,Best: 0.32493532, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.85102606
+JADE ConfigID:   2, Epoch:   5, Training Loss: 0.32508166, Validation Loss: 0.32509433,Best: 0.32493532, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.84935713
+Next Gen: [784   3   3   3   5   2  10]
+JADE ConfigID:   3, Epoch:   0, Training Loss: 0.32235058, Validation Loss: 0.28783839,Best: 0.28783839, Accuracy: 0.2084, StopCount/Limit:   0/  3, Time:5.07264829
+JADE ConfigID:   3, Epoch:   1, Training Loss: 0.28584501, Validation Loss: 0.28372208,Best: 0.28372208, Accuracy: 0.2125, StopCount/Limit:   0/  3, Time:5.09249640
+JADE ConfigID:   3, Epoch:   2, Training Loss: 0.28377443, Validation Loss: 0.28217694,Best: 0.28217694, Accuracy: 0.2132, StopCount/Limit:   0/  3, Time:5.09657931
+JADE ConfigID:   3, Epoch:   3, Training Loss: 0.28314611, Validation Loss: 0.28236027,Best: 0.28217694, Accuracy: 0.214, StopCount/Limit:   1/  3, Time:5.10610008
+JADE ConfigID:   3, Epoch:   4, Training Loss: 0.28292765, Validation Loss: 0.28151838,Best: 0.28151838, Accuracy: 0.2146, StopCount/Limit:   1/  3, Time:5.09423256
+JADE ConfigID:   3, Epoch:   5, Training Loss: 0.28279444, Validation Loss: 0.28195311,Best: 0.28151838, Accuracy: 0.2137, StopCount/Limit:   2/  3, Time:5.09890652
+JADE ConfigID:   3, Epoch:   6, Training Loss: 0.28262245, Validation Loss: 0.28157828,Best: 0.28151838, Accuracy: 0.2148, StopCount/Limit:   3/  3, Time:5.07367539
+Next Gen: [784   3   6   2   5   4  10]
+JADE ConfigID:   4, Epoch:   0, Training Loss: 0.27451577, Validation Loss: 0.23920465,Best: 0.23920465, Accuracy: 0.3274, StopCount/Limit:   0/  3, Time:5.01372218
+JADE ConfigID:   4, Epoch:   1, Training Loss: 0.21387789, Validation Loss: 0.20480864,Best: 0.20480864, Accuracy: 0.4441, StopCount/Limit:   0/  3, Time:5.03342795
+JADE ConfigID:   4, Epoch:   2, Training Loss: 0.20164379, Validation Loss: 0.20073651,Best: 0.20073651, Accuracy: 0.4748, StopCount/Limit:   0/  3, Time:5.02714610
+JADE ConfigID:   4, Epoch:   3, Training Loss: 0.19871481, Validation Loss: 0.19566653,Best: 0.19566653, Accuracy: 0.508, StopCount/Limit:   0/  3, Time:5.03807783
+JADE ConfigID:   4, Epoch:   4, Training Loss: 0.19675094, Validation Loss: 0.19472069,Best: 0.19472069, Accuracy: 0.5131, StopCount/Limit:   0/  3, Time:5.03370929
+JADE ConfigID:   4, Epoch:   5, Training Loss: 0.19512421, Validation Loss: 0.19779463,Best: 0.19472069, Accuracy: 0.5116, StopCount/Limit:   1/  3, Time:5.03823590
+JADE ConfigID:   4, Epoch:   6, Training Loss: 0.19387084, Validation Loss: 0.19437939,Best: 0.19437939, Accuracy: 0.4904, StopCount/Limit:   1/  3, Time:5.03181124
+JADE ConfigID:   4, Epoch:   7, Training Loss: 0.19265799, Validation Loss: 0.19287946,Best: 0.19287946, Accuracy: 0.5311, StopCount/Limit:   1/  3, Time:5.03354359
+JADE ConfigID:   4, Epoch:   8, Training Loss: 0.19258279, Validation Loss: 0.19170155,Best: 0.19170155, Accuracy: 0.5315, StopCount/Limit:   1/  3, Time:5.04750872
+JADE ConfigID:   4, Epoch:   9, Training Loss: 0.19137944, Validation Loss: 0.19151431,Best: 0.19151431, Accuracy: 0.5359, StopCount/Limit:   1/  3, Time:5.05777383
+JADE ConfigID:   4, Epoch:  10, Training Loss: 0.18910751, Validation Loss: 0.18797559,Best: 0.18797559, Accuracy: 0.5528, StopCount/Limit:   1/  3, Time:5.07381225
+JADE ConfigID:   4, Epoch:  11, Training Loss: 0.18753963, Validation Loss: 0.19164355,Best: 0.18797559, Accuracy: 0.5459, StopCount/Limit:   2/  3, Time:5.08531189
+JADE ConfigID:   4, Epoch:  12, Training Loss: 0.18688134, Validation Loss: 0.18650401,Best: 0.18650401, Accuracy: 0.5485, StopCount/Limit:   2/  3, Time:5.12098551
+JADE ConfigID:   4, Epoch:  13, Training Loss: 0.18596655, Validation Loss: 0.19197028,Best: 0.18650401, Accuracy: 0.55, StopCount/Limit:   3/  3, Time:5.13396597
+Next Gen: [784   2   3   2   3   2  10]
+JADE ConfigID:   5, Epoch:   0, Training Loss: 0.38978501, Validation Loss: 0.32506109,Best: 0.32506109, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.98849678
+JADE ConfigID:   5, Epoch:   1, Training Loss: 0.32496123, Validation Loss: 0.32492896,Best: 0.32492896, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.00310659
+JADE ConfigID:   5, Epoch:   2, Training Loss: 0.32496324, Validation Loss: 0.32491333,Best: 0.32491333, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.00303912
+JADE ConfigID:   5, Epoch:   3, Training Loss: 0.32495517, Validation Loss: 0.32491115,Best: 0.32491115, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.00281811
+JADE ConfigID:   5, Epoch:   4, Training Loss: 0.32495116, Validation Loss: 0.32492911,Best: 0.32491115, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.00513220
+JADE ConfigID:   5, Epoch:   5, Training Loss: 0.32495634, Validation Loss: 0.32492487,Best: 0.32491115, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.00036788
+JADE ConfigID:   5, Epoch:   6, Training Loss: 0.32495328, Validation Loss: 0.32492488,Best: 0.32491115, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.00065279
+Next Gen: [784   5   4   3   2   4  10]
+JADE ConfigID:   6, Epoch:   0, Training Loss: 0.34232811, Validation Loss: 0.32503647,Best: 0.32503647, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.13453794
+JADE ConfigID:   6, Epoch:   1, Training Loss: 0.32505625, Validation Loss: 0.32500622,Best: 0.32500622, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.15071273
+JADE ConfigID:   6, Epoch:   2, Training Loss: 0.32504309, Validation Loss: 0.32502706,Best: 0.32500622, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.14817667
+JADE ConfigID:   6, Epoch:   3, Training Loss: 0.32504812, Validation Loss: 0.32505495,Best: 0.32500622, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.16223550
+JADE ConfigID:   6, Epoch:   4, Training Loss: 0.32504877, Validation Loss: 0.32509686,Best: 0.32500622, Accuracy: 0.101, StopCount/Limit:   3/  3, Time:5.15855408
+Next Gen: [784   3   3   4   5   3  10]
+JADE ConfigID:   7, Epoch:   0, Training Loss: 0.38029290, Validation Loss: 0.32501711,Best: 0.32501711, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.04788923
+JADE ConfigID:   7, Epoch:   1, Training Loss: 0.32496635, Validation Loss: 0.32490276,Best: 0.32490276, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.06403637
+JADE ConfigID:   7, Epoch:   2, Training Loss: 0.32495437, Validation Loss: 0.32493932,Best: 0.32490276, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.06559992
+JADE ConfigID:   7, Epoch:   3, Training Loss: 0.32495553, Validation Loss: 0.32491373,Best: 0.32490276, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.06810832
+JADE ConfigID:   7, Epoch:   4, Training Loss: 0.32495180, Validation Loss: 0.32494251,Best: 0.32490276, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.07031941
+Next Gen: [784   3   5   2   5  10]
+JADE ConfigID:   8, Epoch:   0, Training Loss: 0.32396232, Validation Loss: 0.27498866,Best: 0.27498866, Accuracy: 0.2413, StopCount/Limit:   0/  3, Time:4.41105032
+JADE ConfigID:   8, Epoch:   1, Training Loss: 0.26731523, Validation Loss: 0.25967354,Best: 0.25967354, Accuracy: 0.3541, StopCount/Limit:   0/  3, Time:4.42505741
+JADE ConfigID:   8, Epoch:   2, Training Loss: 0.25739889, Validation Loss: 0.25740149,Best: 0.25740149, Accuracy: 0.3584, StopCount/Limit:   0/  3, Time:4.42944479
+JADE ConfigID:   8, Epoch:   3, Training Loss: 0.25070227, Validation Loss: 0.24784924,Best: 0.24784924, Accuracy: 0.3467, StopCount/Limit:   0/  3, Time:4.42881060
+JADE ConfigID:   8, Epoch:   4, Training Loss: 0.24692996, Validation Loss: 0.24457562,Best: 0.24457562, Accuracy: 0.3589, StopCount/Limit:   0/  3, Time:4.42219257
+JADE ConfigID:   8, Epoch:   5, Training Loss: 0.24485748, Validation Loss: 0.24787492,Best: 0.24457562, Accuracy: 0.3449, StopCount/Limit:   1/  3, Time:4.42907000
+JADE ConfigID:   8, Epoch:   6, Training Loss: 0.24545616, Validation Loss: 0.24752627,Best: 0.24457562, Accuracy: 0.3523, StopCount/Limit:   2/  3, Time:4.42300010
+JADE ConfigID:   8, Epoch:   7, Training Loss: 0.24587575, Validation Loss: 0.24397549,Best: 0.24397549, Accuracy: 0.3472, StopCount/Limit:   2/  3, Time:4.42544508
+JADE ConfigID:   8, Epoch:   8, Training Loss: 0.24418287, Validation Loss: 0.25387808,Best: 0.24397549, Accuracy: 0.3161, StopCount/Limit:   3/  3, Time:4.43121958
+Next Gen: [784   3   2   5   3   3  10]
+JADE ConfigID:   9, Epoch:   0, Training Loss: 0.34703903, Validation Loss: 0.32493796,Best: 0.32493796, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.06098604
+JADE ConfigID:   9, Epoch:   1, Training Loss: 0.32499894, Validation Loss: 0.32495193,Best: 0.32493796, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.07331204
+JADE ConfigID:   9, Epoch:   2, Training Loss: 0.32499752, Validation Loss: 0.32494447,Best: 0.32493796, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.08573389
+JADE ConfigID:   9, Epoch:   3, Training Loss: 0.32498312, Validation Loss: 0.32493404,Best: 0.32493404, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.07596517
+JADE ConfigID:   9, Epoch:   4, Training Loss: 0.32499696, Validation Loss: 0.32493294,Best: 0.32493294, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.08492088
+JADE ConfigID:   9, Epoch:   5, Training Loss: 0.32498584, Validation Loss: 0.32490807,Best: 0.32490807, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.08325934
+JADE ConfigID:   9, Epoch:   6, Training Loss: 0.32498325, Validation Loss: 0.32504419,Best: 0.32490807, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.08048606
+JADE Gen 6 Run End
+JADE Run   6 CurrentBest: 0.17089617, Mean: 0.21561792, OverallBest: 0.17089617/  5, config: [784   3   2   3   5  10], updatecount:   2, Generation RunTime: 418.94354534
+JADE Gen 7 Run Start
+Next Gen: [784   3   3   2   2  10]
+JADE ConfigID:   0, Epoch:   0, Training Loss: 0.38289877, Validation Loss: 0.32503376,Best: 0.32503376, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.42382145
+JADE ConfigID:   0, Epoch:   1, Training Loss: 0.32496670, Validation Loss: 0.32490969,Best: 0.32490969, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.43716741
+JADE ConfigID:   0, Epoch:   2, Training Loss: 0.32495854, Validation Loss: 0.32493608,Best: 0.32490969, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.43177152
+JADE ConfigID:   0, Epoch:   3, Training Loss: 0.32495104, Validation Loss: 0.32493345,Best: 0.32490969, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.43901634
+JADE ConfigID:   0, Epoch:   4, Training Loss: 0.32496284, Validation Loss: 0.32491979,Best: 0.32490969, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.44111538
+Next Gen: [784   5   2   4   5   5   3  10]
+JADE ConfigID:   1, Epoch:   0, Training Loss: 0.33120155, Validation Loss: 0.27331311,Best: 0.27331311, Accuracy: 0.2681, StopCount/Limit:   0/  3, Time:5.74724364
+JADE ConfigID:   1, Epoch:   1, Training Loss: 0.26743651, Validation Loss: 0.24857161,Best: 0.24857161, Accuracy: 0.3116, StopCount/Limit:   0/  3, Time:5.78512788
+JADE ConfigID:   1, Epoch:   2, Training Loss: 0.23872372, Validation Loss: 0.22687818,Best: 0.22687818, Accuracy: 0.4142, StopCount/Limit:   0/  3, Time:5.77980733
+JADE ConfigID:   1, Epoch:   3, Training Loss: 0.22845426, Validation Loss: 0.22349967,Best: 0.22349967, Accuracy: 0.408, StopCount/Limit:   0/  3, Time:5.78957677
+JADE ConfigID:   1, Epoch:   4, Training Loss: 0.22417075, Validation Loss: 0.21734297,Best: 0.21734297, Accuracy: 0.4387, StopCount/Limit:   0/  3, Time:5.79246807
+JADE ConfigID:   1, Epoch:   5, Training Loss: 0.21979787, Validation Loss: 0.21527615,Best: 0.21527615, Accuracy: 0.4319, StopCount/Limit:   0/  3, Time:5.78492093
+JADE ConfigID:   1, Epoch:   6, Training Loss: 0.21760072, Validation Loss: 0.21301684,Best: 0.21301684, Accuracy: 0.4303, StopCount/Limit:   0/  3, Time:5.78717184
+JADE ConfigID:   1, Epoch:   7, Training Loss: 0.21071525, Validation Loss: 0.19892867,Best: 0.19892867, Accuracy: 0.501, StopCount/Limit:   0/  3, Time:5.80045152
+JADE ConfigID:   1, Epoch:   8, Training Loss: 0.19449976, Validation Loss: 0.18844319,Best: 0.18844319, Accuracy: 0.5308, StopCount/Limit:   0/  3, Time:5.80858183
+JADE ConfigID:   1, Epoch:   9, Training Loss: 0.18778721, Validation Loss: 0.18559919,Best: 0.18559919, Accuracy: 0.5405, StopCount/Limit:   0/  3, Time:5.81539202
+JADE ConfigID:   1, Epoch:  10, Training Loss: 0.18428848, Validation Loss: 0.18289190,Best: 0.18289190, Accuracy: 0.5401, StopCount/Limit:   0/  3, Time:5.84299374
+JADE ConfigID:   1, Epoch:  11, Training Loss: 0.18272981, Validation Loss: 0.18072185,Best: 0.18072185, Accuracy: 0.534, StopCount/Limit:   0/  3, Time:5.87560320
+JADE ConfigID:   1, Epoch:  12, Training Loss: 0.18178490, Validation Loss: 0.18010893,Best: 0.18010893, Accuracy: 0.5384, StopCount/Limit:   0/  3, Time:5.88834715
+JADE ConfigID:   1, Epoch:  13, Training Loss: 0.17939912, Validation Loss: 0.17978260,Best: 0.17978260, Accuracy: 0.5465, StopCount/Limit:   0/  3, Time:5.89376879
+JADE ConfigID:   1, Epoch:  14, Training Loss: 0.17950181, Validation Loss: 0.17960713,Best: 0.17960713, Accuracy: 0.5467, StopCount/Limit:   0/  3, Time:5.89522743
+JADE ConfigID:   1, Epoch:  15, Training Loss: 0.17908961, Validation Loss: 0.18149292,Best: 0.17960713, Accuracy: 0.5482, StopCount/Limit:   1/  3, Time:5.90487742
+JADE ConfigID:   1, Epoch:  16, Training Loss: 0.17803472, Validation Loss: 0.18023278,Best: 0.17960713, Accuracy: 0.5486, StopCount/Limit:   2/  3, Time:5.89566755
+JADE ConfigID:   1, Epoch:  17, Training Loss: 0.17759230, Validation Loss: 0.18510519,Best: 0.17960713, Accuracy: 0.5381, StopCount/Limit:   3/  3, Time:5.90742040
+Next Gen: [784   3   2   2  10]
+JADE ConfigID:   2, Epoch:   0, Training Loss: 0.34164591, Validation Loss: 0.31325084,Best: 0.31325084, Accuracy: 0.1897, StopCount/Limit:   0/  3, Time:3.74154329
+JADE ConfigID:   2, Epoch:   1, Training Loss: 0.27395621, Validation Loss: 0.26431493,Best: 0.26431493, Accuracy: 0.3615, StopCount/Limit:   0/  3, Time:3.76687980
+JADE ConfigID:   2, Epoch:   2, Training Loss: 0.26127741, Validation Loss: 0.26060084,Best: 0.26060084, Accuracy: 0.3765, StopCount/Limit:   0/  3, Time:3.77057624
+JADE ConfigID:   2, Epoch:   3, Training Loss: 0.26022734, Validation Loss: 0.26240583,Best: 0.26060084, Accuracy: 0.3841, StopCount/Limit:   1/  3, Time:3.76547098
+JADE ConfigID:   2, Epoch:   4, Training Loss: 0.25949996, Validation Loss: 0.26079812,Best: 0.26060084, Accuracy: 0.3546, StopCount/Limit:   2/  3, Time:3.76948333
+JADE ConfigID:   2, Epoch:   5, Training Loss: 0.25935663, Validation Loss: 0.25992820,Best: 0.25992820, Accuracy: 0.3668, StopCount/Limit:   2/  3, Time:3.76950121
+JADE ConfigID:   2, Epoch:   6, Training Loss: 0.25895718, Validation Loss: 0.26001335,Best: 0.25992820, Accuracy: 0.3704, StopCount/Limit:   3/  3, Time:3.76884508
+Next Gen: [784   3   2   3   4   3  10]
+JADE ConfigID:   3, Epoch:   0, Training Loss: 0.37904260, Validation Loss: 0.32496427,Best: 0.32496427, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.04241276
+JADE ConfigID:   3, Epoch:   1, Training Loss: 0.32496357, Validation Loss: 0.32493581,Best: 0.32493581, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.06280828
+JADE ConfigID:   3, Epoch:   2, Training Loss: 0.32495475, Validation Loss: 0.32493226,Best: 0.32493226, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.05959678
+JADE ConfigID:   3, Epoch:   3, Training Loss: 0.32495354, Validation Loss: 0.32493900,Best: 0.32493226, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.06246996
+JADE ConfigID:   3, Epoch:   4, Training Loss: 0.32495426, Validation Loss: 0.32492588,Best: 0.32492588, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.06113696
+JADE ConfigID:   3, Epoch:   5, Training Loss: 0.32495495, Validation Loss: 0.32492823,Best: 0.32492588, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.06148505
+JADE ConfigID:   3, Epoch:   6, Training Loss: 0.32495566, Validation Loss: 0.32491280,Best: 0.32491280, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.06537724
+JADE ConfigID:   3, Epoch:   7, Training Loss: 0.32495718, Validation Loss: 0.32493544,Best: 0.32491280, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.06889820
+Next Gen: [784   3   4   2   4   4  10]
+JADE ConfigID:   4, Epoch:   0, Training Loss: 0.33916282, Validation Loss: 0.32501614,Best: 0.32501614, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.05043578
+JADE ConfigID:   4, Epoch:   1, Training Loss: 0.32505491, Validation Loss: 0.32519999,Best: 0.32501614, Accuracy: 0.1009, StopCount/Limit:   1/  3, Time:5.08027363
+JADE ConfigID:   4, Epoch:   2, Training Loss: 0.32503775, Validation Loss: 0.32523042,Best: 0.32501614, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:5.08686876
+JADE ConfigID:   4, Epoch:   3, Training Loss: 0.32507431, Validation Loss: 0.32494339,Best: 0.32494339, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.09745836
+JADE ConfigID:   4, Epoch:   4, Training Loss: 0.32503603, Validation Loss: 0.32518543,Best: 0.32494339, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.10133410
+Next Gen: [784   2   2   4   4   4  10]
+JADE ConfigID:   5, Epoch:   0, Training Loss: 0.31772054, Validation Loss: 0.27953469,Best: 0.27953469, Accuracy: 0.2841, StopCount/Limit:   0/  3, Time:4.98694515
+JADE ConfigID:   5, Epoch:   1, Training Loss: 0.26283628, Validation Loss: 0.25710476,Best: 0.25710476, Accuracy: 0.3378, StopCount/Limit:   0/  3, Time:4.98896861
+JADE ConfigID:   5, Epoch:   2, Training Loss: 0.25318604, Validation Loss: 0.25235808,Best: 0.25235808, Accuracy: 0.3316, StopCount/Limit:   0/  3, Time:4.98829246
+JADE ConfigID:   5, Epoch:   3, Training Loss: 0.25016562, Validation Loss: 0.25059351,Best: 0.25059351, Accuracy: 0.3388, StopCount/Limit:   0/  3, Time:4.98640418
+JADE ConfigID:   5, Epoch:   4, Training Loss: 0.24882267, Validation Loss: 0.24925379,Best: 0.24925379, Accuracy: 0.3439, StopCount/Limit:   0/  3, Time:4.99531174
+JADE ConfigID:   5, Epoch:   5, Training Loss: 0.24772751, Validation Loss: 0.24840255,Best: 0.24840255, Accuracy: 0.3444, StopCount/Limit:   0/  3, Time:4.99209595
+JADE ConfigID:   5, Epoch:   6, Training Loss: 0.24711539, Validation Loss: 0.24805039,Best: 0.24805039, Accuracy: 0.3483, StopCount/Limit:   0/  3, Time:4.98106527
+JADE ConfigID:   5, Epoch:   7, Training Loss: 0.24649510, Validation Loss: 0.24822345,Best: 0.24805039, Accuracy: 0.3568, StopCount/Limit:   1/  3, Time:4.98882771
+JADE ConfigID:   5, Epoch:   8, Training Loss: 0.24613147, Validation Loss: 0.24720662,Best: 0.24720662, Accuracy: 0.3495, StopCount/Limit:   1/  3, Time:4.99539351
+JADE ConfigID:   5, Epoch:   9, Training Loss: 0.24588901, Validation Loss: 0.24682055,Best: 0.24682055, Accuracy: 0.3547, StopCount/Limit:   1/  3, Time:5.01929665
+JADE ConfigID:   5, Epoch:  10, Training Loss: 0.24553657, Validation Loss: 0.24764235,Best: 0.24682055, Accuracy: 0.3566, StopCount/Limit:   2/  3, Time:5.01186013
+JADE ConfigID:   5, Epoch:  11, Training Loss: 0.24520350, Validation Loss: 0.24652082,Best: 0.24652082, Accuracy: 0.356, StopCount/Limit:   2/  3, Time:5.03088593
+JADE ConfigID:   5, Epoch:  12, Training Loss: 0.24511802, Validation Loss: 0.24687557,Best: 0.24652082, Accuracy: 0.3552, StopCount/Limit:   3/  3, Time:5.05910230
+Next Gen: [784   4   4   3   2   4  10]
+JADE ConfigID:   6, Epoch:   0, Training Loss: 0.33628380, Validation Loss: 0.32501409,Best: 0.32501409, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.09780288
+JADE ConfigID:   6, Epoch:   1, Training Loss: 0.32506740, Validation Loss: 0.32492371,Best: 0.32492371, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.12311339
+JADE ConfigID:   6, Epoch:   2, Training Loss: 0.32507374, Validation Loss: 0.32505533,Best: 0.32492371, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.12125659
+JADE ConfigID:   6, Epoch:   3, Training Loss: 0.32506734, Validation Loss: 0.32503304,Best: 0.32492371, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.12098455
+JADE ConfigID:   6, Epoch:   4, Training Loss: 0.32505174, Validation Loss: 0.32504381,Best: 0.32492371, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.11985445
+Next Gen: [784   2   2   4   5   2  10]
+JADE ConfigID:   7, Epoch:   0, Training Loss: 0.40608597, Validation Loss: 0.32511372,Best: 0.32511372, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:4.95425320
+JADE ConfigID:   7, Epoch:   1, Training Loss: 0.32497371, Validation Loss: 0.32491508,Best: 0.32491508, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.96133685
+JADE ConfigID:   7, Epoch:   2, Training Loss: 0.32495910, Validation Loss: 0.32492120,Best: 0.32491508, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.95724225
+JADE ConfigID:   7, Epoch:   3, Training Loss: 0.32495379, Validation Loss: 0.32495258,Best: 0.32491508, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.96188593
+JADE ConfigID:   7, Epoch:   4, Training Loss: 0.32494688, Validation Loss: 0.32492405,Best: 0.32491508, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.97552228
+Next Gen: [784   2   4   3   4  10]
+JADE ConfigID:   8, Epoch:   0, Training Loss: 0.37168323, Validation Loss: 0.32509167,Best: 0.32509167, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.40483451
+JADE ConfigID:   8, Epoch:   1, Training Loss: 0.32503790, Validation Loss: 0.32498375,Best: 0.32498375, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.42146182
+JADE ConfigID:   8, Epoch:   2, Training Loss: 0.32503194, Validation Loss: 0.32497671,Best: 0.32497671, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:4.42447424
+JADE ConfigID:   8, Epoch:   3, Training Loss: 0.32502940, Validation Loss: 0.32502316,Best: 0.32497671, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:4.42405438
+JADE ConfigID:   8, Epoch:   4, Training Loss: 0.32502550, Validation Loss: 0.32494319,Best: 0.32494319, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.42477274
+JADE ConfigID:   8, Epoch:   5, Training Loss: 0.32503858, Validation Loss: 0.32495429,Best: 0.32494319, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:4.42592382
+JADE ConfigID:   8, Epoch:   6, Training Loss: 0.32501406, Validation Loss: 0.32494294,Best: 0.32494294, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.43500972
+JADE ConfigID:   8, Epoch:   7, Training Loss: 0.32502467, Validation Loss: 0.32508371,Best: 0.32494294, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:4.43237257
+Next Gen: [784   2   2   5   3   2  10]
+JADE ConfigID:   9, Epoch:   0, Training Loss: 0.38107258, Validation Loss: 0.32503447,Best: 0.32503447, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.00784731
+JADE ConfigID:   9, Epoch:   1, Training Loss: 0.32496597, Validation Loss: 0.32491983,Best: 0.32491983, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.03059316
+JADE ConfigID:   9, Epoch:   2, Training Loss: 0.32495662, Validation Loss: 0.32492328,Best: 0.32491983, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.02882385
+JADE ConfigID:   9, Epoch:   3, Training Loss: 0.32495724, Validation Loss: 0.32491358,Best: 0.32491358, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.02333140
+JADE ConfigID:   9, Epoch:   4, Training Loss: 0.32495150, Validation Loss: 0.32493499,Best: 0.32491358, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.02295351
+JADE ConfigID:   9, Epoch:   5, Training Loss: 0.32495481, Validation Loss: 0.32491613,Best: 0.32491358, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.00705838
+JADE Gen 7 Run End
+JADE Run   7 CurrentBest: 0.17089617, Mean: 0.21535132, OverallBest: 0.17089617/  5, config: [784   3   2   3   5  10], updatecount:   1, Generation RunTime: 400.38989973
+JADE Gen 8 Run Start
+Next Gen: [784   3   2   2   5  10]
+JADE ConfigID:   0, Epoch:   0, Training Loss: 0.34113247, Validation Loss: 0.32496849,Best: 0.32496849, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.42006207
+JADE ConfigID:   0, Epoch:   1, Training Loss: 0.32504045, Validation Loss: 0.32499384,Best: 0.32496849, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.43104458
+JADE ConfigID:   0, Epoch:   2, Training Loss: 0.32502936, Validation Loss: 0.32502078,Best: 0.32496849, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.43315530
+JADE ConfigID:   0, Epoch:   3, Training Loss: 0.32502369, Validation Loss: 0.32508751,Best: 0.32496849, Accuracy: 0.0974, StopCount/Limit:   3/  3, Time:4.43250728
+Next Gen: [784   5   2   4   5   5   5  10]
+JADE ConfigID:   1, Epoch:   0, Training Loss: 0.33605977, Validation Loss: 0.32500322,Best: 0.32500322, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.76207852
+JADE ConfigID:   1, Epoch:   1, Training Loss: 0.32505708, Validation Loss: 0.32505739,Best: 0.32500322, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.79261923
+JADE ConfigID:   1, Epoch:   2, Training Loss: 0.32507525, Validation Loss: 0.32495265,Best: 0.32495265, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.79164934
+JADE ConfigID:   1, Epoch:   3, Training Loss: 0.32507951, Validation Loss: 0.32500194,Best: 0.32495265, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.78715754
+JADE ConfigID:   1, Epoch:   4, Training Loss: 0.32507455, Validation Loss: 0.32493206,Best: 0.32493206, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.78770661
+JADE ConfigID:   1, Epoch:   5, Training Loss: 0.32504488, Validation Loss: 0.32504675,Best: 0.32493206, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.78002954
+Next Gen: [784   4   2   3  10]
+JADE ConfigID:   2, Epoch:   0, Training Loss: 0.32445044, Validation Loss: 0.28907056,Best: 0.28907056, Accuracy: 0.2953, StopCount/Limit:   0/  3, Time:3.79683447
+JADE ConfigID:   2, Epoch:   1, Training Loss: 0.27611973, Validation Loss: 0.26743431,Best: 0.26743431, Accuracy: 0.3586, StopCount/Limit:   0/  3, Time:3.83092260
+JADE ConfigID:   2, Epoch:   2, Training Loss: 0.26237136, Validation Loss: 0.26211303,Best: 0.26211303, Accuracy: 0.3687, StopCount/Limit:   0/  3, Time:3.82904601
+JADE ConfigID:   2, Epoch:   3, Training Loss: 0.25915181, Validation Loss: 0.26214750,Best: 0.26211303, Accuracy: 0.3551, StopCount/Limit:   1/  3, Time:3.83529973
+JADE ConfigID:   2, Epoch:   4, Training Loss: 0.25782970, Validation Loss: 0.26032480,Best: 0.26032480, Accuracy: 0.4053, StopCount/Limit:   1/  3, Time:3.82949471
+JADE ConfigID:   2, Epoch:   5, Training Loss: 0.25696308, Validation Loss: 0.25857769,Best: 0.25857769, Accuracy: 0.3827, StopCount/Limit:   1/  3, Time:3.83064127
+JADE ConfigID:   2, Epoch:   6, Training Loss: 0.25625103, Validation Loss: 0.25990736,Best: 0.25857769, Accuracy: 0.3708, StopCount/Limit:   2/  3, Time:3.83158040
+JADE ConfigID:   2, Epoch:   7, Training Loss: 0.25632800, Validation Loss: 0.25858463,Best: 0.25857769, Accuracy: 0.4017, StopCount/Limit:   3/  3, Time:3.82855940
+Next Gen: [784   3   3   2   2   4  10]
+JADE ConfigID:   3, Epoch:   0, Training Loss: 0.28446864, Validation Loss: 0.23059279,Best: 0.23059279, Accuracy: 0.5025, StopCount/Limit:   0/  3, Time:4.99985838
+JADE ConfigID:   3, Epoch:   1, Training Loss: 0.21520725, Validation Loss: 0.20426969,Best: 0.20426969, Accuracy: 0.54, StopCount/Limit:   0/  3, Time:5.01788759
+JADE ConfigID:   3, Epoch:   2, Training Loss: 0.20063854, Validation Loss: 0.19739193,Best: 0.19739193, Accuracy: 0.5619, StopCount/Limit:   0/  3, Time:5.01319075
+JADE ConfigID:   3, Epoch:   3, Training Loss: 0.19609398, Validation Loss: 0.19148728,Best: 0.19148728, Accuracy: 0.5755, StopCount/Limit:   0/  3, Time:5.03144407
+JADE ConfigID:   3, Epoch:   4, Training Loss: 0.19226349, Validation Loss: 0.18925188,Best: 0.18925188, Accuracy: 0.5856, StopCount/Limit:   0/  3, Time:5.02514696
+JADE ConfigID:   3, Epoch:   5, Training Loss: 0.19034176, Validation Loss: 0.19095023,Best: 0.18925188, Accuracy: 0.5701, StopCount/Limit:   1/  3, Time:5.02596068
+JADE ConfigID:   3, Epoch:   6, Training Loss: 0.18941675, Validation Loss: 0.18945489,Best: 0.18925188, Accuracy: 0.5905, StopCount/Limit:   2/  3, Time:5.02126074
+JADE ConfigID:   3, Epoch:   7, Training Loss: 0.18853464, Validation Loss: 0.19055318,Best: 0.18925188, Accuracy: 0.5793, StopCount/Limit:   3/  3, Time:5.02322316
+Next Gen: [784   4   5   2   5   4  10]
+JADE ConfigID:   4, Epoch:   0, Training Loss: 0.29760886, Validation Loss: 0.25606412,Best: 0.25606412, Accuracy: 0.3151, StopCount/Limit:   0/  3, Time:5.06977940
+JADE ConfigID:   4, Epoch:   1, Training Loss: 0.25356860, Validation Loss: 0.24715484,Best: 0.24715484, Accuracy: 0.3439, StopCount/Limit:   0/  3, Time:5.09942770
+JADE ConfigID:   4, Epoch:   2, Training Loss: 0.24924799, Validation Loss: 0.24380188,Best: 0.24380188, Accuracy: 0.3534, StopCount/Limit:   0/  3, Time:5.09902310
+JADE ConfigID:   4, Epoch:   3, Training Loss: 0.24826161, Validation Loss: 0.24447964,Best: 0.24380188, Accuracy: 0.3455, StopCount/Limit:   1/  3, Time:5.11851859
+JADE ConfigID:   4, Epoch:   4, Training Loss: 0.24803164, Validation Loss: 0.24414210,Best: 0.24380188, Accuracy: 0.3518, StopCount/Limit:   2/  3, Time:5.11280227
+JADE ConfigID:   4, Epoch:   5, Training Loss: 0.24852779, Validation Loss: 0.24511455,Best: 0.24380188, Accuracy: 0.3483, StopCount/Limit:   3/  3, Time:5.11619592
+Next Gen: [784   2   3   3   2   2  10]
+JADE ConfigID:   5, Epoch:   0, Training Loss: 0.38172146, Validation Loss: 0.32500293,Best: 0.32500293, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.96258950
+JADE ConfigID:   5, Epoch:   1, Training Loss: 0.32495583, Validation Loss: 0.32492605,Best: 0.32492605, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.97190475
+JADE ConfigID:   5, Epoch:   2, Training Loss: 0.32495540, Validation Loss: 0.32491758,Best: 0.32491758, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.96156359
+JADE ConfigID:   5, Epoch:   3, Training Loss: 0.32495657, Validation Loss: 0.32491701,Best: 0.32491701, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.95430565
+JADE ConfigID:   5, Epoch:   4, Training Loss: 0.32495312, Validation Loss: 0.32491651,Best: 0.32491651, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.95647049
+JADE ConfigID:   5, Epoch:   5, Training Loss: 0.32495367, Validation Loss: 0.32490690,Best: 0.32490690, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.95424485
+JADE ConfigID:   5, Epoch:   6, Training Loss: 0.32494979, Validation Loss: 0.32494886,Best: 0.32490690, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.95309782
+JADE ConfigID:   5, Epoch:   7, Training Loss: 0.32495774, Validation Loss: 0.32491444,Best: 0.32490690, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.95705843
+JADE ConfigID:   5, Epoch:   8, Training Loss: 0.32495148, Validation Loss: 0.32494017,Best: 0.32490690, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.95400333
+Next Gen: [784   5   2   4   3   3   5  10]
+JADE ConfigID:   6, Epoch:   0, Training Loss: 0.30465857, Validation Loss: 0.26951786,Best: 0.26951786, Accuracy: 0.3889, StopCount/Limit:   0/  3, Time:5.69394946
+JADE ConfigID:   6, Epoch:   1, Training Loss: 0.26645166, Validation Loss: 0.26571362,Best: 0.26571362, Accuracy: 0.4305, StopCount/Limit:   0/  3, Time:5.73639107
+JADE ConfigID:   6, Epoch:   2, Training Loss: 0.26124018, Validation Loss: 0.25885383,Best: 0.25885383, Accuracy: 0.4646, StopCount/Limit:   0/  3, Time:5.73528218
+JADE ConfigID:   6, Epoch:   3, Training Loss: 0.25725441, Validation Loss: 0.25658201,Best: 0.25658201, Accuracy: 0.437, StopCount/Limit:   0/  3, Time:5.73896670
+JADE ConfigID:   6, Epoch:   4, Training Loss: 0.25594341, Validation Loss: 0.25639429,Best: 0.25639429, Accuracy: 0.3913, StopCount/Limit:   0/  3, Time:5.73213625
+JADE ConfigID:   6, Epoch:   5, Training Loss: 0.25468334, Validation Loss: 0.25455819,Best: 0.25455819, Accuracy: 0.4151, StopCount/Limit:   0/  3, Time:5.72711325
+JADE ConfigID:   6, Epoch:   6, Training Loss: 0.25374355, Validation Loss: 0.25511803,Best: 0.25455819, Accuracy: 0.3733, StopCount/Limit:   1/  3, Time:5.73353148
+JADE ConfigID:   6, Epoch:   7, Training Loss: 0.25289942, Validation Loss: 0.25444208,Best: 0.25444208, Accuracy: 0.3782, StopCount/Limit:   1/  3, Time:5.74224615
+JADE ConfigID:   6, Epoch:   8, Training Loss: 0.25234276, Validation Loss: 0.25445431,Best: 0.25444208, Accuracy: 0.436, StopCount/Limit:   2/  3, Time:5.76707482
+JADE ConfigID:   6, Epoch:   9, Training Loss: 0.23909870, Validation Loss: 0.22927981,Best: 0.22927981, Accuracy: 0.4578, StopCount/Limit:   2/  3, Time:5.78951764
+JADE ConfigID:   6, Epoch:  10, Training Loss: 0.22536873, Validation Loss: 0.22870250,Best: 0.22870250, Accuracy: 0.4112, StopCount/Limit:   2/  3, Time:5.80086231
+JADE ConfigID:   6, Epoch:  11, Training Loss: 0.22360948, Validation Loss: 0.22586329,Best: 0.22586329, Accuracy: 0.4683, StopCount/Limit:   2/  3, Time:5.84910226
+JADE ConfigID:   6, Epoch:  12, Training Loss: 0.22100516, Validation Loss: 0.22131727,Best: 0.22131727, Accuracy: 0.4752, StopCount/Limit:   2/  3, Time:5.92395020
+JADE ConfigID:   6, Epoch:  13, Training Loss: 0.21894837, Validation Loss: 0.21935719,Best: 0.21935719, Accuracy: 0.4847, StopCount/Limit:   2/  3, Time:5.93160772
+JADE ConfigID:   6, Epoch:  14, Training Loss: 0.21492989, Validation Loss: 0.21474402,Best: 0.21474402, Accuracy: 0.461, StopCount/Limit:   2/  3, Time:5.93132639
+JADE ConfigID:   6, Epoch:  15, Training Loss: 0.21029204, Validation Loss: 0.20815799,Best: 0.20815799, Accuracy: 0.5266, StopCount/Limit:   2/  3, Time:5.93614364
+JADE ConfigID:   6, Epoch:  16, Training Loss: 0.20621142, Validation Loss: 0.20647483,Best: 0.20647483, Accuracy: 0.534, StopCount/Limit:   2/  3, Time:5.94123292
+JADE ConfigID:   6, Epoch:  17, Training Loss: 0.20268445, Validation Loss: 0.20837641,Best: 0.20647483, Accuracy: 0.5408, StopCount/Limit:   3/  3, Time:5.94153690
+Next Gen: [784   2   2   3   5   3  10]
+JADE ConfigID:   7, Epoch:   0, Training Loss: 0.38046896, Validation Loss: 0.32500108,Best: 0.32500108, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.02907205
+JADE ConfigID:   7, Epoch:   1, Training Loss: 0.32495681, Validation Loss: 0.32493532,Best: 0.32493532, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.03799343
+JADE ConfigID:   7, Epoch:   2, Training Loss: 0.32496240, Validation Loss: 0.32491662,Best: 0.32491662, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.04051900
+JADE ConfigID:   7, Epoch:   3, Training Loss: 0.32495752, Validation Loss: 0.32492453,Best: 0.32491662, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.04586816
+JADE ConfigID:   7, Epoch:   4, Training Loss: 0.32495314, Validation Loss: 0.32493410,Best: 0.32491662, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.04406309
+JADE ConfigID:   7, Epoch:   5, Training Loss: 0.32495792, Validation Loss: 0.32491296,Best: 0.32491296, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.02242231
+JADE ConfigID:   7, Epoch:   6, Training Loss: 0.32495517, Validation Loss: 0.32491542,Best: 0.32491296, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.01658487
+Next Gen: [784   2   5   3   5  10]
+JADE ConfigID:   8, Epoch:   0, Training Loss: 0.30974583, Validation Loss: 0.26525434,Best: 0.26525434, Accuracy: 0.3168, StopCount/Limit:   0/  3, Time:4.35038543
+JADE ConfigID:   8, Epoch:   1, Training Loss: 0.25466417, Validation Loss: 0.25255054,Best: 0.25255054, Accuracy: 0.3247, StopCount/Limit:   0/  3, Time:4.36970282
+JADE ConfigID:   8, Epoch:   2, Training Loss: 0.24812302, Validation Loss: 0.24463791,Best: 0.24463791, Accuracy: 0.3732, StopCount/Limit:   0/  3, Time:4.37774754
+JADE ConfigID:   8, Epoch:   3, Training Loss: 0.24283557, Validation Loss: 0.23817645,Best: 0.23817645, Accuracy: 0.3977, StopCount/Limit:   0/  3, Time:4.36992764
+JADE ConfigID:   8, Epoch:   4, Training Loss: 0.23958066, Validation Loss: 0.24146213,Best: 0.23817645, Accuracy: 0.3797, StopCount/Limit:   1/  3, Time:4.37581968
+JADE ConfigID:   8, Epoch:   5, Training Loss: 0.23717197, Validation Loss: 0.23463128,Best: 0.23463128, Accuracy: 0.4157, StopCount/Limit:   1/  3, Time:4.36963820
+JADE ConfigID:   8, Epoch:   6, Training Loss: 0.23518057, Validation Loss: 0.23729981,Best: 0.23463128, Accuracy: 0.4324, StopCount/Limit:   2/  3, Time:4.37328911
+JADE ConfigID:   8, Epoch:   7, Training Loss: 0.23454728, Validation Loss: 0.23098617,Best: 0.23098617, Accuracy: 0.4345, StopCount/Limit:   2/  3, Time:4.37880993
+JADE ConfigID:   8, Epoch:   8, Training Loss: 0.23252963, Validation Loss: 0.23099206,Best: 0.23098617, Accuracy: 0.4491, StopCount/Limit:   3/  3, Time:4.37976742
+Next Gen: [784   3   3   4   3   3  10]
+JADE ConfigID:   9, Epoch:   0, Training Loss: 0.34104974, Validation Loss: 0.29582111,Best: 0.29582111, Accuracy: 0.2082, StopCount/Limit:   0/  3, Time:5.03138542
+JADE ConfigID:   9, Epoch:   1, Training Loss: 0.28554277, Validation Loss: 0.28013113,Best: 0.28013113, Accuracy: 0.2035, StopCount/Limit:   0/  3, Time:5.04740381
+JADE ConfigID:   9, Epoch:   2, Training Loss: 0.27890139, Validation Loss: 0.27485689,Best: 0.27485689, Accuracy: 0.2613, StopCount/Limit:   0/  3, Time:5.04733634
+JADE ConfigID:   9, Epoch:   3, Training Loss: 0.27565148, Validation Loss: 0.27466134,Best: 0.27466134, Accuracy: 0.29, StopCount/Limit:   0/  3, Time:5.04900050
+JADE ConfigID:   9, Epoch:   4, Training Loss: 0.27204913, Validation Loss: 0.26944999,Best: 0.26944999, Accuracy: 0.2082, StopCount/Limit:   0/  3, Time:5.05199313
+JADE ConfigID:   9, Epoch:   5, Training Loss: 0.26946526, Validation Loss: 0.26813226,Best: 0.26813226, Accuracy: 0.2018, StopCount/Limit:   0/  3, Time:5.05306411
+JADE ConfigID:   9, Epoch:   6, Training Loss: 0.26909410, Validation Loss: 0.26758065,Best: 0.26758065, Accuracy: 0.2058, StopCount/Limit:   0/  3, Time:5.05281138
+JADE ConfigID:   9, Epoch:   7, Training Loss: 0.26788383, Validation Loss: 0.26845672,Best: 0.26758065, Accuracy: 0.1958, StopCount/Limit:   1/  3, Time:5.04640961
+JADE ConfigID:   9, Epoch:   8, Training Loss: 0.26623462, Validation Loss: 0.25958737,Best: 0.25958737, Accuracy: 0.264, StopCount/Limit:   1/  3, Time:5.06346250
+JADE ConfigID:   9, Epoch:   9, Training Loss: 0.25877406, Validation Loss: 0.25121144,Best: 0.25121144, Accuracy: 0.2875, StopCount/Limit:   1/  3, Time:5.07935119
+JADE ConfigID:   9, Epoch:  10, Training Loss: 0.25495505, Validation Loss: 0.25421971,Best: 0.25121144, Accuracy: 0.2799, StopCount/Limit:   2/  3, Time:5.10472584
+JADE ConfigID:   9, Epoch:  11, Training Loss: 0.25470113, Validation Loss: 0.25497870,Best: 0.25121144, Accuracy: 0.2713, StopCount/Limit:   3/  3, Time:5.11514306
+JADE Gen 8 Run End
+JADE Run   8 CurrentBest: 0.17089617, Mean: 0.20536066, OverallBest: 0.17089617/  5, config: [784   3   2   3   5  10], updatecount:   2, Generation RunTime: 438.44295526
+JADE Gen 9 Run Start
+Next Gen: [784   2   2   3   5  10]
+JADE ConfigID:   0, Epoch:   0, Training Loss: 0.33059805, Validation Loss: 0.28438593,Best: 0.28438593, Accuracy: 0.2472, StopCount/Limit:   0/  3, Time:4.32968283
+JADE ConfigID:   0, Epoch:   1, Training Loss: 0.25085617, Validation Loss: 0.22497990,Best: 0.22497990, Accuracy: 0.3977, StopCount/Limit:   0/  3, Time:4.34846139
+JADE ConfigID:   0, Epoch:   2, Training Loss: 0.22190603, Validation Loss: 0.21462447,Best: 0.21462447, Accuracy: 0.3893, StopCount/Limit:   0/  3, Time:4.34636545
+JADE ConfigID:   0, Epoch:   3, Training Loss: 0.21641521, Validation Loss: 0.21242471,Best: 0.21242471, Accuracy: 0.4236, StopCount/Limit:   0/  3, Time:4.34921622
+JADE ConfigID:   0, Epoch:   4, Training Loss: 0.21546782, Validation Loss: 0.21401239,Best: 0.21242471, Accuracy: 0.4199, StopCount/Limit:   1/  3, Time:4.34134459
+JADE ConfigID:   0, Epoch:   5, Training Loss: 0.21416111, Validation Loss: 0.21259867,Best: 0.21242471, Accuracy: 0.4387, StopCount/Limit:   2/  3, Time:4.34478807
+JADE ConfigID:   0, Epoch:   6, Training Loss: 0.21293643, Validation Loss: 0.21103949,Best: 0.21103949, Accuracy: 0.4266, StopCount/Limit:   2/  3, Time:4.34612560
+JADE ConfigID:   0, Epoch:   7, Training Loss: 0.21133500, Validation Loss: 0.20907377,Best: 0.20907377, Accuracy: 0.4365, StopCount/Limit:   2/  3, Time:4.34637594
+JADE ConfigID:   0, Epoch:   8, Training Loss: 0.21012964, Validation Loss: 0.20904374,Best: 0.20904374, Accuracy: 0.4489, StopCount/Limit:   2/  3, Time:4.35577917
+JADE ConfigID:   0, Epoch:   9, Training Loss: 0.20876029, Validation Loss: 0.20621444,Best: 0.20621444, Accuracy: 0.4518, StopCount/Limit:   2/  3, Time:4.36040902
+JADE ConfigID:   0, Epoch:  10, Training Loss: 0.20647270, Validation Loss: 0.20365576,Best: 0.20365576, Accuracy: 0.4539, StopCount/Limit:   2/  3, Time:4.36430883
+JADE ConfigID:   0, Epoch:  11, Training Loss: 0.20519613, Validation Loss: 0.20453935,Best: 0.20365576, Accuracy: 0.4538, StopCount/Limit:   3/  3, Time:4.37137294
+Next Gen: [784   2   4   4   5   5   4  10]
+JADE ConfigID:   1, Epoch:   0, Training Loss: 0.30913989, Validation Loss: 0.26449126,Best: 0.26449126, Accuracy: 0.2753, StopCount/Limit:   0/  3, Time:5.61471391
+JADE ConfigID:   1, Epoch:   1, Training Loss: 0.25850925, Validation Loss: 0.25635468,Best: 0.25635468, Accuracy: 0.3241, StopCount/Limit:   0/  3, Time:5.65831327
+JADE ConfigID:   1, Epoch:   2, Training Loss: 0.24674133, Validation Loss: 0.24584976,Best: 0.24584976, Accuracy: 0.3436, StopCount/Limit:   0/  3, Time:5.65744114
+JADE ConfigID:   1, Epoch:   3, Training Loss: 0.24045065, Validation Loss: 0.24006759,Best: 0.24006759, Accuracy: 0.3769, StopCount/Limit:   0/  3, Time:5.65952635
+JADE ConfigID:   1, Epoch:   4, Training Loss: 0.23738074, Validation Loss: 0.23650918,Best: 0.23650918, Accuracy: 0.3763, StopCount/Limit:   0/  3, Time:5.65475106
+JADE ConfigID:   1, Epoch:   5, Training Loss: 0.23515318, Validation Loss: 0.23484166,Best: 0.23484166, Accuracy: 0.3955, StopCount/Limit:   0/  3, Time:5.62909961
+JADE ConfigID:   1, Epoch:   6, Training Loss: 0.23349691, Validation Loss: 0.23459400,Best: 0.23459400, Accuracy: 0.3993, StopCount/Limit:   0/  3, Time:5.62545347
+JADE ConfigID:   1, Epoch:   7, Training Loss: 0.23238193, Validation Loss: 0.23373380,Best: 0.23373380, Accuracy: 0.4087, StopCount/Limit:   0/  3, Time:5.63920903
+JADE ConfigID:   1, Epoch:   8, Training Loss: 0.23130995, Validation Loss: 0.23254946,Best: 0.23254946, Accuracy: 0.4057, StopCount/Limit:   0/  3, Time:5.64779615
+JADE ConfigID:   1, Epoch:   9, Training Loss: 0.23056859, Validation Loss: 0.23116748,Best: 0.23116748, Accuracy: 0.4201, StopCount/Limit:   0/  3, Time:5.66298509
+JADE ConfigID:   1, Epoch:  10, Training Loss: 0.22966602, Validation Loss: 0.22974354,Best: 0.22974354, Accuracy: 0.4133, StopCount/Limit:   0/  3, Time:5.67231679
+JADE ConfigID:   1, Epoch:  11, Training Loss: 0.22913580, Validation Loss: 0.23048767,Best: 0.22974354, Accuracy: 0.4114, StopCount/Limit:   1/  3, Time:5.72391033
+JADE ConfigID:   1, Epoch:  12, Training Loss: 0.22862799, Validation Loss: 0.22931444,Best: 0.22931444, Accuracy: 0.4143, StopCount/Limit:   1/  3, Time:5.76924682
+JADE ConfigID:   1, Epoch:  13, Training Loss: 0.22780925, Validation Loss: 0.22936231,Best: 0.22931444, Accuracy: 0.4046, StopCount/Limit:   2/  3, Time:5.75929546
+JADE ConfigID:   1, Epoch:  14, Training Loss: 0.22778129, Validation Loss: 0.22831350,Best: 0.22831350, Accuracy: 0.4105, StopCount/Limit:   2/  3, Time:5.75717616
+JADE ConfigID:   1, Epoch:  15, Training Loss: 0.22685480, Validation Loss: 0.22812140,Best: 0.22812140, Accuracy: 0.4078, StopCount/Limit:   2/  3, Time:5.76277184
+JADE ConfigID:   1, Epoch:  16, Training Loss: 0.22658352, Validation Loss: 0.22962132,Best: 0.22812140, Accuracy: 0.4159, StopCount/Limit:   3/  3, Time:5.75274944
+Next Gen: [784   4   2   2  10]
+JADE ConfigID:   2, Epoch:   0, Training Loss: 0.36187807, Validation Loss: 0.32495747,Best: 0.32495747, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.80742216
+JADE ConfigID:   2, Epoch:   1, Training Loss: 0.32495961, Validation Loss: 0.32491297,Best: 0.32491297, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.82186818
+JADE ConfigID:   2, Epoch:   2, Training Loss: 0.32495524, Validation Loss: 0.32491021,Best: 0.32491021, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.82706785
+JADE ConfigID:   2, Epoch:   3, Training Loss: 0.32495850, Validation Loss: 0.32490800,Best: 0.32490800, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.82935977
+JADE ConfigID:   2, Epoch:   4, Training Loss: 0.32495126, Validation Loss: 0.32492205,Best: 0.32490800, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.82706189
+JADE ConfigID:   2, Epoch:   5, Training Loss: 0.32495391, Validation Loss: 0.32491862,Best: 0.32490800, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.83095050
+JADE ConfigID:   2, Epoch:   6, Training Loss: 0.32495051, Validation Loss: 0.32492880,Best: 0.32490800, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.82418180
+Next Gen: [784   4   2   2   4   4  10]
+JADE ConfigID:   3, Epoch:   0, Training Loss: 0.30299702, Validation Loss: 0.24976496,Best: 0.24976496, Accuracy: 0.3554, StopCount/Limit:   0/  3, Time:5.06430721
+JADE ConfigID:   3, Epoch:   1, Training Loss: 0.24077155, Validation Loss: 0.23287560,Best: 0.23287560, Accuracy: 0.422, StopCount/Limit:   0/  3, Time:5.08745718
+JADE ConfigID:   3, Epoch:   2, Training Loss: 0.23316049, Validation Loss: 0.23022523,Best: 0.23022523, Accuracy: 0.4055, StopCount/Limit:   0/  3, Time:5.08317494
+JADE ConfigID:   3, Epoch:   3, Training Loss: 0.23091946, Validation Loss: 0.22781478,Best: 0.22781478, Accuracy: 0.4232, StopCount/Limit:   0/  3, Time:5.09118295
+JADE ConfigID:   3, Epoch:   4, Training Loss: 0.22973380, Validation Loss: 0.22722235,Best: 0.22722235, Accuracy: 0.4338, StopCount/Limit:   0/  3, Time:5.10279441
+JADE ConfigID:   3, Epoch:   5, Training Loss: 0.22906520, Validation Loss: 0.22688228,Best: 0.22688228, Accuracy: 0.4135, StopCount/Limit:   0/  3, Time:5.10835266
+JADE ConfigID:   3, Epoch:   6, Training Loss: 0.22836307, Validation Loss: 0.22647271,Best: 0.22647271, Accuracy: 0.431, StopCount/Limit:   0/  3, Time:5.11119890
+JADE ConfigID:   3, Epoch:   7, Training Loss: 0.22777980, Validation Loss: 0.22747884,Best: 0.22647271, Accuracy: 0.4356, StopCount/Limit:   1/  3, Time:5.12102914
+JADE ConfigID:   3, Epoch:   8, Training Loss: 0.22721744, Validation Loss: 0.22740122,Best: 0.22647271, Accuracy: 0.4362, StopCount/Limit:   2/  3, Time:5.15780234
+JADE ConfigID:   3, Epoch:   9, Training Loss: 0.22674156, Validation Loss: 0.22462612,Best: 0.22462612, Accuracy: 0.4253, StopCount/Limit:   2/  3, Time:5.18577647
+JADE ConfigID:   3, Epoch:  10, Training Loss: 0.22591542, Validation Loss: 0.22341313,Best: 0.22341313, Accuracy: 0.4482, StopCount/Limit:   2/  3, Time:5.19841957
+JADE ConfigID:   3, Epoch:  11, Training Loss: 0.22450009, Validation Loss: 0.22350775,Best: 0.22341313, Accuracy: 0.4516, StopCount/Limit:   3/  3, Time:5.26454139
+Next Gen: [784   2   5   2   3   3  10]
+JADE ConfigID:   4, Epoch:   0, Training Loss: 0.38110006, Validation Loss: 0.32504702,Best: 0.32504702, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.97412825
+JADE ConfigID:   4, Epoch:   1, Training Loss: 0.32496899, Validation Loss: 0.32493044,Best: 0.32493044, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.98616123
+JADE ConfigID:   4, Epoch:   2, Training Loss: 0.32495073, Validation Loss: 0.32493121,Best: 0.32493044, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.97990298
+JADE ConfigID:   4, Epoch:   3, Training Loss: 0.32495549, Validation Loss: 0.32493038,Best: 0.32493038, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.98934746
+JADE ConfigID:   4, Epoch:   4, Training Loss: 0.32495772, Validation Loss: 0.32492761,Best: 0.32492761, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.98173308
+JADE ConfigID:   4, Epoch:   5, Training Loss: 0.32495154, Validation Loss: 0.32491746,Best: 0.32491746, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.98207498
+JADE ConfigID:   4, Epoch:   6, Training Loss: 0.32495519, Validation Loss: 0.32491921,Best: 0.32491746, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.98903275
+JADE ConfigID:   4, Epoch:   7, Training Loss: 0.32495809, Validation Loss: 0.32491671,Best: 0.32491671, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.98082185
+JADE ConfigID:   4, Epoch:   8, Training Loss: 0.32495850, Validation Loss: 0.32490885,Best: 0.32490885, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.98589277
+JADE ConfigID:   4, Epoch:   9, Training Loss: 0.32495685, Validation Loss: 0.32493552,Best: 0.32490885, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.98737168
+Next Gen: [784   3   3   3   4   3  10]
+JADE ConfigID:   5, Epoch:   0, Training Loss: 0.34648785, Validation Loss: 0.32493648,Best: 0.32493648, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.06084681
+JADE ConfigID:   5, Epoch:   1, Training Loss: 0.32499407, Validation Loss: 0.32495143,Best: 0.32493648, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.07770371
+JADE ConfigID:   5, Epoch:   2, Training Loss: 0.32499509, Validation Loss: 0.32495088,Best: 0.32493648, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.07899904
+JADE ConfigID:   5, Epoch:   3, Training Loss: 0.32498566, Validation Loss: 0.32497726,Best: 0.32493648, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.07929659
+Next Gen: [784   5   4   4   3   3   4  10]
+JADE ConfigID:   6, Epoch:   0, Training Loss: 0.34227576, Validation Loss: 0.29269945,Best: 0.29269945, Accuracy: 0.2065, StopCount/Limit:   0/  3, Time:5.75950384
+JADE ConfigID:   6, Epoch:   1, Training Loss: 0.28796793, Validation Loss: 0.28366827,Best: 0.28366827, Accuracy: 0.2108, StopCount/Limit:   0/  3, Time:5.78852153
+JADE ConfigID:   6, Epoch:   2, Training Loss: 0.28362550, Validation Loss: 0.27890188,Best: 0.27890188, Accuracy: 0.3037, StopCount/Limit:   0/  3, Time:5.77021837
+JADE ConfigID:   6, Epoch:   3, Training Loss: 0.27261251, Validation Loss: 0.26467276,Best: 0.26467276, Accuracy: 0.3127, StopCount/Limit:   0/  3, Time:5.77052927
+JADE ConfigID:   6, Epoch:   4, Training Loss: 0.26299129, Validation Loss: 0.26120729,Best: 0.26120729, Accuracy: 0.3028, StopCount/Limit:   0/  3, Time:5.76612496
+JADE ConfigID:   6, Epoch:   5, Training Loss: 0.26082676, Validation Loss: 0.26000982,Best: 0.26000982, Accuracy: 0.3043, StopCount/Limit:   0/  3, Time:5.77235007
+JADE ConfigID:   6, Epoch:   6, Training Loss: 0.26009287, Validation Loss: 0.25896500,Best: 0.25896500, Accuracy: 0.3107, StopCount/Limit:   0/  3, Time:5.80038190
+JADE ConfigID:   6, Epoch:   7, Training Loss: 0.26027174, Validation Loss: 0.25978563,Best: 0.25896500, Accuracy: 0.3025, StopCount/Limit:   1/  3, Time:5.84030271
+JADE ConfigID:   6, Epoch:   8, Training Loss: 0.25991244, Validation Loss: 0.26144089,Best: 0.25896500, Accuracy: 0.3033, StopCount/Limit:   2/  3, Time:5.86997056
+JADE ConfigID:   6, Epoch:   9, Training Loss: 0.25990073, Validation Loss: 0.26000581,Best: 0.25896500, Accuracy: 0.316, StopCount/Limit:   3/  3, Time:5.90852308
+Next Gen: [784   2   2   4   5   2  10]
+JADE ConfigID:   7, Epoch:   0, Training Loss: 0.32453395, Validation Loss: 0.29303371,Best: 0.29303371, Accuracy: 0.2578, StopCount/Limit:   0/  3, Time:4.96279025
+JADE ConfigID:   7, Epoch:   1, Training Loss: 0.28224131, Validation Loss: 0.27558752,Best: 0.27558752, Accuracy: 0.3657, StopCount/Limit:   0/  3, Time:4.98242712
+JADE ConfigID:   7, Epoch:   2, Training Loss: 0.27174176, Validation Loss: 0.26944621,Best: 0.26944621, Accuracy: 0.3134, StopCount/Limit:   0/  3, Time:4.98071551
+JADE ConfigID:   7, Epoch:   3, Training Loss: 0.26795473, Validation Loss: 0.26667932,Best: 0.26667932, Accuracy: 0.3179, StopCount/Limit:   0/  3, Time:4.97795272
+JADE ConfigID:   7, Epoch:   4, Training Loss: 0.26700345, Validation Loss: 0.26776588,Best: 0.26667932, Accuracy: 0.3255, StopCount/Limit:   1/  3, Time:4.98078227
+JADE ConfigID:   7, Epoch:   5, Training Loss: 0.26641394, Validation Loss: 0.26675469,Best: 0.26667932, Accuracy: 0.318, StopCount/Limit:   2/  3, Time:4.98283911
+JADE ConfigID:   7, Epoch:   6, Training Loss: 0.26627246, Validation Loss: 0.26695772,Best: 0.26667932, Accuracy: 0.3156, StopCount/Limit:   3/  3, Time:4.97870636
+Next Gen: [784   2   4   3   2  10]
+JADE ConfigID:   8, Epoch:   0, Training Loss: 0.33813649, Validation Loss: 0.32502209,Best: 0.32502209, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.36527872
+JADE ConfigID:   8, Epoch:   1, Training Loss: 0.32504764, Validation Loss: 0.32494466,Best: 0.32494466, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.39097166
+JADE ConfigID:   8, Epoch:   2, Training Loss: 0.32504286, Validation Loss: 0.32499827,Best: 0.32494466, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.38785458
+JADE ConfigID:   8, Epoch:   3, Training Loss: 0.32505990, Validation Loss: 0.32508523,Best: 0.32494466, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.38399434
+JADE ConfigID:   8, Epoch:   4, Training Loss: 0.32505922, Validation Loss: 0.32497426,Best: 0.32494466, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:4.38619518
+Next Gen: [784   2   4   5   3   4  10]
+JADE ConfigID:   9, Epoch:   0, Training Loss: 0.35120420, Validation Loss: 0.32493807,Best: 0.32493807, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.01648211
+JADE ConfigID:   9, Epoch:   1, Training Loss: 0.32502669, Validation Loss: 0.32495816,Best: 0.32493807, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:5.02731371
+JADE ConfigID:   9, Epoch:   2, Training Loss: 0.32504538, Validation Loss: 0.32493673,Best: 0.32493673, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.03016567
+JADE ConfigID:   9, Epoch:   3, Training Loss: 0.32502616, Validation Loss: 0.32497575,Best: 0.32493673, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.02352643
+JADE ConfigID:   9, Epoch:   4, Training Loss: 0.32502797, Validation Loss: 0.32492563,Best: 0.32492563, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.02737951
+JADE ConfigID:   9, Epoch:   5, Training Loss: 0.32502302, Validation Loss: 0.32500513,Best: 0.32492563, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.02178574
+JADE Gen 9 Run End
+JADE Run   9 CurrentBest: 0.17089617, Mean: 0.20536066, OverallBest: 0.17089617/  5, config: [784   3   2   3   5  10], updatecount:   0, Generation RunTime: 452.31972432
+JADE Run Completed : Best Score: 0.17089617485925554 , Config: [784   3   2   3   5  10], find in Gen: 5

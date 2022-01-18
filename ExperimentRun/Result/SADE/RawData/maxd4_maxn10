@@ -1,0 +1,1055 @@
+SADE Test Run Start: maxdepth:4, maxneuron:10
+SADE Initial Run Start
+SADE ConfigID:   0, Epoch:   0, Training Loss: 0.34700245, Validation Loss: 0.30052234,Best: 0.30052234, Accuracy: 0.1981, StopCount/Limit:   0/  3, Time:3.08236599
+SADE ConfigID:   0, Epoch:   1, Training Loss: 0.27764496, Validation Loss: 0.26393302,Best: 0.26393302, Accuracy: 0.2699, StopCount/Limit:   0/  3, Time:3.06900191
+SADE ConfigID:   0, Epoch:   2, Training Loss: 0.26245953, Validation Loss: 0.26020105,Best: 0.26020105, Accuracy: 0.2833, StopCount/Limit:   0/  3, Time:3.07261086
+SADE ConfigID:   0, Epoch:   3, Training Loss: 0.26030331, Validation Loss: 0.25998753,Best: 0.25998753, Accuracy: 0.2857, StopCount/Limit:   0/  3, Time:3.07024097
+SADE ConfigID:   0, Epoch:   4, Training Loss: 0.25910211, Validation Loss: 0.25991690,Best: 0.25991690, Accuracy: 0.2818, StopCount/Limit:   0/  3, Time:3.07533693
+SADE ConfigID:   0, Epoch:   5, Training Loss: 0.25821801, Validation Loss: 0.25897859,Best: 0.25897859, Accuracy: 0.2986, StopCount/Limit:   0/  3, Time:3.07421136
+SADE ConfigID:   0, Epoch:   6, Training Loss: 0.25786552, Validation Loss: 0.25968907,Best: 0.25897859, Accuracy: 0.2952, StopCount/Limit:   1/  3, Time:3.07478213
+SADE ConfigID:   0, Epoch:   7, Training Loss: 0.25827509, Validation Loss: 0.26336470,Best: 0.25897859, Accuracy: 0.2984, StopCount/Limit:   2/  3, Time:3.07005024
+SADE ConfigID:   0, Epoch:   8, Training Loss: 0.25802338, Validation Loss: 0.26315822,Best: 0.25897859, Accuracy: 0.2797, StopCount/Limit:   3/  3, Time:3.07069659
+SADE ConfigID:   1, Epoch:   0, Training Loss: 0.37910587, Validation Loss: 0.32499775,Best: 0.32499775, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.18390489
+SADE ConfigID:   1, Epoch:   1, Training Loss: 0.32496208, Validation Loss: 0.32495441,Best: 0.32495441, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.21811509
+SADE ConfigID:   1, Epoch:   2, Training Loss: 0.32495652, Validation Loss: 0.32492517,Best: 0.32492517, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.21669436
+SADE ConfigID:   1, Epoch:   3, Training Loss: 0.32495415, Validation Loss: 0.32493699,Best: 0.32492517, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.21568823
+SADE ConfigID:   1, Epoch:   4, Training Loss: 0.31916437, Validation Loss: 0.28573996,Best: 0.28573996, Accuracy: 0.2072, StopCount/Limit:   1/  3, Time:3.21111679
+SADE ConfigID:   1, Epoch:   5, Training Loss: 0.27673474, Validation Loss: 0.27317911,Best: 0.27317911, Accuracy: 0.2081, StopCount/Limit:   1/  3, Time:3.20189524
+SADE ConfigID:   1, Epoch:   6, Training Loss: 0.27158486, Validation Loss: 0.27240809,Best: 0.27240809, Accuracy: 0.2127, StopCount/Limit:   1/  3, Time:3.19960237
+SADE ConfigID:   1, Epoch:   7, Training Loss: 0.27145945, Validation Loss: 0.27142011,Best: 0.27142011, Accuracy: 0.2091, StopCount/Limit:   1/  3, Time:3.20528126
+SADE ConfigID:   1, Epoch:   8, Training Loss: 0.27023550, Validation Loss: 0.27094993,Best: 0.27094993, Accuracy: 0.2095, StopCount/Limit:   1/  3, Time:3.20616984
+SADE ConfigID:   1, Epoch:   9, Training Loss: 0.26951091, Validation Loss: 0.26859594,Best: 0.26859594, Accuracy: 0.2334, StopCount/Limit:   1/  3, Time:3.24147129
+SADE ConfigID:   1, Epoch:  10, Training Loss: 0.25954707, Validation Loss: 0.25759901,Best: 0.25759901, Accuracy: 0.2857, StopCount/Limit:   1/  3, Time:3.32610416
+SADE ConfigID:   1, Epoch:  11, Training Loss: 0.25415525, Validation Loss: 0.25112799,Best: 0.25112799, Accuracy: 0.3027, StopCount/Limit:   1/  3, Time:3.35916448
+SADE ConfigID:   1, Epoch:  12, Training Loss: 0.25388865, Validation Loss: 0.26784864,Best: 0.25112799, Accuracy: 0.2367, StopCount/Limit:   2/  3, Time:3.41346669
+SADE ConfigID:   1, Epoch:  13, Training Loss: 0.25105707, Validation Loss: 0.25166131,Best: 0.25112799, Accuracy: 0.3064, StopCount/Limit:   3/  3, Time:3.60562944
+SADE ConfigID:   2, Epoch:   0, Training Loss: 0.34643296, Validation Loss: 0.32495774,Best: 0.32495774, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.82617617
+SADE ConfigID:   2, Epoch:   1, Training Loss: 0.32501444, Validation Loss: 0.32496624,Best: 0.32495774, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.85699964
+SADE ConfigID:   2, Epoch:   2, Training Loss: 0.32501651, Validation Loss: 0.32498345,Best: 0.32495774, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.85539579
+SADE ConfigID:   2, Epoch:   3, Training Loss: 0.32501385, Validation Loss: 0.32493738,Best: 0.32493738, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.85432625
+SADE ConfigID:   2, Epoch:   4, Training Loss: 0.32501648, Validation Loss: 0.32501460,Best: 0.32493738, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.85580516
+SADE ConfigID:   3, Epoch:   0, Training Loss: 0.32885195, Validation Loss: 0.25989541,Best: 0.25989541, Accuracy: 0.33, StopCount/Limit:   0/  3, Time:3.16067553
+SADE ConfigID:   3, Epoch:   1, Training Loss: 0.25280668, Validation Loss: 0.24433138,Best: 0.24433138, Accuracy: 0.3564, StopCount/Limit:   0/  3, Time:3.17892504
+SADE ConfigID:   3, Epoch:   2, Training Loss: 0.24773774, Validation Loss: 0.24274746,Best: 0.24274746, Accuracy: 0.373, StopCount/Limit:   0/  3, Time:3.18621874
+SADE ConfigID:   3, Epoch:   3, Training Loss: 0.24882730, Validation Loss: 0.24662406,Best: 0.24274746, Accuracy: 0.3387, StopCount/Limit:   1/  3, Time:3.17961168
+SADE ConfigID:   3, Epoch:   4, Training Loss: 0.24710671, Validation Loss: 0.24780367,Best: 0.24274746, Accuracy: 0.3633, StopCount/Limit:   2/  3, Time:3.18217731
+SADE ConfigID:   3, Epoch:   5, Training Loss: 0.24703669, Validation Loss: 0.24109293,Best: 0.24109293, Accuracy: 0.3604, StopCount/Limit:   2/  3, Time:3.18139100
+SADE ConfigID:   3, Epoch:   6, Training Loss: 0.24650362, Validation Loss: 0.24307752,Best: 0.24109293, Accuracy: 0.3629, StopCount/Limit:   3/  3, Time:3.17996883
+SADE ConfigID:   4, Epoch:   0, Training Loss: 0.20565442, Validation Loss: 0.17641439,Best: 0.17641439, Accuracy: 0.6691, StopCount/Limit:   0/  3, Time:3.16625023
+SADE ConfigID:   4, Epoch:   1, Training Loss: 0.16879965, Validation Loss: 0.16119124,Best: 0.16119124, Accuracy: 0.6864, StopCount/Limit:   0/  3, Time:3.20117521
+SADE ConfigID:   4, Epoch:   2, Training Loss: 0.15163062, Validation Loss: 0.14363543,Best: 0.14363543, Accuracy: 0.7315, StopCount/Limit:   0/  3, Time:3.20057011
+SADE ConfigID:   4, Epoch:   3, Training Loss: 0.13847077, Validation Loss: 0.13760772,Best: 0.13760772, Accuracy: 0.7283, StopCount/Limit:   0/  3, Time:3.20104551
+SADE ConfigID:   4, Epoch:   4, Training Loss: 0.13324289, Validation Loss: 0.13191270,Best: 0.13191270, Accuracy: 0.7402, StopCount/Limit:   0/  3, Time:3.19864416
+SADE ConfigID:   4, Epoch:   5, Training Loss: 0.13182986, Validation Loss: 0.13134076,Best: 0.13134076, Accuracy: 0.7461, StopCount/Limit:   0/  3, Time:3.20048237
+SADE ConfigID:   4, Epoch:   6, Training Loss: 0.13041370, Validation Loss: 0.12747792,Best: 0.12747792, Accuracy: 0.7487, StopCount/Limit:   0/  3, Time:3.20230556
+SADE ConfigID:   4, Epoch:   7, Training Loss: 0.12981075, Validation Loss: 0.13144690,Best: 0.12747792, Accuracy: 0.7185, StopCount/Limit:   1/  3, Time:3.19934940
+SADE ConfigID:   4, Epoch:   8, Training Loss: 0.12865464, Validation Loss: 0.12747318,Best: 0.12747318, Accuracy: 0.7383, StopCount/Limit:   1/  3, Time:3.20543265
+SADE ConfigID:   4, Epoch:   9, Training Loss: 0.12816585, Validation Loss: 0.13418333,Best: 0.12747318, Accuracy: 0.7338, StopCount/Limit:   2/  3, Time:3.25140381
+SADE ConfigID:   4, Epoch:  10, Training Loss: 0.12808447, Validation Loss: 0.13420801,Best: 0.12747318, Accuracy: 0.7317, StopCount/Limit:   3/  3, Time:3.32630587
+SADE ConfigID:   5, Epoch:   0, Training Loss: 0.27833537, Validation Loss: 0.21786473,Best: 0.21786473, Accuracy: 0.5566, StopCount/Limit:   0/  3, Time:3.81621051
+SADE ConfigID:   5, Epoch:   1, Training Loss: 0.19792876, Validation Loss: 0.18682127,Best: 0.18682127, Accuracy: 0.624, StopCount/Limit:   0/  3, Time:3.89422941
+SADE ConfigID:   5, Epoch:   2, Training Loss: 0.18313485, Validation Loss: 0.17138188,Best: 0.17138188, Accuracy: 0.7062, StopCount/Limit:   0/  3, Time:3.89049816
+SADE ConfigID:   5, Epoch:   3, Training Loss: 0.16930698, Validation Loss: 0.16125970,Best: 0.16125970, Accuracy: 0.7374, StopCount/Limit:   0/  3, Time:3.88185072
+SADE ConfigID:   5, Epoch:   4, Training Loss: 0.14780706, Validation Loss: 0.13441601,Best: 0.13441601, Accuracy: 0.778, StopCount/Limit:   0/  3, Time:3.86656380
+SADE ConfigID:   5, Epoch:   5, Training Loss: 0.12751746, Validation Loss: 0.12114317,Best: 0.12114317, Accuracy: 0.7971, StopCount/Limit:   0/  3, Time:3.86327243
+SADE ConfigID:   5, Epoch:   6, Training Loss: 0.11965521, Validation Loss: 0.12324211,Best: 0.12114317, Accuracy: 0.8005, StopCount/Limit:   1/  3, Time:3.86462593
+SADE ConfigID:   5, Epoch:   7, Training Loss: 0.11444981, Validation Loss: 0.11061327,Best: 0.11061327, Accuracy: 0.8248, StopCount/Limit:   1/  3, Time:3.87709498
+SADE ConfigID:   5, Epoch:   8, Training Loss: 0.10644348, Validation Loss: 0.10182012,Best: 0.10182012, Accuracy: 0.8442, StopCount/Limit:   1/  3, Time:3.90222788
+SADE ConfigID:   5, Epoch:   9, Training Loss: 0.10177346, Validation Loss: 0.10014352,Best: 0.10014352, Accuracy: 0.8461, StopCount/Limit:   1/  3, Time:3.94737267
+SADE ConfigID:   5, Epoch:  10, Training Loss: 0.09968524, Validation Loss: 0.10198801,Best: 0.10014352, Accuracy: 0.8471, StopCount/Limit:   2/  3, Time:4.01426148
+SADE ConfigID:   5, Epoch:  11, Training Loss: 0.09809510, Validation Loss: 0.10113442,Best: 0.10014352, Accuracy: 0.8444, StopCount/Limit:   3/  3, Time:4.05971241
+SADE ConfigID:   6, Epoch:   0, Training Loss: 0.29677415, Validation Loss: 0.23658180,Best: 0.23658180, Accuracy: 0.3437, StopCount/Limit:   0/  3, Time:3.63787818
+SADE ConfigID:   6, Epoch:   1, Training Loss: 0.23059953, Validation Loss: 0.21678605,Best: 0.21678605, Accuracy: 0.4328, StopCount/Limit:   0/  3, Time:3.67208576
+SADE ConfigID:   6, Epoch:   2, Training Loss: 0.21671715, Validation Loss: 0.21313874,Best: 0.21313874, Accuracy: 0.5019, StopCount/Limit:   0/  3, Time:3.67820215
+SADE ConfigID:   6, Epoch:   3, Training Loss: 0.21172419, Validation Loss: 0.20669031,Best: 0.20669031, Accuracy: 0.5175, StopCount/Limit:   0/  3, Time:3.67756367
+SADE ConfigID:   6, Epoch:   4, Training Loss: 0.20669733, Validation Loss: 0.20446397,Best: 0.20446397, Accuracy: 0.5815, StopCount/Limit:   0/  3, Time:3.68029451
+SADE ConfigID:   6, Epoch:   5, Training Loss: 0.20097768, Validation Loss: 0.19745341,Best: 0.19745341, Accuracy: 0.5842, StopCount/Limit:   0/  3, Time:3.68394923
+SADE ConfigID:   6, Epoch:   6, Training Loss: 0.19363190, Validation Loss: 0.19000062,Best: 0.19000062, Accuracy: 0.6353, StopCount/Limit:   0/  3, Time:3.67676282
+SADE ConfigID:   6, Epoch:   7, Training Loss: 0.18762069, Validation Loss: 0.18596182,Best: 0.18596182, Accuracy: 0.6614, StopCount/Limit:   0/  3, Time:3.67687798
+SADE ConfigID:   6, Epoch:   8, Training Loss: 0.18436718, Validation Loss: 0.18387465,Best: 0.18387465, Accuracy: 0.6255, StopCount/Limit:   0/  3, Time:3.68361998
+SADE ConfigID:   6, Epoch:   9, Training Loss: 0.18419502, Validation Loss: 0.18530170,Best: 0.18387465, Accuracy: 0.6632, StopCount/Limit:   1/  3, Time:3.71268439
+SADE ConfigID:   6, Epoch:  10, Training Loss: 0.18204162, Validation Loss: 0.18088626,Best: 0.18088626, Accuracy: 0.6614, StopCount/Limit:   1/  3, Time:3.74818659
+SADE ConfigID:   6, Epoch:  11, Training Loss: 0.18121521, Validation Loss: 0.18172004,Best: 0.18088626, Accuracy: 0.6683, StopCount/Limit:   2/  3, Time:3.75737524
+SADE ConfigID:   6, Epoch:  12, Training Loss: 0.17994175, Validation Loss: 0.18095334,Best: 0.18088626, Accuracy: 0.6785, StopCount/Limit:   3/  3, Time:3.79926085
+SADE ConfigID:   7, Epoch:   0, Training Loss: 0.30495923, Validation Loss: 0.26826745,Best: 0.26826745, Accuracy: 0.2499, StopCount/Limit:   0/  3, Time:3.64180923
+SADE ConfigID:   7, Epoch:   1, Training Loss: 0.26353661, Validation Loss: 0.25740793,Best: 0.25740793, Accuracy: 0.3269, StopCount/Limit:   0/  3, Time:3.65852785
+SADE ConfigID:   7, Epoch:   2, Training Loss: 0.25564758, Validation Loss: 0.25089389,Best: 0.25089389, Accuracy: 0.3383, StopCount/Limit:   0/  3, Time:3.65507913
+SADE ConfigID:   7, Epoch:   3, Training Loss: 0.25135019, Validation Loss: 0.25130483,Best: 0.25089389, Accuracy: 0.3369, StopCount/Limit:   1/  3, Time:3.65649438
+SADE ConfigID:   7, Epoch:   4, Training Loss: 0.24990804, Validation Loss: 0.24751105,Best: 0.24751105, Accuracy: 0.3495, StopCount/Limit:   1/  3, Time:3.65617180
+SADE ConfigID:   7, Epoch:   5, Training Loss: 0.24900063, Validation Loss: 0.24670987,Best: 0.24670987, Accuracy: 0.3478, StopCount/Limit:   1/  3, Time:3.65876031
+SADE ConfigID:   7, Epoch:   6, Training Loss: 0.24858248, Validation Loss: 0.24919068,Best: 0.24670987, Accuracy: 0.3495, StopCount/Limit:   2/  3, Time:3.65647435
+SADE ConfigID:   7, Epoch:   7, Training Loss: 0.24814228, Validation Loss: 0.24824439,Best: 0.24670987, Accuracy: 0.3426, StopCount/Limit:   3/  3, Time:3.66248417
+SADE ConfigID:   8, Epoch:   0, Training Loss: 0.37424564, Validation Loss: 0.32502917,Best: 0.32502917, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.01824188
+SADE ConfigID:   8, Epoch:   1, Training Loss: 0.32495289, Validation Loss: 0.32494516,Best: 0.32494516, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.03377581
+SADE ConfigID:   8, Epoch:   2, Training Loss: 0.32495986, Validation Loss: 0.32492989,Best: 0.32492989, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.03343177
+SADE ConfigID:   8, Epoch:   3, Training Loss: 0.32495451, Validation Loss: 0.32490737,Best: 0.32490737, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.03633189
+SADE ConfigID:   8, Epoch:   4, Training Loss: 0.32495536, Validation Loss: 0.32493915,Best: 0.32490737, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.03567076
+SADE ConfigID:   8, Epoch:   5, Training Loss: 0.32494911, Validation Loss: 0.32494460,Best: 0.32490737, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.03379083
+SADE ConfigID:   8, Epoch:   6, Training Loss: 0.32495745, Validation Loss: 0.32493392,Best: 0.32490737, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.03557444
+SADE ConfigID:   9, Epoch:   0, Training Loss: 0.39094994, Validation Loss: 0.32508615,Best: 0.32508615, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.96867919
+SADE ConfigID:   9, Epoch:   1, Training Loss: 0.32497218, Validation Loss: 0.32491246,Best: 0.32491246, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.98009205
+SADE ConfigID:   9, Epoch:   2, Training Loss: 0.32495107, Validation Loss: 0.32493703,Best: 0.32491246, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:2.97752953
+SADE ConfigID:   9, Epoch:   3, Training Loss: 0.32495249, Validation Loss: 0.32491634,Best: 0.32491246, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:2.98203230
+SADE ConfigID:   9, Epoch:   4, Training Loss: 0.32494999, Validation Loss: 0.32494128,Best: 0.32491246, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:2.98160934
+SADE Initial Run End
+SADE Init Run Best: 0.10014352452103048, Mean: 0.23811695480076595, ID:5, config: [784   9   3   9  10]
+SADE Gen 0 Run Start
+SADE Next Gen: [784   4   8   4  10]
+SADE ConfigID:   0, Epoch:   0, Training Loss: 0.32102215, Validation Loss: 0.27452593,Best: 0.27452593, Accuracy: 0.2501, StopCount/Limit:   0/  3, Time:3.60455871
+SADE ConfigID:   0, Epoch:   1, Training Loss: 0.26155619, Validation Loss: 0.25620862,Best: 0.25620862, Accuracy: 0.3121, StopCount/Limit:   0/  3, Time:3.63788915
+SADE ConfigID:   0, Epoch:   2, Training Loss: 0.25308001, Validation Loss: 0.25253617,Best: 0.25253617, Accuracy: 0.3417, StopCount/Limit:   0/  3, Time:3.64047933
+SADE ConfigID:   0, Epoch:   3, Training Loss: 0.25114701, Validation Loss: 0.25368301,Best: 0.25253617, Accuracy: 0.3354, StopCount/Limit:   1/  3, Time:3.63976026
+SADE ConfigID:   0, Epoch:   4, Training Loss: 0.25025891, Validation Loss: 0.25114127,Best: 0.25114127, Accuracy: 0.3444, StopCount/Limit:   1/  3, Time:3.64215541
+SADE ConfigID:   0, Epoch:   5, Training Loss: 0.24951806, Validation Loss: 0.24983658,Best: 0.24983658, Accuracy: 0.3721, StopCount/Limit:   1/  3, Time:3.63991404
+SADE ConfigID:   0, Epoch:   6, Training Loss: 0.24855391, Validation Loss: 0.25027217,Best: 0.24983658, Accuracy: 0.3225, StopCount/Limit:   2/  3, Time:3.64280343
+SADE ConfigID:   0, Epoch:   7, Training Loss: 0.24608748, Validation Loss: 0.24596258,Best: 0.24596258, Accuracy: 0.3592, StopCount/Limit:   2/  3, Time:3.64321423
+SADE ConfigID:   0, Epoch:   8, Training Loss: 0.24272331, Validation Loss: 0.24179045,Best: 0.24179045, Accuracy: 0.3758, StopCount/Limit:   2/  3, Time:3.65425801
+SADE ConfigID:   0, Epoch:   9, Training Loss: 0.24060465, Validation Loss: 0.24055187,Best: 0.24055187, Accuracy: 0.3691, StopCount/Limit:   2/  3, Time:3.70760751
+SADE ConfigID:   0, Epoch:  10, Training Loss: 0.23943032, Validation Loss: 0.23915737,Best: 0.23915737, Accuracy: 0.3859, StopCount/Limit:   2/  3, Time:3.74050522
+SADE ConfigID:   0, Epoch:  11, Training Loss: 0.23850653, Validation Loss: 0.23881997,Best: 0.23881997, Accuracy: 0.3833, StopCount/Limit:   2/  3, Time:3.76894593
+SADE ConfigID:   0, Epoch:  12, Training Loss: 0.23804495, Validation Loss: 0.23792318,Best: 0.23792318, Accuracy: 0.3864, StopCount/Limit:   2/  3, Time:3.84103274
+SADE ConfigID:   0, Epoch:  13, Training Loss: 0.23745536, Validation Loss: 0.23952152,Best: 0.23792318, Accuracy: 0.3833, StopCount/Limit:   3/  3, Time:3.97311449
+SADE Next Gen: [784   6   7  10]
+SADE ConfigID:   1, Epoch:   0, Training Loss: 0.33654028, Validation Loss: 0.27068915,Best: 0.27068915, Accuracy: 0.2587, StopCount/Limit:   0/  3, Time:3.16060328
+SADE ConfigID:   1, Epoch:   1, Training Loss: 0.26221112, Validation Loss: 0.26078344,Best: 0.26078344, Accuracy: 0.3184, StopCount/Limit:   0/  3, Time:3.19014835
+SADE ConfigID:   1, Epoch:   2, Training Loss: 0.25724251, Validation Loss: 0.25932059,Best: 0.25932059, Accuracy: 0.3271, StopCount/Limit:   0/  3, Time:3.18995214
+SADE ConfigID:   1, Epoch:   3, Training Loss: 0.25590993, Validation Loss: 0.25989096,Best: 0.25932059, Accuracy: 0.3191, StopCount/Limit:   1/  3, Time:3.19106340
+SADE ConfigID:   1, Epoch:   4, Training Loss: 0.25498267, Validation Loss: 0.25627655,Best: 0.25627655, Accuracy: 0.3513, StopCount/Limit:   1/  3, Time:3.18550110
+SADE ConfigID:   1, Epoch:   5, Training Loss: 0.25438689, Validation Loss: 0.25422776,Best: 0.25422776, Accuracy: 0.354, StopCount/Limit:   1/  3, Time:3.19160461
+SADE ConfigID:   1, Epoch:   6, Training Loss: 0.25299459, Validation Loss: 0.25893526,Best: 0.25422776, Accuracy: 0.3391, StopCount/Limit:   2/  3, Time:3.18728924
+SADE ConfigID:   1, Epoch:   7, Training Loss: 0.25177760, Validation Loss: 0.25178120,Best: 0.25178120, Accuracy: 0.358, StopCount/Limit:   2/  3, Time:3.19059420
+SADE ConfigID:   1, Epoch:   8, Training Loss: 0.25188677, Validation Loss: 0.25375653,Best: 0.25178120, Accuracy: 0.3498, StopCount/Limit:   3/  3, Time:3.19236159
+SADE Next Gen: [784   8   2   6  10]
+SADE ConfigID:   2, Epoch:   0, Training Loss: 0.34334186, Validation Loss: 0.32502260,Best: 0.32502260, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.78249454
+SADE ConfigID:   2, Epoch:   1, Training Loss: 0.32503225, Validation Loss: 0.32495538,Best: 0.32495538, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.82058573
+SADE ConfigID:   2, Epoch:   2, Training Loss: 0.32503028, Validation Loss: 0.32493265,Best: 0.32493265, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.82264805
+SADE ConfigID:   2, Epoch:   3, Training Loss: 0.32501829, Validation Loss: 0.32501035,Best: 0.32493265, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.82467055
+SADE ConfigID:   2, Epoch:   4, Training Loss: 0.32502546, Validation Loss: 0.32497225,Best: 0.32493265, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.82698298
+SADE ConfigID:   2, Epoch:   5, Training Loss: 0.32501096, Validation Loss: 0.32500412,Best: 0.32493265, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.82548714
+SADE Next Gen: [784   6   5  10]
+SADE ConfigID:   3, Epoch:   0, Training Loss: 0.38937252, Validation Loss: 0.32504570,Best: 0.32504570, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.16942668
+SADE ConfigID:   3, Epoch:   1, Training Loss: 0.32496566, Validation Loss: 0.32490386,Best: 0.32490386, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.20149851
+SADE ConfigID:   3, Epoch:   2, Training Loss: 0.32494943, Validation Loss: 0.32493136,Best: 0.32490386, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.19775987
+SADE ConfigID:   3, Epoch:   3, Training Loss: 0.32495427, Validation Loss: 0.32490846,Best: 0.32490386, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.19870687
+SADE ConfigID:   3, Epoch:   4, Training Loss: 0.32495870, Validation Loss: 0.32490523,Best: 0.32490386, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.20007157
+SADE Next Gen: [784   8   2   7  10]
+SADE ConfigID:   4, Epoch:   0, Training Loss: 0.26911545, Validation Loss: 0.21363618,Best: 0.21363618, Accuracy: 0.4626, StopCount/Limit:   0/  3, Time:3.73505545
+SADE ConfigID:   4, Epoch:   1, Training Loss: 0.20061599, Validation Loss: 0.18735794,Best: 0.18735794, Accuracy: 0.5025, StopCount/Limit:   0/  3, Time:3.78465819
+SADE ConfigID:   4, Epoch:   2, Training Loss: 0.18342101, Validation Loss: 0.17947101,Best: 0.17947101, Accuracy: 0.5131, StopCount/Limit:   0/  3, Time:3.79176116
+SADE ConfigID:   4, Epoch:   3, Training Loss: 0.16968433, Validation Loss: 0.16199383,Best: 0.16199383, Accuracy: 0.596, StopCount/Limit:   0/  3, Time:3.79154968
+SADE ConfigID:   4, Epoch:   4, Training Loss: 0.16043623, Validation Loss: 0.16369494,Best: 0.16199383, Accuracy: 0.5954, StopCount/Limit:   1/  3, Time:3.79235053
+SADE ConfigID:   4, Epoch:   5, Training Loss: 0.15851152, Validation Loss: 0.15710660,Best: 0.15710660, Accuracy: 0.6126, StopCount/Limit:   1/  3, Time:3.79968762
+SADE ConfigID:   4, Epoch:   6, Training Loss: 0.15677881, Validation Loss: 0.16143529,Best: 0.15710660, Accuracy: 0.5951, StopCount/Limit:   2/  3, Time:3.78937578
+SADE ConfigID:   4, Epoch:   7, Training Loss: 0.15622224, Validation Loss: 0.15700921,Best: 0.15700921, Accuracy: 0.6084, StopCount/Limit:   2/  3, Time:3.79439211
+SADE ConfigID:   4, Epoch:   8, Training Loss: 0.15626102, Validation Loss: 0.15816281,Best: 0.15700921, Accuracy: 0.6126, StopCount/Limit:   3/  3, Time:3.82680416
+SADE Next Gen: [784   3   6   3  10]
+SADE ConfigID:   5, Epoch:   0, Training Loss: 0.31224322, Validation Loss: 0.26122089,Best: 0.26122089, Accuracy: 0.2517, StopCount/Limit:   0/  3, Time:3.55799651
+SADE ConfigID:   5, Epoch:   1, Training Loss: 0.25448533, Validation Loss: 0.24891672,Best: 0.24891672, Accuracy: 0.3388, StopCount/Limit:   0/  3, Time:3.56859159
+SADE ConfigID:   5, Epoch:   2, Training Loss: 0.24283474, Validation Loss: 0.23702698,Best: 0.23702698, Accuracy: 0.3806, StopCount/Limit:   0/  3, Time:3.57142568
+SADE ConfigID:   5, Epoch:   3, Training Loss: 0.23505814, Validation Loss: 0.23380376,Best: 0.23380376, Accuracy: 0.3791, StopCount/Limit:   0/  3, Time:3.56611466
+SADE ConfigID:   5, Epoch:   4, Training Loss: 0.23459799, Validation Loss: 0.23956838,Best: 0.23380376, Accuracy: 0.3791, StopCount/Limit:   1/  3, Time:3.56843448
+SADE ConfigID:   5, Epoch:   5, Training Loss: 0.23342778, Validation Loss: 0.23027337,Best: 0.23027337, Accuracy: 0.3959, StopCount/Limit:   1/  3, Time:3.57131219
+SADE ConfigID:   5, Epoch:   6, Training Loss: 0.23089211, Validation Loss: 0.22952107,Best: 0.22952107, Accuracy: 0.4005, StopCount/Limit:   1/  3, Time:3.57327628
+SADE ConfigID:   5, Epoch:   7, Training Loss: 0.23064262, Validation Loss: 0.23879723,Best: 0.22952107, Accuracy: 0.357, StopCount/Limit:   2/  3, Time:3.57743549
+SADE ConfigID:   5, Epoch:   8, Training Loss: 0.23160580, Validation Loss: 0.23761819,Best: 0.22952107, Accuracy: 0.3782, StopCount/Limit:   3/  3, Time:3.58209825
+SADE Next Gen: [784   7   9   4  10]
+SADE ConfigID:   6, Epoch:   0, Training Loss: 0.35108330, Validation Loss: 0.32496787,Best: 0.32496787, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.79953647
+SADE ConfigID:   6, Epoch:   1, Training Loss: 0.32502364, Validation Loss: 0.32503406,Best: 0.32496787, Accuracy: 0.1009, StopCount/Limit:   1/  3, Time:3.83683515
+SADE ConfigID:   6, Epoch:   2, Training Loss: 0.32502313, Validation Loss: 0.32506791,Best: 0.32496787, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:3.83806849
+SADE ConfigID:   6, Epoch:   3, Training Loss: 0.32504482, Validation Loss: 0.32493874,Best: 0.32493874, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.83714581
+SADE ConfigID:   6, Epoch:   4, Training Loss: 0.32502835, Validation Loss: 0.32497487,Best: 0.32493874, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.83683300
+SADE Next Gen: [784   5   2   3  10]
+SADE ConfigID:   7, Epoch:   0, Training Loss: 0.35462518, Validation Loss: 0.32495045,Best: 0.32495045, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.63853002
+SADE ConfigID:   7, Epoch:   1, Training Loss: 0.32503346, Validation Loss: 0.32498886,Best: 0.32495045, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.65909243
+SADE ConfigID:   7, Epoch:   2, Training Loss: 0.32503810, Validation Loss: 0.32499811,Best: 0.32495045, Accuracy: 0.098, StopCount/Limit:   2/  3, Time:3.65749931
+SADE ConfigID:   7, Epoch:   3, Training Loss: 0.32501000, Validation Loss: 0.32497749,Best: 0.32495045, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.66149616
+SADE Next Gen: [784   3   5   3  10]
+SADE ConfigID:   8, Epoch:   0, Training Loss: 0.37686674, Validation Loss: 0.32499776,Best: 0.32499776, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.58377886
+SADE ConfigID:   8, Epoch:   1, Training Loss: 0.32496222, Validation Loss: 0.32491876,Best: 0.32491876, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.60486245
+SADE ConfigID:   8, Epoch:   2, Training Loss: 0.32495599, Validation Loss: 0.32491084,Best: 0.32491084, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.60142112
+SADE ConfigID:   8, Epoch:   3, Training Loss: 0.32495823, Validation Loss: 0.32491896,Best: 0.32491084, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.60556316
+SADE ConfigID:   8, Epoch:   4, Training Loss: 0.32495989, Validation Loss: 0.32491328,Best: 0.32491084, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.60775709
+SADE ConfigID:   8, Epoch:   5, Training Loss: 0.32495282, Validation Loss: 0.32491225,Best: 0.32491084, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.60466504
+SADE Next Gen: [784   3   2  10]
+SADE ConfigID:   9, Epoch:   0, Training Loss: 0.37457646, Validation Loss: 0.32499989,Best: 0.32499989, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.92584133
+SADE ConfigID:   9, Epoch:   1, Training Loss: 0.32495988, Validation Loss: 0.32492364,Best: 0.32492364, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.93365192
+SADE ConfigID:   9, Epoch:   2, Training Loss: 0.32495245, Validation Loss: 0.32493535,Best: 0.32492364, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:2.92995334
+SADE ConfigID:   9, Epoch:   3, Training Loss: 0.32495262, Validation Loss: 0.32490652,Best: 0.32490652, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:2.92755198
+SADE ConfigID:   9, Epoch:   4, Training Loss: 0.32496096, Validation Loss: 0.32491686,Best: 0.32490652, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:2.94578981
+SADE ConfigID:   9, Epoch:   5, Training Loss: 0.32494945, Validation Loss: 0.32494058,Best: 0.32490652, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:2.93085837
+SADE Gen 0 Run End
+SADE Run   0 CurrentBest: 0.10014352, Mean: 0.23601035, OverallBest: 0.10014352/  0, config: [784   9   3   9  10], updatecount:   3, Generation RunTime: 258.56644559
+SADE Gen 1 Run Start
+SADE Next Gen: [784   8   2   8  10]
+SADE ConfigID:   0, Epoch:   0, Training Loss: 0.33746599, Validation Loss: 0.32510188,Best: 0.32510188, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:3.76607537
+SADE ConfigID:   0, Epoch:   1, Training Loss: 0.32509598, Validation Loss: 0.32513208,Best: 0.32510188, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:3.79517031
+SADE ConfigID:   0, Epoch:   2, Training Loss: 0.32508878, Validation Loss: 0.32494576,Best: 0.32494576, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.79715896
+SADE ConfigID:   0, Epoch:   3, Training Loss: 0.32509750, Validation Loss: 0.32501409,Best: 0.32494576, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.79982114
+SADE ConfigID:   0, Epoch:   4, Training Loss: 0.32508169, Validation Loss: 0.32505296,Best: 0.32494576, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:3.80261683
+SADE Next Gen: [784   6   7  10]
+SADE ConfigID:   1, Epoch:   0, Training Loss: 0.31546940, Validation Loss: 0.24245995,Best: 0.24245995, Accuracy: 0.3381, StopCount/Limit:   0/  3, Time:3.11367655
+SADE ConfigID:   1, Epoch:   1, Training Loss: 0.23587039, Validation Loss: 0.22690396,Best: 0.22690396, Accuracy: 0.3771, StopCount/Limit:   0/  3, Time:3.13523221
+SADE ConfigID:   1, Epoch:   2, Training Loss: 0.22093358, Validation Loss: 0.20969767,Best: 0.20969767, Accuracy: 0.4696, StopCount/Limit:   0/  3, Time:3.14039302
+SADE ConfigID:   1, Epoch:   3, Training Loss: 0.20612413, Validation Loss: 0.20443915,Best: 0.20443915, Accuracy: 0.4745, StopCount/Limit:   0/  3, Time:3.12994862
+SADE ConfigID:   1, Epoch:   4, Training Loss: 0.20156679, Validation Loss: 0.19934126,Best: 0.19934126, Accuracy: 0.5165, StopCount/Limit:   0/  3, Time:3.12787604
+SADE ConfigID:   1, Epoch:   5, Training Loss: 0.19737630, Validation Loss: 0.19349488,Best: 0.19349488, Accuracy: 0.5027, StopCount/Limit:   0/  3, Time:3.12793565
+SADE ConfigID:   1, Epoch:   6, Training Loss: 0.19300436, Validation Loss: 0.18965602,Best: 0.18965602, Accuracy: 0.4879, StopCount/Limit:   0/  3, Time:3.12486529
+SADE ConfigID:   1, Epoch:   7, Training Loss: 0.18832454, Validation Loss: 0.18680301,Best: 0.18680301, Accuracy: 0.4996, StopCount/Limit:   0/  3, Time:3.12809181
+SADE ConfigID:   1, Epoch:   8, Training Loss: 0.18495572, Validation Loss: 0.18200624,Best: 0.18200624, Accuracy: 0.5506, StopCount/Limit:   0/  3, Time:3.13523531
+SADE ConfigID:   1, Epoch:   9, Training Loss: 0.18191638, Validation Loss: 0.17741436,Best: 0.17741436, Accuracy: 0.5653, StopCount/Limit:   0/  3, Time:3.16929865
+SADE ConfigID:   1, Epoch:  10, Training Loss: 0.17988106, Validation Loss: 0.18179587,Best: 0.17741436, Accuracy: 0.5424, StopCount/Limit:   1/  3, Time:3.23500490
+SADE ConfigID:   1, Epoch:  11, Training Loss: 0.17897783, Validation Loss: 0.17700830,Best: 0.17700830, Accuracy: 0.5712, StopCount/Limit:   1/  3, Time:3.26992631
+SADE ConfigID:   1, Epoch:  12, Training Loss: 0.17585736, Validation Loss: 0.17188613,Best: 0.17188613, Accuracy: 0.6014, StopCount/Limit:   1/  3, Time:3.30629206
+SADE ConfigID:   1, Epoch:  13, Training Loss: 0.17369123, Validation Loss: 0.17167766,Best: 0.17167766, Accuracy: 0.5953, StopCount/Limit:   1/  3, Time:3.44835091
+SADE ConfigID:   1, Epoch:  14, Training Loss: 0.17252602, Validation Loss: 0.17323557,Best: 0.17167766, Accuracy: 0.6055, StopCount/Limit:   2/  3, Time:3.50696898
+SADE ConfigID:   1, Epoch:  15, Training Loss: 0.17136431, Validation Loss: 0.17111614,Best: 0.17111614, Accuracy: 0.624, StopCount/Limit:   2/  3, Time:3.50596333
+SADE ConfigID:   1, Epoch:  16, Training Loss: 0.17017630, Validation Loss: 0.17138272,Best: 0.17111614, Accuracy: 0.614, StopCount/Limit:   3/  3, Time:3.50282669
+SADE Next Gen: [784   8  10   6  10]
+SADE ConfigID:   2, Epoch:   0, Training Loss: 0.23019819, Validation Loss: 0.19299515,Best: 0.19299515, Accuracy: 0.563, StopCount/Limit:   0/  3, Time:3.74463344
+SADE ConfigID:   2, Epoch:   1, Training Loss: 0.17811768, Validation Loss: 0.16828608,Best: 0.16828608, Accuracy: 0.6461, StopCount/Limit:   0/  3, Time:3.79012704
+SADE ConfigID:   2, Epoch:   2, Training Loss: 0.16270668, Validation Loss: 0.15613453,Best: 0.15613453, Accuracy: 0.6439, StopCount/Limit:   0/  3, Time:3.79662275
+SADE ConfigID:   2, Epoch:   3, Training Loss: 0.15491437, Validation Loss: 0.15059523,Best: 0.15059523, Accuracy: 0.6756, StopCount/Limit:   0/  3, Time:3.79712462
+SADE ConfigID:   2, Epoch:   4, Training Loss: 0.15146794, Validation Loss: 0.15125350,Best: 0.15059523, Accuracy: 0.6728, StopCount/Limit:   1/  3, Time:3.79521513
+SADE ConfigID:   2, Epoch:   5, Training Loss: 0.14880390, Validation Loss: 0.15041845,Best: 0.15041845, Accuracy: 0.6904, StopCount/Limit:   1/  3, Time:3.79694819
+SADE ConfigID:   2, Epoch:   6, Training Loss: 0.14673541, Validation Loss: 0.14708643,Best: 0.14708643, Accuracy: 0.7097, StopCount/Limit:   1/  3, Time:3.79677820
+SADE ConfigID:   2, Epoch:   7, Training Loss: 0.14567680, Validation Loss: 0.14378316,Best: 0.14378316, Accuracy: 0.7056, StopCount/Limit:   1/  3, Time:3.80545330
+SADE ConfigID:   2, Epoch:   8, Training Loss: 0.14415234, Validation Loss: 0.14128972,Best: 0.14128972, Accuracy: 0.7126, StopCount/Limit:   1/  3, Time:3.82284880
+SADE ConfigID:   2, Epoch:   9, Training Loss: 0.14395355, Validation Loss: 0.14331409,Best: 0.14128972, Accuracy: 0.7127, StopCount/Limit:   2/  3, Time:3.88941407
+SADE ConfigID:   2, Epoch:  10, Training Loss: 0.14313461, Validation Loss: 0.15096144,Best: 0.14128972, Accuracy: 0.684, StopCount/Limit:   3/  3, Time:3.97577977
+SADE Next Gen: [784   6   6  10]
+SADE ConfigID:   3, Epoch:   0, Training Loss: 0.32842905, Validation Loss: 0.28120038,Best: 0.28120038, Accuracy: 0.2816, StopCount/Limit:   0/  3, Time:3.10503030
+SADE ConfigID:   3, Epoch:   1, Training Loss: 0.25174143, Validation Loss: 0.24277362,Best: 0.24277362, Accuracy: 0.36, StopCount/Limit:   0/  3, Time:3.13187909
+SADE ConfigID:   3, Epoch:   2, Training Loss: 0.24457554, Validation Loss: 0.24209053,Best: 0.24209053, Accuracy: 0.3876, StopCount/Limit:   0/  3, Time:3.13722801
+SADE ConfigID:   3, Epoch:   3, Training Loss: 0.24361720, Validation Loss: 0.24364381,Best: 0.24209053, Accuracy: 0.3826, StopCount/Limit:   1/  3, Time:3.13693762
+SADE ConfigID:   3, Epoch:   4, Training Loss: 0.24331423, Validation Loss: 0.24423440,Best: 0.24209053, Accuracy: 0.3773, StopCount/Limit:   2/  3, Time:3.13462830
+SADE ConfigID:   3, Epoch:   5, Training Loss: 0.24199691, Validation Loss: 0.24021804,Best: 0.24021804, Accuracy: 0.3934, StopCount/Limit:   2/  3, Time:3.13123679
+SADE ConfigID:   3, Epoch:   6, Training Loss: 0.24341371, Validation Loss: 0.24095679,Best: 0.24021804, Accuracy: 0.4008, StopCount/Limit:   3/  3, Time:3.13681626
+SADE Next Gen: [784   7   7  10]
+SADE ConfigID:   4, Epoch:   0, Training Loss: 0.27680343, Validation Loss: 0.22031462,Best: 0.22031462, Accuracy: 0.4048, StopCount/Limit:   0/  3, Time:3.14956594
+SADE ConfigID:   4, Epoch:   1, Training Loss: 0.20963484, Validation Loss: 0.20417655,Best: 0.20417655, Accuracy: 0.4444, StopCount/Limit:   0/  3, Time:3.17930889
+SADE ConfigID:   4, Epoch:   2, Training Loss: 0.20349958, Validation Loss: 0.20112731,Best: 0.20112731, Accuracy: 0.4677, StopCount/Limit:   0/  3, Time:3.17809606
+SADE ConfigID:   4, Epoch:   3, Training Loss: 0.20009105, Validation Loss: 0.19666362,Best: 0.19666362, Accuracy: 0.4893, StopCount/Limit:   0/  3, Time:3.17678475
+SADE ConfigID:   4, Epoch:   4, Training Loss: 0.19293381, Validation Loss: 0.19268532,Best: 0.19268532, Accuracy: 0.5195, StopCount/Limit:   0/  3, Time:3.17098093
+SADE ConfigID:   4, Epoch:   5, Training Loss: 0.18904735, Validation Loss: 0.18810049,Best: 0.18810049, Accuracy: 0.5702, StopCount/Limit:   0/  3, Time:3.17398548
+SADE ConfigID:   4, Epoch:   6, Training Loss: 0.18649686, Validation Loss: 0.18215395,Best: 0.18215395, Accuracy: 0.5963, StopCount/Limit:   0/  3, Time:3.17636180
+SADE ConfigID:   4, Epoch:   7, Training Loss: 0.18344077, Validation Loss: 0.18757227,Best: 0.18215395, Accuracy: 0.5978, StopCount/Limit:   1/  3, Time:3.17567992
+SADE ConfigID:   4, Epoch:   8, Training Loss: 0.18241130, Validation Loss: 0.18664889,Best: 0.18215395, Accuracy: 0.5927, StopCount/Limit:   2/  3, Time:3.18049765
+SADE ConfigID:   4, Epoch:   9, Training Loss: 0.18134594, Validation Loss: 0.18481325,Best: 0.18215395, Accuracy: 0.5971, StopCount/Limit:   3/  3, Time:3.22125959
+SADE Next Gen: [784   9   3   4  10]
+SADE ConfigID:   5, Epoch:   0, Training Loss: 0.24078904, Validation Loss: 0.18957270,Best: 0.18957270, Accuracy: 0.6214, StopCount/Limit:   0/  3, Time:3.78014588
+SADE ConfigID:   5, Epoch:   1, Training Loss: 0.16929187, Validation Loss: 0.16865577,Best: 0.16865577, Accuracy: 0.637, StopCount/Limit:   0/  3, Time:3.83609200
+SADE ConfigID:   5, Epoch:   2, Training Loss: 0.15604764, Validation Loss: 0.16024635,Best: 0.16024635, Accuracy: 0.6714, StopCount/Limit:   0/  3, Time:3.83827472
+SADE ConfigID:   5, Epoch:   3, Training Loss: 0.14999712, Validation Loss: 0.15247745,Best: 0.15247745, Accuracy: 0.6947, StopCount/Limit:   0/  3, Time:3.83278871
+SADE ConfigID:   5, Epoch:   4, Training Loss: 0.14757848, Validation Loss: 0.14484780,Best: 0.14484780, Accuracy: 0.6987, StopCount/Limit:   0/  3, Time:3.83726168
+SADE ConfigID:   5, Epoch:   5, Training Loss: 0.14552034, Validation Loss: 0.14688333,Best: 0.14484780, Accuracy: 0.7101, StopCount/Limit:   1/  3, Time:3.83749580
+SADE ConfigID:   5, Epoch:   6, Training Loss: 0.14366504, Validation Loss: 0.14712026,Best: 0.14484780, Accuracy: 0.7034, StopCount/Limit:   2/  3, Time:3.83428717
+SADE ConfigID:   5, Epoch:   7, Training Loss: 0.14195224, Validation Loss: 0.14243992,Best: 0.14243992, Accuracy: 0.7151, StopCount/Limit:   2/  3, Time:3.84853363
+SADE ConfigID:   5, Epoch:   8, Training Loss: 0.13933736, Validation Loss: 0.13821291,Best: 0.13821291, Accuracy: 0.7186, StopCount/Limit:   2/  3, Time:3.87279224
+SADE ConfigID:   5, Epoch:   9, Training Loss: 0.13460836, Validation Loss: 0.13467961,Best: 0.13467961, Accuracy: 0.7689, StopCount/Limit:   2/  3, Time:3.95425868
+SADE ConfigID:   5, Epoch:  10, Training Loss: 0.13158509, Validation Loss: 0.14012633,Best: 0.13467961, Accuracy: 0.7637, StopCount/Limit:   3/  3, Time:4.02353716
+SADE Next Gen: [784   5   9   4  10]
+SADE ConfigID:   6, Epoch:   0, Training Loss: 0.36646610, Validation Loss: 0.32496395,Best: 0.32496395, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.64914417
+SADE ConfigID:   6, Epoch:   1, Training Loss: 0.32496291, Validation Loss: 0.32491619,Best: 0.32491619, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67780304
+SADE ConfigID:   6, Epoch:   2, Training Loss: 0.32495507, Validation Loss: 0.32491600,Best: 0.32491600, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67490005
+SADE ConfigID:   6, Epoch:   3, Training Loss: 0.32495940, Validation Loss: 0.32491394,Best: 0.32491394, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67775345
+SADE ConfigID:   6, Epoch:   4, Training Loss: 0.32495352, Validation Loss: 0.32492849,Best: 0.32491394, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.67137694
+SADE ConfigID:   6, Epoch:   5, Training Loss: 0.32495318, Validation Loss: 0.32492707,Best: 0.32491394, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.67313385
+SADE ConfigID:   6, Epoch:   6, Training Loss: 0.32495259, Validation Loss: 0.32491416,Best: 0.32491394, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.68313813
+SADE Next Gen: [784   7   2   3  10]
+SADE ConfigID:   7, Epoch:   0, Training Loss: 0.35476297, Validation Loss: 0.32494708,Best: 0.32494708, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.72480917
+SADE ConfigID:   7, Epoch:   1, Training Loss: 0.32500860, Validation Loss: 0.32496920,Best: 0.32494708, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.75685167
+SADE ConfigID:   7, Epoch:   2, Training Loss: 0.32500911, Validation Loss: 0.32494224,Best: 0.32494224, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.75840902
+SADE ConfigID:   7, Epoch:   3, Training Loss: 0.32500796, Validation Loss: 0.32497740,Best: 0.32494224, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.76190042
+SADE ConfigID:   7, Epoch:   4, Training Loss: 0.32500792, Validation Loss: 0.32503299,Best: 0.32494224, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.76067138
+SADE Next Gen: [784   3   9  10]
+SADE ConfigID:   8, Epoch:   0, Training Loss: 0.34578367, Validation Loss: 0.32502070,Best: 0.32502070, Accuracy: 0.1133, StopCount/Limit:   0/  3, Time:3.01150823
+SADE ConfigID:   8, Epoch:   1, Training Loss: 0.32511350, Validation Loss: 0.32504135,Best: 0.32502070, Accuracy: 0.1133, StopCount/Limit:   1/  3, Time:3.01876330
+SADE ConfigID:   8, Epoch:   2, Training Loss: 0.32508293, Validation Loss: 0.32501494,Best: 0.32501494, Accuracy: 0.1133, StopCount/Limit:   1/  3, Time:3.01825786
+SADE ConfigID:   8, Epoch:   3, Training Loss: 0.32508127, Validation Loss: 0.32505855,Best: 0.32501494, Accuracy: 0.1133, StopCount/Limit:   2/  3, Time:3.01744938
+SADE ConfigID:   8, Epoch:   4, Training Loss: 0.32509636, Validation Loss: 0.32504943,Best: 0.32501494, Accuracy: 0.101, StopCount/Limit:   3/  3, Time:3.01469088
+SADE Next Gen: [784   3   2   3  10]
+SADE ConfigID:   9, Epoch:   0, Training Loss: 0.38698241, Validation Loss: 0.30140496,Best: 0.30140496, Accuracy: 0.2065, StopCount/Limit:   0/  3, Time:3.51366806
+SADE ConfigID:   9, Epoch:   1, Training Loss: 0.29144835, Validation Loss: 0.28623318,Best: 0.28623318, Accuracy: 0.2008, StopCount/Limit:   0/  3, Time:3.52220249
+SADE ConfigID:   9, Epoch:   2, Training Loss: 0.28446544, Validation Loss: 0.28415662,Best: 0.28415662, Accuracy: 0.207, StopCount/Limit:   0/  3, Time:3.53144765
+SADE ConfigID:   9, Epoch:   3, Training Loss: 0.28339100, Validation Loss: 0.28470945,Best: 0.28415662, Accuracy: 0.2081, StopCount/Limit:   1/  3, Time:3.53133750
+SADE ConfigID:   9, Epoch:   4, Training Loss: 0.28324606, Validation Loss: 0.28321696,Best: 0.28321696, Accuracy: 0.2101, StopCount/Limit:   1/  3, Time:3.53590035
+SADE ConfigID:   9, Epoch:   5, Training Loss: 0.28311534, Validation Loss: 0.28350779,Best: 0.28321696, Accuracy: 0.2081, StopCount/Limit:   2/  3, Time:3.53648734
+SADE ConfigID:   9, Epoch:   6, Training Loss: 0.28291866, Validation Loss: 0.28413486,Best: 0.28321696, Accuracy: 0.2081, StopCount/Limit:   3/  3, Time:3.53372836
+SADE Gen 1 Run End
+SADE Run   1 CurrentBest: 0.10014352, Mean: 0.20538842, OverallBest: 0.10014352/  0, config: [784   9   3   9  10], updatecount:   4, Generation RunTime: 296.55783200
+SADE Gen 2 Run Start
+SADE Next Gen: [784   4   3   4  10]
+SADE ConfigID:   0, Epoch:   0, Training Loss: 0.34999910, Validation Loss: 0.32511152,Best: 0.32511152, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.58568096
+SADE ConfigID:   0, Epoch:   1, Training Loss: 0.32506036, Validation Loss: 0.32504211,Best: 0.32504211, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:3.61346483
+SADE ConfigID:   0, Epoch:   2, Training Loss: 0.32506434, Validation Loss: 0.32495588,Best: 0.32495588, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.61459517
+SADE ConfigID:   0, Epoch:   3, Training Loss: 0.32502830, Validation Loss: 0.32504656,Best: 0.32495588, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.61134434
+SADE ConfigID:   0, Epoch:   4, Training Loss: 0.32503952, Validation Loss: 0.32497741,Best: 0.32495588, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.61009383
+SADE ConfigID:   0, Epoch:   5, Training Loss: 0.32503626, Validation Loss: 0.32498356,Best: 0.32495588, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.61276698
+SADE Next Gen: [784   8   7   6  10]
+SADE ConfigID:   1, Epoch:   0, Training Loss: 0.27750086, Validation Loss: 0.21394361,Best: 0.21394361, Accuracy: 0.4963, StopCount/Limit:   0/  3, Time:3.75454378
+SADE ConfigID:   1, Epoch:   1, Training Loss: 0.20813992, Validation Loss: 0.20366030,Best: 0.20366030, Accuracy: 0.4728, StopCount/Limit:   0/  3, Time:3.78993130
+SADE ConfigID:   1, Epoch:   2, Training Loss: 0.20214507, Validation Loss: 0.20499602,Best: 0.20366030, Accuracy: 0.4886, StopCount/Limit:   1/  3, Time:3.78793073
+SADE ConfigID:   1, Epoch:   3, Training Loss: 0.20045322, Validation Loss: 0.19733817,Best: 0.19733817, Accuracy: 0.5248, StopCount/Limit:   1/  3, Time:3.79362965
+SADE ConfigID:   1, Epoch:   4, Training Loss: 0.19829183, Validation Loss: 0.20030834,Best: 0.19733817, Accuracy: 0.5358, StopCount/Limit:   2/  3, Time:3.79625797
+SADE ConfigID:   1, Epoch:   5, Training Loss: 0.19747025, Validation Loss: 0.20809385,Best: 0.19733817, Accuracy: 0.5379, StopCount/Limit:   3/  3, Time:3.79142523
+SADE Next Gen: [784   8  10   6  10]
+SADE ConfigID:   2, Epoch:   0, Training Loss: 0.25289072, Validation Loss: 0.20680591,Best: 0.20680591, Accuracy: 0.5183, StopCount/Limit:   0/  3, Time:3.76310706
+SADE ConfigID:   2, Epoch:   1, Training Loss: 0.19568651, Validation Loss: 0.18764426,Best: 0.18764426, Accuracy: 0.5812, StopCount/Limit:   0/  3, Time:3.79870605
+SADE ConfigID:   2, Epoch:   2, Training Loss: 0.18576854, Validation Loss: 0.18483450,Best: 0.18483450, Accuracy: 0.5945, StopCount/Limit:   0/  3, Time:3.79818439
+SADE ConfigID:   2, Epoch:   3, Training Loss: 0.18190591, Validation Loss: 0.17911466,Best: 0.17911466, Accuracy: 0.5913, StopCount/Limit:   0/  3, Time:3.79704666
+SADE ConfigID:   2, Epoch:   4, Training Loss: 0.18015267, Validation Loss: 0.18337432,Best: 0.17911466, Accuracy: 0.6023, StopCount/Limit:   1/  3, Time:3.79891968
+SADE ConfigID:   2, Epoch:   5, Training Loss: 0.17809226, Validation Loss: 0.17432631,Best: 0.17432631, Accuracy: 0.6173, StopCount/Limit:   1/  3, Time:3.79798174
+SADE ConfigID:   2, Epoch:   6, Training Loss: 0.17768773, Validation Loss: 0.17890341,Best: 0.17432631, Accuracy: 0.6109, StopCount/Limit:   2/  3, Time:3.79528832
+SADE ConfigID:   2, Epoch:   7, Training Loss: 0.17621660, Validation Loss: 0.17798724,Best: 0.17432631, Accuracy: 0.6183, StopCount/Limit:   3/  3, Time:3.79836798
+SADE Next Gen: [784   6   6  10]
+SADE ConfigID:   3, Epoch:   0, Training Loss: 0.36297031, Validation Loss: 0.28422759,Best: 0.28422759, Accuracy: 0.2121, StopCount/Limit:   0/  3, Time:3.12150288
+SADE ConfigID:   3, Epoch:   1, Training Loss: 0.28401445, Validation Loss: 0.28164815,Best: 0.28164815, Accuracy: 0.2144, StopCount/Limit:   0/  3, Time:3.14012480
+SADE ConfigID:   3, Epoch:   2, Training Loss: 0.28297654, Validation Loss: 0.28161924,Best: 0.28161924, Accuracy: 0.2138, StopCount/Limit:   0/  3, Time:3.14151192
+SADE ConfigID:   3, Epoch:   3, Training Loss: 0.28276727, Validation Loss: 0.28160462,Best: 0.28160462, Accuracy: 0.2138, StopCount/Limit:   0/  3, Time:3.14954615
+SADE ConfigID:   3, Epoch:   4, Training Loss: 0.28258743, Validation Loss: 0.28140570,Best: 0.28140570, Accuracy: 0.2139, StopCount/Limit:   0/  3, Time:3.14945197
+SADE ConfigID:   3, Epoch:   5, Training Loss: 0.28250250, Validation Loss: 0.28150362,Best: 0.28140570, Accuracy: 0.2149, StopCount/Limit:   1/  3, Time:3.14892364
+SADE ConfigID:   3, Epoch:   6, Training Loss: 0.28245215, Validation Loss: 0.28136941,Best: 0.28136941, Accuracy: 0.2151, StopCount/Limit:   1/  3, Time:3.14820743
+SADE ConfigID:   3, Epoch:   7, Training Loss: 0.28241107, Validation Loss: 0.28148406,Best: 0.28136941, Accuracy: 0.2151, StopCount/Limit:   2/  3, Time:3.15048027
+SADE ConfigID:   3, Epoch:   8, Training Loss: 0.28238776, Validation Loss: 0.28176974,Best: 0.28136941, Accuracy: 0.2143, StopCount/Limit:   3/  3, Time:3.15723658
+SADE Next Gen: [784   3   7  10]
+SADE ConfigID:   4, Epoch:   0, Training Loss: 0.34851579, Validation Loss: 0.32497527,Best: 0.32497527, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.99199581
+SADE ConfigID:   4, Epoch:   1, Training Loss: 0.32502706, Validation Loss: 0.32493759,Best: 0.32493759, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.99937844
+SADE ConfigID:   4, Epoch:   2, Training Loss: 0.32502682, Validation Loss: 0.32497839,Best: 0.32493759, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.00380778
+SADE ConfigID:   4, Epoch:   3, Training Loss: 0.32502418, Validation Loss: 0.32498763,Best: 0.32493759, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.00298476
+SADE ConfigID:   4, Epoch:   4, Training Loss: 0.32503827, Validation Loss: 0.32491631,Best: 0.32491631, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.00087309
+SADE ConfigID:   4, Epoch:   5, Training Loss: 0.32502931, Validation Loss: 0.32494069,Best: 0.32491631, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.00334454
+SADE Next Gen: [784   9  10   9  10]
+SADE ConfigID:   5, Epoch:   0, Training Loss: 0.24407321, Validation Loss: 0.18840175,Best: 0.18840175, Accuracy: 0.5919, StopCount/Limit:   0/  3, Time:3.82101369
+SADE ConfigID:   5, Epoch:   1, Training Loss: 0.18084039, Validation Loss: 0.17139987,Best: 0.17139987, Accuracy: 0.6467, StopCount/Limit:   0/  3, Time:3.86203647
+SADE ConfigID:   5, Epoch:   2, Training Loss: 0.17135770, Validation Loss: 0.17236733,Best: 0.17139987, Accuracy: 0.6488, StopCount/Limit:   1/  3, Time:3.86189961
+SADE ConfigID:   5, Epoch:   3, Training Loss: 0.16674120, Validation Loss: 0.17033733,Best: 0.17033733, Accuracy: 0.6578, StopCount/Limit:   1/  3, Time:3.86225295
+SADE ConfigID:   5, Epoch:   4, Training Loss: 0.16395702, Validation Loss: 0.16067738,Best: 0.16067738, Accuracy: 0.685, StopCount/Limit:   1/  3, Time:3.86183643
+SADE ConfigID:   5, Epoch:   5, Training Loss: 0.16072714, Validation Loss: 0.15958265,Best: 0.15958265, Accuracy: 0.6877, StopCount/Limit:   1/  3, Time:3.86948729
+SADE ConfigID:   5, Epoch:   6, Training Loss: 0.16173708, Validation Loss: 0.16720207,Best: 0.15958265, Accuracy: 0.6667, StopCount/Limit:   2/  3, Time:3.86561346
+SADE ConfigID:   5, Epoch:   7, Training Loss: 0.15882301, Validation Loss: 0.15729447,Best: 0.15729447, Accuracy: 0.6964, StopCount/Limit:   2/  3, Time:3.86846948
+SADE ConfigID:   5, Epoch:   8, Training Loss: 0.15852901, Validation Loss: 0.16347744,Best: 0.15729447, Accuracy: 0.6728, StopCount/Limit:   3/  3, Time:3.89494967
+SADE Next Gen: [784   2   3   2  10]
+SADE ConfigID:   6, Epoch:   0, Training Loss: 0.34396808, Validation Loss: 0.29850453,Best: 0.29850453, Accuracy: 0.2007, StopCount/Limit:   0/  3, Time:3.44706059
+SADE ConfigID:   6, Epoch:   1, Training Loss: 0.29726412, Validation Loss: 0.29283918,Best: 0.29283918, Accuracy: 0.2046, StopCount/Limit:   0/  3, Time:3.47008324
+SADE ConfigID:   6, Epoch:   2, Training Loss: 0.29428375, Validation Loss: 0.29145259,Best: 0.29145259, Accuracy: 0.2014, StopCount/Limit:   0/  3, Time:3.47040939
+SADE ConfigID:   6, Epoch:   3, Training Loss: 0.29286069, Validation Loss: 0.29084472,Best: 0.29084472, Accuracy: 0.2054, StopCount/Limit:   0/  3, Time:3.46677899
+SADE ConfigID:   6, Epoch:   4, Training Loss: 0.29050066, Validation Loss: 0.28504697,Best: 0.28504697, Accuracy: 0.2627, StopCount/Limit:   0/  3, Time:3.46477556
+SADE ConfigID:   6, Epoch:   5, Training Loss: 0.28503714, Validation Loss: 0.28229957,Best: 0.28229957, Accuracy: 0.2497, StopCount/Limit:   0/  3, Time:3.46224976
+SADE ConfigID:   6, Epoch:   6, Training Loss: 0.28224680, Validation Loss: 0.27927278,Best: 0.27927278, Accuracy: 0.2899, StopCount/Limit:   0/  3, Time:3.46164513
+SADE ConfigID:   6, Epoch:   7, Training Loss: 0.27895009, Validation Loss: 0.27690162,Best: 0.27690162, Accuracy: 0.2607, StopCount/Limit:   0/  3, Time:3.46513844
+SADE ConfigID:   6, Epoch:   8, Training Loss: 0.27631897, Validation Loss: 0.27588206,Best: 0.27588206, Accuracy: 0.2462, StopCount/Limit:   0/  3, Time:3.47243237
+SADE ConfigID:   6, Epoch:   9, Training Loss: 0.27510540, Validation Loss: 0.27536569,Best: 0.27536569, Accuracy: 0.2846, StopCount/Limit:   0/  3, Time:3.48275280
+SADE ConfigID:   6, Epoch:  10, Training Loss: 0.27450611, Validation Loss: 0.27537600,Best: 0.27536569, Accuracy: 0.3244, StopCount/Limit:   1/  3, Time:3.49531460
+SADE ConfigID:   6, Epoch:  11, Training Loss: 0.27431000, Validation Loss: 0.27413022,Best: 0.27413022, Accuracy: 0.2957, StopCount/Limit:   1/  3, Time:3.49882913
+SADE ConfigID:   6, Epoch:  12, Training Loss: 0.27417615, Validation Loss: 0.27421245,Best: 0.27413022, Accuracy: 0.283, StopCount/Limit:   2/  3, Time:3.52116895
+SADE ConfigID:   6, Epoch:  13, Training Loss: 0.27404841, Validation Loss: 0.27392229,Best: 0.27392229, Accuracy: 0.3029, StopCount/Limit:   2/  3, Time:3.55184340
+SADE ConfigID:   6, Epoch:  14, Training Loss: 0.27397092, Validation Loss: 0.27433438,Best: 0.27392229, Accuracy: 0.2672, StopCount/Limit:   3/  3, Time:3.55998349
+SADE Next Gen: [784   5   2   6  10]
+SADE ConfigID:   7, Epoch:   0, Training Loss: 0.31820711, Validation Loss: 0.27458492,Best: 0.27458492, Accuracy: 0.2682, StopCount/Limit:   0/  3, Time:3.61041903
+SADE ConfigID:   7, Epoch:   1, Training Loss: 0.27094310, Validation Loss: 0.26541199,Best: 0.26541199, Accuracy: 0.2687, StopCount/Limit:   0/  3, Time:3.63838553
+SADE ConfigID:   7, Epoch:   2, Training Loss: 0.25803141, Validation Loss: 0.24957182,Best: 0.24957182, Accuracy: 0.3459, StopCount/Limit:   0/  3, Time:3.63812089
+SADE ConfigID:   7, Epoch:   3, Training Loss: 0.24911858, Validation Loss: 0.24587263,Best: 0.24587263, Accuracy: 0.3526, StopCount/Limit:   0/  3, Time:3.64126754
+SADE ConfigID:   7, Epoch:   4, Training Loss: 0.24707411, Validation Loss: 0.24597903,Best: 0.24587263, Accuracy: 0.3409, StopCount/Limit:   1/  3, Time:3.64069605
+SADE ConfigID:   7, Epoch:   5, Training Loss: 0.24586549, Validation Loss: 0.24421625,Best: 0.24421625, Accuracy: 0.3462, StopCount/Limit:   1/  3, Time:3.64291000
+SADE ConfigID:   7, Epoch:   6, Training Loss: 0.24465616, Validation Loss: 0.24353464,Best: 0.24353464, Accuracy: 0.3462, StopCount/Limit:   1/  3, Time:3.64104080
+SADE ConfigID:   7, Epoch:   7, Training Loss: 0.24427921, Validation Loss: 0.24330883,Best: 0.24330883, Accuracy: 0.3523, StopCount/Limit:   1/  3, Time:3.63918662
+SADE ConfigID:   7, Epoch:   8, Training Loss: 0.24287011, Validation Loss: 0.24243576,Best: 0.24243576, Accuracy: 0.3576, StopCount/Limit:   1/  3, Time:3.65305018
+SADE ConfigID:   7, Epoch:   9, Training Loss: 0.24226077, Validation Loss: 0.24229441,Best: 0.24229441, Accuracy: 0.3717, StopCount/Limit:   1/  3, Time:3.71197677
+SADE ConfigID:   7, Epoch:  10, Training Loss: 0.24146941, Validation Loss: 0.24086465,Best: 0.24086465, Accuracy: 0.3752, StopCount/Limit:   1/  3, Time:3.77003837
+SADE ConfigID:   7, Epoch:  11, Training Loss: 0.24130949, Validation Loss: 0.23959882,Best: 0.23959882, Accuracy: 0.374, StopCount/Limit:   1/  3, Time:3.78922319
+SADE ConfigID:   7, Epoch:  12, Training Loss: 0.24081760, Validation Loss: 0.24119657,Best: 0.23959882, Accuracy: 0.3694, StopCount/Limit:   2/  3, Time:3.88256598
+SADE ConfigID:   7, Epoch:  13, Training Loss: 0.24047479, Validation Loss: 0.24002366,Best: 0.23959882, Accuracy: 0.3667, StopCount/Limit:   3/  3, Time:4.03531742
+SADE Next Gen: [784   3  10   5  10]
+SADE ConfigID:   8, Epoch:   0, Training Loss: 0.33669292, Validation Loss: 0.32505927,Best: 0.32505927, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:3.56044865
+SADE ConfigID:   8, Epoch:   1, Training Loss: 0.32509993, Validation Loss: 0.32531026,Best: 0.32505927, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:3.57131815
+SADE ConfigID:   8, Epoch:   2, Training Loss: 0.32511543, Validation Loss: 0.32516707,Best: 0.32505927, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.57071185
+SADE ConfigID:   8, Epoch:   3, Training Loss: 0.32508630, Validation Loss: 0.32512759,Best: 0.32505927, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.57115197
+SADE Next Gen: [784   3   2   5  10]
+SADE ConfigID:   9, Epoch:   0, Training Loss: 0.37557767, Validation Loss: 0.32496526,Best: 0.32496526, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.54463673
+SADE ConfigID:   9, Epoch:   1, Training Loss: 0.32495473, Validation Loss: 0.32493325,Best: 0.32493325, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.56141305
+SADE ConfigID:   9, Epoch:   2, Training Loss: 0.32495739, Validation Loss: 0.32492845,Best: 0.32492845, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.56555963
+SADE ConfigID:   9, Epoch:   3, Training Loss: 0.32494948, Validation Loss: 0.32490726,Best: 0.32490726, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.56221151
+SADE ConfigID:   9, Epoch:   4, Training Loss: 0.32496217, Validation Loss: 0.32490381,Best: 0.32490381, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.56302929
+SADE ConfigID:   9, Epoch:   5, Training Loss: 0.32494989, Validation Loss: 0.32493057,Best: 0.32490381, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.56595469
+SADE ConfigID:   9, Epoch:   6, Training Loss: 0.32494881, Validation Loss: 0.32497169,Best: 0.32490381, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.56319475
+SADE ConfigID:   9, Epoch:   7, Training Loss: 0.32495783, Validation Loss: 0.32492925,Best: 0.32490381, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.56437039
+SADE Gen 2 Run End
+SADE Run   2 CurrentBest: 0.10014352, Mean: 0.20467732, OverallBest: 0.10014352/  0, config: [784   9   3   9  10], updatecount:   1, Generation RunTime: 302.80603576
+SADE Gen 3 Run Start
+SADE Next Gen: [784   4   8   7  10]
+SADE ConfigID:   0, Epoch:   0, Training Loss: 0.30716916, Validation Loss: 0.26402473,Best: 0.26402473, Accuracy: 0.2956, StopCount/Limit:   0/  3, Time:3.58870840
+SADE ConfigID:   0, Epoch:   1, Training Loss: 0.26494431, Validation Loss: 0.25878910,Best: 0.25878910, Accuracy: 0.3182, StopCount/Limit:   0/  3, Time:3.61269069
+SADE ConfigID:   0, Epoch:   2, Training Loss: 0.26126203, Validation Loss: 0.26004635,Best: 0.25878910, Accuracy: 0.3091, StopCount/Limit:   1/  3, Time:3.61161423
+SADE ConfigID:   0, Epoch:   3, Training Loss: 0.26074564, Validation Loss: 0.25599762,Best: 0.25599762, Accuracy: 0.3255, StopCount/Limit:   1/  3, Time:3.61513543
+SADE ConfigID:   0, Epoch:   4, Training Loss: 0.25878865, Validation Loss: 0.25924270,Best: 0.25599762, Accuracy: 0.3258, StopCount/Limit:   2/  3, Time:3.62357855
+SADE ConfigID:   0, Epoch:   5, Training Loss: 0.25792968, Validation Loss: 0.26226933,Best: 0.25599762, Accuracy: 0.3091, StopCount/Limit:   3/  3, Time:3.62155843
+SADE Next Gen: [784   2   7  10]
+SADE ConfigID:   1, Epoch:   0, Training Loss: 0.34668180, Validation Loss: 0.32500288,Best: 0.32500288, Accuracy: 0.101, StopCount/Limit:   0/  3, Time:2.92731905
+SADE ConfigID:   1, Epoch:   1, Training Loss: 0.32500869, Validation Loss: 0.32503450,Best: 0.32500288, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:2.94517064
+SADE ConfigID:   1, Epoch:   2, Training Loss: 0.32500925, Validation Loss: 0.32505184,Best: 0.32500288, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:2.93967605
+SADE ConfigID:   1, Epoch:   3, Training Loss: 0.32501887, Validation Loss: 0.32499011,Best: 0.32499011, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:2.94263458
+SADE ConfigID:   1, Epoch:   4, Training Loss: 0.32500149, Validation Loss: 0.32503481,Best: 0.32499011, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:2.94091964
+SADE Next Gen: [784   2  10   6  10]
+SADE ConfigID:   2, Epoch:   0, Training Loss: 0.29950249, Validation Loss: 0.25886382,Best: 0.25886382, Accuracy: 0.3021, StopCount/Limit:   0/  3, Time:3.49633980
+SADE ConfigID:   2, Epoch:   1, Training Loss: 0.25751147, Validation Loss: 0.25517483,Best: 0.25517483, Accuracy: 0.3153, StopCount/Limit:   0/  3, Time:3.50994897
+SADE ConfigID:   2, Epoch:   2, Training Loss: 0.25377760, Validation Loss: 0.25367570,Best: 0.25367570, Accuracy: 0.3267, StopCount/Limit:   0/  3, Time:3.51010156
+SADE ConfigID:   2, Epoch:   3, Training Loss: 0.25200028, Validation Loss: 0.24993613,Best: 0.24993613, Accuracy: 0.3407, StopCount/Limit:   0/  3, Time:3.50789142
+SADE ConfigID:   2, Epoch:   4, Training Loss: 0.24982442, Validation Loss: 0.24853066,Best: 0.24853066, Accuracy: 0.3494, StopCount/Limit:   0/  3, Time:3.51038790
+SADE ConfigID:   2, Epoch:   5, Training Loss: 0.24562173, Validation Loss: 0.24382599,Best: 0.24382599, Accuracy: 0.3686, StopCount/Limit:   0/  3, Time:3.50775266
+SADE ConfigID:   2, Epoch:   6, Training Loss: 0.24403567, Validation Loss: 0.24317498,Best: 0.24317498, Accuracy: 0.3678, StopCount/Limit:   0/  3, Time:3.50801516
+SADE ConfigID:   2, Epoch:   7, Training Loss: 0.24282307, Validation Loss: 0.24123177,Best: 0.24123177, Accuracy: 0.367, StopCount/Limit:   0/  3, Time:3.51554537
+SADE ConfigID:   2, Epoch:   8, Training Loss: 0.24231016, Validation Loss: 0.24220199,Best: 0.24123177, Accuracy: 0.3792, StopCount/Limit:   1/  3, Time:3.52150226
+SADE ConfigID:   2, Epoch:   9, Training Loss: 0.24107637, Validation Loss: 0.24475016,Best: 0.24123177, Accuracy: 0.3591, StopCount/Limit:   2/  3, Time:3.54349351
+SADE ConfigID:   2, Epoch:  10, Training Loss: 0.23990589, Validation Loss: 0.23715655,Best: 0.23715655, Accuracy: 0.3886, StopCount/Limit:   2/  3, Time:3.55809855
+SADE ConfigID:   2, Epoch:  11, Training Loss: 0.23919669, Validation Loss: 0.24026101,Best: 0.23715655, Accuracy: 0.3828, StopCount/Limit:   3/  3, Time:3.57397056
+SADE Next Gen: [784   6   6  10]
+SADE ConfigID:   3, Epoch:   0, Training Loss: 0.34766437, Validation Loss: 0.32495733,Best: 0.32495733, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.12742662
+SADE ConfigID:   3, Epoch:   1, Training Loss: 0.32504567, Validation Loss: 0.32494937,Best: 0.32494937, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.15460205
+SADE ConfigID:   3, Epoch:   2, Training Loss: 0.32503417, Validation Loss: 0.32500013,Best: 0.32494937, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.15277719
+SADE ConfigID:   3, Epoch:   3, Training Loss: 0.32503674, Validation Loss: 0.32495277,Best: 0.32494937, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.15503025
+SADE ConfigID:   3, Epoch:   4, Training Loss: 0.32502596, Validation Loss: 0.32496763,Best: 0.32494937, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.15652323
+SADE Next Gen: [784   7   6  10]
+SADE ConfigID:   4, Epoch:   0, Training Loss: 0.28182153, Validation Loss: 0.23048981,Best: 0.23048981, Accuracy: 0.4166, StopCount/Limit:   0/  3, Time:3.14338160
+SADE ConfigID:   4, Epoch:   1, Training Loss: 0.20475654, Validation Loss: 0.19556883,Best: 0.19556883, Accuracy: 0.5287, StopCount/Limit:   0/  3, Time:3.17601037
+SADE ConfigID:   4, Epoch:   2, Training Loss: 0.19211516, Validation Loss: 0.19086002,Best: 0.19086002, Accuracy: 0.5312, StopCount/Limit:   0/  3, Time:3.17399383
+SADE ConfigID:   4, Epoch:   3, Training Loss: 0.18772537, Validation Loss: 0.18873913,Best: 0.18873913, Accuracy: 0.5288, StopCount/Limit:   0/  3, Time:3.17607713
+SADE ConfigID:   4, Epoch:   4, Training Loss: 0.18538266, Validation Loss: 0.18772309,Best: 0.18772309, Accuracy: 0.5443, StopCount/Limit:   0/  3, Time:3.18145537
+SADE ConfigID:   4, Epoch:   5, Training Loss: 0.18364236, Validation Loss: 0.18489130,Best: 0.18489130, Accuracy: 0.5384, StopCount/Limit:   0/  3, Time:3.17884946
+SADE ConfigID:   4, Epoch:   6, Training Loss: 0.18301952, Validation Loss: 0.18208286,Best: 0.18208286, Accuracy: 0.5567, StopCount/Limit:   0/  3, Time:3.18066764
+SADE ConfigID:   4, Epoch:   7, Training Loss: 0.18239625, Validation Loss: 0.18272695,Best: 0.18208286, Accuracy: 0.5524, StopCount/Limit:   1/  3, Time:3.17862535
+SADE ConfigID:   4, Epoch:   8, Training Loss: 0.18191604, Validation Loss: 0.19102158,Best: 0.18208286, Accuracy: 0.5307, StopCount/Limit:   2/  3, Time:3.19311976
+SADE ConfigID:   4, Epoch:   9, Training Loss: 0.18167901, Validation Loss: 0.18216069,Best: 0.18208286, Accuracy: 0.552, StopCount/Limit:   3/  3, Time:3.22709370
+SADE Next Gen: [784   9   3   9  10]
+SADE ConfigID:   5, Epoch:   0, Training Loss: 0.34257030, Validation Loss: 0.32511807,Best: 0.32511807, Accuracy: 0.0974, StopCount/Limit:   0/  3, Time:3.87835264
+SADE ConfigID:   5, Epoch:   1, Training Loss: 0.32504757, Validation Loss: 0.32508170,Best: 0.32508170, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.91187835
+SADE ConfigID:   5, Epoch:   2, Training Loss: 0.32503474, Validation Loss: 0.32500047,Best: 0.32500047, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.91014051
+SADE ConfigID:   5, Epoch:   3, Training Loss: 0.32502024, Validation Loss: 0.32504820,Best: 0.32500047, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.91294122
+SADE ConfigID:   5, Epoch:   4, Training Loss: 0.32503664, Validation Loss: 0.32502233,Best: 0.32500047, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:3.90893173
+SADE ConfigID:   5, Epoch:   5, Training Loss: 0.32502666, Validation Loss: 0.32501732,Best: 0.32500047, Accuracy: 0.0982, StopCount/Limit:   3/  3, Time:3.91064596
+SADE Next Gen: [784   2   2   2  10]
+SADE ConfigID:   6, Epoch:   0, Training Loss: 0.35268860, Validation Loss: 0.32501779,Best: 0.32501779, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.46714878
+SADE ConfigID:   6, Epoch:   1, Training Loss: 0.32504903, Validation Loss: 0.32501254,Best: 0.32501254, Accuracy: 0.101, StopCount/Limit:   0/  3, Time:3.47724628
+SADE ConfigID:   6, Epoch:   2, Training Loss: 0.32502787, Validation Loss: 0.32516722,Best: 0.32501254, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:3.47978854
+SADE ConfigID:   6, Epoch:   3, Training Loss: 0.32504677, Validation Loss: 0.32500767,Best: 0.32500767, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.47869945
+SADE ConfigID:   6, Epoch:   4, Training Loss: 0.32503422, Validation Loss: 0.32496019,Best: 0.32496019, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.48522878
+SADE ConfigID:   6, Epoch:   5, Training Loss: 0.32504283, Validation Loss: 0.32508174,Best: 0.32496019, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:3.47889018
+SADE ConfigID:   6, Epoch:   6, Training Loss: 0.32502733, Validation Loss: 0.32500417,Best: 0.32496019, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.47766066
+SADE Next Gen: [784   5   2   4  10]
+SADE ConfigID:   7, Epoch:   0, Training Loss: 0.30864024, Validation Loss: 0.27499020,Best: 0.27499020, Accuracy: 0.2664, StopCount/Limit:   0/  3, Time:3.60591912
+SADE ConfigID:   7, Epoch:   1, Training Loss: 0.26951270, Validation Loss: 0.26086323,Best: 0.26086323, Accuracy: 0.3059, StopCount/Limit:   0/  3, Time:3.63185143
+SADE ConfigID:   7, Epoch:   2, Training Loss: 0.26127236, Validation Loss: 0.25775890,Best: 0.25775890, Accuracy: 0.3268, StopCount/Limit:   0/  3, Time:3.63305044
+SADE ConfigID:   7, Epoch:   3, Training Loss: 0.25743166, Validation Loss: 0.25370023,Best: 0.25370023, Accuracy: 0.3538, StopCount/Limit:   0/  3, Time:3.64035273
+SADE ConfigID:   7, Epoch:   4, Training Loss: 0.25095887, Validation Loss: 0.24877959,Best: 0.24877959, Accuracy: 0.3652, StopCount/Limit:   0/  3, Time:3.63980389
+SADE ConfigID:   7, Epoch:   5, Training Loss: 0.24617646, Validation Loss: 0.24542761,Best: 0.24542761, Accuracy: 0.3575, StopCount/Limit:   0/  3, Time:3.63012624
+SADE ConfigID:   7, Epoch:   6, Training Loss: 0.24303147, Validation Loss: 0.24245758,Best: 0.24245758, Accuracy: 0.3814, StopCount/Limit:   0/  3, Time:3.63927293
+SADE ConfigID:   7, Epoch:   7, Training Loss: 0.24258958, Validation Loss: 0.24660138,Best: 0.24245758, Accuracy: 0.3468, StopCount/Limit:   1/  3, Time:3.63589048
+SADE ConfigID:   7, Epoch:   8, Training Loss: 0.24143448, Validation Loss: 0.24362371,Best: 0.24245758, Accuracy: 0.3862, StopCount/Limit:   2/  3, Time:3.64835668
+SADE ConfigID:   7, Epoch:   9, Training Loss: 0.24089422, Validation Loss: 0.24074334,Best: 0.24074334, Accuracy: 0.3884, StopCount/Limit:   2/  3, Time:3.68575978
+SADE ConfigID:   7, Epoch:  10, Training Loss: 0.24065040, Validation Loss: 0.24393803,Best: 0.24074334, Accuracy: 0.3672, StopCount/Limit:   3/  3, Time:3.74964595
+SADE Next Gen: [784   3   5  10]
+SADE ConfigID:   8, Epoch:   0, Training Loss: 0.32886614, Validation Loss: 0.28321294,Best: 0.28321294, Accuracy: 0.2115, StopCount/Limit:   0/  3, Time:2.97895288
+SADE ConfigID:   8, Epoch:   1, Training Loss: 0.28426855, Validation Loss: 0.28272525,Best: 0.28272525, Accuracy: 0.2144, StopCount/Limit:   0/  3, Time:2.99430966
+SADE ConfigID:   8, Epoch:   2, Training Loss: 0.28277184, Validation Loss: 0.28156042,Best: 0.28156042, Accuracy: 0.2212, StopCount/Limit:   0/  3, Time:2.99282718
+SADE ConfigID:   8, Epoch:   3, Training Loss: 0.27327094, Validation Loss: 0.26186313,Best: 0.26186313, Accuracy: 0.298, StopCount/Limit:   0/  3, Time:2.98590946
+SADE ConfigID:   8, Epoch:   4, Training Loss: 0.26041720, Validation Loss: 0.25616966,Best: 0.25616966, Accuracy: 0.2886, StopCount/Limit:   0/  3, Time:2.98173976
+SADE ConfigID:   8, Epoch:   5, Training Loss: 0.25806364, Validation Loss: 0.25853617,Best: 0.25616966, Accuracy: 0.2977, StopCount/Limit:   1/  3, Time:2.98650384
+SADE ConfigID:   8, Epoch:   6, Training Loss: 0.25729243, Validation Loss: 0.25550783,Best: 0.25550783, Accuracy: 0.296, StopCount/Limit:   1/  3, Time:2.98569059
+SADE ConfigID:   8, Epoch:   7, Training Loss: 0.25669834, Validation Loss: 0.25467391,Best: 0.25467391, Accuracy: 0.2961, StopCount/Limit:   1/  3, Time:2.98865557
+SADE ConfigID:   8, Epoch:   8, Training Loss: 0.25636648, Validation Loss: 0.25599629,Best: 0.25467391, Accuracy: 0.2909, StopCount/Limit:   2/  3, Time:2.98589802
+SADE ConfigID:   8, Epoch:   9, Training Loss: 0.25615439, Validation Loss: 0.25477699,Best: 0.25467391, Accuracy: 0.3072, StopCount/Limit:   3/  3, Time:2.99176931
+SADE Next Gen: [784   4   2   2  10]
+SADE ConfigID:   9, Epoch:   0, Training Loss: 0.32156239, Validation Loss: 0.27489539,Best: 0.27489539, Accuracy: 0.3336, StopCount/Limit:   0/  3, Time:3.50110006
+SADE ConfigID:   9, Epoch:   1, Training Loss: 0.26591365, Validation Loss: 0.26213961,Best: 0.26213961, Accuracy: 0.4102, StopCount/Limit:   0/  3, Time:3.53644037
+SADE ConfigID:   9, Epoch:   2, Training Loss: 0.25920513, Validation Loss: 0.26065250,Best: 0.26065250, Accuracy: 0.4167, StopCount/Limit:   0/  3, Time:3.53271055
+SADE ConfigID:   9, Epoch:   3, Training Loss: 0.25746883, Validation Loss: 0.26055772,Best: 0.26055772, Accuracy: 0.4372, StopCount/Limit:   0/  3, Time:3.53907537
+SADE ConfigID:   9, Epoch:   4, Training Loss: 0.25659731, Validation Loss: 0.26034033,Best: 0.26034033, Accuracy: 0.4361, StopCount/Limit:   0/  3, Time:3.54328942
+SADE ConfigID:   9, Epoch:   5, Training Loss: 0.25621630, Validation Loss: 0.25970213,Best: 0.25970213, Accuracy: 0.4204, StopCount/Limit:   0/  3, Time:3.54655147
+SADE ConfigID:   9, Epoch:   6, Training Loss: 0.25563283, Validation Loss: 0.25923225,Best: 0.25923225, Accuracy: 0.4139, StopCount/Limit:   0/  3, Time:3.54268432
+SADE ConfigID:   9, Epoch:   7, Training Loss: 0.25472418, Validation Loss: 0.25975799,Best: 0.25923225, Accuracy: 0.4026, StopCount/Limit:   1/  3, Time:3.54825497
+SADE ConfigID:   9, Epoch:   8, Training Loss: 0.25428842, Validation Loss: 0.25756838,Best: 0.25756838, Accuracy: 0.3632, StopCount/Limit:   1/  3, Time:3.56808543
+SADE ConfigID:   9, Epoch:   9, Training Loss: 0.25323567, Validation Loss: 0.25789836,Best: 0.25756838, Accuracy: 0.3362, StopCount/Limit:   2/  3, Time:3.58169413
+SADE ConfigID:   9, Epoch:  10, Training Loss: 0.25329390, Validation Loss: 0.25805263,Best: 0.25756838, Accuracy: 0.3694, StopCount/Limit:   3/  3, Time:3.58879447
+SADE Gen 3 Run End
+SADE Run   3 CurrentBest: 0.10014352, Mean: 0.19508911, OverallBest: 0.10014352/  0, config: [784   9   3   9  10], updatecount:   2, Generation RunTime: 283.03767252
+SADE Gen 4 Run Start
+SADE Next Gen: [784   4   8   4  10]
+SADE ConfigID:   0, Epoch:   0, Training Loss: 0.38241816, Validation Loss: 0.32501885,Best: 0.32501885, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.59395981
+SADE ConfigID:   0, Epoch:   1, Training Loss: 0.32496500, Validation Loss: 0.32491679,Best: 0.32491679, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.61676407
+SADE ConfigID:   0, Epoch:   2, Training Loss: 0.32494975, Validation Loss: 0.32490279,Best: 0.32490279, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.62132335
+SADE ConfigID:   0, Epoch:   3, Training Loss: 0.32494985, Validation Loss: 0.32492785,Best: 0.32490279, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.61920667
+SADE ConfigID:   0, Epoch:   4, Training Loss: 0.32495958, Validation Loss: 0.32491780,Best: 0.32490279, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.62017179
+SADE ConfigID:   0, Epoch:   5, Training Loss: 0.32495334, Validation Loss: 0.32492117,Best: 0.32490279, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.62662244
+SADE Next Gen: [784   6   7  10]
+SADE ConfigID:   1, Epoch:   0, Training Loss: 0.35736169, Validation Loss: 0.32505491,Best: 0.32505491, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.13665056
+SADE ConfigID:   1, Epoch:   1, Training Loss: 0.32502440, Validation Loss: 0.32494376,Best: 0.32494376, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.15843391
+SADE ConfigID:   1, Epoch:   2, Training Loss: 0.32502223, Validation Loss: 0.32497290,Best: 0.32494376, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.16167593
+SADE ConfigID:   1, Epoch:   3, Training Loss: 0.32503346, Validation Loss: 0.32498422,Best: 0.32494376, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.16207051
+SADE ConfigID:   1, Epoch:   4, Training Loss: 0.32502417, Validation Loss: 0.32496814,Best: 0.32494376, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.16201854
+SADE Next Gen: [784   8  10   6  10]
+SADE ConfigID:   2, Epoch:   0, Training Loss: 0.24793735, Validation Loss: 0.20058321,Best: 0.20058321, Accuracy: 0.5378, StopCount/Limit:   0/  3, Time:3.77282548
+SADE ConfigID:   2, Epoch:   1, Training Loss: 0.19390832, Validation Loss: 0.19247577,Best: 0.19247577, Accuracy: 0.5531, StopCount/Limit:   0/  3, Time:3.79487586
+SADE ConfigID:   2, Epoch:   2, Training Loss: 0.18551385, Validation Loss: 0.18239042,Best: 0.18239042, Accuracy: 0.5719, StopCount/Limit:   0/  3, Time:3.79796672
+SADE ConfigID:   2, Epoch:   3, Training Loss: 0.18220761, Validation Loss: 0.18225204,Best: 0.18225204, Accuracy: 0.5854, StopCount/Limit:   0/  3, Time:3.80020690
+SADE ConfigID:   2, Epoch:   4, Training Loss: 0.17928716, Validation Loss: 0.18382070,Best: 0.18225204, Accuracy: 0.5776, StopCount/Limit:   1/  3, Time:3.80033755
+SADE ConfigID:   2, Epoch:   5, Training Loss: 0.17717920, Validation Loss: 0.17696844,Best: 0.17696844, Accuracy: 0.5914, StopCount/Limit:   1/  3, Time:3.79952741
+SADE ConfigID:   2, Epoch:   6, Training Loss: 0.17549030, Validation Loss: 0.17454543,Best: 0.17454543, Accuracy: 0.6002, StopCount/Limit:   1/  3, Time:3.80020499
+SADE ConfigID:   2, Epoch:   7, Training Loss: 0.17425852, Validation Loss: 0.17351453,Best: 0.17351453, Accuracy: 0.5881, StopCount/Limit:   1/  3, Time:3.80843496
+SADE ConfigID:   2, Epoch:   8, Training Loss: 0.17304331, Validation Loss: 0.18154775,Best: 0.17351453, Accuracy: 0.6041, StopCount/Limit:   2/  3, Time:3.82349777
+SADE ConfigID:   2, Epoch:   9, Training Loss: 0.17229098, Validation Loss: 0.17550334,Best: 0.17351453, Accuracy: 0.6093, StopCount/Limit:   3/  3, Time:3.92015624
+SADE Next Gen: [784   6   6  10]
+SADE ConfigID:   3, Epoch:   0, Training Loss: 0.25266651, Validation Loss: 0.21719151,Best: 0.21719151, Accuracy: 0.4913, StopCount/Limit:   0/  3, Time:3.08764672
+SADE ConfigID:   3, Epoch:   1, Training Loss: 0.20091237, Validation Loss: 0.19011055,Best: 0.19011055, Accuracy: 0.5828, StopCount/Limit:   0/  3, Time:3.11236382
+SADE ConfigID:   3, Epoch:   2, Training Loss: 0.17822301, Validation Loss: 0.17140777,Best: 0.17140777, Accuracy: 0.6364, StopCount/Limit:   0/  3, Time:3.11113048
+SADE ConfigID:   3, Epoch:   3, Training Loss: 0.17143442, Validation Loss: 0.17555164,Best: 0.17140777, Accuracy: 0.6317, StopCount/Limit:   1/  3, Time:3.11182189
+SADE ConfigID:   3, Epoch:   4, Training Loss: 0.16785696, Validation Loss: 0.17003182,Best: 0.17003182, Accuracy: 0.6581, StopCount/Limit:   1/  3, Time:3.11521864
+SADE ConfigID:   3, Epoch:   5, Training Loss: 0.16654642, Validation Loss: 0.16491985,Best: 0.16491985, Accuracy: 0.6597, StopCount/Limit:   1/  3, Time:3.11431766
+SADE ConfigID:   3, Epoch:   6, Training Loss: 0.16537968, Validation Loss: 0.16847964,Best: 0.16491985, Accuracy: 0.6398, StopCount/Limit:   2/  3, Time:3.11441994
+SADE ConfigID:   3, Epoch:   7, Training Loss: 0.16517046, Validation Loss: 0.16469391,Best: 0.16469391, Accuracy: 0.6694, StopCount/Limit:   2/  3, Time:3.11176372
+SADE ConfigID:   3, Epoch:   8, Training Loss: 0.16492618, Validation Loss: 0.16510538,Best: 0.16469391, Accuracy: 0.6647, StopCount/Limit:   3/  3, Time:3.11980629
+SADE Next Gen: [784   7   7  10]
+SADE ConfigID:   4, Epoch:   0, Training Loss: 0.32104756, Validation Loss: 0.28476723,Best: 0.28476723, Accuracy: 0.3093, StopCount/Limit:   0/  3, Time:3.17144084
+SADE ConfigID:   4, Epoch:   1, Training Loss: 0.28018141, Validation Loss: 0.27737958,Best: 0.27737958, Accuracy: 0.3132, StopCount/Limit:   0/  3, Time:3.20136571
+SADE ConfigID:   4, Epoch:   2, Training Loss: 0.27262027, Validation Loss: 0.26871620,Best: 0.26871620, Accuracy: 0.3241, StopCount/Limit:   0/  3, Time:3.26367998
+SADE ConfigID:   4, Epoch:   3, Training Loss: 0.26366663, Validation Loss: 0.25427298,Best: 0.25427298, Accuracy: 0.3481, StopCount/Limit:   0/  3, Time:3.20395660
+SADE ConfigID:   4, Epoch:   4, Training Loss: 0.24867967, Validation Loss: 0.24559685,Best: 0.24559685, Accuracy: 0.3652, StopCount/Limit:   0/  3, Time:3.20289326
+SADE ConfigID:   4, Epoch:   5, Training Loss: 0.24404808, Validation Loss: 0.24014597,Best: 0.24014597, Accuracy: 0.3781, StopCount/Limit:   0/  3, Time:3.20371413
+SADE ConfigID:   4, Epoch:   6, Training Loss: 0.24060645, Validation Loss: 0.24140908,Best: 0.24014597, Accuracy: 0.3856, StopCount/Limit:   1/  3, Time:3.20044851
+SADE ConfigID:   4, Epoch:   7, Training Loss: 0.23871220, Validation Loss: 0.23679594,Best: 0.23679594, Accuracy: 0.3949, StopCount/Limit:   1/  3, Time:3.19982815
+SADE ConfigID:   4, Epoch:   8, Training Loss: 0.23743949, Validation Loss: 0.23728025,Best: 0.23679594, Accuracy: 0.3941, StopCount/Limit:   2/  3, Time:3.21190286
+SADE ConfigID:   4, Epoch:   9, Training Loss: 0.23638063, Validation Loss: 0.23654272,Best: 0.23654272, Accuracy: 0.4062, StopCount/Limit:   2/  3, Time:3.26101685
+SADE ConfigID:   4, Epoch:  10, Training Loss: 0.23512596, Validation Loss: 0.23530479,Best: 0.23530479, Accuracy: 0.3967, StopCount/Limit:   2/  3, Time:3.37118554
+SADE ConfigID:   4, Epoch:  11, Training Loss: 0.23419153, Validation Loss: 0.23030493,Best: 0.23030493, Accuracy: 0.4369, StopCount/Limit:   2/  3, Time:3.41058946
+SADE ConfigID:   4, Epoch:  12, Training Loss: 0.23360786, Validation Loss: 0.23249852,Best: 0.23030493, Accuracy: 0.4154, StopCount/Limit:   3/  3, Time:3.47609258
+SADE Next Gen: [784   9   3   9  10]
+SADE ConfigID:   5, Epoch:   0, Training Loss: 0.34238304, Validation Loss: 0.32498020,Best: 0.32498020, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.83626103
+SADE ConfigID:   5, Epoch:   1, Training Loss: 0.32501255, Validation Loss: 0.32492951,Best: 0.32492951, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.89313865
+SADE ConfigID:   5, Epoch:   2, Training Loss: 0.32501197, Validation Loss: 0.32494717,Best: 0.32492951, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.89583254
+SADE ConfigID:   5, Epoch:   3, Training Loss: 0.32500898, Validation Loss: 0.32498358,Best: 0.32492951, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.89196229
+SADE ConfigID:   5, Epoch:   4, Training Loss: 0.32501005, Validation Loss: 0.32496090,Best: 0.32492951, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.89758825
+SADE Next Gen: [784   5   9   2  10]
+SADE ConfigID:   6, Epoch:   0, Training Loss: 0.38609045, Validation Loss: 0.32503920,Best: 0.32503920, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.64768887
+SADE ConfigID:   6, Epoch:   1, Training Loss: 0.32496234, Validation Loss: 0.32491661,Best: 0.32491661, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67738914
+SADE ConfigID:   6, Epoch:   2, Training Loss: 0.32495964, Validation Loss: 0.32492310,Best: 0.32491661, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.67724442
+SADE ConfigID:   6, Epoch:   3, Training Loss: 0.32495531, Validation Loss: 0.32492304,Best: 0.32491661, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.68241429
+SADE ConfigID:   6, Epoch:   4, Training Loss: 0.32496043, Validation Loss: 0.32490174,Best: 0.32490174, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.67586422
+SADE ConfigID:   6, Epoch:   5, Training Loss: 0.32495566, Validation Loss: 0.32493258,Best: 0.32490174, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.67578673
+SADE Next Gen: [784   5   2   6  10]
+SADE ConfigID:   7, Epoch:   0, Training Loss: 0.34803050, Validation Loss: 0.32508250,Best: 0.32508250, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.61686897
+SADE ConfigID:   7, Epoch:   1, Training Loss: 0.32501058, Validation Loss: 0.32506030,Best: 0.32506030, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.64004970
+SADE ConfigID:   7, Epoch:   2, Training Loss: 0.32503213, Validation Loss: 0.32497505,Best: 0.32497505, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.64077544
+SADE ConfigID:   7, Epoch:   3, Training Loss: 0.32502067, Validation Loss: 0.32495848,Best: 0.32495848, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.63934207
+SADE ConfigID:   7, Epoch:   4, Training Loss: 0.32505062, Validation Loss: 0.32499180,Best: 0.32495848, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.64247155
+SADE ConfigID:   7, Epoch:   5, Training Loss: 0.32502729, Validation Loss: 0.32497408,Best: 0.32495848, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.64700246
+SADE ConfigID:   7, Epoch:   6, Training Loss: 0.32502537, Validation Loss: 0.32492081,Best: 0.32492081, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.64438772
+SADE ConfigID:   7, Epoch:   7, Training Loss: 0.32502248, Validation Loss: 0.32497778,Best: 0.32492081, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.63821316
+SADE Next Gen: [784   3   5  10]
+SADE ConfigID:   8, Epoch:   0, Training Loss: 0.33500300, Validation Loss: 0.28171622,Best: 0.28171622, Accuracy: 0.2507, StopCount/Limit:   0/  3, Time:2.96103668
+SADE ConfigID:   8, Epoch:   1, Training Loss: 0.26826957, Validation Loss: 0.25939522,Best: 0.25939522, Accuracy: 0.3142, StopCount/Limit:   0/  3, Time:2.98465133
+SADE ConfigID:   8, Epoch:   2, Training Loss: 0.25989906, Validation Loss: 0.25645666,Best: 0.25645666, Accuracy: 0.3197, StopCount/Limit:   0/  3, Time:2.98595023
+SADE ConfigID:   8, Epoch:   3, Training Loss: 0.25712735, Validation Loss: 0.25539536,Best: 0.25539536, Accuracy: 0.339, StopCount/Limit:   0/  3, Time:2.98344231
+SADE ConfigID:   8, Epoch:   4, Training Loss: 0.25421769, Validation Loss: 0.25278724,Best: 0.25278724, Accuracy: 0.3261, StopCount/Limit:   0/  3, Time:2.98672247
+SADE ConfigID:   8, Epoch:   5, Training Loss: 0.25319104, Validation Loss: 0.25124009,Best: 0.25124009, Accuracy: 0.3373, StopCount/Limit:   0/  3, Time:2.98684096
+SADE ConfigID:   8, Epoch:   6, Training Loss: 0.25309798, Validation Loss: 0.24945122,Best: 0.24945122, Accuracy: 0.3517, StopCount/Limit:   0/  3, Time:2.99132466
+SADE ConfigID:   8, Epoch:   7, Training Loss: 0.25323041, Validation Loss: 0.25456548,Best: 0.24945122, Accuracy: 0.3278, StopCount/Limit:   1/  3, Time:2.99190879
+SADE ConfigID:   8, Epoch:   8, Training Loss: 0.25305679, Validation Loss: 0.25127461,Best: 0.24945122, Accuracy: 0.3361, StopCount/Limit:   2/  3, Time:2.99304485
+SADE ConfigID:   8, Epoch:   9, Training Loss: 0.25299400, Validation Loss: 0.24964328,Best: 0.24945122, Accuracy: 0.3313, StopCount/Limit:   3/  3, Time:3.00093746
+SADE Next Gen: [784   4   2   2  10]
+SADE ConfigID:   9, Epoch:   0, Training Loss: 0.38757653, Validation Loss: 0.32419251,Best: 0.32419251, Accuracy: 0.1915, StopCount/Limit:   0/  3, Time:3.52700591
+SADE ConfigID:   9, Epoch:   1, Training Loss: 0.31302352, Validation Loss: 0.29684327,Best: 0.29684327, Accuracy: 0.2118, StopCount/Limit:   0/  3, Time:3.55287337
+SADE ConfigID:   9, Epoch:   2, Training Loss: 0.28846508, Validation Loss: 0.27874418,Best: 0.27874418, Accuracy: 0.2671, StopCount/Limit:   0/  3, Time:3.54674554
+SADE ConfigID:   9, Epoch:   3, Training Loss: 0.25926648, Validation Loss: 0.23935259,Best: 0.23935259, Accuracy: 0.4576, StopCount/Limit:   0/  3, Time:3.53283691
+SADE ConfigID:   9, Epoch:   4, Training Loss: 0.24002349, Validation Loss: 0.23427758,Best: 0.23427758, Accuracy: 0.4366, StopCount/Limit:   0/  3, Time:3.53911638
+SADE ConfigID:   9, Epoch:   5, Training Loss: 0.23708512, Validation Loss: 0.23358872,Best: 0.23358872, Accuracy: 0.3873, StopCount/Limit:   0/  3, Time:3.54200029
+SADE ConfigID:   9, Epoch:   6, Training Loss: 0.23489858, Validation Loss: 0.23060349,Best: 0.23060349, Accuracy: 0.394, StopCount/Limit:   0/  3, Time:3.53887081
+SADE ConfigID:   9, Epoch:   7, Training Loss: 0.23312063, Validation Loss: 0.22985366,Best: 0.22985366, Accuracy: 0.4516, StopCount/Limit:   0/  3, Time:3.54504037
+SADE ConfigID:   9, Epoch:   8, Training Loss: 0.23249050, Validation Loss: 0.22901641,Best: 0.22901641, Accuracy: 0.4458, StopCount/Limit:   0/  3, Time:3.54396462
+SADE ConfigID:   9, Epoch:   9, Training Loss: 0.23106005, Validation Loss: 0.22708465,Best: 0.22708465, Accuracy: 0.4502, StopCount/Limit:   0/  3, Time:3.55629277
+SADE ConfigID:   9, Epoch:  10, Training Loss: 0.23101382, Validation Loss: 0.22996758,Best: 0.22708465, Accuracy: 0.3902, StopCount/Limit:   1/  3, Time:3.57772255
+SADE ConfigID:   9, Epoch:  11, Training Loss: 0.22862781, Validation Loss: 0.22555186,Best: 0.22555186, Accuracy: 0.455, StopCount/Limit:   1/  3, Time:3.57839727
+SADE ConfigID:   9, Epoch:  12, Training Loss: 0.22534845, Validation Loss: 0.22342269,Best: 0.22342269, Accuracy: 0.4716, StopCount/Limit:   1/  3, Time:3.60487103
+SADE ConfigID:   9, Epoch:  13, Training Loss: 0.22154992, Validation Loss: 0.21825532,Best: 0.21825532, Accuracy: 0.4767, StopCount/Limit:   1/  3, Time:3.65103436
+SADE ConfigID:   9, Epoch:  14, Training Loss: 0.21675257, Validation Loss: 0.21736801,Best: 0.21736801, Accuracy: 0.4763, StopCount/Limit:   1/  3, Time:3.66261816
+SADE ConfigID:   9, Epoch:  15, Training Loss: 0.21371596, Validation Loss: 0.21392105,Best: 0.21392105, Accuracy: 0.4773, StopCount/Limit:   1/  3, Time:3.66480112
+SADE ConfigID:   9, Epoch:  16, Training Loss: 0.21187252, Validation Loss: 0.21172526,Best: 0.21172526, Accuracy: 0.485, StopCount/Limit:   1/  3, Time:3.67061758
+SADE ConfigID:   9, Epoch:  17, Training Loss: 0.21059883, Validation Loss: 0.21069500,Best: 0.21069500, Accuracy: 0.4826, StopCount/Limit:   1/  3, Time:3.67552066
+SADE ConfigID:   9, Epoch:  18, Training Loss: 0.21011788, Validation Loss: 0.21109148,Best: 0.21069500, Accuracy: 0.4812, StopCount/Limit:   2/  3, Time:3.67590761
+SADE ConfigID:   9, Epoch:  19, Training Loss: 0.20911372, Validation Loss: 0.21287062,Best: 0.21069500, Accuracy: 0.4846, StopCount/Limit:   3/  3, Time:3.68046403
+SADE Gen 4 Run End
+SADE Run   4 CurrentBest: 0.10014352, Mean: 0.18232709, OverallBest: 0.10014352/  0, config: [784   9   3   9  10], updatecount:   3, Generation RunTime: 318.29813671
+SADE Gen 5 Run Start
+SADE Next Gen: [784   3  10   3  10]
+SADE ConfigID:   0, Epoch:   0, Training Loss: 0.35207038, Validation Loss: 0.32505607,Best: 0.32505607, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.55562449
+SADE ConfigID:   0, Epoch:   1, Training Loss: 0.32501641, Validation Loss: 0.32500799,Best: 0.32500799, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.57914066
+SADE ConfigID:   0, Epoch:   2, Training Loss: 0.32503299, Validation Loss: 0.32493608,Best: 0.32493608, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.57865453
+SADE ConfigID:   0, Epoch:   3, Training Loss: 0.32501149, Validation Loss: 0.32498205,Best: 0.32493608, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.57334971
+SADE ConfigID:   0, Epoch:   4, Training Loss: 0.32502826, Validation Loss: 0.32495547,Best: 0.32493608, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.57895470
+SADE ConfigID:   0, Epoch:   5, Training Loss: 0.32501512, Validation Loss: 0.32498179,Best: 0.32493608, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.58034253
+SADE Next Gen: [784   6   7  10]
+SADE ConfigID:   1, Epoch:   0, Training Loss: 0.31151065, Validation Loss: 0.26184310,Best: 0.26184310, Accuracy: 0.2714, StopCount/Limit:   0/  3, Time:3.11792231
+SADE ConfigID:   1, Epoch:   1, Training Loss: 0.26123969, Validation Loss: 0.25678989,Best: 0.25678989, Accuracy: 0.2966, StopCount/Limit:   0/  3, Time:3.14943194
+SADE ConfigID:   1, Epoch:   2, Training Loss: 0.25531329, Validation Loss: 0.25473279,Best: 0.25473279, Accuracy: 0.2841, StopCount/Limit:   0/  3, Time:3.15507913
+SADE ConfigID:   1, Epoch:   3, Training Loss: 0.25393049, Validation Loss: 0.25302219,Best: 0.25302219, Accuracy: 0.2888, StopCount/Limit:   0/  3, Time:3.15642405
+SADE ConfigID:   1, Epoch:   4, Training Loss: 0.25240258, Validation Loss: 0.25197615,Best: 0.25197615, Accuracy: 0.319, StopCount/Limit:   0/  3, Time:3.15716100
+SADE ConfigID:   1, Epoch:   5, Training Loss: 0.25209661, Validation Loss: 0.25150761,Best: 0.25150761, Accuracy: 0.3106, StopCount/Limit:   0/  3, Time:3.15494704
+SADE ConfigID:   1, Epoch:   6, Training Loss: 0.25026834, Validation Loss: 0.25257914,Best: 0.25150761, Accuracy: 0.324, StopCount/Limit:   1/  3, Time:3.15339828
+SADE ConfigID:   1, Epoch:   7, Training Loss: 0.25323209, Validation Loss: 0.25185254,Best: 0.25150761, Accuracy: 0.3165, StopCount/Limit:   2/  3, Time:3.16157103
+SADE ConfigID:   1, Epoch:   8, Training Loss: 0.25187653, Validation Loss: 0.25003914,Best: 0.25003914, Accuracy: 0.3084, StopCount/Limit:   2/  3, Time:3.15541601
+SADE ConfigID:   1, Epoch:   9, Training Loss: 0.25207577, Validation Loss: 0.24907034,Best: 0.24907034, Accuracy: 0.3239, StopCount/Limit:   2/  3, Time:3.18988395
+SADE ConfigID:   1, Epoch:  10, Training Loss: 0.25029346, Validation Loss: 0.24868706,Best: 0.24868706, Accuracy: 0.3255, StopCount/Limit:   2/  3, Time:3.28314137
+SADE ConfigID:   1, Epoch:  11, Training Loss: 0.25140683, Validation Loss: 0.24878264,Best: 0.24868706, Accuracy: 0.318, StopCount/Limit:   3/  3, Time:3.32870722
+SADE Next Gen: [784   5  10   5  10]
+SADE ConfigID:   2, Epoch:   0, Training Loss: 0.24384587, Validation Loss: 0.19886309,Best: 0.19886309, Accuracy: 0.5256, StopCount/Limit:   0/  3, Time:3.60426593
+SADE ConfigID:   2, Epoch:   1, Training Loss: 0.18932576, Validation Loss: 0.18707446,Best: 0.18707446, Accuracy: 0.5866, StopCount/Limit:   0/  3, Time:3.63101006
+SADE ConfigID:   2, Epoch:   2, Training Loss: 0.17690947, Validation Loss: 0.17349739,Best: 0.17349739, Accuracy: 0.6398, StopCount/Limit:   0/  3, Time:3.63289142
+SADE ConfigID:   2, Epoch:   3, Training Loss: 0.17276284, Validation Loss: 0.17075760,Best: 0.17075760, Accuracy: 0.6542, StopCount/Limit:   0/  3, Time:3.63112426
+SADE ConfigID:   2, Epoch:   4, Training Loss: 0.17048471, Validation Loss: 0.16633573,Best: 0.16633573, Accuracy: 0.6501, StopCount/Limit:   0/  3, Time:3.63976264
+SADE ConfigID:   2, Epoch:   5, Training Loss: 0.16785908, Validation Loss: 0.17406705,Best: 0.16633573, Accuracy: 0.6408, StopCount/Limit:   1/  3, Time:3.63660836
+SADE ConfigID:   2, Epoch:   6, Training Loss: 0.16784415, Validation Loss: 0.16485620,Best: 0.16485620, Accuracy: 0.647, StopCount/Limit:   1/  3, Time:3.63473272
+SADE ConfigID:   2, Epoch:   7, Training Loss: 0.16575117, Validation Loss: 0.16518297,Best: 0.16485620, Accuracy: 0.6502, StopCount/Limit:   2/  3, Time:3.63810897
+SADE ConfigID:   2, Epoch:   8, Training Loss: 0.16553466, Validation Loss: 0.16219990,Best: 0.16219990, Accuracy: 0.6636, StopCount/Limit:   2/  3, Time:3.64583230
+SADE ConfigID:   2, Epoch:   9, Training Loss: 0.16501543, Validation Loss: 0.16696310,Best: 0.16219990, Accuracy: 0.653, StopCount/Limit:   3/  3, Time:3.68077803
+SADE Next Gen: [784   6   6  10]
+SADE ConfigID:   3, Epoch:   0, Training Loss: 0.38184646, Validation Loss: 0.32500373,Best: 0.32500373, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.16446567
+SADE ConfigID:   3, Epoch:   1, Training Loss: 0.32508840, Validation Loss: 0.32481619,Best: 0.32481619, Accuracy: 0.1143, StopCount/Limit:   0/  3, Time:3.18278742
+SADE ConfigID:   3, Epoch:   2, Training Loss: 0.32519965, Validation Loss: 0.32494840,Best: 0.32481619, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.18177843
+SADE ConfigID:   3, Epoch:   3, Training Loss: 0.31998307, Validation Loss: 0.30136230,Best: 0.30136230, Accuracy: 0.1951, StopCount/Limit:   1/  3, Time:3.15462136
+SADE ConfigID:   3, Epoch:   4, Training Loss: 0.29734403, Validation Loss: 0.28832858,Best: 0.28832858, Accuracy: 0.2646, StopCount/Limit:   1/  3, Time:3.11674857
+SADE ConfigID:   3, Epoch:   5, Training Loss: 0.24029509, Validation Loss: 0.20483839,Best: 0.20483839, Accuracy: 0.4924, StopCount/Limit:   1/  3, Time:3.08521819
+SADE ConfigID:   3, Epoch:   6, Training Loss: 0.20096190, Validation Loss: 0.18887508,Best: 0.18887508, Accuracy: 0.5311, StopCount/Limit:   1/  3, Time:3.08231521
+SADE ConfigID:   3, Epoch:   7, Training Loss: 0.18973604, Validation Loss: 0.18037215,Best: 0.18037215, Accuracy: 0.5616, StopCount/Limit:   1/  3, Time:3.10818315
+SADE ConfigID:   3, Epoch:   8, Training Loss: 0.18306702, Validation Loss: 0.18136673,Best: 0.18037215, Accuracy: 0.5558, StopCount/Limit:   2/  3, Time:3.11081815
+SADE ConfigID:   3, Epoch:   9, Training Loss: 0.15767952, Validation Loss: 0.14294347,Best: 0.14294347, Accuracy: 0.7236, StopCount/Limit:   2/  3, Time:3.09487963
+SADE ConfigID:   3, Epoch:  10, Training Loss: 0.13697249, Validation Loss: 0.13241286,Best: 0.13241286, Accuracy: 0.7595, StopCount/Limit:   2/  3, Time:3.11567211
+SADE ConfigID:   3, Epoch:  11, Training Loss: 0.13219684, Validation Loss: 0.12992608,Best: 0.12992608, Accuracy: 0.7799, StopCount/Limit:   2/  3, Time:3.12831664
+SADE ConfigID:   3, Epoch:  12, Training Loss: 0.12954678, Validation Loss: 0.13600560,Best: 0.12992608, Accuracy: 0.7806, StopCount/Limit:   3/  3, Time:3.13984227
+SADE Next Gen: [784   7   7  10]
+SADE ConfigID:   4, Epoch:   0, Training Loss: 0.28537214, Validation Loss: 0.24020179,Best: 0.24020179, Accuracy: 0.3831, StopCount/Limit:   0/  3, Time:3.13281083
+SADE ConfigID:   4, Epoch:   1, Training Loss: 0.21646106, Validation Loss: 0.19405127,Best: 0.19405127, Accuracy: 0.4774, StopCount/Limit:   0/  3, Time:3.16479278
+SADE ConfigID:   4, Epoch:   2, Training Loss: 0.19720469, Validation Loss: 0.19160785,Best: 0.19160785, Accuracy: 0.5011, StopCount/Limit:   0/  3, Time:3.16479278
+SADE ConfigID:   4, Epoch:   3, Training Loss: 0.19303992, Validation Loss: 0.18844781,Best: 0.18844781, Accuracy: 0.5105, StopCount/Limit:   0/  3, Time:3.16726661
+SADE ConfigID:   4, Epoch:   4, Training Loss: 0.19132618, Validation Loss: 0.18703170,Best: 0.18703170, Accuracy: 0.523, StopCount/Limit:   0/  3, Time:3.16914821
+SADE ConfigID:   4, Epoch:   5, Training Loss: 0.19031053, Validation Loss: 0.19126226,Best: 0.18703170, Accuracy: 0.5342, StopCount/Limit:   1/  3, Time:3.17129326
+SADE ConfigID:   4, Epoch:   6, Training Loss: 0.18979588, Validation Loss: 0.18773751,Best: 0.18703170, Accuracy: 0.537, StopCount/Limit:   2/  3, Time:3.16689301
+SADE ConfigID:   4, Epoch:   7, Training Loss: 0.18848789, Validation Loss: 0.18765039,Best: 0.18703170, Accuracy: 0.5474, StopCount/Limit:   3/  3, Time:3.16787481
+SADE Next Gen: [784   9   2   9  10]
+SADE ConfigID:   5, Epoch:   0, Training Loss: 0.26122923, Validation Loss: 0.21296275,Best: 0.21296275, Accuracy: 0.4259, StopCount/Limit:   0/  3, Time:3.78659868
+SADE ConfigID:   5, Epoch:   1, Training Loss: 0.20095779, Validation Loss: 0.19268043,Best: 0.19268043, Accuracy: 0.4861, StopCount/Limit:   0/  3, Time:3.86259437
+SADE ConfigID:   5, Epoch:   2, Training Loss: 0.19233824, Validation Loss: 0.18878704,Best: 0.18878704, Accuracy: 0.498, StopCount/Limit:   0/  3, Time:3.86031723
+SADE ConfigID:   5, Epoch:   3, Training Loss: 0.18364976, Validation Loss: 0.17017183,Best: 0.17017183, Accuracy: 0.5908, StopCount/Limit:   0/  3, Time:3.84166884
+SADE ConfigID:   5, Epoch:   4, Training Loss: 0.16722636, Validation Loss: 0.15972626,Best: 0.15972626, Accuracy: 0.6045, StopCount/Limit:   0/  3, Time:3.84055257
+SADE ConfigID:   5, Epoch:   5, Training Loss: 0.16262841, Validation Loss: 0.17176375,Best: 0.15972626, Accuracy: 0.5416, StopCount/Limit:   1/  3, Time:3.83441091
+SADE ConfigID:   5, Epoch:   6, Training Loss: 0.16108343, Validation Loss: 0.16205885,Best: 0.15972626, Accuracy: 0.6098, StopCount/Limit:   2/  3, Time:3.82940531
+SADE ConfigID:   5, Epoch:   7, Training Loss: 0.15403232, Validation Loss: 0.13722978,Best: 0.13722978, Accuracy: 0.684, StopCount/Limit:   2/  3, Time:3.82957435
+SADE ConfigID:   5, Epoch:   8, Training Loss: 0.13823080, Validation Loss: 0.13520004,Best: 0.13520004, Accuracy: 0.6875, StopCount/Limit:   2/  3, Time:3.85785127
+SADE ConfigID:   5, Epoch:   9, Training Loss: 0.13415037, Validation Loss: 0.13871729,Best: 0.13520004, Accuracy: 0.715, StopCount/Limit:   3/  3, Time:3.91312122
+SADE Next Gen: [784   4   2   4  10]
+SADE ConfigID:   6, Epoch:   0, Training Loss: 0.31896871, Validation Loss: 0.27554558,Best: 0.27554558, Accuracy: 0.2851, StopCount/Limit:   0/  3, Time:3.54097199
+SADE ConfigID:   6, Epoch:   1, Training Loss: 0.25599565, Validation Loss: 0.24947883,Best: 0.24947883, Accuracy: 0.3491, StopCount/Limit:   0/  3, Time:3.57210708
+SADE ConfigID:   6, Epoch:   2, Training Loss: 0.24088736, Validation Loss: 0.23993838,Best: 0.23993838, Accuracy: 0.3953, StopCount/Limit:   0/  3, Time:3.56603479
+SADE ConfigID:   6, Epoch:   3, Training Loss: 0.23233115, Validation Loss: 0.22796580,Best: 0.22796580, Accuracy: 0.3998, StopCount/Limit:   0/  3, Time:3.56270671
+SADE ConfigID:   6, Epoch:   4, Training Loss: 0.22337955, Validation Loss: 0.21873505,Best: 0.21873505, Accuracy: 0.4552, StopCount/Limit:   0/  3, Time:3.55889654
+SADE ConfigID:   6, Epoch:   5, Training Loss: 0.21623214, Validation Loss: 0.21408864,Best: 0.21408864, Accuracy: 0.4702, StopCount/Limit:   0/  3, Time:3.56150103
+SADE ConfigID:   6, Epoch:   6, Training Loss: 0.21270699, Validation Loss: 0.21021656,Best: 0.21021656, Accuracy: 0.4843, StopCount/Limit:   0/  3, Time:3.56387115
+SADE ConfigID:   6, Epoch:   7, Training Loss: 0.21158842, Validation Loss: 0.21136297,Best: 0.21021656, Accuracy: 0.4882, StopCount/Limit:   1/  3, Time:3.56535268
+SADE ConfigID:   6, Epoch:   8, Training Loss: 0.20619104, Validation Loss: 0.20257274,Best: 0.20257274, Accuracy: 0.5101, StopCount/Limit:   1/  3, Time:3.58597422
+SADE ConfigID:   6, Epoch:   9, Training Loss: 0.19630162, Validation Loss: 0.19435175,Best: 0.19435175, Accuracy: 0.5383, StopCount/Limit:   1/  3, Time:3.62263417
+SADE ConfigID:   6, Epoch:  10, Training Loss: 0.19320983, Validation Loss: 0.19277250,Best: 0.19277250, Accuracy: 0.5524, StopCount/Limit:   1/  3, Time:3.63825059
+SADE ConfigID:   6, Epoch:  11, Training Loss: 0.19106552, Validation Loss: 0.18917487,Best: 0.18917487, Accuracy: 0.5694, StopCount/Limit:   1/  3, Time:3.66270089
+SADE ConfigID:   6, Epoch:  12, Training Loss: 0.18952973, Validation Loss: 0.18928588,Best: 0.18917487, Accuracy: 0.5668, StopCount/Limit:   2/  3, Time:3.74858284
+SADE ConfigID:   6, Epoch:  13, Training Loss: 0.18720133, Validation Loss: 0.18586816,Best: 0.18586816, Accuracy: 0.5753, StopCount/Limit:   2/  3, Time:3.77665567
+SADE ConfigID:   6, Epoch:  14, Training Loss: 0.18607641, Validation Loss: 0.18554302,Best: 0.18554302, Accuracy: 0.5804, StopCount/Limit:   2/  3, Time:3.77533031
+SADE ConfigID:   6, Epoch:  15, Training Loss: 0.18535831, Validation Loss: 0.18452415,Best: 0.18452415, Accuracy: 0.5811, StopCount/Limit:   2/  3, Time:3.77403164
+SADE ConfigID:   6, Epoch:  16, Training Loss: 0.18449073, Validation Loss: 0.18307301,Best: 0.18307301, Accuracy: 0.5853, StopCount/Limit:   2/  3, Time:3.77447009
+SADE ConfigID:   6, Epoch:  17, Training Loss: 0.18439826, Validation Loss: 0.18332734,Best: 0.18307301, Accuracy: 0.593, StopCount/Limit:   3/  3, Time:3.77488232
+SADE Next Gen: [784   5   5   6  10]
+SADE ConfigID:   7, Epoch:   0, Training Loss: 0.34488273, Validation Loss: 0.32497834,Best: 0.32497834, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.65788317
+SADE ConfigID:   7, Epoch:   1, Training Loss: 0.32504516, Validation Loss: 0.32505569,Best: 0.32497834, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.68658161
+SADE ConfigID:   7, Epoch:   2, Training Loss: 0.32502522, Validation Loss: 0.32505479,Best: 0.32497834, Accuracy: 0.0974, StopCount/Limit:   2/  3, Time:3.68015814
+SADE ConfigID:   7, Epoch:   3, Training Loss: 0.32503898, Validation Loss: 0.32494542,Best: 0.32494542, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.68646288
+SADE ConfigID:   7, Epoch:   4, Training Loss: 0.32504580, Validation Loss: 0.32492928,Best: 0.32492928, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.68596768
+SADE ConfigID:   7, Epoch:   5, Training Loss: 0.32503741, Validation Loss: 0.32491675,Best: 0.32491675, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.68476582
+SADE ConfigID:   7, Epoch:   6, Training Loss: 0.32503736, Validation Loss: 0.32504933,Best: 0.32491675, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.68370914
+SADE Next Gen: [784   3   5  10]
+SADE ConfigID:   8, Epoch:   0, Training Loss: 0.34632482, Validation Loss: 0.32497540,Best: 0.32497540, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.99683952
+SADE ConfigID:   8, Epoch:   1, Training Loss: 0.32503187, Validation Loss: 0.32500389,Best: 0.32497540, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.01342869
+SADE ConfigID:   8, Epoch:   2, Training Loss: 0.32505196, Validation Loss: 0.32493133,Best: 0.32493133, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.01414418
+SADE ConfigID:   8, Epoch:   3, Training Loss: 0.32502263, Validation Loss: 0.32507393,Best: 0.32493133, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:3.01394439
+SADE ConfigID:   8, Epoch:   4, Training Loss: 0.32504703, Validation Loss: 0.32502622,Best: 0.32493133, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.01410055
+SADE Next Gen: [784   2   2   2  10]
+SADE ConfigID:   9, Epoch:   0, Training Loss: 0.32599537, Validation Loss: 0.29503608,Best: 0.29503608, Accuracy: 0.1683, StopCount/Limit:   0/  3, Time:3.44606352
+SADE ConfigID:   9, Epoch:   1, Training Loss: 0.28013374, Validation Loss: 0.27534500,Best: 0.27534500, Accuracy: 0.3113, StopCount/Limit:   0/  3, Time:3.45653272
+SADE ConfigID:   9, Epoch:   2, Training Loss: 0.27466448, Validation Loss: 0.27490108,Best: 0.27490108, Accuracy: 0.3271, StopCount/Limit:   0/  3, Time:3.45760584
+SADE ConfigID:   9, Epoch:   3, Training Loss: 0.27401384, Validation Loss: 0.27470694,Best: 0.27470694, Accuracy: 0.3357, StopCount/Limit:   0/  3, Time:3.45084190
+SADE ConfigID:   9, Epoch:   4, Training Loss: 0.27363500, Validation Loss: 0.27439868,Best: 0.27439868, Accuracy: 0.3189, StopCount/Limit:   0/  3, Time:3.45730186
+SADE ConfigID:   9, Epoch:   5, Training Loss: 0.27325715, Validation Loss: 0.27937635,Best: 0.27439868, Accuracy: 0.2996, StopCount/Limit:   1/  3, Time:3.45648241
+SADE ConfigID:   9, Epoch:   6, Training Loss: 0.27286415, Validation Loss: 0.27394072,Best: 0.27394072, Accuracy: 0.3174, StopCount/Limit:   1/  3, Time:3.45768619
+SADE ConfigID:   9, Epoch:   7, Training Loss: 0.27250124, Validation Loss: 0.27449020,Best: 0.27394072, Accuracy: 0.3258, StopCount/Limit:   2/  3, Time:3.45637250
+SADE ConfigID:   9, Epoch:   8, Training Loss: 0.27217734, Validation Loss: 0.27346835,Best: 0.27346835, Accuracy: 0.3239, StopCount/Limit:   2/  3, Time:3.46776223
+SADE ConfigID:   9, Epoch:   9, Training Loss: 0.27196619, Validation Loss: 0.27393659,Best: 0.27346835, Accuracy: 0.317, StopCount/Limit:   3/  3, Time:3.46707201
+SADE Gen 5 Run End
+SADE Run   5 CurrentBest: 0.10014352, Mean: 0.17885031, OverallBest: 0.10014352/  0, config: [784   9   3   9  10], updatecount:   1, Generation RunTime: 341.45932436
+SADE Gen 6 Run Start
+SADE Next Gen: [784   4   8   4  10]
+SADE ConfigID:   0, Epoch:   0, Training Loss: 0.32557028, Validation Loss: 0.24569057,Best: 0.24569057, Accuracy: 0.3227, StopCount/Limit:   0/  3, Time:3.54835224
+SADE ConfigID:   0, Epoch:   1, Training Loss: 0.22926793, Validation Loss: 0.22102523,Best: 0.22102523, Accuracy: 0.433, StopCount/Limit:   0/  3, Time:3.58051538
+SADE ConfigID:   0, Epoch:   2, Training Loss: 0.21132689, Validation Loss: 0.21108472,Best: 0.21108472, Accuracy: 0.4242, StopCount/Limit:   0/  3, Time:3.57458043
+SADE ConfigID:   0, Epoch:   3, Training Loss: 0.20637895, Validation Loss: 0.20553387,Best: 0.20553387, Accuracy: 0.4666, StopCount/Limit:   0/  3, Time:3.57304573
+SADE ConfigID:   0, Epoch:   4, Training Loss: 0.20404064, Validation Loss: 0.20167122,Best: 0.20167122, Accuracy: 0.4843, StopCount/Limit:   0/  3, Time:3.57931495
+SADE ConfigID:   0, Epoch:   5, Training Loss: 0.20239728, Validation Loss: 0.20015673,Best: 0.20015673, Accuracy: 0.5096, StopCount/Limit:   0/  3, Time:3.58256197
+SADE ConfigID:   0, Epoch:   6, Training Loss: 0.20108002, Validation Loss: 0.20158291,Best: 0.20015673, Accuracy: 0.5316, StopCount/Limit:   1/  3, Time:3.57487917
+SADE ConfigID:   0, Epoch:   7, Training Loss: 0.19980546, Validation Loss: 0.19728707,Best: 0.19728707, Accuracy: 0.5281, StopCount/Limit:   1/  3, Time:3.58034945
+SADE ConfigID:   0, Epoch:   8, Training Loss: 0.19846083, Validation Loss: 0.20018955,Best: 0.19728707, Accuracy: 0.5013, StopCount/Limit:   2/  3, Time:3.59405494
+SADE ConfigID:   0, Epoch:   9, Training Loss: 0.19801838, Validation Loss: 0.19804351,Best: 0.19728707, Accuracy: 0.5028, StopCount/Limit:   3/  3, Time:3.61576533
+SADE Next Gen: [784   6   2  10]
+SADE ConfigID:   1, Epoch:   0, Training Loss: 0.39904125, Validation Loss: 0.32504100,Best: 0.32504100, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.11438012
+SADE ConfigID:   1, Epoch:   1, Training Loss: 0.32496972, Validation Loss: 0.32491288,Best: 0.32491288, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.13912177
+SADE ConfigID:   1, Epoch:   2, Training Loss: 0.32496048, Validation Loss: 0.32490643,Best: 0.32490643, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.14304948
+SADE ConfigID:   1, Epoch:   3, Training Loss: 0.32495512, Validation Loss: 0.32493021,Best: 0.32490643, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.14527082
+SADE ConfigID:   1, Epoch:   4, Training Loss: 0.32495527, Validation Loss: 0.32490951,Best: 0.32490643, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.14490533
+SADE ConfigID:   1, Epoch:   5, Training Loss: 0.32495620, Validation Loss: 0.32491293,Best: 0.32490643, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.14373183
+SADE Next Gen: [784   8  10   6  10]
+SADE ConfigID:   2, Epoch:   0, Training Loss: 0.16971056, Validation Loss: 0.12492225,Best: 0.12492225, Accuracy: 0.7682, StopCount/Limit:   0/  3, Time:3.71880150
+SADE ConfigID:   2, Epoch:   1, Training Loss: 0.11774797, Validation Loss: 0.11203059,Best: 0.11203059, Accuracy: 0.8048, StopCount/Limit:   0/  3, Time:3.75945950
+SADE ConfigID:   2, Epoch:   2, Training Loss: 0.11152193, Validation Loss: 0.11108123,Best: 0.11108123, Accuracy: 0.809, StopCount/Limit:   0/  3, Time:3.76336145
+SADE ConfigID:   2, Epoch:   3, Training Loss: 0.10831692, Validation Loss: 0.10662176,Best: 0.10662176, Accuracy: 0.817, StopCount/Limit:   0/  3, Time:3.76561236
+SADE ConfigID:   2, Epoch:   4, Training Loss: 0.10620541, Validation Loss: 0.10569808,Best: 0.10569808, Accuracy: 0.8144, StopCount/Limit:   0/  3, Time:3.76764274
+SADE ConfigID:   2, Epoch:   5, Training Loss: 0.10418027, Validation Loss: 0.10985213,Best: 0.10569808, Accuracy: 0.806, StopCount/Limit:   1/  3, Time:3.76811123
+SADE ConfigID:   2, Epoch:   6, Training Loss: 0.10234026, Validation Loss: 0.10751130,Best: 0.10569808, Accuracy: 0.8152, StopCount/Limit:   2/  3, Time:3.76558566
+SADE ConfigID:   2, Epoch:   7, Training Loss: 0.10000172, Validation Loss: 0.10002082,Best: 0.10002082, Accuracy: 0.8279, StopCount/Limit:   2/  3, Time:3.76580381
+SADE ConfigID:   2, Epoch:   8, Training Loss: 0.09848249, Validation Loss: 0.10108941,Best: 0.10002082, Accuracy: 0.8215, StopCount/Limit:   3/  3, Time:3.78307819
+SADE Next Gen: [784   6   6  10]
+SADE ConfigID:   3, Epoch:   0, Training Loss: 0.30881945, Validation Loss: 0.26121854,Best: 0.26121854, Accuracy: 0.3464, StopCount/Limit:   0/  3, Time:3.05425954
+SADE ConfigID:   3, Epoch:   1, Training Loss: 0.20826165, Validation Loss: 0.17085233,Best: 0.17085233, Accuracy: 0.6292, StopCount/Limit:   0/  3, Time:3.08299041
+SADE ConfigID:   3, Epoch:   2, Training Loss: 0.16121904, Validation Loss: 0.15175098,Best: 0.15175098, Accuracy: 0.7284, StopCount/Limit:   0/  3, Time:3.08517170
+SADE ConfigID:   3, Epoch:   3, Training Loss: 0.15289371, Validation Loss: 0.15385989,Best: 0.15175098, Accuracy: 0.722, StopCount/Limit:   1/  3, Time:3.08645415
+SADE ConfigID:   3, Epoch:   4, Training Loss: 0.14851235, Validation Loss: 0.15893003,Best: 0.15175098, Accuracy: 0.7045, StopCount/Limit:   2/  3, Time:3.08552384
+SADE ConfigID:   3, Epoch:   5, Training Loss: 0.14707535, Validation Loss: 0.14875351,Best: 0.14875351, Accuracy: 0.7381, StopCount/Limit:   2/  3, Time:3.08700252
+SADE ConfigID:   3, Epoch:   6, Training Loss: 0.14627056, Validation Loss: 0.14650706,Best: 0.14650706, Accuracy: 0.7287, StopCount/Limit:   2/  3, Time:3.08830523
+SADE ConfigID:   3, Epoch:   7, Training Loss: 0.14488247, Validation Loss: 0.14904723,Best: 0.14650706, Accuracy: 0.7283, StopCount/Limit:   3/  3, Time:3.08996749
+SADE Next Gen: [784   4   7  10]
+SADE ConfigID:   4, Epoch:   0, Training Loss: 0.31629535, Validation Loss: 0.27009333,Best: 0.27009333, Accuracy: 0.2366, StopCount/Limit:   0/  3, Time:3.01728940
+SADE ConfigID:   4, Epoch:   1, Training Loss: 0.26255386, Validation Loss: 0.26140613,Best: 0.26140613, Accuracy: 0.2865, StopCount/Limit:   0/  3, Time:3.04068947
+SADE ConfigID:   4, Epoch:   2, Training Loss: 0.25981753, Validation Loss: 0.26188269,Best: 0.26140613, Accuracy: 0.2874, StopCount/Limit:   1/  3, Time:3.04171896
+SADE ConfigID:   4, Epoch:   3, Training Loss: 0.25825092, Validation Loss: 0.26072719,Best: 0.26072719, Accuracy: 0.2873, StopCount/Limit:   1/  3, Time:3.04352474
+SADE ConfigID:   4, Epoch:   4, Training Loss: 0.25941580, Validation Loss: 0.25994184,Best: 0.25994184, Accuracy: 0.2986, StopCount/Limit:   1/  3, Time:3.04182339
+SADE ConfigID:   4, Epoch:   5, Training Loss: 0.25863481, Validation Loss: 0.25813464,Best: 0.25813464, Accuracy: 0.3028, StopCount/Limit:   1/  3, Time:3.03977275
+SADE ConfigID:   4, Epoch:   6, Training Loss: 0.25860049, Validation Loss: 0.26011326,Best: 0.25813464, Accuracy: 0.2901, StopCount/Limit:   2/  3, Time:3.03996539
+SADE ConfigID:   4, Epoch:   7, Training Loss: 0.25896514, Validation Loss: 0.25897344,Best: 0.25813464, Accuracy: 0.3069, StopCount/Limit:   3/  3, Time:3.04402041
+SADE Next Gen: [784   9   7  10  10]
+SADE ConfigID:   5, Epoch:   0, Training Loss: 0.14200513, Validation Loss: 0.07612105,Best: 0.07612105, Accuracy: 0.8747, StopCount/Limit:   0/  3, Time:3.73558474
+SADE ConfigID:   5, Epoch:   1, Training Loss: 0.07254635, Validation Loss: 0.06489871,Best: 0.06489871, Accuracy: 0.8972, StopCount/Limit:   0/  3, Time:3.78947067
+SADE ConfigID:   5, Epoch:   2, Training Loss: 0.06476843, Validation Loss: 0.06554022,Best: 0.06489871, Accuracy: 0.8903, StopCount/Limit:   1/  3, Time:3.79530072
+SADE ConfigID:   5, Epoch:   3, Training Loss: 0.06136877, Validation Loss: 0.05966530,Best: 0.05966530, Accuracy: 0.9051, StopCount/Limit:   1/  3, Time:3.79191065
+SADE ConfigID:   5, Epoch:   4, Training Loss: 0.05935885, Validation Loss: 0.06227938,Best: 0.05966530, Accuracy: 0.9018, StopCount/Limit:   2/  3, Time:3.78829312
+SADE ConfigID:   5, Epoch:   5, Training Loss: 0.05732189, Validation Loss: 0.05936785,Best: 0.05936785, Accuracy: 0.9061, StopCount/Limit:   2/  3, Time:3.78128815
+SADE ConfigID:   5, Epoch:   6, Training Loss: 0.05684529, Validation Loss: 0.06135067,Best: 0.05936785, Accuracy: 0.9035, StopCount/Limit:   3/  3, Time:3.77760625
+SADE Next Gen: [784   5   3   5  10]
+SADE ConfigID:   6, Epoch:   0, Training Loss: 0.32380689, Validation Loss: 0.25684315,Best: 0.25684315, Accuracy: 0.3028, StopCount/Limit:   0/  3, Time:3.60939574
+SADE ConfigID:   6, Epoch:   1, Training Loss: 0.25229079, Validation Loss: 0.24844301,Best: 0.24844301, Accuracy: 0.3651, StopCount/Limit:   0/  3, Time:3.64409423
+SADE ConfigID:   6, Epoch:   2, Training Loss: 0.24822764, Validation Loss: 0.24523752,Best: 0.24523752, Accuracy: 0.3551, StopCount/Limit:   0/  3, Time:3.64161897
+SADE ConfigID:   6, Epoch:   3, Training Loss: 0.24455590, Validation Loss: 0.24112307,Best: 0.24112307, Accuracy: 0.3846, StopCount/Limit:   0/  3, Time:3.64524841
+SADE ConfigID:   6, Epoch:   4, Training Loss: 0.24084628, Validation Loss: 0.24162061,Best: 0.24112307, Accuracy: 0.4058, StopCount/Limit:   1/  3, Time:3.64788175
+SADE ConfigID:   6, Epoch:   5, Training Loss: 0.23915755, Validation Loss: 0.23789605,Best: 0.23789605, Accuracy: 0.4045, StopCount/Limit:   1/  3, Time:3.63958621
+SADE ConfigID:   6, Epoch:   6, Training Loss: 0.23908105, Validation Loss: 0.23945366,Best: 0.23789605, Accuracy: 0.4032, StopCount/Limit:   2/  3, Time:3.64192677
+SADE ConfigID:   6, Epoch:   7, Training Loss: 0.23884831, Validation Loss: 0.23902737,Best: 0.23789605, Accuracy: 0.406, StopCount/Limit:   3/  3, Time:3.64080119
+SADE Next Gen: [784   5   2   6  10]
+SADE ConfigID:   7, Epoch:   0, Training Loss: 0.28332324, Validation Loss: 0.24636602,Best: 0.24636602, Accuracy: 0.3977, StopCount/Limit:   0/  3, Time:3.60155368
+SADE ConfigID:   7, Epoch:   1, Training Loss: 0.24007074, Validation Loss: 0.23560607,Best: 0.23560607, Accuracy: 0.4121, StopCount/Limit:   0/  3, Time:3.63602805
+SADE ConfigID:   7, Epoch:   2, Training Loss: 0.23338230, Validation Loss: 0.22885052,Best: 0.22885052, Accuracy: 0.4533, StopCount/Limit:   0/  3, Time:3.63917685
+SADE ConfigID:   7, Epoch:   3, Training Loss: 0.22549171, Validation Loss: 0.22097837,Best: 0.22097837, Accuracy: 0.4491, StopCount/Limit:   0/  3, Time:3.63890529
+SADE ConfigID:   7, Epoch:   4, Training Loss: 0.21923723, Validation Loss: 0.21670788,Best: 0.21670788, Accuracy: 0.4746, StopCount/Limit:   0/  3, Time:3.63982868
+SADE ConfigID:   7, Epoch:   5, Training Loss: 0.21500200, Validation Loss: 0.21855635,Best: 0.21670788, Accuracy: 0.4724, StopCount/Limit:   1/  3, Time:3.63916659
+SADE ConfigID:   7, Epoch:   6, Training Loss: 0.21259316, Validation Loss: 0.21404367,Best: 0.21404367, Accuracy: 0.4899, StopCount/Limit:   1/  3, Time:3.64199829
+SADE ConfigID:   7, Epoch:   7, Training Loss: 0.21126511, Validation Loss: 0.21346268,Best: 0.21346268, Accuracy: 0.4841, StopCount/Limit:   1/  3, Time:3.64066482
+SADE ConfigID:   7, Epoch:   8, Training Loss: 0.21054014, Validation Loss: 0.21060240,Best: 0.21060240, Accuracy: 0.5002, StopCount/Limit:   1/  3, Time:3.65594149
+SADE ConfigID:   7, Epoch:   9, Training Loss: 0.20995648, Validation Loss: 0.21267455,Best: 0.21060240, Accuracy: 0.5021, StopCount/Limit:   2/  3, Time:3.70325160
+SADE ConfigID:   7, Epoch:  10, Training Loss: 0.20910953, Validation Loss: 0.21121353,Best: 0.21060240, Accuracy: 0.5143, StopCount/Limit:   3/  3, Time:3.74507618
+SADE Next Gen: [784   3   5  10]
+SADE ConfigID:   8, Epoch:   0, Training Loss: 0.37754618, Validation Loss: 0.32498892,Best: 0.32498892, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.98035669
+SADE ConfigID:   8, Epoch:   1, Training Loss: 0.32496154, Validation Loss: 0.32493460,Best: 0.32493460, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.99655700
+SADE ConfigID:   8, Epoch:   2, Training Loss: 0.32495943, Validation Loss: 0.32491589,Best: 0.32491589, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.99706936
+SADE ConfigID:   8, Epoch:   3, Training Loss: 0.32495545, Validation Loss: 0.32492679,Best: 0.32491589, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.00414753
+SADE ConfigID:   8, Epoch:   4, Training Loss: 0.32495610, Validation Loss: 0.32493158,Best: 0.32491589, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:2.99688053
+SADE ConfigID:   8, Epoch:   5, Training Loss: 0.32495630, Validation Loss: 0.32493807,Best: 0.32491589, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:2.99750638
+SADE Next Gen: [784   4   8   2  10]
+SADE ConfigID:   9, Epoch:   0, Training Loss: 0.34579115, Validation Loss: 0.28214593,Best: 0.28214593, Accuracy: 0.2108, StopCount/Limit:   0/  3, Time:3.57852006
+SADE ConfigID:   9, Epoch:   1, Training Loss: 0.28318895, Validation Loss: 0.28322555,Best: 0.28214593, Accuracy: 0.2136, StopCount/Limit:   1/  3, Time:3.60125875
+SADE ConfigID:   9, Epoch:   2, Training Loss: 0.28259873, Validation Loss: 0.28087150,Best: 0.28087150, Accuracy: 0.2207, StopCount/Limit:   1/  3, Time:3.59669757
+SADE ConfigID:   9, Epoch:   3, Training Loss: 0.28124916, Validation Loss: 0.27906643,Best: 0.27906643, Accuracy: 0.2339, StopCount/Limit:   1/  3, Time:3.59620643
+SADE ConfigID:   9, Epoch:   4, Training Loss: 0.28007618, Validation Loss: 0.27793699,Best: 0.27793699, Accuracy: 0.2451, StopCount/Limit:   1/  3, Time:3.59653497
+SADE ConfigID:   9, Epoch:   5, Training Loss: 0.28101245, Validation Loss: 0.28126034,Best: 0.27793699, Accuracy: 0.2183, StopCount/Limit:   2/  3, Time:3.59555864
+SADE ConfigID:   9, Epoch:   6, Training Loss: 0.28082849, Validation Loss: 0.28134532,Best: 0.27793699, Accuracy: 0.2363, StopCount/Limit:   3/  3, Time:3.59877777
+SADE Gen 6 Run End
+SADE Run   6 CurrentBest: 0.05936785, Mean: 0.16368260, OverallBest: 0.05936785/  6, config: [784   9   7  10  10], updatecount:   4, Generation RunTime: 276.37895012
+SADE Gen 7 Run Start
+SADE Next Gen: [784   4   2   4  10]
+SADE ConfigID:   0, Epoch:   0, Training Loss: 0.35600522, Validation Loss: 0.32497879,Best: 0.32497879, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:3.57682443
+SADE ConfigID:   0, Epoch:   1, Training Loss: 0.32500327, Validation Loss: 0.32491524,Best: 0.32491524, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.59808469
+SADE ConfigID:   0, Epoch:   2, Training Loss: 0.32501484, Validation Loss: 0.32497022,Best: 0.32491524, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.61144090
+SADE ConfigID:   0, Epoch:   3, Training Loss: 0.32500877, Validation Loss: 0.32493910,Best: 0.32491524, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.60165358
+SADE ConfigID:   0, Epoch:   4, Training Loss: 0.32500880, Validation Loss: 0.32496977,Best: 0.32491524, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.60310388
+SADE Next Gen: [784   6   7  10]
+SADE ConfigID:   1, Epoch:   0, Training Loss: 0.34358204, Validation Loss: 0.32504820,Best: 0.32504820, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.13389659
+SADE ConfigID:   1, Epoch:   1, Training Loss: 0.32505800, Validation Loss: 0.32496385,Best: 0.32496385, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.16262507
+SADE ConfigID:   1, Epoch:   2, Training Loss: 0.32503020, Validation Loss: 0.32504419,Best: 0.32496385, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.16386652
+SADE ConfigID:   1, Epoch:   3, Training Loss: 0.32504137, Validation Loss: 0.32494423,Best: 0.32494423, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.16359711
+SADE ConfigID:   1, Epoch:   4, Training Loss: 0.32501944, Validation Loss: 0.32515264,Best: 0.32494423, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.16309857
+SADE ConfigID:   1, Epoch:   5, Training Loss: 0.32503212, Validation Loss: 0.32499386,Best: 0.32494423, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.16405010
+SADE Next Gen: [784   8  10   6  10]
+SADE ConfigID:   2, Epoch:   0, Training Loss: 0.15133578, Validation Loss: 0.11080409,Best: 0.11080409, Accuracy: 0.78, StopCount/Limit:   0/  3, Time:3.67542291
+SADE ConfigID:   2, Epoch:   1, Training Loss: 0.10594112, Validation Loss: 0.10461271,Best: 0.10461271, Accuracy: 0.7968, StopCount/Limit:   0/  3, Time:3.71910739
+SADE ConfigID:   2, Epoch:   2, Training Loss: 0.09962129, Validation Loss: 0.09626274,Best: 0.09626274, Accuracy: 0.8173, StopCount/Limit:   0/  3, Time:3.71768212
+SADE ConfigID:   2, Epoch:   3, Training Loss: 0.09520863, Validation Loss: 0.09684929,Best: 0.09626274, Accuracy: 0.8088, StopCount/Limit:   1/  3, Time:3.72384405
+SADE ConfigID:   2, Epoch:   4, Training Loss: 0.09176881, Validation Loss: 0.09433575,Best: 0.09433575, Accuracy: 0.8306, StopCount/Limit:   1/  3, Time:3.72308922
+SADE ConfigID:   2, Epoch:   5, Training Loss: 0.08741721, Validation Loss: 0.08880958,Best: 0.08880958, Accuracy: 0.8523, StopCount/Limit:   1/  3, Time:3.71787786
+SADE ConfigID:   2, Epoch:   6, Training Loss: 0.08376601, Validation Loss: 0.08116090,Best: 0.08116090, Accuracy: 0.8748, StopCount/Limit:   1/  3, Time:3.71106315
+SADE ConfigID:   2, Epoch:   7, Training Loss: 0.07831876, Validation Loss: 0.08138400,Best: 0.08116090, Accuracy: 0.8805, StopCount/Limit:   2/  3, Time:3.70668125
+SADE ConfigID:   2, Epoch:   8, Training Loss: 0.07478565, Validation Loss: 0.07991934,Best: 0.07991934, Accuracy: 0.8771, StopCount/Limit:   2/  3, Time:3.71379733
+SADE ConfigID:   2, Epoch:   9, Training Loss: 0.07308735, Validation Loss: 0.07769979,Best: 0.07769979, Accuracy: 0.8855, StopCount/Limit:   2/  3, Time:3.72829056
+SADE ConfigID:   2, Epoch:  10, Training Loss: 0.07166411, Validation Loss: 0.07550075,Best: 0.07550075, Accuracy: 0.8852, StopCount/Limit:   2/  3, Time:3.75821519
+SADE ConfigID:   2, Epoch:  11, Training Loss: 0.07108580, Validation Loss: 0.07496218,Best: 0.07496218, Accuracy: 0.8903, StopCount/Limit:   2/  3, Time:3.76909709
+SADE ConfigID:   2, Epoch:  12, Training Loss: 0.07034248, Validation Loss: 0.07927685,Best: 0.07496218, Accuracy: 0.8856, StopCount/Limit:   3/  3, Time:3.79505110
+SADE Next Gen: [784   5   6  10]
+SADE ConfigID:   3, Epoch:   0, Training Loss: 0.30076860, Validation Loss: 0.25895802,Best: 0.25895802, Accuracy: 0.3116, StopCount/Limit:   0/  3, Time:3.05342317
+SADE ConfigID:   3, Epoch:   1, Training Loss: 0.25684787, Validation Loss: 0.25354719,Best: 0.25354719, Accuracy: 0.3494, StopCount/Limit:   0/  3, Time:3.08147788
+SADE ConfigID:   3, Epoch:   2, Training Loss: 0.25173526, Validation Loss: 0.24927840,Best: 0.24927840, Accuracy: 0.3511, StopCount/Limit:   0/  3, Time:3.08167505
+SADE ConfigID:   3, Epoch:   3, Training Loss: 0.24940657, Validation Loss: 0.24887295,Best: 0.24887295, Accuracy: 0.3733, StopCount/Limit:   0/  3, Time:3.07788467
+SADE ConfigID:   3, Epoch:   4, Training Loss: 0.24778940, Validation Loss: 0.24554225,Best: 0.24554225, Accuracy: 0.3815, StopCount/Limit:   0/  3, Time:3.08159447
+SADE ConfigID:   3, Epoch:   5, Training Loss: 0.24592302, Validation Loss: 0.24989724,Best: 0.24554225, Accuracy: 0.3672, StopCount/Limit:   1/  3, Time:3.08513165
+SADE ConfigID:   3, Epoch:   6, Training Loss: 0.24444876, Validation Loss: 0.24276608,Best: 0.24276608, Accuracy: 0.3889, StopCount/Limit:   1/  3, Time:3.08223271
+SADE ConfigID:   3, Epoch:   7, Training Loss: 0.24338223, Validation Loss: 0.24128812,Best: 0.24128812, Accuracy: 0.4065, StopCount/Limit:   1/  3, Time:3.08816242
+SADE ConfigID:   3, Epoch:   8, Training Loss: 0.24233134, Validation Loss: 0.24810509,Best: 0.24128812, Accuracy: 0.3774, StopCount/Limit:   2/  3, Time:3.09207892
+SADE ConfigID:   3, Epoch:   9, Training Loss: 0.24156963, Validation Loss: 0.24151295,Best: 0.24128812, Accuracy: 0.3957, StopCount/Limit:   3/  3, Time:3.13455892
+SADE Next Gen: [784   7   7  10]
+SADE ConfigID:   4, Epoch:   0, Training Loss: 0.24680991, Validation Loss: 0.18718428,Best: 0.18718428, Accuracy: 0.5646, StopCount/Limit:   0/  3, Time:3.11443734
+SADE ConfigID:   4, Epoch:   1, Training Loss: 0.16437079, Validation Loss: 0.15787543,Best: 0.15787543, Accuracy: 0.658, StopCount/Limit:   0/  3, Time:3.14790583
+SADE ConfigID:   4, Epoch:   2, Training Loss: 0.15199267, Validation Loss: 0.14210031,Best: 0.14210031, Accuracy: 0.7519, StopCount/Limit:   0/  3, Time:3.14724946
+SADE ConfigID:   4, Epoch:   3, Training Loss: 0.13824683, Validation Loss: 0.13426687,Best: 0.13426687, Accuracy: 0.7753, StopCount/Limit:   0/  3, Time:3.15415406
+SADE ConfigID:   4, Epoch:   4, Training Loss: 0.13372511, Validation Loss: 0.13646425,Best: 0.13426687, Accuracy: 0.7564, StopCount/Limit:   1/  3, Time:3.14975166
+SADE ConfigID:   4, Epoch:   5, Training Loss: 0.13161651, Validation Loss: 0.13021476,Best: 0.13021476, Accuracy: 0.7671, StopCount/Limit:   1/  3, Time:3.15356112
+SADE ConfigID:   4, Epoch:   6, Training Loss: 0.12929359, Validation Loss: 0.13137674,Best: 0.13021476, Accuracy: 0.7754, StopCount/Limit:   2/  3, Time:3.15025830
+SADE ConfigID:   4, Epoch:   7, Training Loss: 0.12613694, Validation Loss: 0.12535291,Best: 0.12535291, Accuracy: 0.7853, StopCount/Limit:   2/  3, Time:3.15255141
+SADE ConfigID:   4, Epoch:   8, Training Loss: 0.12463091, Validation Loss: 0.12432109,Best: 0.12432109, Accuracy: 0.7822, StopCount/Limit:   2/  3, Time:3.16008544
+SADE ConfigID:   4, Epoch:   9, Training Loss: 0.12353301, Validation Loss: 0.12485239,Best: 0.12432109, Accuracy: 0.7901, StopCount/Limit:   3/  3, Time:3.18567467
+SADE Next Gen: [784   9   2  10  10]
+SADE ConfigID:   5, Epoch:   0, Training Loss: 0.34019705, Validation Loss: 0.32504265,Best: 0.32504265, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.83735299
+SADE ConfigID:   5, Epoch:   1, Training Loss: 0.32504428, Validation Loss: 0.32502387,Best: 0.32502387, Accuracy: 0.1032, StopCount/Limit:   0/  3, Time:3.87443447
+SADE ConfigID:   5, Epoch:   2, Training Loss: 0.32505080, Validation Loss: 0.32503887,Best: 0.32502387, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.87559986
+SADE ConfigID:   5, Epoch:   3, Training Loss: 0.32504303, Validation Loss: 0.32505062,Best: 0.32502387, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.87455964
+SADE ConfigID:   5, Epoch:   4, Training Loss: 0.32502428, Validation Loss: 0.32499693,Best: 0.32499693, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.87245822
+SADE ConfigID:   5, Epoch:   5, Training Loss: 0.32503892, Validation Loss: 0.32503096,Best: 0.32499693, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.87954211
+SADE Next Gen: [784   5   9   6  10]
+SADE ConfigID:   6, Epoch:   0, Training Loss: 0.24863049, Validation Loss: 0.19256620,Best: 0.19256620, Accuracy: 0.5691, StopCount/Limit:   0/  3, Time:3.61038256
+SADE ConfigID:   6, Epoch:   1, Training Loss: 0.18187330, Validation Loss: 0.17007183,Best: 0.17007183, Accuracy: 0.6379, StopCount/Limit:   0/  3, Time:3.63042855
+SADE ConfigID:   6, Epoch:   2, Training Loss: 0.17333822, Validation Loss: 0.16611039,Best: 0.16611039, Accuracy: 0.6626, StopCount/Limit:   0/  3, Time:3.63234258
+SADE ConfigID:   6, Epoch:   3, Training Loss: 0.16784495, Validation Loss: 0.16155226,Best: 0.16155226, Accuracy: 0.6886, StopCount/Limit:   0/  3, Time:3.62720323
+SADE ConfigID:   6, Epoch:   4, Training Loss: 0.16294736, Validation Loss: 0.16181398,Best: 0.16155226, Accuracy: 0.692, StopCount/Limit:   1/  3, Time:3.62965608
+SADE ConfigID:   6, Epoch:   5, Training Loss: 0.15895740, Validation Loss: 0.15467181,Best: 0.15467181, Accuracy: 0.7083, StopCount/Limit:   1/  3, Time:3.62417674
+SADE ConfigID:   6, Epoch:   6, Training Loss: 0.15748954, Validation Loss: 0.16701419,Best: 0.15467181, Accuracy: 0.6804, StopCount/Limit:   2/  3, Time:3.62771463
+SADE ConfigID:   6, Epoch:   7, Training Loss: 0.15584348, Validation Loss: 0.17099533,Best: 0.15467181, Accuracy: 0.6566, StopCount/Limit:   3/  3, Time:3.63341761
+SADE Next Gen: [784   2   2   6  10]
+SADE ConfigID:   7, Epoch:   0, Training Loss: 0.30305894, Validation Loss: 0.26056818,Best: 0.26056818, Accuracy: 0.2802, StopCount/Limit:   0/  3, Time:3.46802711
+SADE ConfigID:   7, Epoch:   1, Training Loss: 0.25632774, Validation Loss: 0.25263806,Best: 0.25263806, Accuracy: 0.2946, StopCount/Limit:   0/  3, Time:3.48822522
+SADE ConfigID:   7, Epoch:   2, Training Loss: 0.25098467, Validation Loss: 0.25031166,Best: 0.25031166, Accuracy: 0.3063, StopCount/Limit:   0/  3, Time:3.48463964
+SADE ConfigID:   7, Epoch:   3, Training Loss: 0.25012844, Validation Loss: 0.24993873,Best: 0.24993873, Accuracy: 0.3088, StopCount/Limit:   0/  3, Time:3.49012375
+SADE ConfigID:   7, Epoch:   4, Training Loss: 0.24984508, Validation Loss: 0.25010482,Best: 0.24993873, Accuracy: 0.3198, StopCount/Limit:   1/  3, Time:3.48703837
+SADE ConfigID:   7, Epoch:   5, Training Loss: 0.24974337, Validation Loss: 0.24922909,Best: 0.24922909, Accuracy: 0.3104, StopCount/Limit:   1/  3, Time:3.48930025
+SADE ConfigID:   7, Epoch:   6, Training Loss: 0.24939355, Validation Loss: 0.24835087,Best: 0.24835087, Accuracy: 0.3144, StopCount/Limit:   1/  3, Time:3.48804045
+SADE ConfigID:   7, Epoch:   7, Training Loss: 0.24739783, Validation Loss: 0.24712904,Best: 0.24712904, Accuracy: 0.3165, StopCount/Limit:   1/  3, Time:3.48966312
+SADE ConfigID:   7, Epoch:   8, Training Loss: 0.24636319, Validation Loss: 0.24629956,Best: 0.24629956, Accuracy: 0.3223, StopCount/Limit:   1/  3, Time:3.49403071
+SADE ConfigID:   7, Epoch:   9, Training Loss: 0.24570493, Validation Loss: 0.24690709,Best: 0.24629956, Accuracy: 0.3153, StopCount/Limit:   2/  3, Time:3.50098538
+SADE ConfigID:   7, Epoch:  10, Training Loss: 0.24551475, Validation Loss: 0.24562372,Best: 0.24562372, Accuracy: 0.3218, StopCount/Limit:   2/  3, Time:3.52049255
+SADE ConfigID:   7, Epoch:  11, Training Loss: 0.24524863, Validation Loss: 0.24542082,Best: 0.24542082, Accuracy: 0.3243, StopCount/Limit:   2/  3, Time:3.53465390
+SADE ConfigID:   7, Epoch:  12, Training Loss: 0.24510367, Validation Loss: 0.24504078,Best: 0.24504078, Accuracy: 0.3213, StopCount/Limit:   2/  3, Time:3.55018663
+SADE ConfigID:   7, Epoch:  13, Training Loss: 0.24496355, Validation Loss: 0.24738373,Best: 0.24504078, Accuracy: 0.314, StopCount/Limit:   3/  3, Time:3.59637499
+SADE Next Gen: [784   2   5  10]
+SADE ConfigID:   8, Epoch:   0, Training Loss: 0.35167725, Validation Loss: 0.32492901,Best: 0.32492901, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.92238188
+SADE ConfigID:   8, Epoch:   1, Training Loss: 0.32502067, Validation Loss: 0.32496037,Best: 0.32492901, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:2.93493438
+SADE ConfigID:   8, Epoch:   2, Training Loss: 0.32499801, Validation Loss: 0.32504675,Best: 0.32492901, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:2.93730974
+SADE ConfigID:   8, Epoch:   3, Training Loss: 0.32500747, Validation Loss: 0.32494956,Best: 0.32492901, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:2.93728614
+SADE Next Gen: [784   4   6   4  10]
+SADE ConfigID:   9, Epoch:   0, Training Loss: 0.34200587, Validation Loss: 0.32498743,Best: 0.32498743, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.59579229
+SADE ConfigID:   9, Epoch:   1, Training Loss: 0.32506213, Validation Loss: 0.32531335,Best: 0.32498743, Accuracy: 0.0958, StopCount/Limit:   1/  3, Time:3.61581230
+SADE ConfigID:   9, Epoch:   2, Training Loss: 0.32510035, Validation Loss: 0.32500033,Best: 0.32498743, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.62161064
+SADE ConfigID:   9, Epoch:   3, Training Loss: 0.32506851, Validation Loss: 0.32504846,Best: 0.32498743, Accuracy: 0.1009, StopCount/Limit:   3/  3, Time:3.61682844
+SADE Gen 7 Run End
+SADE Run   7 CurrentBest: 0.05936785, Mean: 0.15824008, OverallBest: 0.05936785/  6, config: [784   9   7  10  10], updatecount:   3, Generation RunTime: 275.29959106
+SADE Gen 8 Run Start
+SADE Next Gen: [784   2   4   2  10]
+SADE ConfigID:   0, Epoch:   0, Training Loss: 0.38399215, Validation Loss: 0.32500530,Best: 0.32500530, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.48211861
+SADE ConfigID:   0, Epoch:   1, Training Loss: 0.32496569, Validation Loss: 0.32491346,Best: 0.32491346, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.50194860
+SADE ConfigID:   0, Epoch:   2, Training Loss: 0.32494749, Validation Loss: 0.32491577,Best: 0.32491346, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.49880624
+SADE ConfigID:   0, Epoch:   3, Training Loss: 0.32495928, Validation Loss: 0.32492284,Best: 0.32491346, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.50026059
+SADE ConfigID:   0, Epoch:   4, Training Loss: 0.32495938, Validation Loss: 0.32490538,Best: 0.32490538, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.50568008
+SADE ConfigID:   0, Epoch:   5, Training Loss: 0.32495039, Validation Loss: 0.32491165,Best: 0.32490538, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.50306368
+SADE Next Gen: [784   6   7  10]
+SADE ConfigID:   1, Epoch:   0, Training Loss: 0.35276816, Validation Loss: 0.32492060,Best: 0.32492060, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.14062166
+SADE ConfigID:   1, Epoch:   1, Training Loss: 0.32499254, Validation Loss: 0.32498408,Best: 0.32492060, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.16294241
+SADE ConfigID:   1, Epoch:   2, Training Loss: 0.32500674, Validation Loss: 0.32499245,Best: 0.32492060, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.16621089
+SADE ConfigID:   1, Epoch:   3, Training Loss: 0.32501142, Validation Loss: 0.32489780,Best: 0.32489780, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.16847420
+SADE ConfigID:   1, Epoch:   4, Training Loss: 0.32500662, Validation Loss: 0.32492114,Best: 0.32489780, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.16751647
+SADE Next Gen: [784   2  10   6  10]
+SADE ConfigID:   2, Epoch:   0, Training Loss: 0.26842125, Validation Loss: 0.23448731,Best: 0.23448731, Accuracy: 0.3378, StopCount/Limit:   0/  3, Time:3.46744895
+SADE ConfigID:   2, Epoch:   1, Training Loss: 0.22360231, Validation Loss: 0.22056527,Best: 0.22056527, Accuracy: 0.3891, StopCount/Limit:   0/  3, Time:3.48175192
+SADE ConfigID:   2, Epoch:   2, Training Loss: 0.22089678, Validation Loss: 0.22092928,Best: 0.22056527, Accuracy: 0.3789, StopCount/Limit:   1/  3, Time:3.47535992
+SADE ConfigID:   2, Epoch:   3, Training Loss: 0.21973874, Validation Loss: 0.22190302,Best: 0.22056527, Accuracy: 0.3701, StopCount/Limit:   2/  3, Time:3.48295236
+SADE ConfigID:   2, Epoch:   4, Training Loss: 0.21912725, Validation Loss: 0.21553209,Best: 0.21553209, Accuracy: 0.4202, StopCount/Limit:   2/  3, Time:3.48531365
+SADE ConfigID:   2, Epoch:   5, Training Loss: 0.21719886, Validation Loss: 0.21575674,Best: 0.21553209, Accuracy: 0.4111, StopCount/Limit:   3/  3, Time:3.48035598
+SADE Next Gen: [784   6   9  10]
+SADE ConfigID:   3, Epoch:   0, Training Loss: 0.38172435, Validation Loss: 0.32496756,Best: 0.32496756, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.14708734
+SADE ConfigID:   3, Epoch:   1, Training Loss: 0.32495950, Validation Loss: 0.32492886,Best: 0.32492886, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.16807389
+SADE ConfigID:   3, Epoch:   2, Training Loss: 0.32495388, Validation Loss: 0.32492065,Best: 0.32492065, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.17101812
+SADE ConfigID:   3, Epoch:   3, Training Loss: 0.32495846, Validation Loss: 0.32493318,Best: 0.32492065, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.17218781
+SADE ConfigID:   3, Epoch:   4, Training Loss: 0.32495572, Validation Loss: 0.32490850,Best: 0.32490850, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.17517948
+SADE ConfigID:   3, Epoch:   5, Training Loss: 0.32495678, Validation Loss: 0.32490941,Best: 0.32490850, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.17648101
+SADE ConfigID:   3, Epoch:   6, Training Loss: 0.32495439, Validation Loss: 0.32492983,Best: 0.32490850, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.16960907
+SADE Next Gen: [784   7   7  10]
+SADE ConfigID:   4, Epoch:   0, Training Loss: 0.27303118, Validation Loss: 0.19169259,Best: 0.19169259, Accuracy: 0.5357, StopCount/Limit:   0/  3, Time:3.12637329
+SADE ConfigID:   4, Epoch:   1, Training Loss: 0.18441866, Validation Loss: 0.17151549,Best: 0.17151549, Accuracy: 0.6336, StopCount/Limit:   0/  3, Time:3.15916371
+SADE ConfigID:   4, Epoch:   2, Training Loss: 0.16832152, Validation Loss: 0.15595389,Best: 0.15595389, Accuracy: 0.6838, StopCount/Limit:   0/  3, Time:3.16520333
+SADE ConfigID:   4, Epoch:   3, Training Loss: 0.15734029, Validation Loss: 0.14896952,Best: 0.14896952, Accuracy: 0.7087, StopCount/Limit:   0/  3, Time:3.16760898
+SADE ConfigID:   4, Epoch:   4, Training Loss: 0.15121160, Validation Loss: 0.14539545,Best: 0.14539545, Accuracy: 0.7139, StopCount/Limit:   0/  3, Time:3.16671181
+SADE ConfigID:   4, Epoch:   5, Training Loss: 0.14872306, Validation Loss: 0.14687809,Best: 0.14539545, Accuracy: 0.7204, StopCount/Limit:   1/  3, Time:3.16799664
+SADE ConfigID:   4, Epoch:   6, Training Loss: 0.14641066, Validation Loss: 0.14405396,Best: 0.14405396, Accuracy: 0.7146, StopCount/Limit:   1/  3, Time:3.16995597
+SADE ConfigID:   4, Epoch:   7, Training Loss: 0.14460777, Validation Loss: 0.14629464,Best: 0.14405396, Accuracy: 0.74, StopCount/Limit:   2/  3, Time:3.17121267
+SADE ConfigID:   4, Epoch:   8, Training Loss: 0.14309258, Validation Loss: 0.14165040,Best: 0.14165040, Accuracy: 0.7586, StopCount/Limit:   2/  3, Time:3.17924738
+SADE ConfigID:   4, Epoch:   9, Training Loss: 0.14152332, Validation Loss: 0.14154980,Best: 0.14154980, Accuracy: 0.7289, StopCount/Limit:   2/  3, Time:3.20673537
+SADE ConfigID:   4, Epoch:  10, Training Loss: 0.14129970, Validation Loss: 0.14694186,Best: 0.14154980, Accuracy: 0.7376, StopCount/Limit:   3/  3, Time:3.29023528
+SADE Next Gen: [784   9   7   3  10]
+SADE ConfigID:   5, Epoch:   0, Training Loss: 0.30213927, Validation Loss: 0.24670733,Best: 0.24670733, Accuracy: 0.4187, StopCount/Limit:   0/  3, Time:3.82023549
+SADE ConfigID:   5, Epoch:   1, Training Loss: 0.23685238, Validation Loss: 0.22859846,Best: 0.22859846, Accuracy: 0.4524, StopCount/Limit:   0/  3, Time:3.86621690
+SADE ConfigID:   5, Epoch:   2, Training Loss: 0.22325460, Validation Loss: 0.21737357,Best: 0.21737357, Accuracy: 0.4963, StopCount/Limit:   0/  3, Time:3.87726569
+SADE ConfigID:   5, Epoch:   3, Training Loss: 0.21351982, Validation Loss: 0.20962126,Best: 0.20962126, Accuracy: 0.5312, StopCount/Limit:   0/  3, Time:3.87451434
+SADE ConfigID:   5, Epoch:   4, Training Loss: 0.20892284, Validation Loss: 0.20883655,Best: 0.20883655, Accuracy: 0.5308, StopCount/Limit:   0/  3, Time:3.87647772
+SADE ConfigID:   5, Epoch:   5, Training Loss: 0.20727773, Validation Loss: 0.21196502,Best: 0.20883655, Accuracy: 0.5252, StopCount/Limit:   1/  3, Time:3.87652993
+SADE ConfigID:   5, Epoch:   6, Training Loss: 0.20597799, Validation Loss: 0.20710509,Best: 0.20710509, Accuracy: 0.5412, StopCount/Limit:   1/  3, Time:3.88057303
+SADE ConfigID:   5, Epoch:   7, Training Loss: 0.20568176, Validation Loss: 0.20658097,Best: 0.20658097, Accuracy: 0.5353, StopCount/Limit:   1/  3, Time:3.88144422
+SADE ConfigID:   5, Epoch:   8, Training Loss: 0.20476106, Validation Loss: 0.20681903,Best: 0.20658097, Accuracy: 0.5512, StopCount/Limit:   2/  3, Time:3.89044523
+SADE ConfigID:   5, Epoch:   9, Training Loss: 0.20429574, Validation Loss: 0.20675378,Best: 0.20658097, Accuracy: 0.5599, StopCount/Limit:   3/  3, Time:3.95960402
+SADE Next Gen: [784   5   9   2  10]
+SADE ConfigID:   6, Epoch:   0, Training Loss: 0.40610777, Validation Loss: 0.32510155,Best: 0.32510155, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.66308832
+SADE ConfigID:   6, Epoch:   1, Training Loss: 0.32497805, Validation Loss: 0.32491520,Best: 0.32491520, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.68344617
+SADE ConfigID:   6, Epoch:   2, Training Loss: 0.32495281, Validation Loss: 0.32493716,Best: 0.32491520, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.68240905
+SADE ConfigID:   6, Epoch:   3, Training Loss: 0.32495308, Validation Loss: 0.32491676,Best: 0.32491520, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.68177557
+SADE ConfigID:   6, Epoch:   4, Training Loss: 0.32495525, Validation Loss: 0.32492026,Best: 0.32491520, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.68174338
+SADE Next Gen: [784   2   6   2  10]
+SADE ConfigID:   7, Epoch:   0, Training Loss: 0.34616721, Validation Loss: 0.32496951,Best: 0.32496951, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.49509192
+SADE ConfigID:   7, Epoch:   1, Training Loss: 0.32500996, Validation Loss: 0.32500570,Best: 0.32496951, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.51216412
+SADE ConfigID:   7, Epoch:   2, Training Loss: 0.32501333, Validation Loss: 0.32496326,Best: 0.32496326, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.51625633
+SADE ConfigID:   7, Epoch:   3, Training Loss: 0.32501450, Validation Loss: 0.32498138,Best: 0.32496326, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.51358867
+SADE ConfigID:   7, Epoch:   4, Training Loss: 0.32498966, Validation Loss: 0.32501200,Best: 0.32496326, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.51366210
+SADE Next Gen: [784   3   5  10]
+SADE ConfigID:   8, Epoch:   0, Training Loss: 0.35013421, Validation Loss: 0.32493336,Best: 0.32493336, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.98029542
+SADE ConfigID:   8, Epoch:   1, Training Loss: 0.32501062, Validation Loss: 0.32494156,Best: 0.32493336, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:2.99558997
+SADE ConfigID:   8, Epoch:   2, Training Loss: 0.32500596, Validation Loss: 0.32504492,Best: 0.32493336, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:2.99778652
+SADE ConfigID:   8, Epoch:   3, Training Loss: 0.32502193, Validation Loss: 0.32495968,Best: 0.32493336, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:2.99671841
+SADE Next Gen: [784   4   5   2  10]
+SADE ConfigID:   9, Epoch:   0, Training Loss: 0.30312885, Validation Loss: 0.24403286,Best: 0.24403286, Accuracy: 0.3611, StopCount/Limit:   0/  3, Time:3.54944944
+SADE ConfigID:   9, Epoch:   1, Training Loss: 0.23981243, Validation Loss: 0.23865414,Best: 0.23865414, Accuracy: 0.3737, StopCount/Limit:   0/  3, Time:3.56598377
+SADE ConfigID:   9, Epoch:   2, Training Loss: 0.23667441, Validation Loss: 0.23385240,Best: 0.23385240, Accuracy: 0.4005, StopCount/Limit:   0/  3, Time:3.56712389
+SADE ConfigID:   9, Epoch:   3, Training Loss: 0.23292328, Validation Loss: 0.23475033,Best: 0.23385240, Accuracy: 0.3852, StopCount/Limit:   1/  3, Time:3.56960487
+SADE ConfigID:   9, Epoch:   4, Training Loss: 0.23092195, Validation Loss: 0.22773483,Best: 0.22773483, Accuracy: 0.3844, StopCount/Limit:   1/  3, Time:3.56472683
+SADE ConfigID:   9, Epoch:   5, Training Loss: 0.22916364, Validation Loss: 0.22863262,Best: 0.22773483, Accuracy: 0.3826, StopCount/Limit:   2/  3, Time:3.57371879
+SADE ConfigID:   9, Epoch:   6, Training Loss: 0.22700248, Validation Loss: 0.22702392,Best: 0.22702392, Accuracy: 0.3981, StopCount/Limit:   2/  3, Time:3.56792283
+SADE ConfigID:   9, Epoch:   7, Training Loss: 0.22620769, Validation Loss: 0.22893211,Best: 0.22702392, Accuracy: 0.387, StopCount/Limit:   3/  3, Time:3.57010674
+SADE Gen 8 Run End
+SADE Run   8 CurrentBest: 0.05936785, Mean: 0.15824008, OverallBest: 0.05936785/  6, config: [784   9   7  10  10], updatecount:   0, Generation RunTime: 230.09766674
+SADE Gen 9 Run Start
+SADE Next Gen: [784   5   5   4  10]
+SADE ConfigID:   0, Epoch:   0, Training Loss: 0.31843761, Validation Loss: 0.26466812,Best: 0.26466812, Accuracy: 0.3127, StopCount/Limit:   0/  3, Time:3.61522079
+SADE ConfigID:   0, Epoch:   1, Training Loss: 0.25886389, Validation Loss: 0.25749942,Best: 0.25749942, Accuracy: 0.3264, StopCount/Limit:   0/  3, Time:3.65207934
+SADE ConfigID:   0, Epoch:   2, Training Loss: 0.25245624, Validation Loss: 0.25051982,Best: 0.25051982, Accuracy: 0.3586, StopCount/Limit:   0/  3, Time:3.64945340
+SADE ConfigID:   0, Epoch:   3, Training Loss: 0.25029864, Validation Loss: 0.25030820,Best: 0.25030820, Accuracy: 0.3547, StopCount/Limit:   0/  3, Time:3.64771175
+SADE ConfigID:   0, Epoch:   4, Training Loss: 0.24879648, Validation Loss: 0.24887224,Best: 0.24887224, Accuracy: 0.3686, StopCount/Limit:   0/  3, Time:3.64711118
+SADE ConfigID:   0, Epoch:   5, Training Loss: 0.24852030, Validation Loss: 0.24982529,Best: 0.24887224, Accuracy: 0.3724, StopCount/Limit:   1/  3, Time:3.64546156
+SADE ConfigID:   0, Epoch:   6, Training Loss: 0.24736710, Validation Loss: 0.24958475,Best: 0.24887224, Accuracy: 0.3707, StopCount/Limit:   2/  3, Time:3.64615011
+SADE ConfigID:   0, Epoch:   7, Training Loss: 0.24754607, Validation Loss: 0.24921711,Best: 0.24887224, Accuracy: 0.3771, StopCount/Limit:   3/  3, Time:3.64707899
+SADE Next Gen: [784   6   7  10]
+SADE ConfigID:   1, Epoch:   0, Training Loss: 0.32952560, Validation Loss: 0.27899413,Best: 0.27899413, Accuracy: 0.2424, StopCount/Limit:   0/  3, Time:3.12570119
+SADE ConfigID:   1, Epoch:   1, Training Loss: 0.27071278, Validation Loss: 0.25958107,Best: 0.25958107, Accuracy: 0.3088, StopCount/Limit:   0/  3, Time:3.13743687
+SADE ConfigID:   1, Epoch:   2, Training Loss: 0.25432838, Validation Loss: 0.25313244,Best: 0.25313244, Accuracy: 0.3368, StopCount/Limit:   0/  3, Time:3.13824058
+SADE ConfigID:   1, Epoch:   3, Training Loss: 0.24910284, Validation Loss: 0.24693017,Best: 0.24693017, Accuracy: 0.3499, StopCount/Limit:   0/  3, Time:3.13896132
+SADE ConfigID:   1, Epoch:   4, Training Loss: 0.24619296, Validation Loss: 0.24674157,Best: 0.24674157, Accuracy: 0.3511, StopCount/Limit:   0/  3, Time:3.13807225
+SADE ConfigID:   1, Epoch:   5, Training Loss: 0.24391489, Validation Loss: 0.24619550,Best: 0.24619550, Accuracy: 0.3549, StopCount/Limit:   0/  3, Time:3.13728166
+SADE ConfigID:   1, Epoch:   6, Training Loss: 0.24269872, Validation Loss: 0.24379090,Best: 0.24379090, Accuracy: 0.3524, StopCount/Limit:   0/  3, Time:3.14157057
+SADE ConfigID:   1, Epoch:   7, Training Loss: 0.24189571, Validation Loss: 0.24408508,Best: 0.24379090, Accuracy: 0.3503, StopCount/Limit:   1/  3, Time:3.13879919
+SADE ConfigID:   1, Epoch:   8, Training Loss: 0.24161684, Validation Loss: 0.24065631,Best: 0.24065631, Accuracy: 0.3703, StopCount/Limit:   1/  3, Time:3.14407539
+SADE ConfigID:   1, Epoch:   9, Training Loss: 0.24128977, Validation Loss: 0.24025924,Best: 0.24025924, Accuracy: 0.365, StopCount/Limit:   1/  3, Time:3.18215394
+SADE ConfigID:   1, Epoch:  10, Training Loss: 0.24128036, Validation Loss: 0.24120822,Best: 0.24025924, Accuracy: 0.3637, StopCount/Limit:   2/  3, Time:3.27094579
+SADE ConfigID:   1, Epoch:  11, Training Loss: 0.24111514, Validation Loss: 0.24325918,Best: 0.24025924, Accuracy: 0.3637, StopCount/Limit:   3/  3, Time:3.29506183
+SADE Next Gen: [784   2  10   6  10]
+SADE ConfigID:   2, Epoch:   0, Training Loss: 0.26120519, Validation Loss: 0.19930973,Best: 0.19930973, Accuracy: 0.5278, StopCount/Limit:   0/  3, Time:3.44357777
+SADE ConfigID:   2, Epoch:   1, Training Loss: 0.19429205, Validation Loss: 0.18951759,Best: 0.18951759, Accuracy: 0.56, StopCount/Limit:   0/  3, Time:3.46488190
+SADE ConfigID:   2, Epoch:   2, Training Loss: 0.18508476, Validation Loss: 0.17753555,Best: 0.17753555, Accuracy: 0.5972, StopCount/Limit:   0/  3, Time:3.46225166
+SADE ConfigID:   2, Epoch:   3, Training Loss: 0.17539969, Validation Loss: 0.18300259,Best: 0.17753555, Accuracy: 0.578, StopCount/Limit:   1/  3, Time:3.46664143
+SADE ConfigID:   2, Epoch:   4, Training Loss: 0.17251885, Validation Loss: 0.17253334,Best: 0.17253334, Accuracy: 0.6229, StopCount/Limit:   1/  3, Time:3.46312714
+SADE ConfigID:   2, Epoch:   5, Training Loss: 0.16999629, Validation Loss: 0.17012171,Best: 0.17012171, Accuracy: 0.6394, StopCount/Limit:   1/  3, Time:3.46470642
+SADE ConfigID:   2, Epoch:   6, Training Loss: 0.16816362, Validation Loss: 0.16824098,Best: 0.16824098, Accuracy: 0.6605, StopCount/Limit:   1/  3, Time:3.46628904
+SADE ConfigID:   2, Epoch:   7, Training Loss: 0.16719785, Validation Loss: 0.16519231,Best: 0.16519231, Accuracy: 0.6549, StopCount/Limit:   1/  3, Time:3.46400595
+SADE ConfigID:   2, Epoch:   8, Training Loss: 0.16607358, Validation Loss: 0.16341968,Best: 0.16341968, Accuracy: 0.6658, StopCount/Limit:   1/  3, Time:3.46752882
+SADE ConfigID:   2, Epoch:   9, Training Loss: 0.16467665, Validation Loss: 0.16720425,Best: 0.16341968, Accuracy: 0.6531, StopCount/Limit:   2/  3, Time:3.46587539
+SADE ConfigID:   2, Epoch:  10, Training Loss: 0.16353579, Validation Loss: 0.17100935,Best: 0.16341968, Accuracy: 0.6467, StopCount/Limit:   3/  3, Time:3.46658921
+SADE Next Gen: [784   7   6  10]
+SADE ConfigID:   3, Epoch:   0, Training Loss: 0.34012794, Validation Loss: 0.30314239,Best: 0.30314239, Accuracy: 0.2414, StopCount/Limit:   0/  3, Time:3.16181588
+SADE ConfigID:   3, Epoch:   1, Training Loss: 0.27426105, Validation Loss: 0.26809792,Best: 0.26809792, Accuracy: 0.2503, StopCount/Limit:   0/  3, Time:3.20522594
+SADE ConfigID:   3, Epoch:   2, Training Loss: 0.26003707, Validation Loss: 0.25342492,Best: 0.25342492, Accuracy: 0.3275, StopCount/Limit:   0/  3, Time:3.20622206
+SADE ConfigID:   3, Epoch:   3, Training Loss: 0.25019537, Validation Loss: 0.25070076,Best: 0.25070076, Accuracy: 0.3353, StopCount/Limit:   0/  3, Time:3.20369959
+SADE ConfigID:   3, Epoch:   4, Training Loss: 0.24592366, Validation Loss: 0.24356614,Best: 0.24356614, Accuracy: 0.3413, StopCount/Limit:   0/  3, Time:3.20726800
+SADE ConfigID:   3, Epoch:   5, Training Loss: 0.24299965, Validation Loss: 0.24384068,Best: 0.24356614, Accuracy: 0.3509, StopCount/Limit:   1/  3, Time:3.20772862
+SADE ConfigID:   3, Epoch:   6, Training Loss: 0.24146025, Validation Loss: 0.24088737,Best: 0.24088737, Accuracy: 0.3479, StopCount/Limit:   1/  3, Time:3.20654583
+SADE ConfigID:   3, Epoch:   7, Training Loss: 0.24079520, Validation Loss: 0.23986198,Best: 0.23986198, Accuracy: 0.3687, StopCount/Limit:   1/  3, Time:3.20594859
+SADE ConfigID:   3, Epoch:   8, Training Loss: 0.24072345, Validation Loss: 0.24338867,Best: 0.23986198, Accuracy: 0.3557, StopCount/Limit:   2/  3, Time:3.21074915
+SADE ConfigID:   3, Epoch:   9, Training Loss: 0.24026861, Validation Loss: 0.24002792,Best: 0.23986198, Accuracy: 0.3639, StopCount/Limit:   3/  3, Time:3.24538302
+SADE Next Gen: [784   3   7  10]
+SADE ConfigID:   4, Epoch:   0, Training Loss: 0.35190047, Validation Loss: 0.32504354,Best: 0.32504354, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:2.99062037
+SADE ConfigID:   4, Epoch:   1, Training Loss: 0.32501896, Validation Loss: 0.32508185,Best: 0.32504354, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.00570941
+SADE ConfigID:   4, Epoch:   2, Training Loss: 0.32501310, Validation Loss: 0.32500155,Best: 0.32500155, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.01294899
+SADE ConfigID:   4, Epoch:   3, Training Loss: 0.32503122, Validation Loss: 0.32495636,Best: 0.32495636, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.00666833
+SADE ConfigID:   4, Epoch:   4, Training Loss: 0.32503668, Validation Loss: 0.32500218,Best: 0.32495636, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.00896597
+SADE ConfigID:   4, Epoch:   5, Training Loss: 0.32503118, Validation Loss: 0.32506949,Best: 0.32495636, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.00859475
+SADE Next Gen: [784   9   9  10  10]
+SADE ConfigID:   5, Epoch:   0, Training Loss: 0.21614201, Validation Loss: 0.16663943,Best: 0.16663943, Accuracy: 0.7152, StopCount/Limit:   0/  3, Time:3.81671953
+SADE ConfigID:   5, Epoch:   1, Training Loss: 0.15306964, Validation Loss: 0.14328737,Best: 0.14328737, Accuracy: 0.7601, StopCount/Limit:   0/  3, Time:3.84447217
+SADE ConfigID:   5, Epoch:   2, Training Loss: 0.13405778, Validation Loss: 0.12778972,Best: 0.12778972, Accuracy: 0.7856, StopCount/Limit:   0/  3, Time:3.84520721
+SADE ConfigID:   5, Epoch:   3, Training Loss: 0.12711893, Validation Loss: 0.12135872,Best: 0.12135872, Accuracy: 0.7977, StopCount/Limit:   0/  3, Time:3.84515071
+SADE ConfigID:   5, Epoch:   4, Training Loss: 0.12352161, Validation Loss: 0.11985329,Best: 0.11985329, Accuracy: 0.8028, StopCount/Limit:   0/  3, Time:3.84616613
+SADE ConfigID:   5, Epoch:   5, Training Loss: 0.11985824, Validation Loss: 0.11530860,Best: 0.11530860, Accuracy: 0.8045, StopCount/Limit:   0/  3, Time:3.84102249
+SADE ConfigID:   5, Epoch:   6, Training Loss: 0.11738949, Validation Loss: 0.11425830,Best: 0.11425830, Accuracy: 0.8034, StopCount/Limit:   0/  3, Time:3.83794856
+SADE ConfigID:   5, Epoch:   7, Training Loss: 0.11515615, Validation Loss: 0.11131999,Best: 0.11131999, Accuracy: 0.8066, StopCount/Limit:   0/  3, Time:3.84409356
+SADE ConfigID:   5, Epoch:   8, Training Loss: 0.11352424, Validation Loss: 0.12198256,Best: 0.11131999, Accuracy: 0.778, StopCount/Limit:   1/  3, Time:3.86226106
+SADE ConfigID:   5, Epoch:   9, Training Loss: 0.11287193, Validation Loss: 0.11548026,Best: 0.11131999, Accuracy: 0.801, StopCount/Limit:   2/  3, Time:3.93739343
+SADE ConfigID:   5, Epoch:  10, Training Loss: 0.11203971, Validation Loss: 0.11608223,Best: 0.11131999, Accuracy: 0.7987, StopCount/Limit:   3/  3, Time:4.04175806
+SADE Next Gen: [784   5   9   2  10]
+SADE ConfigID:   6, Epoch:   0, Training Loss: 0.38077102, Validation Loss: 0.32502080,Best: 0.32502080, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.63634229
+SADE ConfigID:   6, Epoch:   1, Training Loss: 0.32496947, Validation Loss: 0.32491491,Best: 0.32491491, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.65926099
+SADE ConfigID:   6, Epoch:   2, Training Loss: 0.32495646, Validation Loss: 0.32493281,Best: 0.32491491, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.65805101
+SADE ConfigID:   6, Epoch:   3, Training Loss: 0.32496114, Validation Loss: 0.32493861,Best: 0.32491491, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.65885067
+SADE ConfigID:   6, Epoch:   4, Training Loss: 0.32495160, Validation Loss: 0.32492205,Best: 0.32491491, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.65926242
+SADE Next Gen: [784   5   2   6  10]
+SADE ConfigID:   7, Epoch:   0, Training Loss: 0.34466372, Validation Loss: 0.32504477,Best: 0.32504477, Accuracy: 0.101, StopCount/Limit:   0/  3, Time:3.63453484
+SADE ConfigID:   7, Epoch:   1, Training Loss: 0.32504266, Validation Loss: 0.32496001,Best: 0.32496001, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.65360880
+SADE ConfigID:   7, Epoch:   2, Training Loss: 0.32504025, Validation Loss: 0.32504058,Best: 0.32496001, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:3.65775108
+SADE ConfigID:   7, Epoch:   3, Training Loss: 0.32504077, Validation Loss: 0.32495415,Best: 0.32495415, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.65404129
+SADE ConfigID:   7, Epoch:   4, Training Loss: 0.32504952, Validation Loss: 0.32495864,Best: 0.32495415, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:3.65189290
+SADE ConfigID:   7, Epoch:   5, Training Loss: 0.32502779, Validation Loss: 0.32508292,Best: 0.32495415, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.65656328
+SADE Next Gen: [784   4   5  10]
+SADE ConfigID:   8, Epoch:   0, Training Loss: 0.34507285, Validation Loss: 0.32511115,Best: 0.32511115, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:3.02922916
+SADE ConfigID:   8, Epoch:   1, Training Loss: 0.32501660, Validation Loss: 0.32501611,Best: 0.32501611, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:3.04513478
+SADE ConfigID:   8, Epoch:   2, Training Loss: 0.32502351, Validation Loss: 0.32495580,Best: 0.32495580, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.04945898
+SADE ConfigID:   8, Epoch:   3, Training Loss: 0.32503724, Validation Loss: 0.32497967,Best: 0.32495580, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.05324793
+SADE ConfigID:   8, Epoch:   4, Training Loss: 0.32502607, Validation Loss: 0.32507550,Best: 0.32495580, Accuracy: 0.0958, StopCount/Limit:   2/  3, Time:3.05150223
+SADE ConfigID:   8, Epoch:   5, Training Loss: 0.32502859, Validation Loss: 0.32494874,Best: 0.32494874, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.05386615
+SADE ConfigID:   8, Epoch:   6, Training Loss: 0.32503667, Validation Loss: 0.32502728,Best: 0.32494874, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.05193281
+SADE Next Gen: [784   6   8   6  10]
+SADE ConfigID:   9, Epoch:   0, Training Loss: 0.23271534, Validation Loss: 0.18310814,Best: 0.18310814, Accuracy: 0.5795, StopCount/Limit:   0/  3, Time:3.64183640
+SADE ConfigID:   9, Epoch:   1, Training Loss: 0.18090792, Validation Loss: 0.17474472,Best: 0.17474472, Accuracy: 0.6096, StopCount/Limit:   0/  3, Time:3.67832828
+SADE ConfigID:   9, Epoch:   2, Training Loss: 0.17541485, Validation Loss: 0.17302880,Best: 0.17302880, Accuracy: 0.6319, StopCount/Limit:   0/  3, Time:3.67579913
+SADE ConfigID:   9, Epoch:   3, Training Loss: 0.16549695, Validation Loss: 0.16092960,Best: 0.16092960, Accuracy: 0.685, StopCount/Limit:   0/  3, Time:3.67560530
+SADE ConfigID:   9, Epoch:   4, Training Loss: 0.15746143, Validation Loss: 0.15706278,Best: 0.15706278, Accuracy: 0.7041, StopCount/Limit:   0/  3, Time:3.67569542
+SADE ConfigID:   9, Epoch:   5, Training Loss: 0.15533615, Validation Loss: 0.15707281,Best: 0.15706278, Accuracy: 0.698, StopCount/Limit:   1/  3, Time:3.67600894
+SADE ConfigID:   9, Epoch:   6, Training Loss: 0.15381358, Validation Loss: 0.16068842,Best: 0.15706278, Accuracy: 0.6924, StopCount/Limit:   2/  3, Time:3.67881656
+SADE ConfigID:   9, Epoch:   7, Training Loss: 0.15271604, Validation Loss: 0.15161019,Best: 0.15161019, Accuracy: 0.706, StopCount/Limit:   2/  3, Time:3.68102407
+SADE ConfigID:   9, Epoch:   8, Training Loss: 0.15097322, Validation Loss: 0.15314190,Best: 0.15161019, Accuracy: 0.7021, StopCount/Limit:   3/  3, Time:3.69140816
+SADE Gen 9 Run End
+SADE Run   9 CurrentBest: 0.05936785, Mean: 0.15233160, OverallBest: 0.05936785/  6, config: [784   9   7  10  10], updatecount:   1, Generation RunTime: 292.51110983
+SADE Run Completed : Best Score: 0.059367847695364614 , Config: [784   9   7  10  10], find in Gen: 6

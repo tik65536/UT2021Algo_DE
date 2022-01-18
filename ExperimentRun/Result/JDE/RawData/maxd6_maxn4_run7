@@ -1,0 +1,1003 @@
+JDEV2 Test Run Start: maxdepth:6, maxneuron:4
+JDE Initial Run Start
+JDE ConfigID:   0, Epoch:   0, Training Loss: 0.38198884, Validation Loss: 0.32499234,Best: 0.32499234, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.16370344
+JDE ConfigID:   0, Epoch:   1, Training Loss: 0.32496559, Validation Loss: 0.32490214,Best: 0.32490214, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.18099570
+JDE ConfigID:   0, Epoch:   2, Training Loss: 0.32494914, Validation Loss: 0.32493087,Best: 0.32490214, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.17615795
+JDE ConfigID:   0, Epoch:   3, Training Loss: 0.32495311, Validation Loss: 0.32493362,Best: 0.32490214, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.18386745
+JDE ConfigID:   0, Epoch:   4, Training Loss: 0.32495668, Validation Loss: 0.32492007,Best: 0.32490214, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.17625809
+JDE ConfigID:   1, Epoch:   0, Training Loss: 0.32516298, Validation Loss: 0.27347236,Best: 0.27347236, Accuracy: 0.2261, StopCount/Limit:   0/  3, Time:3.86124969
+JDE ConfigID:   1, Epoch:   1, Training Loss: 0.26381816, Validation Loss: 0.25921947,Best: 0.25921947, Accuracy: 0.2851, StopCount/Limit:   0/  3, Time:3.88517141
+JDE ConfigID:   1, Epoch:   2, Training Loss: 0.25524458, Validation Loss: 0.25139162,Best: 0.25139162, Accuracy: 0.2831, StopCount/Limit:   0/  3, Time:3.88365364
+JDE ConfigID:   1, Epoch:   3, Training Loss: 0.25170181, Validation Loss: 0.25162440,Best: 0.25139162, Accuracy: 0.2698, StopCount/Limit:   1/  3, Time:3.89027762
+JDE ConfigID:   1, Epoch:   4, Training Loss: 0.25100236, Validation Loss: 0.25096761,Best: 0.25096761, Accuracy: 0.3054, StopCount/Limit:   1/  3, Time:3.87636304
+JDE ConfigID:   1, Epoch:   5, Training Loss: 0.25013640, Validation Loss: 0.25130717,Best: 0.25096761, Accuracy: 0.3004, StopCount/Limit:   2/  3, Time:3.88210797
+JDE ConfigID:   1, Epoch:   6, Training Loss: 0.24937131, Validation Loss: 0.24872393,Best: 0.24872393, Accuracy: 0.2983, StopCount/Limit:   2/  3, Time:3.89060020
+JDE ConfigID:   1, Epoch:   7, Training Loss: 0.24852232, Validation Loss: 0.24920684,Best: 0.24872393, Accuracy: 0.3071, StopCount/Limit:   3/  3, Time:3.89257884
+JDE ConfigID:   2, Epoch:   0, Training Loss: 0.38802729, Validation Loss: 0.32500475,Best: 0.32500475, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.82887554
+JDE ConfigID:   2, Epoch:   1, Training Loss: 0.32496605, Validation Loss: 0.32491863,Best: 0.32491863, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.84820795
+JDE ConfigID:   2, Epoch:   2, Training Loss: 0.32495069, Validation Loss: 0.32492923,Best: 0.32491863, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.85178757
+JDE ConfigID:   2, Epoch:   3, Training Loss: 0.32495425, Validation Loss: 0.32491196,Best: 0.32491196, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.84382415
+JDE ConfigID:   2, Epoch:   4, Training Loss: 0.32495455, Validation Loss: 0.32492621,Best: 0.32491196, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.84275246
+JDE ConfigID:   2, Epoch:   5, Training Loss: 0.32495645, Validation Loss: 0.32492639,Best: 0.32491196, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.83558488
+JDE ConfigID:   3, Epoch:   0, Training Loss: 0.32876778, Validation Loss: 0.31107719,Best: 0.31107719, Accuracy: 0.202, StopCount/Limit:   0/  3, Time:4.44444370
+JDE ConfigID:   3, Epoch:   1, Training Loss: 0.29034941, Validation Loss: 0.28238075,Best: 0.28238075, Accuracy: 0.2652, StopCount/Limit:   0/  3, Time:4.46277976
+JDE ConfigID:   3, Epoch:   2, Training Loss: 0.27604585, Validation Loss: 0.27473959,Best: 0.27473959, Accuracy: 0.2774, StopCount/Limit:   0/  3, Time:4.46052647
+JDE ConfigID:   3, Epoch:   3, Training Loss: 0.27358374, Validation Loss: 0.27584086,Best: 0.27473959, Accuracy: 0.2709, StopCount/Limit:   1/  3, Time:4.45232916
+JDE ConfigID:   3, Epoch:   4, Training Loss: 0.27313270, Validation Loss: 0.27412173,Best: 0.27412173, Accuracy: 0.272, StopCount/Limit:   1/  3, Time:4.45628190
+JDE ConfigID:   3, Epoch:   5, Training Loss: 0.27286512, Validation Loss: 0.27494172,Best: 0.27412173, Accuracy: 0.299, StopCount/Limit:   2/  3, Time:4.46486139
+JDE ConfigID:   3, Epoch:   6, Training Loss: 0.27262690, Validation Loss: 0.27348194,Best: 0.27348194, Accuracy: 0.294, StopCount/Limit:   2/  3, Time:4.46153522
+JDE ConfigID:   3, Epoch:   7, Training Loss: 0.27208053, Validation Loss: 0.27284698,Best: 0.27284698, Accuracy: 0.3254, StopCount/Limit:   2/  3, Time:4.47079611
+JDE ConfigID:   3, Epoch:   8, Training Loss: 0.27180408, Validation Loss: 0.27313952,Best: 0.27284698, Accuracy: 0.2906, StopCount/Limit:   3/  3, Time:4.47407961
+JDE ConfigID:   4, Epoch:   0, Training Loss: 0.31321941, Validation Loss: 0.28320755,Best: 0.28320755, Accuracy: 0.2121, StopCount/Limit:   0/  3, Time:3.16030788
+JDE ConfigID:   4, Epoch:   1, Training Loss: 0.28385837, Validation Loss: 0.28222294,Best: 0.28222294, Accuracy: 0.2067, StopCount/Limit:   0/  3, Time:3.17152977
+JDE ConfigID:   4, Epoch:   2, Training Loss: 0.28327503, Validation Loss: 0.28224122,Best: 0.28222294, Accuracy: 0.2137, StopCount/Limit:   1/  3, Time:3.16764140
+JDE ConfigID:   4, Epoch:   3, Training Loss: 0.28304640, Validation Loss: 0.28162163,Best: 0.28162163, Accuracy: 0.2121, StopCount/Limit:   1/  3, Time:3.17782021
+JDE ConfigID:   4, Epoch:   4, Training Loss: 0.28296341, Validation Loss: 0.28165735,Best: 0.28162163, Accuracy: 0.2134, StopCount/Limit:   2/  3, Time:3.18344402
+JDE ConfigID:   4, Epoch:   5, Training Loss: 0.28273970, Validation Loss: 0.28198410,Best: 0.28162163, Accuracy: 0.213, StopCount/Limit:   3/  3, Time:3.16949797
+JDE ConfigID:   5, Epoch:   0, Training Loss: 0.36421142, Validation Loss: 0.32502972,Best: 0.32502972, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.15605664
+JDE ConfigID:   5, Epoch:   1, Training Loss: 0.32500131, Validation Loss: 0.32496449,Best: 0.32496449, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.18455577
+JDE ConfigID:   5, Epoch:   2, Training Loss: 0.32497976, Validation Loss: 0.32494932,Best: 0.32494932, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.17712831
+JDE ConfigID:   5, Epoch:   3, Training Loss: 0.32498519, Validation Loss: 0.32498114,Best: 0.32494932, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.17744398
+JDE ConfigID:   5, Epoch:   4, Training Loss: 0.32499103, Validation Loss: 0.32495919,Best: 0.32494932, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.18333721
+JDE ConfigID:   5, Epoch:   5, Training Loss: 0.32500671, Validation Loss: 0.32497495,Best: 0.32494932, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.18611693
+JDE ConfigID:   6, Epoch:   0, Training Loss: 0.32001608, Validation Loss: 0.26636020,Best: 0.26636020, Accuracy: 0.2893, StopCount/Limit:   0/  3, Time:5.12225175
+JDE ConfigID:   6, Epoch:   1, Training Loss: 0.26060390, Validation Loss: 0.25959402,Best: 0.25959402, Accuracy: 0.2998, StopCount/Limit:   0/  3, Time:5.14174342
+JDE ConfigID:   6, Epoch:   2, Training Loss: 0.25591108, Validation Loss: 0.25394502,Best: 0.25394502, Accuracy: 0.3044, StopCount/Limit:   0/  3, Time:5.14806676
+JDE ConfigID:   6, Epoch:   3, Training Loss: 0.25446812, Validation Loss: 0.25445956,Best: 0.25394502, Accuracy: 0.3036, StopCount/Limit:   1/  3, Time:5.15244770
+JDE ConfigID:   6, Epoch:   4, Training Loss: 0.25372255, Validation Loss: 0.25225789,Best: 0.25225789, Accuracy: 0.3141, StopCount/Limit:   1/  3, Time:5.15682387
+JDE ConfigID:   6, Epoch:   5, Training Loss: 0.25336067, Validation Loss: 0.25278379,Best: 0.25225789, Accuracy: 0.3082, StopCount/Limit:   2/  3, Time:5.15585136
+JDE ConfigID:   6, Epoch:   6, Training Loss: 0.25297812, Validation Loss: 0.25169211,Best: 0.25169211, Accuracy: 0.3215, StopCount/Limit:   2/  3, Time:5.15764093
+JDE ConfigID:   6, Epoch:   7, Training Loss: 0.25258287, Validation Loss: 0.25179111,Best: 0.25169211, Accuracy: 0.3166, StopCount/Limit:   3/  3, Time:5.15758324
+JDE ConfigID:   7, Epoch:   0, Training Loss: 0.37286551, Validation Loss: 0.32498863,Best: 0.32498863, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.78682375
+JDE ConfigID:   7, Epoch:   1, Training Loss: 0.32495437, Validation Loss: 0.32495435,Best: 0.32495435, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.80116391
+JDE ConfigID:   7, Epoch:   2, Training Loss: 0.32495298, Validation Loss: 0.32491963,Best: 0.32491963, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.81124330
+JDE ConfigID:   7, Epoch:   3, Training Loss: 0.32495427, Validation Loss: 0.32495689,Best: 0.32491963, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.80763817
+JDE ConfigID:   7, Epoch:   4, Training Loss: 0.32495326, Validation Loss: 0.32492922,Best: 0.32491963, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.80147505
+JDE ConfigID:   7, Epoch:   5, Training Loss: 0.32495624, Validation Loss: 0.32492961,Best: 0.32491963, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.80705857
+JDE ConfigID:   8, Epoch:   0, Training Loss: 0.35894657, Validation Loss: 0.32498068,Best: 0.32498068, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.88039398
+JDE ConfigID:   8, Epoch:   1, Training Loss: 0.32500093, Validation Loss: 0.32496037,Best: 0.32496037, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.89710879
+JDE ConfigID:   8, Epoch:   2, Training Loss: 0.32499120, Validation Loss: 0.32499461,Best: 0.32496037, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.89708495
+JDE ConfigID:   8, Epoch:   3, Training Loss: 0.32499281, Validation Loss: 0.32493396,Best: 0.32493396, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.89998412
+JDE ConfigID:   8, Epoch:   4, Training Loss: 0.32498445, Validation Loss: 0.32501185,Best: 0.32493396, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.90723443
+JDE ConfigID:   8, Epoch:   5, Training Loss: 0.32499461, Validation Loss: 0.32496717,Best: 0.32493396, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.90254068
+JDE ConfigID:   9, Epoch:   0, Training Loss: 0.34897425, Validation Loss: 0.32511815,Best: 0.32511815, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:3.81358385
+JDE ConfigID:   9, Epoch:   1, Training Loss: 0.32504138, Validation Loss: 0.32511220,Best: 0.32511220, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.82820630
+JDE ConfigID:   9, Epoch:   2, Training Loss: 0.32505068, Validation Loss: 0.32497252,Best: 0.32497252, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.82914639
+JDE ConfigID:   9, Epoch:   3, Training Loss: 0.32503567, Validation Loss: 0.32504756,Best: 0.32497252, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.82646751
+JDE ConfigID:   9, Epoch:   4, Training Loss: 0.32503464, Validation Loss: 0.32505543,Best: 0.32497252, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.83482075
+JDE ConfigID:   9, Epoch:   5, Training Loss: 0.32502398, Validation Loss: 0.32510615,Best: 0.32497252, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:3.83261180
+JDE Initial Run End
+JDE Init Run Best: 0.2487239345908165, Mean: 0.3004474181354046, ID:1, config: [784   3   3   3  10]
+Gen 0 Run Start
+Next Gen: [784   2   2  10]
+JDE ConfigID:   0, Epoch:   0, Training Loss: 0.35367459, Validation Loss: 0.32497640,Best: 0.32497640, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.16525316
+JDE ConfigID:   0, Epoch:   1, Training Loss: 0.32500687, Validation Loss: 0.32491350,Best: 0.32491350, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.18289948
+JDE ConfigID:   0, Epoch:   2, Training Loss: 0.32499154, Validation Loss: 0.32499522,Best: 0.32491350, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:3.17477012
+JDE ConfigID:   0, Epoch:   3, Training Loss: 0.32499847, Validation Loss: 0.32492077,Best: 0.32491350, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.17898393
+JDE ConfigID:   0, Epoch:   4, Training Loss: 0.32499147, Validation Loss: 0.32502465,Best: 0.32491350, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.18284392
+Next Gen: [784   3   3   3   3  10]
+JDE ConfigID:   1, Epoch:   0, Training Loss: 0.31814091, Validation Loss: 0.27921361,Best: 0.27921361, Accuracy: 0.3194, StopCount/Limit:   0/  3, Time:4.48483515
+JDE ConfigID:   1, Epoch:   1, Training Loss: 0.26843460, Validation Loss: 0.25723195,Best: 0.25723195, Accuracy: 0.3966, StopCount/Limit:   0/  3, Time:4.48309159
+JDE ConfigID:   1, Epoch:   2, Training Loss: 0.25691930, Validation Loss: 0.25298223,Best: 0.25298223, Accuracy: 0.4126, StopCount/Limit:   0/  3, Time:4.48411989
+JDE ConfigID:   1, Epoch:   3, Training Loss: 0.25335613, Validation Loss: 0.24937360,Best: 0.24937360, Accuracy: 0.387, StopCount/Limit:   0/  3, Time:4.47763014
+JDE ConfigID:   1, Epoch:   4, Training Loss: 0.25004661, Validation Loss: 0.24694320,Best: 0.24694320, Accuracy: 0.3772, StopCount/Limit:   0/  3, Time:4.49610186
+JDE ConfigID:   1, Epoch:   5, Training Loss: 0.24816551, Validation Loss: 0.24619258,Best: 0.24619258, Accuracy: 0.3704, StopCount/Limit:   0/  3, Time:4.48863149
+JDE ConfigID:   1, Epoch:   6, Training Loss: 0.24806025, Validation Loss: 0.24688762,Best: 0.24619258, Accuracy: 0.3965, StopCount/Limit:   1/  3, Time:4.49544787
+JDE ConfigID:   1, Epoch:   7, Training Loss: 0.24724468, Validation Loss: 0.24650981,Best: 0.24619258, Accuracy: 0.3996, StopCount/Limit:   2/  3, Time:4.49805355
+JDE ConfigID:   1, Epoch:   8, Training Loss: 0.24481816, Validation Loss: 0.23351855,Best: 0.23351855, Accuracy: 0.3817, StopCount/Limit:   2/  3, Time:4.49401498
+JDE ConfigID:   1, Epoch:   9, Training Loss: 0.22750192, Validation Loss: 0.22511220,Best: 0.22511220, Accuracy: 0.4178, StopCount/Limit:   2/  3, Time:4.50198770
+JDE ConfigID:   1, Epoch:  10, Training Loss: 0.22540548, Validation Loss: 0.22372187,Best: 0.22372187, Accuracy: 0.3942, StopCount/Limit:   2/  3, Time:4.50074267
+JDE ConfigID:   1, Epoch:  11, Training Loss: 0.22472911, Validation Loss: 0.22386110,Best: 0.22372187, Accuracy: 0.4301, StopCount/Limit:   3/  3, Time:4.49788976
+Next Gen: [784   3   3   3   2  10]
+JDE ConfigID:   2, Epoch:   0, Training Loss: 0.38990064, Validation Loss: 0.32501322,Best: 0.32501322, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.50395584
+JDE ConfigID:   2, Epoch:   1, Training Loss: 0.32496876, Validation Loss: 0.32492031,Best: 0.32492031, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.52333307
+JDE ConfigID:   2, Epoch:   2, Training Loss: 0.32495408, Validation Loss: 0.32491743,Best: 0.32491743, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.52384782
+JDE ConfigID:   2, Epoch:   3, Training Loss: 0.32496129, Validation Loss: 0.32491684,Best: 0.32491684, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.52476907
+JDE ConfigID:   2, Epoch:   4, Training Loss: 0.32495457, Validation Loss: 0.32491346,Best: 0.32491346, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.51585102
+JDE ConfigID:   2, Epoch:   5, Training Loss: 0.32495594, Validation Loss: 0.32491176,Best: 0.32491176, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.51992178
+JDE ConfigID:   2, Epoch:   6, Training Loss: 0.32495831, Validation Loss: 0.32491224,Best: 0.32491176, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.52904034
+JDE ConfigID:   2, Epoch:   7, Training Loss: 0.32495632, Validation Loss: 0.32491568,Best: 0.32491176, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.52530241
+JDE ConfigID:   2, Epoch:   8, Training Loss: 0.32495609, Validation Loss: 0.32492199,Best: 0.32491176, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.55822396
+Next Gen: [784   2   2   2   2  10]
+JDE ConfigID:   3, Epoch:   0, Training Loss: 0.40774952, Validation Loss: 0.32510485,Best: 0.32510485, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.39966702
+JDE ConfigID:   3, Epoch:   1, Training Loss: 0.32497217, Validation Loss: 0.32493810,Best: 0.32493810, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.41125345
+JDE ConfigID:   3, Epoch:   2, Training Loss: 0.32494487, Validation Loss: 0.32491353,Best: 0.32491353, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.40539408
+JDE ConfigID:   3, Epoch:   3, Training Loss: 0.32494394, Validation Loss: 0.32492214,Best: 0.32491353, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.41328669
+JDE ConfigID:   3, Epoch:   4, Training Loss: 0.32496003, Validation Loss: 0.32491192,Best: 0.32491192, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.41099215
+JDE ConfigID:   3, Epoch:   5, Training Loss: 0.32494893, Validation Loss: 0.32491191,Best: 0.32491191, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.42061925
+JDE ConfigID:   3, Epoch:   6, Training Loss: 0.32495736, Validation Loss: 0.32493817,Best: 0.32491191, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.42084765
+JDE ConfigID:   3, Epoch:   7, Training Loss: 0.32495666, Validation Loss: 0.32492491,Best: 0.32491191, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.40845585
+Next Gen: [784   3   2   2  10]
+JDE ConfigID:   4, Epoch:   0, Training Loss: 0.34664562, Validation Loss: 0.32494311,Best: 0.32494311, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.86051297
+JDE ConfigID:   4, Epoch:   1, Training Loss: 0.32498744, Validation Loss: 0.32498615,Best: 0.32494311, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.87792063
+JDE ConfigID:   4, Epoch:   2, Training Loss: 0.32500728, Validation Loss: 0.32493691,Best: 0.32493691, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.86751127
+JDE ConfigID:   4, Epoch:   3, Training Loss: 0.32500410, Validation Loss: 0.32491833,Best: 0.32491833, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.86711788
+JDE ConfigID:   4, Epoch:   4, Training Loss: 0.32498586, Validation Loss: 0.32498904,Best: 0.32491833, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.87075686
+JDE ConfigID:   4, Epoch:   5, Training Loss: 0.32500760, Validation Loss: 0.32496404,Best: 0.32491833, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.87624788
+Next Gen: [784   3   3   2   3   3  10]
+JDE ConfigID:   5, Epoch:   0, Training Loss: 0.40217095, Validation Loss: 0.32513055,Best: 0.32513055, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.14344692
+JDE ConfigID:   5, Epoch:   1, Training Loss: 0.32497629, Validation Loss: 0.32493385,Best: 0.32493385, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.16469932
+JDE ConfigID:   5, Epoch:   2, Training Loss: 0.32495752, Validation Loss: 0.32493095,Best: 0.32493095, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.15278721
+JDE ConfigID:   5, Epoch:   3, Training Loss: 0.32495507, Validation Loss: 0.32493521,Best: 0.32493095, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.16269398
+JDE ConfigID:   5, Epoch:   4, Training Loss: 0.32495509, Validation Loss: 0.32491923,Best: 0.32491923, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.18227839
+JDE ConfigID:   5, Epoch:   5, Training Loss: 0.32495599, Validation Loss: 0.32491559,Best: 0.32491559, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.17495751
+JDE ConfigID:   5, Epoch:   6, Training Loss: 0.32495574, Validation Loss: 0.32493004,Best: 0.32491559, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.15746427
+JDE ConfigID:   5, Epoch:   7, Training Loss: 0.32495478, Validation Loss: 0.32492684,Best: 0.32491559, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.16641784
+Next Gen: [784   3   3   3   3   3  10]
+JDE ConfigID:   6, Epoch:   0, Training Loss: 0.30461092, Validation Loss: 0.26615492,Best: 0.26615492, Accuracy: 0.3934, StopCount/Limit:   0/  3, Time:5.08925986
+JDE ConfigID:   6, Epoch:   1, Training Loss: 0.25786528, Validation Loss: 0.24729989,Best: 0.24729989, Accuracy: 0.3758, StopCount/Limit:   0/  3, Time:5.12703347
+JDE ConfigID:   6, Epoch:   2, Training Loss: 0.22754849, Validation Loss: 0.22072507,Best: 0.22072507, Accuracy: 0.4197, StopCount/Limit:   0/  3, Time:5.12722135
+JDE ConfigID:   6, Epoch:   3, Training Loss: 0.21908399, Validation Loss: 0.22432238,Best: 0.22072507, Accuracy: 0.4278, StopCount/Limit:   1/  3, Time:5.13065958
+JDE ConfigID:   6, Epoch:   4, Training Loss: 0.21549539, Validation Loss: 0.21410653,Best: 0.21410653, Accuracy: 0.4973, StopCount/Limit:   1/  3, Time:5.13447738
+JDE ConfigID:   6, Epoch:   5, Training Loss: 0.21090950, Validation Loss: 0.20870140,Best: 0.20870140, Accuracy: 0.5353, StopCount/Limit:   1/  3, Time:5.14316201
+JDE ConfigID:   6, Epoch:   6, Training Loss: 0.20776586, Validation Loss: 0.20566238,Best: 0.20566238, Accuracy: 0.5369, StopCount/Limit:   1/  3, Time:5.14226842
+JDE ConfigID:   6, Epoch:   7, Training Loss: 0.20545670, Validation Loss: 0.20350547,Best: 0.20350547, Accuracy: 0.5581, StopCount/Limit:   1/  3, Time:5.13626075
+JDE ConfigID:   6, Epoch:   8, Training Loss: 0.20274385, Validation Loss: 0.20314030,Best: 0.20314030, Accuracy: 0.5551, StopCount/Limit:   1/  3, Time:5.15468144
+JDE ConfigID:   6, Epoch:   9, Training Loss: 0.20149464, Validation Loss: 0.20399662,Best: 0.20314030, Accuracy: 0.5317, StopCount/Limit:   2/  3, Time:5.16158867
+JDE ConfigID:   6, Epoch:  10, Training Loss: 0.20196345, Validation Loss: 0.21131630,Best: 0.20314030, Accuracy: 0.5197, StopCount/Limit:   3/  3, Time:5.15931869
+Next Gen: [784   2   2   2  10]
+JDE ConfigID:   7, Epoch:   0, Training Loss: 0.35116927, Validation Loss: 0.32495042,Best: 0.32495042, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.77547550
+JDE ConfigID:   7, Epoch:   1, Training Loss: 0.32499919, Validation Loss: 0.32499426,Best: 0.32495042, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.77809310
+JDE ConfigID:   7, Epoch:   2, Training Loss: 0.32500606, Validation Loss: 0.32497650,Best: 0.32495042, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.78135729
+JDE ConfigID:   7, Epoch:   3, Training Loss: 0.32498655, Validation Loss: 0.32507220,Best: 0.32495042, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:3.76638722
+Next Gen: [784   3   3   2   3   3   3  10]
+JDE ConfigID:   8, Epoch:   0, Training Loss: 0.34220221, Validation Loss: 0.32499889,Best: 0.32499889, Accuracy: 0.101, StopCount/Limit:   0/  3, Time:5.70320797
+JDE ConfigID:   8, Epoch:   1, Training Loss: 0.32505890, Validation Loss: 0.32496116,Best: 0.32496116, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.70996857
+JDE ConfigID:   8, Epoch:   2, Training Loss: 0.32504798, Validation Loss: 0.32498588,Best: 0.32496116, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.72437811
+JDE ConfigID:   8, Epoch:   3, Training Loss: 0.32505259, Validation Loss: 0.32504491,Best: 0.32496116, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.71753430
+JDE ConfigID:   8, Epoch:   4, Training Loss: 0.32503385, Validation Loss: 0.32501229,Best: 0.32496116, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.71146393
+Next Gen: [784   2   3   3   3  10]
+JDE ConfigID:   9, Epoch:   0, Training Loss: 0.33377738, Validation Loss: 0.28785633,Best: 0.28785633, Accuracy: 0.1995, StopCount/Limit:   0/  3, Time:4.43290424
+JDE ConfigID:   9, Epoch:   1, Training Loss: 0.28326558, Validation Loss: 0.28044407,Best: 0.28044407, Accuracy: 0.296, StopCount/Limit:   0/  3, Time:4.44527149
+JDE ConfigID:   9, Epoch:   2, Training Loss: 0.27964867, Validation Loss: 0.27621248,Best: 0.27621248, Accuracy: 0.3386, StopCount/Limit:   0/  3, Time:4.44260216
+JDE ConfigID:   9, Epoch:   3, Training Loss: 0.27647633, Validation Loss: 0.27540988,Best: 0.27540988, Accuracy: 0.295, StopCount/Limit:   0/  3, Time:4.44501925
+JDE ConfigID:   9, Epoch:   4, Training Loss: 0.27430698, Validation Loss: 0.27129255,Best: 0.27129255, Accuracy: 0.2603, StopCount/Limit:   0/  3, Time:4.44795990
+JDE ConfigID:   9, Epoch:   5, Training Loss: 0.27143366, Validation Loss: 0.27249012,Best: 0.27129255, Accuracy: 0.3038, StopCount/Limit:   1/  3, Time:4.45184374
+JDE ConfigID:   9, Epoch:   6, Training Loss: 0.27079819, Validation Loss: 0.27103029,Best: 0.27103029, Accuracy: 0.3009, StopCount/Limit:   1/  3, Time:4.44970965
+JDE ConfigID:   9, Epoch:   7, Training Loss: 0.27050443, Validation Loss: 0.27070168,Best: 0.27070168, Accuracy: 0.3018, StopCount/Limit:   1/  3, Time:4.45282936
+JDE ConfigID:   9, Epoch:   8, Training Loss: 0.27027146, Validation Loss: 0.26990446,Best: 0.26990446, Accuracy: 0.2982, StopCount/Limit:   1/  3, Time:4.45689631
+JDE ConfigID:   9, Epoch:   9, Training Loss: 0.27004425, Validation Loss: 0.27086527,Best: 0.26990446, Accuracy: 0.2979, StopCount/Limit:   2/  3, Time:4.46049690
+JDE ConfigID:   9, Epoch:  10, Training Loss: 0.27008185, Validation Loss: 0.27172122,Best: 0.26990446, Accuracy: 0.2996, StopCount/Limit:   3/  3, Time:4.46250510
+JDE Gen 0 Run End
+JDE Run   0 CurrentBest: 0.20314030, Mean: 0.28758183, OverallBest: 0.20314030/  0, config: [784   3   3   3   3   3  10], updatecount:   5, Generation RunTime: 359.48513341
+Gen 1 Run Start
+Next Gen: [784   2   3   3  10]
+JDE ConfigID:   0, Epoch:   0, Training Loss: 0.34724254, Validation Loss: 0.32494538,Best: 0.32494538, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.80167937
+JDE ConfigID:   0, Epoch:   1, Training Loss: 0.32505458, Validation Loss: 0.32495645,Best: 0.32494538, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.82778764
+JDE ConfigID:   0, Epoch:   2, Training Loss: 0.32505599, Validation Loss: 0.32498841,Best: 0.32494538, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.82213092
+JDE ConfigID:   0, Epoch:   3, Training Loss: 0.32504601, Validation Loss: 0.32506863,Best: 0.32494538, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.82942176
+Next Gen: [784   2   3   3   2  10]
+JDE ConfigID:   1, Epoch:   0, Training Loss: 0.33717525, Validation Loss: 0.31988841,Best: 0.31988841, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.43586946
+JDE ConfigID:   1, Epoch:   1, Training Loss: 0.29695387, Validation Loss: 0.28464099,Best: 0.28464099, Accuracy: 0.2112, StopCount/Limit:   0/  3, Time:4.46442413
+JDE ConfigID:   1, Epoch:   2, Training Loss: 0.28532687, Validation Loss: 0.28270647,Best: 0.28270647, Accuracy: 0.2121, StopCount/Limit:   0/  3, Time:4.46567845
+JDE ConfigID:   1, Epoch:   3, Training Loss: 0.28395054, Validation Loss: 0.28198020,Best: 0.28198020, Accuracy: 0.21, StopCount/Limit:   0/  3, Time:4.46113420
+JDE ConfigID:   1, Epoch:   4, Training Loss: 0.28335937, Validation Loss: 0.28203285,Best: 0.28198020, Accuracy: 0.2135, StopCount/Limit:   1/  3, Time:4.45225620
+JDE ConfigID:   1, Epoch:   5, Training Loss: 0.28309755, Validation Loss: 0.28153770,Best: 0.28153770, Accuracy: 0.2132, StopCount/Limit:   1/  3, Time:4.45613384
+JDE ConfigID:   1, Epoch:   6, Training Loss: 0.28290446, Validation Loss: 0.28180168,Best: 0.28153770, Accuracy: 0.2133, StopCount/Limit:   2/  3, Time:4.46215010
+JDE ConfigID:   1, Epoch:   7, Training Loss: 0.28279903, Validation Loss: 0.28152835,Best: 0.28152835, Accuracy: 0.2137, StopCount/Limit:   2/  3, Time:4.46221614
+JDE ConfigID:   1, Epoch:   8, Training Loss: 0.28267955, Validation Loss: 0.28169909,Best: 0.28152835, Accuracy: 0.2136, StopCount/Limit:   3/  3, Time:4.47719836
+Next Gen: [784   2   3   2   3  10]
+JDE ConfigID:   2, Epoch:   0, Training Loss: 0.35793579, Validation Loss: 0.32497336,Best: 0.32497336, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.45214391
+JDE ConfigID:   2, Epoch:   1, Training Loss: 0.32503049, Validation Loss: 0.32494470,Best: 0.32494470, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.46929526
+JDE ConfigID:   2, Epoch:   2, Training Loss: 0.32502796, Validation Loss: 0.32500612,Best: 0.32494470, Accuracy: 0.1032, StopCount/Limit:   1/  3, Time:4.46930766
+JDE ConfigID:   2, Epoch:   3, Training Loss: 0.32504267, Validation Loss: 0.32495887,Best: 0.32494470, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.47183800
+JDE ConfigID:   2, Epoch:   4, Training Loss: 0.32504243, Validation Loss: 0.32491941,Best: 0.32491941, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.47517252
+JDE ConfigID:   2, Epoch:   5, Training Loss: 0.32502755, Validation Loss: 0.32500741,Best: 0.32491941, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.47914720
+Next Gen: [784   3   3   3   2  10]
+JDE ConfigID:   3, Epoch:   0, Training Loss: 0.35125643, Validation Loss: 0.32497862,Best: 0.32497862, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.50392914
+JDE ConfigID:   3, Epoch:   1, Training Loss: 0.32501127, Validation Loss: 0.32501013,Best: 0.32497862, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.52098989
+JDE ConfigID:   3, Epoch:   2, Training Loss: 0.32502996, Validation Loss: 0.32494779,Best: 0.32494779, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.51561117
+JDE ConfigID:   3, Epoch:   3, Training Loss: 0.32501292, Validation Loss: 0.32501720,Best: 0.32494779, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.51811862
+JDE ConfigID:   3, Epoch:   4, Training Loss: 0.32501371, Validation Loss: 0.32503216,Best: 0.32494779, Accuracy: 0.101, StopCount/Limit:   3/  3, Time:4.51267004
+Next Gen: [784   2   3   2   2  10]
+JDE ConfigID:   4, Epoch:   0, Training Loss: 0.34938512, Validation Loss: 0.32490829,Best: 0.32490829, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.44790649
+JDE ConfigID:   4, Epoch:   1, Training Loss: 0.32498266, Validation Loss: 0.32500413,Best: 0.32490829, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:4.45730829
+JDE ConfigID:   4, Epoch:   2, Training Loss: 0.32498509, Validation Loss: 0.32496848,Best: 0.32490829, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.46900463
+JDE ConfigID:   4, Epoch:   3, Training Loss: 0.32499396, Validation Loss: 0.32500378,Best: 0.32490829, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.47369027
+Next Gen: [784   3   3   3   3   3  10]
+JDE ConfigID:   5, Epoch:   0, Training Loss: 0.30679937, Validation Loss: 0.26608933,Best: 0.26608933, Accuracy: 0.2469, StopCount/Limit:   0/  3, Time:5.13481927
+JDE ConfigID:   5, Epoch:   1, Training Loss: 0.26511551, Validation Loss: 0.26178735,Best: 0.26178735, Accuracy: 0.3039, StopCount/Limit:   0/  3, Time:5.14992809
+JDE ConfigID:   5, Epoch:   2, Training Loss: 0.26233050, Validation Loss: 0.26240171,Best: 0.26178735, Accuracy: 0.3093, StopCount/Limit:   1/  3, Time:5.14419246
+JDE ConfigID:   5, Epoch:   3, Training Loss: 0.26118020, Validation Loss: 0.26324172,Best: 0.26178735, Accuracy: 0.2793, StopCount/Limit:   2/  3, Time:5.15266037
+JDE ConfigID:   5, Epoch:   4, Training Loss: 0.26037703, Validation Loss: 0.26658039,Best: 0.26178735, Accuracy: 0.3039, StopCount/Limit:   3/  3, Time:5.15385604
+Next Gen: [784   3   2   3   2   3  10]
+JDE ConfigID:   6, Epoch:   0, Training Loss: 0.28693298, Validation Loss: 0.23778117,Best: 0.23778117, Accuracy: 0.3998, StopCount/Limit:   0/  3, Time:5.09844255
+JDE ConfigID:   6, Epoch:   1, Training Loss: 0.22833038, Validation Loss: 0.23168025,Best: 0.23168025, Accuracy: 0.4178, StopCount/Limit:   0/  3, Time:5.11297154
+JDE ConfigID:   6, Epoch:   2, Training Loss: 0.22163670, Validation Loss: 0.21972691,Best: 0.21972691, Accuracy: 0.4334, StopCount/Limit:   0/  3, Time:5.11397314
+JDE ConfigID:   6, Epoch:   3, Training Loss: 0.21699515, Validation Loss: 0.21277904,Best: 0.21277904, Accuracy: 0.444, StopCount/Limit:   0/  3, Time:5.12038565
+JDE ConfigID:   6, Epoch:   4, Training Loss: 0.20856269, Validation Loss: 0.20582071,Best: 0.20582071, Accuracy: 0.4682, StopCount/Limit:   0/  3, Time:5.12212896
+JDE ConfigID:   6, Epoch:   5, Training Loss: 0.20539972, Validation Loss: 0.20394587,Best: 0.20394587, Accuracy: 0.4657, StopCount/Limit:   0/  3, Time:5.11333680
+JDE ConfigID:   6, Epoch:   6, Training Loss: 0.20360360, Validation Loss: 0.20576328,Best: 0.20394587, Accuracy: 0.4629, StopCount/Limit:   1/  3, Time:5.11330533
+JDE ConfigID:   6, Epoch:   7, Training Loss: 0.20251585, Validation Loss: 0.20145080,Best: 0.20145080, Accuracy: 0.4737, StopCount/Limit:   1/  3, Time:5.12803793
+JDE ConfigID:   6, Epoch:   8, Training Loss: 0.20202648, Validation Loss: 0.20059354,Best: 0.20059354, Accuracy: 0.4795, StopCount/Limit:   1/  3, Time:5.12611389
+JDE ConfigID:   6, Epoch:   9, Training Loss: 0.20085609, Validation Loss: 0.20115559,Best: 0.20059354, Accuracy: 0.4779, StopCount/Limit:   2/  3, Time:5.14844298
+JDE ConfigID:   6, Epoch:  10, Training Loss: 0.20050931, Validation Loss: 0.20159146,Best: 0.20059354, Accuracy: 0.4783, StopCount/Limit:   3/  3, Time:5.15081429
+Next Gen: [784   2   2   2  10]
+JDE ConfigID:   7, Epoch:   0, Training Loss: 0.28711038, Validation Loss: 0.24630483,Best: 0.24630483, Accuracy: 0.3636, StopCount/Limit:   0/  3, Time:3.76730418
+JDE ConfigID:   7, Epoch:   1, Training Loss: 0.24191381, Validation Loss: 0.23940129,Best: 0.23940129, Accuracy: 0.4196, StopCount/Limit:   0/  3, Time:3.78363109
+JDE ConfigID:   7, Epoch:   2, Training Loss: 0.23736825, Validation Loss: 0.23706174,Best: 0.23706174, Accuracy: 0.3983, StopCount/Limit:   0/  3, Time:3.78178525
+JDE ConfigID:   7, Epoch:   3, Training Loss: 0.23575771, Validation Loss: 0.23542717,Best: 0.23542717, Accuracy: 0.4082, StopCount/Limit:   0/  3, Time:3.78743768
+JDE ConfigID:   7, Epoch:   4, Training Loss: 0.23468263, Validation Loss: 0.23638438,Best: 0.23542717, Accuracy: 0.3902, StopCount/Limit:   1/  3, Time:3.78868365
+JDE ConfigID:   7, Epoch:   5, Training Loss: 0.23363773, Validation Loss: 0.23671004,Best: 0.23542717, Accuracy: 0.3739, StopCount/Limit:   2/  3, Time:3.78353262
+JDE ConfigID:   7, Epoch:   6, Training Loss: 0.23246757, Validation Loss: 0.23493666,Best: 0.23493666, Accuracy: 0.4275, StopCount/Limit:   2/  3, Time:3.78886127
+JDE ConfigID:   7, Epoch:   7, Training Loss: 0.23168909, Validation Loss: 0.23306344,Best: 0.23306344, Accuracy: 0.4086, StopCount/Limit:   2/  3, Time:3.79391718
+JDE ConfigID:   7, Epoch:   8, Training Loss: 0.23063309, Validation Loss: 0.23317104,Best: 0.23306344, Accuracy: 0.4064, StopCount/Limit:   3/  3, Time:3.78657055
+Next Gen: [784   2   3   2   3  10]
+JDE ConfigID:   8, Epoch:   0, Training Loss: 0.31017862, Validation Loss: 0.27823231,Best: 0.27823231, Accuracy: 0.2881, StopCount/Limit:   0/  3, Time:4.44471669
+JDE ConfigID:   8, Epoch:   1, Training Loss: 0.27580135, Validation Loss: 0.27535426,Best: 0.27535426, Accuracy: 0.287, StopCount/Limit:   0/  3, Time:4.45214009
+JDE ConfigID:   8, Epoch:   2, Training Loss: 0.27397753, Validation Loss: 0.27501038,Best: 0.27501038, Accuracy: 0.32, StopCount/Limit:   0/  3, Time:4.44729257
+JDE ConfigID:   8, Epoch:   3, Training Loss: 0.27282542, Validation Loss: 0.27337362,Best: 0.27337362, Accuracy: 0.3303, StopCount/Limit:   0/  3, Time:4.45304966
+JDE ConfigID:   8, Epoch:   4, Training Loss: 0.27205977, Validation Loss: 0.27428417,Best: 0.27337362, Accuracy: 0.3445, StopCount/Limit:   1/  3, Time:4.45449018
+JDE ConfigID:   8, Epoch:   5, Training Loss: 0.27182114, Validation Loss: 0.27368322,Best: 0.27337362, Accuracy: 0.3292, StopCount/Limit:   2/  3, Time:4.45642877
+JDE ConfigID:   8, Epoch:   6, Training Loss: 0.27156839, Validation Loss: 0.27382677,Best: 0.27337362, Accuracy: 0.3314, StopCount/Limit:   3/  3, Time:4.44527864
+Next Gen: [784   2   3   3   2  10]
+JDE ConfigID:   9, Epoch:   0, Training Loss: 0.32607290, Validation Loss: 0.28244275,Best: 0.28244275, Accuracy: 0.2313, StopCount/Limit:   0/  3, Time:4.44251323
+JDE ConfigID:   9, Epoch:   1, Training Loss: 0.26240588, Validation Loss: 0.25395489,Best: 0.25395489, Accuracy: 0.2916, StopCount/Limit:   0/  3, Time:4.44743776
+JDE ConfigID:   9, Epoch:   2, Training Loss: 0.25243361, Validation Loss: 0.25071094,Best: 0.25071094, Accuracy: 0.3446, StopCount/Limit:   0/  3, Time:4.45601773
+JDE ConfigID:   9, Epoch:   3, Training Loss: 0.25015404, Validation Loss: 0.24989468,Best: 0.24989468, Accuracy: 0.3378, StopCount/Limit:   0/  3, Time:4.45214057
+JDE ConfigID:   9, Epoch:   4, Training Loss: 0.24893269, Validation Loss: 0.25253879,Best: 0.24989468, Accuracy: 0.3407, StopCount/Limit:   1/  3, Time:4.44725132
+JDE ConfigID:   9, Epoch:   5, Training Loss: 0.24863699, Validation Loss: 0.24784495,Best: 0.24784495, Accuracy: 0.3409, StopCount/Limit:   1/  3, Time:4.44867420
+JDE ConfigID:   9, Epoch:   6, Training Loss: 0.24804888, Validation Loss: 0.24758160,Best: 0.24758160, Accuracy: 0.3442, StopCount/Limit:   1/  3, Time:4.44557190
+JDE ConfigID:   9, Epoch:   7, Training Loss: 0.24741798, Validation Loss: 0.24722291,Best: 0.24722291, Accuracy: 0.3601, StopCount/Limit:   1/  3, Time:4.45211148
+JDE ConfigID:   9, Epoch:   8, Training Loss: 0.24705944, Validation Loss: 0.24609970,Best: 0.24609970, Accuracy: 0.3197, StopCount/Limit:   1/  3, Time:4.46642494
+JDE ConfigID:   9, Epoch:   9, Training Loss: 0.24771030, Validation Loss: 0.24538374,Best: 0.24538374, Accuracy: 0.3477, StopCount/Limit:   1/  3, Time:4.48101544
+JDE ConfigID:   9, Epoch:  10, Training Loss: 0.24605038, Validation Loss: 0.24752977,Best: 0.24538374, Accuracy: 0.3634, StopCount/Limit:   2/  3, Time:4.48684812
+JDE ConfigID:   9, Epoch:  11, Training Loss: 0.24733300, Validation Loss: 0.24820462,Best: 0.24538374, Accuracy: 0.335, StopCount/Limit:   3/  3, Time:4.51329780
+JDE Gen 1 Run End
+JDE Run   1 CurrentBest: 0.20059354, Mean: 0.26422061, OverallBest: 0.20059354/  1, config: [784   3   2   3   2   3  10], updatecount:   5, Generation RunTime: 323.52896237
+Gen 2 Run Start
+Next Gen: [784   3   2   3   2   3  10]
+JDE ConfigID:   0, Epoch:   0, Training Loss: 0.33643946, Validation Loss: 0.32511644,Best: 0.32511644, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.13457179
+JDE ConfigID:   0, Epoch:   1, Training Loss: 0.32509296, Validation Loss: 0.32504760,Best: 0.32504760, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.16051102
+JDE ConfigID:   0, Epoch:   2, Training Loss: 0.32509563, Validation Loss: 0.32495877,Best: 0.32495877, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.16099668
+JDE ConfigID:   0, Epoch:   3, Training Loss: 0.32509156, Validation Loss: 0.32508530,Best: 0.32495877, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.15367317
+JDE ConfigID:   0, Epoch:   4, Training Loss: 0.32509722, Validation Loss: 0.32512761,Best: 0.32495877, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:5.15259409
+JDE ConfigID:   0, Epoch:   5, Training Loss: 0.32507820, Validation Loss: 0.32500576,Best: 0.32495877, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.15346003
+Next Gen: [784   3   3   3   2   3  10]
+JDE ConfigID:   1, Epoch:   0, Training Loss: 0.31701347, Validation Loss: 0.28083526,Best: 0.28083526, Accuracy: 0.2817, StopCount/Limit:   0/  3, Time:5.09047270
+JDE ConfigID:   1, Epoch:   1, Training Loss: 0.26169131, Validation Loss: 0.24453469,Best: 0.24453469, Accuracy: 0.402, StopCount/Limit:   0/  3, Time:5.10720992
+JDE ConfigID:   1, Epoch:   2, Training Loss: 0.23797296, Validation Loss: 0.22773423,Best: 0.22773423, Accuracy: 0.4468, StopCount/Limit:   0/  3, Time:5.09674835
+JDE ConfigID:   1, Epoch:   3, Training Loss: 0.22817467, Validation Loss: 0.21882146,Best: 0.21882146, Accuracy: 0.4776, StopCount/Limit:   0/  3, Time:5.09665799
+JDE ConfigID:   1, Epoch:   4, Training Loss: 0.22052262, Validation Loss: 0.21484049,Best: 0.21484049, Accuracy: 0.4661, StopCount/Limit:   0/  3, Time:5.11199951
+JDE ConfigID:   1, Epoch:   5, Training Loss: 0.21437660, Validation Loss: 0.21060248,Best: 0.21060248, Accuracy: 0.493, StopCount/Limit:   0/  3, Time:5.10400343
+JDE ConfigID:   1, Epoch:   6, Training Loss: 0.21031417, Validation Loss: 0.20508879,Best: 0.20508879, Accuracy: 0.4944, StopCount/Limit:   0/  3, Time:5.09525061
+JDE ConfigID:   1, Epoch:   7, Training Loss: 0.20789904, Validation Loss: 0.20499549,Best: 0.20499549, Accuracy: 0.4937, StopCount/Limit:   0/  3, Time:5.10604167
+JDE ConfigID:   1, Epoch:   8, Training Loss: 0.21155612, Validation Loss: 0.21328457,Best: 0.20499549, Accuracy: 0.4677, StopCount/Limit:   1/  3, Time:5.11283231
+JDE ConfigID:   1, Epoch:   9, Training Loss: 0.21269112, Validation Loss: 0.21038485,Best: 0.20499549, Accuracy: 0.4801, StopCount/Limit:   2/  3, Time:5.12599158
+JDE ConfigID:   1, Epoch:  10, Training Loss: 0.20812348, Validation Loss: 0.20474988,Best: 0.20474988, Accuracy: 0.4719, StopCount/Limit:   2/  3, Time:5.13988876
+JDE ConfigID:   1, Epoch:  11, Training Loss: 0.20787614, Validation Loss: 0.20668350,Best: 0.20474988, Accuracy: 0.4941, StopCount/Limit:   3/  3, Time:5.14383507
+Next Gen: [784   2   2   3   2  10]
+JDE ConfigID:   2, Epoch:   0, Training Loss: 0.33349254, Validation Loss: 0.28437542,Best: 0.28437542, Accuracy: 0.2647, StopCount/Limit:   0/  3, Time:4.43206263
+JDE ConfigID:   2, Epoch:   1, Training Loss: 0.27741696, Validation Loss: 0.27533677,Best: 0.27533677, Accuracy: 0.2827, StopCount/Limit:   0/  3, Time:4.44700670
+JDE ConfigID:   2, Epoch:   2, Training Loss: 0.27398095, Validation Loss: 0.27418768,Best: 0.27418768, Accuracy: 0.2825, StopCount/Limit:   0/  3, Time:4.45337915
+JDE ConfigID:   2, Epoch:   3, Training Loss: 0.27325003, Validation Loss: 0.27600827,Best: 0.27418768, Accuracy: 0.2866, StopCount/Limit:   1/  3, Time:4.45125914
+JDE ConfigID:   2, Epoch:   4, Training Loss: 0.27291838, Validation Loss: 0.27394190,Best: 0.27394190, Accuracy: 0.2835, StopCount/Limit:   1/  3, Time:4.45119452
+JDE ConfigID:   2, Epoch:   5, Training Loss: 0.27277665, Validation Loss: 0.27337971,Best: 0.27337971, Accuracy: 0.2971, StopCount/Limit:   1/  3, Time:4.44532990
+JDE ConfigID:   2, Epoch:   6, Training Loss: 0.27255512, Validation Loss: 0.27429800,Best: 0.27337971, Accuracy: 0.2974, StopCount/Limit:   2/  3, Time:4.44840407
+JDE ConfigID:   2, Epoch:   7, Training Loss: 0.27201940, Validation Loss: 0.27295275,Best: 0.27295275, Accuracy: 0.3406, StopCount/Limit:   2/  3, Time:4.44666386
+JDE ConfigID:   2, Epoch:   8, Training Loss: 0.27102010, Validation Loss: 0.27301585,Best: 0.27295275, Accuracy: 0.3612, StopCount/Limit:   3/  3, Time:4.46326804
+Next Gen: [784   2   3   3   3  10]
+JDE ConfigID:   3, Epoch:   0, Training Loss: 0.33564644, Validation Loss: 0.30928293,Best: 0.30928293, Accuracy: 0.2152, StopCount/Limit:   0/  3, Time:4.43306947
+JDE ConfigID:   3, Epoch:   1, Training Loss: 0.28854478, Validation Loss: 0.27571107,Best: 0.27571107, Accuracy: 0.3515, StopCount/Limit:   0/  3, Time:4.44249725
+JDE ConfigID:   3, Epoch:   2, Training Loss: 0.27282014, Validation Loss: 0.26990669,Best: 0.26990669, Accuracy: 0.3524, StopCount/Limit:   0/  3, Time:4.43942738
+JDE ConfigID:   3, Epoch:   3, Training Loss: 0.27084828, Validation Loss: 0.26945726,Best: 0.26945726, Accuracy: 0.354, StopCount/Limit:   0/  3, Time:4.44977570
+JDE ConfigID:   3, Epoch:   4, Training Loss: 0.27038034, Validation Loss: 0.26912165,Best: 0.26912165, Accuracy: 0.3449, StopCount/Limit:   0/  3, Time:4.45006061
+JDE ConfigID:   3, Epoch:   5, Training Loss: 0.27019151, Validation Loss: 0.26932462,Best: 0.26912165, Accuracy: 0.3679, StopCount/Limit:   1/  3, Time:4.45423365
+JDE ConfigID:   3, Epoch:   6, Training Loss: 0.27006868, Validation Loss: 0.26903088,Best: 0.26903088, Accuracy: 0.3495, StopCount/Limit:   1/  3, Time:4.44166636
+JDE ConfigID:   3, Epoch:   7, Training Loss: 0.26989835, Validation Loss: 0.26885987,Best: 0.26885987, Accuracy: 0.3567, StopCount/Limit:   1/  3, Time:4.44624972
+JDE ConfigID:   3, Epoch:   8, Training Loss: 0.26978399, Validation Loss: 0.26875125,Best: 0.26875125, Accuracy: 0.3417, StopCount/Limit:   1/  3, Time:4.45918036
+JDE ConfigID:   3, Epoch:   9, Training Loss: 0.26973309, Validation Loss: 0.26853954,Best: 0.26853954, Accuracy: 0.3453, StopCount/Limit:   1/  3, Time:4.47345662
+JDE ConfigID:   3, Epoch:  10, Training Loss: 0.26965293, Validation Loss: 0.26897831,Best: 0.26853954, Accuracy: 0.3443, StopCount/Limit:   2/  3, Time:4.47567868
+JDE ConfigID:   3, Epoch:  11, Training Loss: 0.26953435, Validation Loss: 0.26822510,Best: 0.26822510, Accuracy: 0.332, StopCount/Limit:   2/  3, Time:4.49674606
+JDE ConfigID:   3, Epoch:  12, Training Loss: 0.26942644, Validation Loss: 0.26876462,Best: 0.26822510, Accuracy: 0.3601, StopCount/Limit:   3/  3, Time:4.52586627
+Next Gen: [784   2   2   3  10]
+JDE ConfigID:   4, Epoch:   0, Training Loss: 0.35781304, Validation Loss: 0.32493498,Best: 0.32493498, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.81702876
+JDE ConfigID:   4, Epoch:   1, Training Loss: 0.32499990, Validation Loss: 0.32496803,Best: 0.32493498, Accuracy: 0.1134, StopCount/Limit:   1/  3, Time:3.84295559
+JDE ConfigID:   4, Epoch:   2, Training Loss: 0.32500676, Validation Loss: 0.32492912,Best: 0.32492912, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.84702492
+JDE ConfigID:   4, Epoch:   3, Training Loss: 0.32499242, Validation Loss: 0.32501610,Best: 0.32492912, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:3.84769368
+JDE ConfigID:   4, Epoch:   4, Training Loss: 0.32498468, Validation Loss: 0.32500958,Best: 0.32492912, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.84423661
+Next Gen: [784   2   2   3   2   2  10]
+JDE ConfigID:   5, Epoch:   0, Training Loss: 0.38595999, Validation Loss: 0.32498960,Best: 0.32498960, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.09802532
+JDE ConfigID:   5, Epoch:   1, Training Loss: 0.31002661, Validation Loss: 0.27612463,Best: 0.27612463, Accuracy: 0.2099, StopCount/Limit:   0/  3, Time:5.09854198
+JDE ConfigID:   5, Epoch:   2, Training Loss: 0.27171538, Validation Loss: 0.27054558,Best: 0.27054558, Accuracy: 0.2102, StopCount/Limit:   0/  3, Time:5.08375931
+JDE ConfigID:   5, Epoch:   3, Training Loss: 0.26839166, Validation Loss: 0.26518170,Best: 0.26518170, Accuracy: 0.2105, StopCount/Limit:   0/  3, Time:5.08310509
+JDE ConfigID:   5, Epoch:   4, Training Loss: 0.25346714, Validation Loss: 0.24906272,Best: 0.24906272, Accuracy: 0.2984, StopCount/Limit:   0/  3, Time:5.08218241
+JDE ConfigID:   5, Epoch:   5, Training Loss: 0.24447853, Validation Loss: 0.24368880,Best: 0.24368880, Accuracy: 0.322, StopCount/Limit:   0/  3, Time:5.06971598
+JDE ConfigID:   5, Epoch:   6, Training Loss: 0.24249832, Validation Loss: 0.24420186,Best: 0.24368880, Accuracy: 0.3207, StopCount/Limit:   1/  3, Time:5.07734799
+JDE ConfigID:   5, Epoch:   7, Training Loss: 0.24228153, Validation Loss: 0.24668124,Best: 0.24368880, Accuracy: 0.3344, StopCount/Limit:   2/  3, Time:5.08238530
+JDE ConfigID:   5, Epoch:   8, Training Loss: 0.24149382, Validation Loss: 0.24239282,Best: 0.24239282, Accuracy: 0.3315, StopCount/Limit:   2/  3, Time:5.09360123
+JDE ConfigID:   5, Epoch:   9, Training Loss: 0.23952543, Validation Loss: 0.23963683,Best: 0.23963683, Accuracy: 0.3382, StopCount/Limit:   2/  3, Time:5.11195517
+JDE ConfigID:   5, Epoch:  10, Training Loss: 0.23932966, Validation Loss: 0.24283636,Best: 0.23963683, Accuracy: 0.336, StopCount/Limit:   3/  3, Time:5.11831307
+Next Gen: [784   2   2   2   2   2  10]
+JDE ConfigID:   6, Epoch:   0, Training Loss: 0.34612400, Validation Loss: 0.32497157,Best: 0.32497157, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.04276252
+JDE ConfigID:   6, Epoch:   1, Training Loss: 0.32503248, Validation Loss: 0.32499118,Best: 0.32497157, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.04167485
+JDE ConfigID:   6, Epoch:   2, Training Loss: 0.32503091, Validation Loss: 0.32496512,Best: 0.32496512, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.04756260
+JDE ConfigID:   6, Epoch:   3, Training Loss: 0.32502545, Validation Loss: 0.32492238,Best: 0.32492238, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.03947854
+JDE ConfigID:   6, Epoch:   4, Training Loss: 0.32502658, Validation Loss: 0.32504173,Best: 0.32492238, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.04194331
+JDE ConfigID:   6, Epoch:   5, Training Loss: 0.32504349, Validation Loss: 0.32502093,Best: 0.32492238, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:5.03878999
+Next Gen: [784   2   2   2  10]
+JDE ConfigID:   7, Epoch:   0, Training Loss: 0.39034135, Validation Loss: 0.32508264,Best: 0.32508264, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.79734755
+JDE ConfigID:   7, Epoch:   1, Training Loss: 0.32496615, Validation Loss: 0.32492340,Best: 0.32492340, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.82108760
+JDE ConfigID:   7, Epoch:   2, Training Loss: 0.32495600, Validation Loss: 0.32490374,Best: 0.32490374, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.82081032
+JDE ConfigID:   7, Epoch:   3, Training Loss: 0.32495549, Validation Loss: 0.32493719,Best: 0.32490374, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.81812048
+JDE ConfigID:   7, Epoch:   4, Training Loss: 0.32495572, Validation Loss: 0.32490505,Best: 0.32490374, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.82087398
+JDE ConfigID:   7, Epoch:   5, Training Loss: 0.32495816, Validation Loss: 0.32492392,Best: 0.32490374, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.81816721
+Next Gen: [784   2   2   2   2  10]
+JDE ConfigID:   8, Epoch:   0, Training Loss: 0.35553417, Validation Loss: 0.32495369,Best: 0.32495369, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.45524907
+JDE ConfigID:   8, Epoch:   1, Training Loss: 0.32503300, Validation Loss: 0.32498800,Best: 0.32495369, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.46750903
+JDE ConfigID:   8, Epoch:   2, Training Loss: 0.32501795, Validation Loss: 0.32500727,Best: 0.32495369, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.46341753
+JDE ConfigID:   8, Epoch:   3, Training Loss: 0.32503880, Validation Loss: 0.32495085,Best: 0.32495085, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.47386336
+JDE ConfigID:   8, Epoch:   4, Training Loss: 0.32502440, Validation Loss: 0.32493753,Best: 0.32493753, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.47030592
+JDE ConfigID:   8, Epoch:   5, Training Loss: 0.32503418, Validation Loss: 0.32495404,Best: 0.32493753, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.46413302
+Next Gen: [784   2   3   3   2  10]
+JDE ConfigID:   9, Epoch:   0, Training Loss: 0.38052895, Validation Loss: 0.32501578,Best: 0.32501578, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.46112180
+JDE ConfigID:   9, Epoch:   1, Training Loss: 0.32496512, Validation Loss: 0.32490818,Best: 0.32490818, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.48077202
+JDE ConfigID:   9, Epoch:   2, Training Loss: 0.32495865, Validation Loss: 0.32490962,Best: 0.32490818, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.48166132
+JDE ConfigID:   9, Epoch:   3, Training Loss: 0.32494782, Validation Loss: 0.32492857,Best: 0.32490818, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.47972298
+JDE ConfigID:   9, Epoch:   4, Training Loss: 0.32495857, Validation Loss: 0.32493629,Best: 0.32490818, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.48136687
+JDE Gen 2 Run End
+JDE Run   2 CurrentBest: 0.20059354, Mean: 0.25445027, OverallBest: 0.20059354/  1, config: [784   3   2   3   2   3  10], updatecount:   4, Generation RunTime: 367.83614683
+Gen 3 Run Start
+Next Gen: [784   2   2  10]
+JDE ConfigID:   0, Epoch:   0, Training Loss: 0.34405811, Validation Loss: 0.32497317,Best: 0.32497317, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.16926098
+JDE ConfigID:   0, Epoch:   1, Training Loss: 0.32498470, Validation Loss: 0.32493487,Best: 0.32493487, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.18151021
+JDE ConfigID:   0, Epoch:   2, Training Loss: 0.32499273, Validation Loss: 0.32497470,Best: 0.32493487, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.18744755
+JDE ConfigID:   0, Epoch:   3, Training Loss: 0.32499715, Validation Loss: 0.32494647,Best: 0.32493487, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.17795610
+JDE ConfigID:   0, Epoch:   4, Training Loss: 0.32499206, Validation Loss: 0.32499604,Best: 0.32493487, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.17513371
+Next Gen: [784   2   2   3   2   2  10]
+JDE ConfigID:   1, Epoch:   0, Training Loss: 0.33970786, Validation Loss: 0.30977423,Best: 0.30977423, Accuracy: 0.208, StopCount/Limit:   0/  3, Time:5.06670427
+JDE ConfigID:   1, Epoch:   1, Training Loss: 0.29065724, Validation Loss: 0.28315407,Best: 0.28315407, Accuracy: 0.2479, StopCount/Limit:   0/  3, Time:5.07216978
+JDE ConfigID:   1, Epoch:   2, Training Loss: 0.27735657, Validation Loss: 0.27600997,Best: 0.27600997, Accuracy: 0.3008, StopCount/Limit:   0/  3, Time:5.06349230
+JDE ConfigID:   1, Epoch:   3, Training Loss: 0.27378077, Validation Loss: 0.27412109,Best: 0.27412109, Accuracy: 0.2971, StopCount/Limit:   0/  3, Time:5.06869769
+JDE ConfigID:   1, Epoch:   4, Training Loss: 0.27228759, Validation Loss: 0.27361553,Best: 0.27361553, Accuracy: 0.2888, StopCount/Limit:   0/  3, Time:5.07208490
+JDE ConfigID:   1, Epoch:   5, Training Loss: 0.27193228, Validation Loss: 0.27327061,Best: 0.27327061, Accuracy: 0.3193, StopCount/Limit:   0/  3, Time:5.07362413
+JDE ConfigID:   1, Epoch:   6, Training Loss: 0.27168085, Validation Loss: 0.27232518,Best: 0.27232518, Accuracy: 0.3071, StopCount/Limit:   0/  3, Time:5.07556391
+JDE ConfigID:   1, Epoch:   7, Training Loss: 0.27154436, Validation Loss: 0.27249391,Best: 0.27232518, Accuracy: 0.3137, StopCount/Limit:   1/  3, Time:5.08347702
+JDE ConfigID:   1, Epoch:   8, Training Loss: 0.27133158, Validation Loss: 0.27171247,Best: 0.27171247, Accuracy: 0.3304, StopCount/Limit:   1/  3, Time:5.09425640
+JDE ConfigID:   1, Epoch:   9, Training Loss: 0.27115587, Validation Loss: 0.27209258,Best: 0.27171247, Accuracy: 0.331, StopCount/Limit:   2/  3, Time:5.10269523
+JDE ConfigID:   1, Epoch:  10, Training Loss: 0.27096031, Validation Loss: 0.27459676,Best: 0.27171247, Accuracy: 0.3329, StopCount/Limit:   3/  3, Time:5.11305642
+Next Gen: [784   3   3   3   2   3   2  10]
+JDE ConfigID:   2, Epoch:   0, Training Loss: 0.30949520, Validation Loss: 0.26808170,Best: 0.26808170, Accuracy: 0.3279, StopCount/Limit:   0/  3, Time:5.74046564
+JDE ConfigID:   2, Epoch:   1, Training Loss: 0.25344182, Validation Loss: 0.24679553,Best: 0.24679553, Accuracy: 0.3984, StopCount/Limit:   0/  3, Time:5.74512219
+JDE ConfigID:   2, Epoch:   2, Training Loss: 0.24441985, Validation Loss: 0.24276736,Best: 0.24276736, Accuracy: 0.4185, StopCount/Limit:   0/  3, Time:5.75066900
+JDE ConfigID:   2, Epoch:   3, Training Loss: 0.24043921, Validation Loss: 0.23908257,Best: 0.23908257, Accuracy: 0.4277, StopCount/Limit:   0/  3, Time:5.74556041
+JDE ConfigID:   2, Epoch:   4, Training Loss: 0.23813850, Validation Loss: 0.23861535,Best: 0.23861535, Accuracy: 0.428, StopCount/Limit:   0/  3, Time:5.74677324
+JDE ConfigID:   2, Epoch:   5, Training Loss: 0.23761953, Validation Loss: 0.23766563,Best: 0.23766563, Accuracy: 0.4306, StopCount/Limit:   0/  3, Time:5.75879788
+JDE ConfigID:   2, Epoch:   6, Training Loss: 0.23708573, Validation Loss: 0.23981497,Best: 0.23766563, Accuracy: 0.426, StopCount/Limit:   1/  3, Time:5.75087094
+JDE ConfigID:   2, Epoch:   7, Training Loss: 0.23696787, Validation Loss: 0.23770216,Best: 0.23766563, Accuracy: 0.4356, StopCount/Limit:   2/  3, Time:5.76289535
+JDE ConfigID:   2, Epoch:   8, Training Loss: 0.23673909, Validation Loss: 0.23635104,Best: 0.23635104, Accuracy: 0.4503, StopCount/Limit:   2/  3, Time:5.77154851
+JDE ConfigID:   2, Epoch:   9, Training Loss: 0.23602315, Validation Loss: 0.23628198,Best: 0.23628198, Accuracy: 0.4701, StopCount/Limit:   2/  3, Time:5.79442763
+JDE ConfigID:   2, Epoch:  10, Training Loss: 0.23554273, Validation Loss: 0.23577390,Best: 0.23577390, Accuracy: 0.4697, StopCount/Limit:   2/  3, Time:5.78953719
+JDE ConfigID:   2, Epoch:  11, Training Loss: 0.23496782, Validation Loss: 0.23619133,Best: 0.23577390, Accuracy: 0.477, StopCount/Limit:   3/  3, Time:5.80749512
+Next Gen: [784   3   2   2   2  10]
+JDE ConfigID:   3, Epoch:   0, Training Loss: 0.34556949, Validation Loss: 0.32495626,Best: 0.32495626, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.49532533
+JDE ConfigID:   3, Epoch:   1, Training Loss: 0.32499385, Validation Loss: 0.32498307,Best: 0.32495626, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.51368690
+JDE ConfigID:   3, Epoch:   2, Training Loss: 0.32500187, Validation Loss: 0.32491594,Best: 0.32491594, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.51418638
+JDE ConfigID:   3, Epoch:   3, Training Loss: 0.32499593, Validation Loss: 0.32498614,Best: 0.32491594, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.50870681
+JDE ConfigID:   3, Epoch:   4, Training Loss: 0.32499917, Validation Loss: 0.32496562,Best: 0.32491594, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.52665234
+Next Gen: [784   2   2  10]
+JDE ConfigID:   4, Epoch:   0, Training Loss: 0.34708309, Validation Loss: 0.32493398,Best: 0.32493398, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.14818478
+JDE ConfigID:   4, Epoch:   1, Training Loss: 0.32501420, Validation Loss: 0.32495980,Best: 0.32493398, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.15543008
+JDE ConfigID:   4, Epoch:   2, Training Loss: 0.32501932, Validation Loss: 0.32496202,Best: 0.32493398, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.16614866
+JDE ConfigID:   4, Epoch:   3, Training Loss: 0.32500667, Validation Loss: 0.32505023,Best: 0.32493398, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.16081882
+Next Gen: [784   2   2   3   2   2  10]
+JDE ConfigID:   5, Epoch:   0, Training Loss: 0.36475297, Validation Loss: 0.32496726,Best: 0.32496726, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.09027028
+JDE ConfigID:   5, Epoch:   1, Training Loss: 0.32501256, Validation Loss: 0.32493724,Best: 0.32493724, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.10329318
+JDE ConfigID:   5, Epoch:   2, Training Loss: 0.32500176, Validation Loss: 0.32495568,Best: 0.32493724, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.10039902
+JDE ConfigID:   5, Epoch:   3, Training Loss: 0.32500864, Validation Loss: 0.32493348,Best: 0.32493348, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.10675716
+JDE ConfigID:   5, Epoch:   4, Training Loss: 0.32499801, Validation Loss: 0.32494684,Best: 0.32493348, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.11118340
+JDE ConfigID:   5, Epoch:   5, Training Loss: 0.32500157, Validation Loss: 0.32498001,Best: 0.32493348, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.10304666
+Next Gen: [784   3   2   3   2   3  10]
+JDE ConfigID:   6, Epoch:   0, Training Loss: 0.37969641, Validation Loss: 0.32503419,Best: 0.32503419, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.06486082
+JDE ConfigID:   6, Epoch:   1, Training Loss: 0.32496888, Validation Loss: 0.32491958,Best: 0.32491958, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.07046127
+JDE ConfigID:   6, Epoch:   2, Training Loss: 0.32494953, Validation Loss: 0.32494348,Best: 0.32491958, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:5.08959174
+JDE ConfigID:   6, Epoch:   3, Training Loss: 0.32495126, Validation Loss: 0.32493888,Best: 0.32491958, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.07804585
+JDE ConfigID:   6, Epoch:   4, Training Loss: 0.32495202, Validation Loss: 0.32491191,Best: 0.32491191, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.08119965
+JDE ConfigID:   6, Epoch:   5, Training Loss: 0.32495549, Validation Loss: 0.32491738,Best: 0.32491191, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.06792831
+Next Gen: [784   3   2   3   2   3   2  10]
+JDE ConfigID:   7, Epoch:   0, Training Loss: 0.34596147, Validation Loss: 0.32499327,Best: 0.32499327, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.68331981
+JDE ConfigID:   7, Epoch:   1, Training Loss: 0.32502916, Validation Loss: 0.32495530,Best: 0.32495530, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:5.68787026
+JDE ConfigID:   7, Epoch:   2, Training Loss: 0.32502530, Validation Loss: 0.32506438,Best: 0.32495530, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:5.70124650
+JDE ConfigID:   7, Epoch:   3, Training Loss: 0.32502251, Validation Loss: 0.32506708,Best: 0.32495530, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.69465113
+JDE ConfigID:   7, Epoch:   4, Training Loss: 0.32503010, Validation Loss: 0.32494771,Best: 0.32494771, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:5.70254683
+JDE ConfigID:   7, Epoch:   5, Training Loss: 0.32502838, Validation Loss: 0.32499445,Best: 0.32494771, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:5.70190716
+Next Gen: [784   3   2   3   2   3  10]
+JDE ConfigID:   8, Epoch:   0, Training Loss: 0.35708412, Validation Loss: 0.30987803,Best: 0.30987803, Accuracy: 0.2505, StopCount/Limit:   0/  3, Time:5.10987186
+JDE ConfigID:   8, Epoch:   1, Training Loss: 0.29780614, Validation Loss: 0.28621833,Best: 0.28621833, Accuracy: 0.2585, StopCount/Limit:   0/  3, Time:5.11969543
+JDE ConfigID:   8, Epoch:   2, Training Loss: 0.28338641, Validation Loss: 0.28065148,Best: 0.28065148, Accuracy: 0.2783, StopCount/Limit:   0/  3, Time:5.12043881
+JDE ConfigID:   8, Epoch:   3, Training Loss: 0.28080286, Validation Loss: 0.27936664,Best: 0.27936664, Accuracy: 0.2851, StopCount/Limit:   0/  3, Time:5.11607957
+JDE ConfigID:   8, Epoch:   4, Training Loss: 0.27951893, Validation Loss: 0.27801509,Best: 0.27801509, Accuracy: 0.311, StopCount/Limit:   0/  3, Time:5.12462258
+JDE ConfigID:   8, Epoch:   5, Training Loss: 0.27778575, Validation Loss: 0.27684702,Best: 0.27684702, Accuracy: 0.3025, StopCount/Limit:   0/  3, Time:5.12569165
+JDE ConfigID:   8, Epoch:   6, Training Loss: 0.27584819, Validation Loss: 0.27448946,Best: 0.27448946, Accuracy: 0.2896, StopCount/Limit:   0/  3, Time:5.12446284
+JDE ConfigID:   8, Epoch:   7, Training Loss: 0.27362335, Validation Loss: 0.27253681,Best: 0.27253681, Accuracy: 0.3283, StopCount/Limit:   0/  3, Time:5.13628197
+JDE ConfigID:   8, Epoch:   8, Training Loss: 0.27093393, Validation Loss: 0.26808469,Best: 0.26808469, Accuracy: 0.3507, StopCount/Limit:   0/  3, Time:5.14157915
+JDE ConfigID:   8, Epoch:   9, Training Loss: 0.26354937, Validation Loss: 0.25969835,Best: 0.25969835, Accuracy: 0.3512, StopCount/Limit:   0/  3, Time:5.14950252
+JDE ConfigID:   8, Epoch:  10, Training Loss: 0.25847375, Validation Loss: 0.25652729,Best: 0.25652729, Accuracy: 0.3822, StopCount/Limit:   0/  3, Time:5.16039228
+JDE ConfigID:   8, Epoch:  11, Training Loss: 0.25686653, Validation Loss: 0.25618007,Best: 0.25618007, Accuracy: 0.3761, StopCount/Limit:   0/  3, Time:5.18474078
+JDE ConfigID:   8, Epoch:  12, Training Loss: 0.25628727, Validation Loss: 0.25566228,Best: 0.25566228, Accuracy: 0.3704, StopCount/Limit:   0/  3, Time:5.23225284
+JDE ConfigID:   8, Epoch:  13, Training Loss: 0.25575821, Validation Loss: 0.25600003,Best: 0.25566228, Accuracy: 0.3873, StopCount/Limit:   1/  3, Time:5.23824286
+JDE ConfigID:   8, Epoch:  14, Training Loss: 0.25517527, Validation Loss: 0.25468267,Best: 0.25468267, Accuracy: 0.3878, StopCount/Limit:   1/  3, Time:5.23594332
+JDE ConfigID:   8, Epoch:  15, Training Loss: 0.25446529, Validation Loss: 0.25368800,Best: 0.25368800, Accuracy: 0.3975, StopCount/Limit:   1/  3, Time:5.24188280
+JDE ConfigID:   8, Epoch:  16, Training Loss: 0.25398696, Validation Loss: 0.25281684,Best: 0.25281684, Accuracy: 0.3781, StopCount/Limit:   1/  3, Time:5.24178481
+JDE ConfigID:   8, Epoch:  17, Training Loss: 0.25340144, Validation Loss: 0.25256549,Best: 0.25256549, Accuracy: 0.3837, StopCount/Limit:   1/  3, Time:5.24464083
+JDE ConfigID:   8, Epoch:  18, Training Loss: 0.25291617, Validation Loss: 0.25205365,Best: 0.25205365, Accuracy: 0.3935, StopCount/Limit:   1/  3, Time:5.25055933
+JDE ConfigID:   8, Epoch:  19, Training Loss: 0.25232483, Validation Loss: 0.25141557,Best: 0.25141557, Accuracy: 0.3893, StopCount/Limit:   1/  3, Time:5.24452376
+JDE ConfigID:   8, Epoch:  20, Training Loss: 0.25186844, Validation Loss: 0.25097372,Best: 0.25097372, Accuracy: 0.3915, StopCount/Limit:   1/  3, Time:5.25028253
+JDE ConfigID:   8, Epoch:  21, Training Loss: 0.25156060, Validation Loss: 0.25191386,Best: 0.25097372, Accuracy: 0.3896, StopCount/Limit:   2/  3, Time:5.24263024
+JDE ConfigID:   8, Epoch:  22, Training Loss: 0.25110941, Validation Loss: 0.25114439,Best: 0.25097372, Accuracy: 0.39, StopCount/Limit:   3/  3, Time:5.24275279
+Next Gen: [784   2   2   2   2  10]
+JDE ConfigID:   9, Epoch:   0, Training Loss: 0.35667029, Validation Loss: 0.32506473,Best: 0.32506473, Accuracy: 0.0974, StopCount/Limit:   0/  3, Time:4.44005609
+JDE ConfigID:   9, Epoch:   1, Training Loss: 0.32503962, Validation Loss: 0.32497889,Best: 0.32497889, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.47242928
+JDE ConfigID:   9, Epoch:   2, Training Loss: 0.32503207, Validation Loss: 0.32498533,Best: 0.32497889, Accuracy: 0.1032, StopCount/Limit:   1/  3, Time:4.47120523
+JDE ConfigID:   9, Epoch:   3, Training Loss: 0.32502330, Validation Loss: 0.32500253,Best: 0.32497889, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.46746349
+JDE ConfigID:   9, Epoch:   4, Training Loss: 0.32503408, Validation Loss: 0.32495003,Best: 0.32495003, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.46805310
+JDE ConfigID:   9, Epoch:   5, Training Loss: 0.32503683, Validation Loss: 0.32492138,Best: 0.32492138, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.46156287
+JDE ConfigID:   9, Epoch:   6, Training Loss: 0.32502456, Validation Loss: 0.32507451,Best: 0.32492138, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:3.85970783
+JDE Gen 3 Run End
+JDE Run   3 CurrentBest: 0.20059354, Mean: 0.24849239, OverallBest: 0.20059354/  1, config: [784   3   2   3   2   3  10], updatecount:   2, Generation RunTime: 421.32618999
+Gen 4 Run Start
+Next Gen: [784   2   2   3   2  10]
+JDE ConfigID:   0, Epoch:   0, Training Loss: 0.34579587, Validation Loss: 0.32492009,Best: 0.32492009, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.64386320
+JDE ConfigID:   0, Epoch:   1, Training Loss: 0.32499279, Validation Loss: 0.32492171,Best: 0.32492009, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.64802432
+JDE ConfigID:   0, Epoch:   2, Training Loss: 0.32499864, Validation Loss: 0.32491718,Best: 0.32491718, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.65031672
+JDE ConfigID:   0, Epoch:   3, Training Loss: 0.32499622, Validation Loss: 0.32496570,Best: 0.32491718, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.64550591
+JDE ConfigID:   0, Epoch:   4, Training Loss: 0.32500109, Validation Loss: 0.32492636,Best: 0.32491718, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.65187216
+Next Gen: [784   2   2   2   2   2  10]
+JDE ConfigID:   1, Epoch:   0, Training Loss: 0.38629469, Validation Loss: 0.32506383,Best: 0.32506383, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:4.10240221
+JDE ConfigID:   1, Epoch:   1, Training Loss: 0.32496795, Validation Loss: 0.32490505,Best: 0.32490505, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.11175895
+JDE ConfigID:   1, Epoch:   2, Training Loss: 0.32495208, Validation Loss: 0.32493909,Best: 0.32490505, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.10556006
+JDE ConfigID:   1, Epoch:   3, Training Loss: 0.32495710, Validation Loss: 0.32492179,Best: 0.32490505, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.11590648
+JDE ConfigID:   1, Epoch:   4, Training Loss: 0.32495502, Validation Loss: 0.32493568,Best: 0.32490505, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.10586405
+Next Gen: [784   2   3   3   2   2   3  10]
+JDE ConfigID:   2, Epoch:   0, Training Loss: 0.34823470, Validation Loss: 0.32495501,Best: 0.32495501, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.65877724
+JDE ConfigID:   2, Epoch:   1, Training Loss: 0.32498113, Validation Loss: 0.32495050,Best: 0.32495050, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.65534854
+JDE ConfigID:   2, Epoch:   2, Training Loss: 0.32498048, Validation Loss: 0.32495023,Best: 0.32495023, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.64632249
+JDE ConfigID:   2, Epoch:   3, Training Loss: 0.32497480, Validation Loss: 0.32497464,Best: 0.32495023, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.66009784
+JDE ConfigID:   2, Epoch:   4, Training Loss: 0.32497535, Validation Loss: 0.32496287,Best: 0.32495023, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.65809393
+JDE ConfigID:   2, Epoch:   5, Training Loss: 0.32498666, Validation Loss: 0.32496156,Best: 0.32495023, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.65546656
+Next Gen: [784   2   2   3   2  10]
+JDE ConfigID:   3, Epoch:   0, Training Loss: 0.37641542, Validation Loss: 0.32500194,Best: 0.32500194, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.66388297
+JDE ConfigID:   3, Epoch:   1, Training Loss: 0.32496337, Validation Loss: 0.32493427,Best: 0.32493427, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67539930
+JDE ConfigID:   3, Epoch:   2, Training Loss: 0.32495674, Validation Loss: 0.32492093,Best: 0.32492093, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67115211
+JDE ConfigID:   3, Epoch:   3, Training Loss: 0.32495697, Validation Loss: 0.32491703,Best: 0.32491703, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67667103
+JDE ConfigID:   3, Epoch:   4, Training Loss: 0.32495678, Validation Loss: 0.32490719,Best: 0.32490719, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.66906095
+JDE ConfigID:   3, Epoch:   5, Training Loss: 0.32495378, Validation Loss: 0.32493794,Best: 0.32490719, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.67121768
+JDE ConfigID:   3, Epoch:   6, Training Loss: 0.32495523, Validation Loss: 0.32496999,Best: 0.32490719, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.67173958
+JDE ConfigID:   3, Epoch:   7, Training Loss: 0.32495803, Validation Loss: 0.32491773,Best: 0.32490719, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.67503786
+Next Gen: [784   3   3   3   2   3  10]
+JDE ConfigID:   4, Epoch:   0, Training Loss: 0.30899066, Validation Loss: 0.26874519,Best: 0.26874519, Accuracy: 0.2432, StopCount/Limit:   0/  3, Time:4.18097639
+JDE ConfigID:   4, Epoch:   1, Training Loss: 0.26019879, Validation Loss: 0.25087720,Best: 0.25087720, Accuracy: 0.3011, StopCount/Limit:   0/  3, Time:4.21153641
+JDE ConfigID:   4, Epoch:   2, Training Loss: 0.25015888, Validation Loss: 0.24654756,Best: 0.24654756, Accuracy: 0.3082, StopCount/Limit:   0/  3, Time:4.20020318
+JDE ConfigID:   4, Epoch:   3, Training Loss: 0.24588664, Validation Loss: 0.24305689,Best: 0.24305689, Accuracy: 0.3104, StopCount/Limit:   0/  3, Time:4.20941710
+JDE ConfigID:   4, Epoch:   4, Training Loss: 0.23979001, Validation Loss: 0.23788730,Best: 0.23788730, Accuracy: 0.2994, StopCount/Limit:   0/  3, Time:4.20027971
+JDE ConfigID:   4, Epoch:   5, Training Loss: 0.23760563, Validation Loss: 0.23901923,Best: 0.23788730, Accuracy: 0.2944, StopCount/Limit:   1/  3, Time:4.20343280
+JDE ConfigID:   4, Epoch:   6, Training Loss: 0.23605138, Validation Loss: 0.23789242,Best: 0.23788730, Accuracy: 0.2932, StopCount/Limit:   2/  3, Time:4.20139146
+JDE ConfigID:   4, Epoch:   7, Training Loss: 0.23426161, Validation Loss: 0.23692630,Best: 0.23692630, Accuracy: 0.306, StopCount/Limit:   2/  3, Time:4.21261144
+JDE ConfigID:   4, Epoch:   8, Training Loss: 0.23329140, Validation Loss: 0.23375593,Best: 0.23375593, Accuracy: 0.3014, StopCount/Limit:   2/  3, Time:4.21997309
+JDE ConfigID:   4, Epoch:   9, Training Loss: 0.23321414, Validation Loss: 0.23249330,Best: 0.23249330, Accuracy: 0.3102, StopCount/Limit:   2/  3, Time:4.23002052
+JDE ConfigID:   4, Epoch:  10, Training Loss: 0.23285431, Validation Loss: 0.23263771,Best: 0.23249330, Accuracy: 0.3097, StopCount/Limit:   3/  3, Time:4.24363470
+Next Gen: [784   2   2   2   2   2  10]
+JDE ConfigID:   5, Epoch:   0, Training Loss: 0.38385247, Validation Loss: 0.32504932,Best: 0.32504932, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.14114332
+JDE ConfigID:   5, Epoch:   1, Training Loss: 0.32496512, Validation Loss: 0.32491815,Best: 0.32491815, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.11346722
+JDE ConfigID:   5, Epoch:   2, Training Loss: 0.32495670, Validation Loss: 0.32493256,Best: 0.32491815, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.11196041
+JDE ConfigID:   5, Epoch:   3, Training Loss: 0.32495925, Validation Loss: 0.32491997,Best: 0.32491815, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.12815976
+JDE ConfigID:   5, Epoch:   4, Training Loss: 0.32496061, Validation Loss: 0.32490963,Best: 0.32490963, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.11100316
+JDE ConfigID:   5, Epoch:   5, Training Loss: 0.32494933, Validation Loss: 0.32494274,Best: 0.32490963, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.13840795
+Next Gen: [784   2   2   3   2   2  10]
+JDE ConfigID:   6, Epoch:   0, Training Loss: 0.34310929, Validation Loss: 0.32494708,Best: 0.32494708, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.16923285
+JDE ConfigID:   6, Epoch:   1, Training Loss: 0.32503903, Validation Loss: 0.32498203,Best: 0.32494708, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.17357349
+JDE ConfigID:   6, Epoch:   2, Training Loss: 0.32503871, Validation Loss: 0.32496693,Best: 0.32494708, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.17201877
+JDE ConfigID:   6, Epoch:   3, Training Loss: 0.32504792, Validation Loss: 0.32497872,Best: 0.32494708, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.17122269
+Next Gen: [784   2   2   2  10]
+JDE ConfigID:   7, Epoch:   0, Training Loss: 0.37868081, Validation Loss: 0.32504112,Best: 0.32504112, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.11550450
+JDE ConfigID:   7, Epoch:   1, Training Loss: 0.32496995, Validation Loss: 0.32491307,Best: 0.32491307, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.11561513
+JDE ConfigID:   7, Epoch:   2, Training Loss: 0.32495465, Validation Loss: 0.32492851,Best: 0.32491307, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.11409283
+JDE ConfigID:   7, Epoch:   3, Training Loss: 0.32495666, Validation Loss: 0.32492267,Best: 0.32491307, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.12025309
+JDE ConfigID:   7, Epoch:   4, Training Loss: 0.32495118, Validation Loss: 0.32492262,Best: 0.32491307, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.11307240
+Next Gen: [784   2   2   3   2   2   2  10]
+JDE ConfigID:   8, Epoch:   0, Training Loss: 0.34195668, Validation Loss: 0.32499567,Best: 0.32499567, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.61386037
+JDE ConfigID:   8, Epoch:   1, Training Loss: 0.32504482, Validation Loss: 0.32491974,Best: 0.32491974, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.61782265
+JDE ConfigID:   8, Epoch:   2, Training Loss: 0.32504839, Validation Loss: 0.32498533,Best: 0.32491974, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.60077095
+JDE ConfigID:   8, Epoch:   3, Training Loss: 0.32502812, Validation Loss: 0.32493259,Best: 0.32491974, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.59878922
+JDE ConfigID:   8, Epoch:   4, Training Loss: 0.32504016, Validation Loss: 0.32493786,Best: 0.32491974, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.59544325
+Next Gen: [784   2   3   3   3   3  10]
+JDE ConfigID:   9, Epoch:   0, Training Loss: 0.34000889, Validation Loss: 0.31877834,Best: 0.31877834, Accuracy: 0.1833, StopCount/Limit:   0/  3, Time:4.14021945
+JDE ConfigID:   9, Epoch:   1, Training Loss: 0.29934424, Validation Loss: 0.29054195,Best: 0.29054195, Accuracy: 0.2392, StopCount/Limit:   0/  3, Time:4.16693664
+JDE ConfigID:   9, Epoch:   2, Training Loss: 0.28866719, Validation Loss: 0.28635742,Best: 0.28635742, Accuracy: 0.2645, StopCount/Limit:   0/  3, Time:4.16599011
+JDE ConfigID:   9, Epoch:   3, Training Loss: 0.28296866, Validation Loss: 0.28032552,Best: 0.28032552, Accuracy: 0.2765, StopCount/Limit:   0/  3, Time:4.16629052
+JDE ConfigID:   9, Epoch:   4, Training Loss: 0.27497143, Validation Loss: 0.27291438,Best: 0.27291438, Accuracy: 0.2887, StopCount/Limit:   0/  3, Time:4.16359925
+JDE ConfigID:   9, Epoch:   5, Training Loss: 0.27131362, Validation Loss: 0.27117721,Best: 0.27117721, Accuracy: 0.286, StopCount/Limit:   0/  3, Time:4.16596794
+JDE ConfigID:   9, Epoch:   6, Training Loss: 0.27056533, Validation Loss: 0.27129262,Best: 0.27117721, Accuracy: 0.2825, StopCount/Limit:   1/  3, Time:4.17411852
+JDE ConfigID:   9, Epoch:   7, Training Loss: 0.27030827, Validation Loss: 0.27062493,Best: 0.27062493, Accuracy: 0.2801, StopCount/Limit:   1/  3, Time:4.18045568
+JDE ConfigID:   9, Epoch:   8, Training Loss: 0.27018359, Validation Loss: 0.27052638,Best: 0.27052638, Accuracy: 0.2789, StopCount/Limit:   1/  3, Time:4.19414258
+JDE ConfigID:   9, Epoch:   9, Training Loss: 0.26995034, Validation Loss: 0.27054645,Best: 0.27052638, Accuracy: 0.2834, StopCount/Limit:   2/  3, Time:4.20195532
+JDE ConfigID:   9, Epoch:  10, Training Loss: 0.26973510, Validation Loss: 0.26965338,Best: 0.26965338, Accuracy: 0.2814, StopCount/Limit:   2/  3, Time:4.22996712
+JDE ConfigID:   9, Epoch:  11, Training Loss: 0.26935914, Validation Loss: 0.26965087,Best: 0.26965087, Accuracy: 0.2816, StopCount/Limit:   2/  3, Time:4.26454568
+JDE ConfigID:   9, Epoch:  12, Training Loss: 0.26862180, Validation Loss: 0.27022104,Best: 0.26965087, Accuracy: 0.2698, StopCount/Limit:   3/  3, Time:4.27798533
+JDE Gen 4 Run End
+JDE Run   4 CurrentBest: 0.20059354, Mean: 0.24357956, OverallBest: 0.20059354/  1, config: [784   3   2   3   2   3  10], updatecount:   1, Generation RunTime: 276.95963192
+Gen 5 Run Start
+Next Gen: [784   2   3  10]
+JDE ConfigID:   0, Epoch:   0, Training Loss: 0.36923072, Validation Loss: 0.32491516,Best: 0.32491516, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:2.65196753
+JDE ConfigID:   0, Epoch:   1, Training Loss: 0.32500147, Validation Loss: 0.32499366,Best: 0.32491516, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:2.66503191
+JDE ConfigID:   0, Epoch:   2, Training Loss: 0.32498887, Validation Loss: 0.32500902,Best: 0.32491516, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:2.67151022
+JDE ConfigID:   0, Epoch:   3, Training Loss: 0.32499219, Validation Loss: 0.32494238,Best: 0.32491516, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:2.67558646
+Next Gen: [784   3   2   3   2   3  10]
+JDE ConfigID:   1, Epoch:   0, Training Loss: 0.33931728, Validation Loss: 0.32496554,Best: 0.32496554, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.20509505
+JDE ConfigID:   1, Epoch:   1, Training Loss: 0.32506246, Validation Loss: 0.32492807,Best: 0.32492807, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.22020411
+JDE ConfigID:   1, Epoch:   2, Training Loss: 0.32505237, Validation Loss: 0.32496749,Best: 0.32492807, Accuracy: 0.101, StopCount/Limit:   1/  3, Time:4.22244692
+JDE ConfigID:   1, Epoch:   3, Training Loss: 0.32505686, Validation Loss: 0.32518706,Best: 0.32492807, Accuracy: 0.0982, StopCount/Limit:   2/  3, Time:4.21555185
+JDE ConfigID:   1, Epoch:   4, Training Loss: 0.32507741, Validation Loss: 0.32497462,Best: 0.32492807, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:4.22573376
+Next Gen: [784   2   2   2   2   2   2  10]
+JDE ConfigID:   2, Epoch:   0, Training Loss: 0.34724241, Validation Loss: 0.32497519,Best: 0.32497519, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.60683131
+JDE ConfigID:   2, Epoch:   1, Training Loss: 0.32501776, Validation Loss: 0.32495143,Best: 0.32495143, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.63192296
+JDE ConfigID:   2, Epoch:   2, Training Loss: 0.32500693, Validation Loss: 0.32491577,Best: 0.32491577, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.60426092
+JDE ConfigID:   2, Epoch:   3, Training Loss: 0.32501862, Validation Loss: 0.32496404,Best: 0.32491577, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.59433293
+JDE ConfigID:   2, Epoch:   4, Training Loss: 0.32502474, Validation Loss: 0.32499528,Best: 0.32491577, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.62546825
+JDE ConfigID:   2, Epoch:   5, Training Loss: 0.32501347, Validation Loss: 0.32498874,Best: 0.32491577, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.60735226
+Next Gen: [784   3   2   2   2  10]
+JDE ConfigID:   3, Epoch:   0, Training Loss: 0.33862055, Validation Loss: 0.30076464,Best: 0.30076464, Accuracy: 0.2054, StopCount/Limit:   0/  3, Time:3.69487047
+JDE ConfigID:   3, Epoch:   1, Training Loss: 0.28651530, Validation Loss: 0.27996637,Best: 0.27996637, Accuracy: 0.2626, StopCount/Limit:   0/  3, Time:3.69768071
+JDE ConfigID:   3, Epoch:   2, Training Loss: 0.27270074, Validation Loss: 0.26514246,Best: 0.26514246, Accuracy: 0.35, StopCount/Limit:   0/  3, Time:3.68996930
+JDE ConfigID:   3, Epoch:   3, Training Loss: 0.26295677, Validation Loss: 0.25788703,Best: 0.25788703, Accuracy: 0.3489, StopCount/Limit:   0/  3, Time:3.70935225
+JDE ConfigID:   3, Epoch:   4, Training Loss: 0.25835309, Validation Loss: 0.25606744,Best: 0.25606744, Accuracy: 0.3944, StopCount/Limit:   0/  3, Time:3.70813298
+JDE ConfigID:   3, Epoch:   5, Training Loss: 0.24560890, Validation Loss: 0.24007012,Best: 0.24007012, Accuracy: 0.3727, StopCount/Limit:   0/  3, Time:3.70156908
+JDE ConfigID:   3, Epoch:   6, Training Loss: 0.23698262, Validation Loss: 0.23599344,Best: 0.23599344, Accuracy: 0.406, StopCount/Limit:   0/  3, Time:3.69643044
+JDE ConfigID:   3, Epoch:   7, Training Loss: 0.23470356, Validation Loss: 0.23355794,Best: 0.23355794, Accuracy: 0.4126, StopCount/Limit:   0/  3, Time:3.70956445
+JDE ConfigID:   3, Epoch:   8, Training Loss: 0.23327459, Validation Loss: 0.23294353,Best: 0.23294353, Accuracy: 0.4348, StopCount/Limit:   0/  3, Time:3.72246027
+JDE ConfigID:   3, Epoch:   9, Training Loss: 0.23220669, Validation Loss: 0.23096123,Best: 0.23096123, Accuracy: 0.4067, StopCount/Limit:   0/  3, Time:3.72976923
+JDE ConfigID:   3, Epoch:  10, Training Loss: 0.22815879, Validation Loss: 0.22684059,Best: 0.22684059, Accuracy: 0.4262, StopCount/Limit:   0/  3, Time:3.74941635
+JDE ConfigID:   3, Epoch:  11, Training Loss: 0.22546648, Validation Loss: 0.22545458,Best: 0.22545458, Accuracy: 0.4222, StopCount/Limit:   0/  3, Time:3.76675344
+JDE ConfigID:   3, Epoch:  12, Training Loss: 0.22466121, Validation Loss: 0.22756485,Best: 0.22545458, Accuracy: 0.4208, StopCount/Limit:   1/  3, Time:3.79883718
+JDE ConfigID:   3, Epoch:  13, Training Loss: 0.22435182, Validation Loss: 0.22520763,Best: 0.22520763, Accuracy: 0.4491, StopCount/Limit:   1/  3, Time:3.83528709
+JDE ConfigID:   3, Epoch:  14, Training Loss: 0.22369153, Validation Loss: 0.22604280,Best: 0.22520763, Accuracy: 0.4325, StopCount/Limit:   2/  3, Time:3.84267807
+JDE ConfigID:   3, Epoch:  15, Training Loss: 0.22331979, Validation Loss: 0.22686397,Best: 0.22520763, Accuracy: 0.4337, StopCount/Limit:   3/  3, Time:3.84247875
+Next Gen: [784   3   3   3   2   3  10]
+JDE ConfigID:   4, Epoch:   0, Training Loss: 0.34089991, Validation Loss: 0.32510595,Best: 0.32510595, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.22011852
+JDE ConfigID:   4, Epoch:   1, Training Loss: 0.32508277, Validation Loss: 0.32503474,Best: 0.32503474, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.22365832
+JDE ConfigID:   4, Epoch:   2, Training Loss: 0.32505932, Validation Loss: 0.32507396,Best: 0.32503474, Accuracy: 0.1009, StopCount/Limit:   1/  3, Time:4.23789024
+JDE ConfigID:   4, Epoch:   3, Training Loss: 0.32508857, Validation Loss: 0.32499992,Best: 0.32499992, Accuracy: 0.1009, StopCount/Limit:   1/  3, Time:4.22780252
+JDE ConfigID:   4, Epoch:   4, Training Loss: 0.32507625, Validation Loss: 0.32510141,Best: 0.32499992, Accuracy: 0.0974, StopCount/Limit:   2/  3, Time:4.23280454
+JDE ConfigID:   4, Epoch:   5, Training Loss: 0.32506813, Validation Loss: 0.32515178,Best: 0.32499992, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:4.23297524
+Next Gen: [784   2   3   3   2   2  10]
+JDE ConfigID:   5, Epoch:   0, Training Loss: 0.34758044, Validation Loss: 0.32501185,Best: 0.32501185, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.17023015
+JDE ConfigID:   5, Epoch:   1, Training Loss: 0.32503768, Validation Loss: 0.32509747,Best: 0.32501185, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:4.19150281
+JDE ConfigID:   5, Epoch:   2, Training Loss: 0.32506124, Validation Loss: 0.32494543,Best: 0.32494543, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.18030787
+JDE ConfigID:   5, Epoch:   3, Training Loss: 0.32502836, Validation Loss: 0.32507412,Best: 0.32494543, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.18413234
+JDE ConfigID:   5, Epoch:   4, Training Loss: 0.32504105, Validation Loss: 0.32501308,Best: 0.32494543, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.18074036
+Next Gen: [784   3   3   3   2   3  10]
+JDE ConfigID:   6, Epoch:   0, Training Loss: 0.33734368, Validation Loss: 0.31668249,Best: 0.31668249, Accuracy: 0.1199, StopCount/Limit:   0/  3, Time:4.18067718
+JDE ConfigID:   6, Epoch:   1, Training Loss: 0.28857284, Validation Loss: 0.27308038,Best: 0.27308038, Accuracy: 0.2977, StopCount/Limit:   0/  3, Time:4.19784880
+JDE ConfigID:   6, Epoch:   2, Training Loss: 0.27313892, Validation Loss: 0.27127920,Best: 0.27127920, Accuracy: 0.2977, StopCount/Limit:   0/  3, Time:4.20543456
+JDE ConfigID:   6, Epoch:   3, Training Loss: 0.27219716, Validation Loss: 0.27210817,Best: 0.27127920, Accuracy: 0.2913, StopCount/Limit:   1/  3, Time:4.19764900
+JDE ConfigID:   6, Epoch:   4, Training Loss: 0.27144318, Validation Loss: 0.27116233,Best: 0.27116233, Accuracy: 0.296, StopCount/Limit:   1/  3, Time:4.19526887
+JDE ConfigID:   6, Epoch:   5, Training Loss: 0.27108741, Validation Loss: 0.27147610,Best: 0.27116233, Accuracy: 0.2986, StopCount/Limit:   2/  3, Time:4.20434976
+JDE ConfigID:   6, Epoch:   6, Training Loss: 0.27081827, Validation Loss: 0.27192077,Best: 0.27116233, Accuracy: 0.2971, StopCount/Limit:   3/  3, Time:4.19904327
+Next Gen: [784   2   2   3  10]
+JDE ConfigID:   7, Epoch:   0, Training Loss: 0.34693363, Validation Loss: 0.32390905,Best: 0.32390905, Accuracy: 0.1995, StopCount/Limit:   0/  3, Time:3.16258311
+JDE ConfigID:   7, Epoch:   1, Training Loss: 0.31743197, Validation Loss: 0.30192696,Best: 0.30192696, Accuracy: 0.2039, StopCount/Limit:   0/  3, Time:3.18120956
+JDE ConfigID:   7, Epoch:   2, Training Loss: 0.29374571, Validation Loss: 0.28781495,Best: 0.28781495, Accuracy: 0.2058, StopCount/Limit:   0/  3, Time:3.17283630
+JDE ConfigID:   7, Epoch:   3, Training Loss: 0.28872623, Validation Loss: 0.28660749,Best: 0.28660749, Accuracy: 0.2093, StopCount/Limit:   0/  3, Time:3.18346834
+JDE ConfigID:   7, Epoch:   4, Training Loss: 0.28819593, Validation Loss: 0.28558075,Best: 0.28558075, Accuracy: 0.2118, StopCount/Limit:   0/  3, Time:3.18013573
+JDE ConfigID:   7, Epoch:   5, Training Loss: 0.28620305, Validation Loss: 0.28363626,Best: 0.28363626, Accuracy: 0.2063, StopCount/Limit:   0/  3, Time:3.17798924
+JDE ConfigID:   7, Epoch:   6, Training Loss: 0.28497667, Validation Loss: 0.28296082,Best: 0.28296082, Accuracy: 0.2113, StopCount/Limit:   0/  3, Time:3.18138552
+JDE ConfigID:   7, Epoch:   7, Training Loss: 0.28465543, Validation Loss: 0.28287224,Best: 0.28287224, Accuracy: 0.2109, StopCount/Limit:   0/  3, Time:3.18646717
+JDE ConfigID:   7, Epoch:   8, Training Loss: 0.28450864, Validation Loss: 0.28346368,Best: 0.28287224, Accuracy: 0.2135, StopCount/Limit:   1/  3, Time:3.19381475
+JDE ConfigID:   7, Epoch:   9, Training Loss: 0.28413529, Validation Loss: 0.28265159,Best: 0.28265159, Accuracy: 0.2116, StopCount/Limit:   1/  3, Time:3.19425726
+JDE ConfigID:   7, Epoch:  10, Training Loss: 0.28394763, Validation Loss: 0.28266084,Best: 0.28265159, Accuracy: 0.2117, StopCount/Limit:   2/  3, Time:3.21170282
+JDE ConfigID:   7, Epoch:  11, Training Loss: 0.28398824, Validation Loss: 0.28262091,Best: 0.28262091, Accuracy: 0.212, StopCount/Limit:   2/  3, Time:3.21767092
+JDE ConfigID:   7, Epoch:  12, Training Loss: 0.28385729, Validation Loss: 0.28218477,Best: 0.28218477, Accuracy: 0.2132, StopCount/Limit:   2/  3, Time:3.24400067
+JDE ConfigID:   7, Epoch:  13, Training Loss: 0.28387674, Validation Loss: 0.28254838,Best: 0.28218477, Accuracy: 0.2123, StopCount/Limit:   3/  3, Time:3.26161909
+Next Gen: [784   2   2   2   2   2  10]
+JDE ConfigID:   8, Epoch:   0, Training Loss: 0.37991109, Validation Loss: 0.32503092,Best: 0.32503092, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.10988545
+JDE ConfigID:   8, Epoch:   1, Training Loss: 0.32496146, Validation Loss: 0.32492023,Best: 0.32492023, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.11024380
+JDE ConfigID:   8, Epoch:   2, Training Loss: 0.32495674, Validation Loss: 0.32490856,Best: 0.32490856, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.12182832
+JDE ConfigID:   8, Epoch:   3, Training Loss: 0.32496106, Validation Loss: 0.32492294,Best: 0.32490856, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.10950112
+JDE ConfigID:   8, Epoch:   4, Training Loss: 0.32495423, Validation Loss: 0.32490518,Best: 0.32490518, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.10865402
+JDE ConfigID:   8, Epoch:   5, Training Loss: 0.32495203, Validation Loss: 0.32490561,Best: 0.32490518, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.10778928
+JDE ConfigID:   8, Epoch:   6, Training Loss: 0.32495366, Validation Loss: 0.32493157,Best: 0.32490518, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.10238361
+Next Gen: [784   2   2   2   2  10]
+JDE ConfigID:   9, Epoch:   0, Training Loss: 0.38796165, Validation Loss: 0.32505371,Best: 0.32505371, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.66080165
+JDE ConfigID:   9, Epoch:   1, Training Loss: 0.32496790, Validation Loss: 0.32493795,Best: 0.32493795, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67219090
+JDE ConfigID:   9, Epoch:   2, Training Loss: 0.32494928, Validation Loss: 0.32492520,Best: 0.32492520, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67694259
+JDE ConfigID:   9, Epoch:   3, Training Loss: 0.32495420, Validation Loss: 0.32490922,Best: 0.32490922, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67365170
+JDE ConfigID:   9, Epoch:   4, Training Loss: 0.32495586, Validation Loss: 0.32492803,Best: 0.32490922, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.67819262
+JDE ConfigID:   9, Epoch:   5, Training Loss: 0.32495447, Validation Loss: 0.32493182,Best: 0.32490922, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.67644572
+JDE ConfigID:   9, Epoch:   6, Training Loss: 0.32495498, Validation Loss: 0.32492889,Best: 0.32490922, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.67469478
+JDE Gen 5 Run End
+JDE Run   5 CurrentBest: 0.20059354, Mean: 0.23927781, OverallBest: 0.20059354/  1, config: [784   3   2   3   2   3  10], updatecount:   1, Generation RunTime: 294.24223876
+Gen 6 Run Start
+Next Gen: [784   2   2   2  10]
+JDE ConfigID:   0, Epoch:   0, Training Loss: 0.35588062, Validation Loss: 0.32497147,Best: 0.32497147, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.15667057
+JDE ConfigID:   0, Epoch:   1, Training Loss: 0.32500298, Validation Loss: 0.32493249,Best: 0.32493249, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.16653991
+JDE ConfigID:   0, Epoch:   2, Training Loss: 0.32500142, Validation Loss: 0.32498137,Best: 0.32493249, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.17494488
+JDE ConfigID:   0, Epoch:   3, Training Loss: 0.32499564, Validation Loss: 0.32496058,Best: 0.32493249, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.16898251
+JDE ConfigID:   0, Epoch:   4, Training Loss: 0.32500154, Validation Loss: 0.32495890,Best: 0.32493249, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.17037988
+Next Gen: [784   2   2   3   2   2  10]
+JDE ConfigID:   1, Epoch:   0, Training Loss: 0.41112537, Validation Loss: 0.32514386,Best: 0.32514386, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.15806818
+JDE ConfigID:   1, Epoch:   1, Training Loss: 0.32497869, Validation Loss: 0.32493575,Best: 0.32493575, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.16420341
+JDE ConfigID:   1, Epoch:   2, Training Loss: 0.32494832, Validation Loss: 0.32495264,Best: 0.32493575, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.17367220
+JDE ConfigID:   1, Epoch:   3, Training Loss: 0.32495785, Validation Loss: 0.32490498,Best: 0.32490498, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.16539264
+JDE ConfigID:   1, Epoch:   4, Training Loss: 0.32495238, Validation Loss: 0.32490371,Best: 0.32490371, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.17428541
+JDE ConfigID:   1, Epoch:   5, Training Loss: 0.32495741, Validation Loss: 0.32492322,Best: 0.32490371, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.16617560
+JDE ConfigID:   1, Epoch:   6, Training Loss: 0.32495342, Validation Loss: 0.32491255,Best: 0.32490371, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.16107464
+Next Gen: [784   2   2   2   2   2   2  10]
+JDE ConfigID:   2, Epoch:   0, Training Loss: 0.32560449, Validation Loss: 0.29345627,Best: 0.29345627, Accuracy: 0.2452, StopCount/Limit:   0/  3, Time:4.61941481
+JDE ConfigID:   2, Epoch:   1, Training Loss: 0.28697211, Validation Loss: 0.28398633,Best: 0.28398633, Accuracy: 0.262, StopCount/Limit:   0/  3, Time:4.63380265
+JDE ConfigID:   2, Epoch:   2, Training Loss: 0.28112191, Validation Loss: 0.27732954,Best: 0.27732954, Accuracy: 0.3007, StopCount/Limit:   0/  3, Time:4.63410354
+JDE ConfigID:   2, Epoch:   3, Training Loss: 0.27622342, Validation Loss: 0.27496202,Best: 0.27496202, Accuracy: 0.3108, StopCount/Limit:   0/  3, Time:4.62775731
+JDE ConfigID:   2, Epoch:   4, Training Loss: 0.27477858, Validation Loss: 0.27378916,Best: 0.27378916, Accuracy: 0.3161, StopCount/Limit:   0/  3, Time:4.63452411
+JDE ConfigID:   2, Epoch:   5, Training Loss: 0.27427905, Validation Loss: 0.27405938,Best: 0.27378916, Accuracy: 0.3153, StopCount/Limit:   1/  3, Time:4.62989616
+JDE ConfigID:   2, Epoch:   6, Training Loss: 0.27392666, Validation Loss: 0.27362939,Best: 0.27362939, Accuracy: 0.3039, StopCount/Limit:   1/  3, Time:4.62335205
+JDE ConfigID:   2, Epoch:   7, Training Loss: 0.27350495, Validation Loss: 0.27300450,Best: 0.27300450, Accuracy: 0.32, StopCount/Limit:   1/  3, Time:4.63060451
+JDE ConfigID:   2, Epoch:   8, Training Loss: 0.27303847, Validation Loss: 0.27277308,Best: 0.27277308, Accuracy: 0.3024, StopCount/Limit:   1/  3, Time:4.64412713
+JDE ConfigID:   2, Epoch:   9, Training Loss: 0.27209843, Validation Loss: 0.27181875,Best: 0.27181875, Accuracy: 0.2977, StopCount/Limit:   1/  3, Time:4.65375352
+JDE ConfigID:   2, Epoch:  10, Training Loss: 0.27113638, Validation Loss: 0.27105425,Best: 0.27105425, Accuracy: 0.2825, StopCount/Limit:   1/  3, Time:4.65870404
+JDE ConfigID:   2, Epoch:  11, Training Loss: 0.27039358, Validation Loss: 0.26979298,Best: 0.26979298, Accuracy: 0.2914, StopCount/Limit:   1/  3, Time:4.69218874
+JDE ConfigID:   2, Epoch:  12, Training Loss: 0.26904744, Validation Loss: 0.26842148,Best: 0.26842148, Accuracy: 0.2743, StopCount/Limit:   1/  3, Time:4.71892142
+JDE ConfigID:   2, Epoch:  13, Training Loss: 0.26749086, Validation Loss: 0.26731882,Best: 0.26731882, Accuracy: 0.2927, StopCount/Limit:   1/  3, Time:4.70850801
+JDE ConfigID:   2, Epoch:  14, Training Loss: 0.26626523, Validation Loss: 0.26561481,Best: 0.26561481, Accuracy: 0.2759, StopCount/Limit:   1/  3, Time:4.70578289
+JDE ConfigID:   2, Epoch:  15, Training Loss: 0.26533952, Validation Loss: 0.26467050,Best: 0.26467050, Accuracy: 0.2702, StopCount/Limit:   1/  3, Time:4.71154094
+JDE ConfigID:   2, Epoch:  16, Training Loss: 0.26465502, Validation Loss: 0.26430193,Best: 0.26430193, Accuracy: 0.268, StopCount/Limit:   1/  3, Time:4.71030354
+JDE ConfigID:   2, Epoch:  17, Training Loss: 0.26406536, Validation Loss: 0.26384154,Best: 0.26384154, Accuracy: 0.2739, StopCount/Limit:   1/  3, Time:4.71001983
+JDE ConfigID:   2, Epoch:  18, Training Loss: 0.26367766, Validation Loss: 0.26315699,Best: 0.26315699, Accuracy: 0.2665, StopCount/Limit:   1/  3, Time:4.71427059
+JDE ConfigID:   2, Epoch:  19, Training Loss: 0.26339464, Validation Loss: 0.26355422,Best: 0.26315699, Accuracy: 0.277, StopCount/Limit:   2/  3, Time:4.71492529
+JDE ConfigID:   2, Epoch:  20, Training Loss: 0.26310886, Validation Loss: 0.26312990,Best: 0.26312990, Accuracy: 0.2656, StopCount/Limit:   2/  3, Time:4.71244812
+JDE ConfigID:   2, Epoch:  21, Training Loss: 0.26297945, Validation Loss: 0.26305046,Best: 0.26305046, Accuracy: 0.274, StopCount/Limit:   2/  3, Time:4.71868730
+JDE ConfigID:   2, Epoch:  22, Training Loss: 0.26274664, Validation Loss: 0.26262309,Best: 0.26262309, Accuracy: 0.279, StopCount/Limit:   2/  3, Time:4.71540427
+JDE ConfigID:   2, Epoch:  23, Training Loss: 0.26259639, Validation Loss: 0.26239866,Best: 0.26239866, Accuracy: 0.2761, StopCount/Limit:   2/  3, Time:4.71344566
+JDE ConfigID:   2, Epoch:  24, Training Loss: 0.26251331, Validation Loss: 0.26218667,Best: 0.26218667, Accuracy: 0.2781, StopCount/Limit:   2/  3, Time:4.71511149
+JDE ConfigID:   2, Epoch:  25, Training Loss: 0.26225382, Validation Loss: 0.26218356,Best: 0.26218356, Accuracy: 0.2662, StopCount/Limit:   2/  3, Time:4.71560764
+JDE ConfigID:   2, Epoch:  26, Training Loss: 0.26214152, Validation Loss: 0.26187374,Best: 0.26187374, Accuracy: 0.2693, StopCount/Limit:   2/  3, Time:4.70810151
+JDE ConfigID:   2, Epoch:  27, Training Loss: 0.26197848, Validation Loss: 0.26186904,Best: 0.26186904, Accuracy: 0.2907, StopCount/Limit:   2/  3, Time:4.70961618
+JDE ConfigID:   2, Epoch:  28, Training Loss: 0.26197271, Validation Loss: 0.26145070,Best: 0.26145070, Accuracy: 0.2895, StopCount/Limit:   2/  3, Time:4.71352434
+JDE ConfigID:   2, Epoch:  29, Training Loss: 0.26177258, Validation Loss: 0.26171198,Best: 0.26145070, Accuracy: 0.2682, StopCount/Limit:   3/  3, Time:4.71196556
+Next Gen: [784   2   2   2   2  10]
+JDE ConfigID:   3, Epoch:   0, Training Loss: 0.34849233, Validation Loss: 0.32060694,Best: 0.32060694, Accuracy: 0.1999, StopCount/Limit:   0/  3, Time:3.62094092
+JDE ConfigID:   3, Epoch:   1, Training Loss: 0.30992474, Validation Loss: 0.29035806,Best: 0.29035806, Accuracy: 0.284, StopCount/Limit:   0/  3, Time:3.64367628
+JDE ConfigID:   3, Epoch:   2, Training Loss: 0.27735028, Validation Loss: 0.26893122,Best: 0.26893122, Accuracy: 0.2589, StopCount/Limit:   0/  3, Time:3.64205527
+JDE ConfigID:   3, Epoch:   3, Training Loss: 0.26702170, Validation Loss: 0.26559423,Best: 0.26559423, Accuracy: 0.3128, StopCount/Limit:   0/  3, Time:3.64238381
+JDE ConfigID:   3, Epoch:   4, Training Loss: 0.26537491, Validation Loss: 0.26486507,Best: 0.26486507, Accuracy: 0.3134, StopCount/Limit:   0/  3, Time:3.64408469
+JDE ConfigID:   3, Epoch:   5, Training Loss: 0.26389267, Validation Loss: 0.26472136,Best: 0.26472136, Accuracy: 0.3486, StopCount/Limit:   0/  3, Time:3.65625501
+JDE ConfigID:   3, Epoch:   6, Training Loss: 0.26315953, Validation Loss: 0.26316522,Best: 0.26316522, Accuracy: 0.3144, StopCount/Limit:   0/  3, Time:3.64979219
+JDE ConfigID:   3, Epoch:   7, Training Loss: 0.26164017, Validation Loss: 0.26175761,Best: 0.26175761, Accuracy: 0.317, StopCount/Limit:   0/  3, Time:3.64729404
+JDE ConfigID:   3, Epoch:   8, Training Loss: 0.26083292, Validation Loss: 0.26228682,Best: 0.26175761, Accuracy: 0.3058, StopCount/Limit:   1/  3, Time:3.64926505
+JDE ConfigID:   3, Epoch:   9, Training Loss: 0.26040208, Validation Loss: 0.26261910,Best: 0.26175761, Accuracy: 0.3217, StopCount/Limit:   2/  3, Time:3.65608835
+JDE ConfigID:   3, Epoch:  10, Training Loss: 0.26067559, Validation Loss: 0.26286738,Best: 0.26175761, Accuracy: 0.3258, StopCount/Limit:   3/  3, Time:3.65230274
+Next Gen: [784   3   3   2   2   3  10]
+JDE ConfigID:   4, Epoch:   0, Training Loss: 0.40183167, Validation Loss: 0.32510252,Best: 0.32510252, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.14028049
+JDE ConfigID:   4, Epoch:   1, Training Loss: 0.32496699, Validation Loss: 0.32491605,Best: 0.32491605, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.13012052
+JDE ConfigID:   4, Epoch:   2, Training Loss: 0.32495473, Validation Loss: 0.32492133,Best: 0.32491605, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.13162017
+JDE ConfigID:   4, Epoch:   3, Training Loss: 0.32495614, Validation Loss: 0.32491351,Best: 0.32491351, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.13706779
+JDE ConfigID:   4, Epoch:   4, Training Loss: 0.32493820, Validation Loss: 0.32491487,Best: 0.32491351, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.14136672
+JDE ConfigID:   4, Epoch:   5, Training Loss: 0.32494691, Validation Loss: 0.32492473,Best: 0.32491351, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.13218474
+Next Gen: [784   2   2   3   2   2   2  10]
+JDE ConfigID:   5, Epoch:   0, Training Loss: 0.33604393, Validation Loss: 0.32503166,Best: 0.32503166, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.65643644
+JDE ConfigID:   5, Epoch:   1, Training Loss: 0.32508515, Validation Loss: 0.32502777,Best: 0.32502777, Accuracy: 0.101, StopCount/Limit:   0/  3, Time:4.66834664
+JDE ConfigID:   5, Epoch:   2, Training Loss: 0.32506751, Validation Loss: 0.32522324,Best: 0.32502777, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:4.66586828
+JDE ConfigID:   5, Epoch:   3, Training Loss: 0.32509080, Validation Loss: 0.32501099,Best: 0.32501099, Accuracy: 0.101, StopCount/Limit:   1/  3, Time:4.66853380
+JDE ConfigID:   5, Epoch:   4, Training Loss: 0.32506909, Validation Loss: 0.32513439,Best: 0.32501099, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.66036272
+JDE ConfigID:   5, Epoch:   5, Training Loss: 0.32507491, Validation Loss: 0.32494464,Best: 0.32494464, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.67417288
+JDE ConfigID:   5, Epoch:   6, Training Loss: 0.32505897, Validation Loss: 0.32507222,Best: 0.32494464, Accuracy: 0.1032, StopCount/Limit:   3/  3, Time:4.68019581
+Next Gen: [784   2   2   3   2   2  10]
+JDE ConfigID:   6, Epoch:   0, Training Loss: 0.34244115, Validation Loss: 0.31663027,Best: 0.31663027, Accuracy: 0.1702, StopCount/Limit:   0/  3, Time:4.12951446
+JDE ConfigID:   6, Epoch:   1, Training Loss: 0.29385758, Validation Loss: 0.28305063,Best: 0.28305063, Accuracy: 0.25, StopCount/Limit:   0/  3, Time:4.15069032
+JDE ConfigID:   6, Epoch:   2, Training Loss: 0.27840297, Validation Loss: 0.27835384,Best: 0.27835384, Accuracy: 0.2372, StopCount/Limit:   0/  3, Time:4.14744139
+JDE ConfigID:   6, Epoch:   3, Training Loss: 0.27602089, Validation Loss: 0.27559780,Best: 0.27559780, Accuracy: 0.2353, StopCount/Limit:   0/  3, Time:4.15114689
+JDE ConfigID:   6, Epoch:   4, Training Loss: 0.27539199, Validation Loss: 0.27533898,Best: 0.27533898, Accuracy: 0.2412, StopCount/Limit:   0/  3, Time:4.15132642
+JDE ConfigID:   6, Epoch:   5, Training Loss: 0.27494121, Validation Loss: 0.27486620,Best: 0.27486620, Accuracy: 0.244, StopCount/Limit:   0/  3, Time:4.15492630
+JDE ConfigID:   6, Epoch:   6, Training Loss: 0.27459540, Validation Loss: 0.27442254,Best: 0.27442254, Accuracy: 0.2215, StopCount/Limit:   0/  3, Time:4.15787649
+JDE ConfigID:   6, Epoch:   7, Training Loss: 0.27314277, Validation Loss: 0.27207849,Best: 0.27207849, Accuracy: 0.2253, StopCount/Limit:   0/  3, Time:4.15534663
+JDE ConfigID:   6, Epoch:   8, Training Loss: 0.27008141, Validation Loss: 0.27057250,Best: 0.27057250, Accuracy: 0.236, StopCount/Limit:   0/  3, Time:4.18089104
+JDE ConfigID:   6, Epoch:   9, Training Loss: 0.26918514, Validation Loss: 0.26985878,Best: 0.26985878, Accuracy: 0.2124, StopCount/Limit:   0/  3, Time:4.18518567
+JDE ConfigID:   6, Epoch:  10, Training Loss: 0.26865192, Validation Loss: 0.26957862,Best: 0.26957862, Accuracy: 0.2287, StopCount/Limit:   0/  3, Time:4.20569158
+JDE ConfigID:   6, Epoch:  11, Training Loss: 0.26838960, Validation Loss: 0.26939814,Best: 0.26939814, Accuracy: 0.2109, StopCount/Limit:   0/  3, Time:4.24862075
+JDE ConfigID:   6, Epoch:  12, Training Loss: 0.26826985, Validation Loss: 0.26978564,Best: 0.26939814, Accuracy: 0.2107, StopCount/Limit:   1/  3, Time:4.25916266
+JDE ConfigID:   6, Epoch:  13, Training Loss: 0.26800127, Validation Loss: 0.26913064,Best: 0.26913064, Accuracy: 0.2121, StopCount/Limit:   1/  3, Time:4.25603294
+JDE ConfigID:   6, Epoch:  14, Training Loss: 0.26799127, Validation Loss: 0.26944481,Best: 0.26913064, Accuracy: 0.2315, StopCount/Limit:   2/  3, Time:4.25707841
+JDE ConfigID:   6, Epoch:  15, Training Loss: 0.26786191, Validation Loss: 0.26931630,Best: 0.26913064, Accuracy: 0.2113, StopCount/Limit:   3/  3, Time:4.25544047
+Next Gen: [784   2   3   3   2  10]
+JDE ConfigID:   7, Epoch:   0, Training Loss: 0.33372309, Validation Loss: 0.28148776,Best: 0.28148776, Accuracy: 0.2004, StopCount/Limit:   0/  3, Time:3.66015649
+JDE ConfigID:   7, Epoch:   1, Training Loss: 0.26627486, Validation Loss: 0.26389494,Best: 0.26389494, Accuracy: 0.2676, StopCount/Limit:   0/  3, Time:3.65332031
+JDE ConfigID:   7, Epoch:   2, Training Loss: 0.26032748, Validation Loss: 0.26125184,Best: 0.26125184, Accuracy: 0.2961, StopCount/Limit:   0/  3, Time:3.66013885
+JDE ConfigID:   7, Epoch:   3, Training Loss: 0.25989696, Validation Loss: 0.26133039,Best: 0.26125184, Accuracy: 0.3097, StopCount/Limit:   1/  3, Time:3.65679955
+JDE ConfigID:   7, Epoch:   4, Training Loss: 0.25940426, Validation Loss: 0.25987203,Best: 0.25987203, Accuracy: 0.3011, StopCount/Limit:   1/  3, Time:3.65681696
+JDE ConfigID:   7, Epoch:   5, Training Loss: 0.25857177, Validation Loss: 0.25924140,Best: 0.25924140, Accuracy: 0.3096, StopCount/Limit:   1/  3, Time:3.66036224
+JDE ConfigID:   7, Epoch:   6, Training Loss: 0.25780819, Validation Loss: 0.25950326,Best: 0.25924140, Accuracy: 0.3089, StopCount/Limit:   2/  3, Time:3.65824318
+JDE ConfigID:   7, Epoch:   7, Training Loss: 0.25810859, Validation Loss: 0.25975002,Best: 0.25924140, Accuracy: 0.3024, StopCount/Limit:   3/  3, Time:3.66755319
+Next Gen: [784   3   3   3   2   2   2  10]
+JDE ConfigID:   8, Epoch:   0, Training Loss: 0.34604409, Validation Loss: 0.32507732,Best: 0.32507732, Accuracy: 0.1136, StopCount/Limit:   0/  3, Time:4.71223903
+JDE ConfigID:   8, Epoch:   1, Training Loss: 0.31930710, Validation Loss: 0.30866948,Best: 0.30866948, Accuracy: 0.207, StopCount/Limit:   0/  3, Time:4.69714308
+JDE ConfigID:   8, Epoch:   2, Training Loss: 0.29113933, Validation Loss: 0.28195971,Best: 0.28195971, Accuracy: 0.2223, StopCount/Limit:   0/  3, Time:4.70840478
+JDE ConfigID:   8, Epoch:   3, Training Loss: 0.27972097, Validation Loss: 0.27845916,Best: 0.27845916, Accuracy: 0.2313, StopCount/Limit:   0/  3, Time:4.71558928
+JDE ConfigID:   8, Epoch:   4, Training Loss: 0.27649274, Validation Loss: 0.27762981,Best: 0.27762981, Accuracy: 0.2428, StopCount/Limit:   0/  3, Time:4.71890259
+JDE ConfigID:   8, Epoch:   5, Training Loss: 0.27439572, Validation Loss: 0.27370671,Best: 0.27370671, Accuracy: 0.2608, StopCount/Limit:   0/  3, Time:4.72456574
+JDE ConfigID:   8, Epoch:   6, Training Loss: 0.27255288, Validation Loss: 0.27173856,Best: 0.27173856, Accuracy: 0.262, StopCount/Limit:   0/  3, Time:4.71628714
+JDE ConfigID:   8, Epoch:   7, Training Loss: 0.27106030, Validation Loss: 0.27134871,Best: 0.27134871, Accuracy: 0.2761, StopCount/Limit:   0/  3, Time:4.71977448
+JDE ConfigID:   8, Epoch:   8, Training Loss: 0.26939746, Validation Loss: 0.26889161,Best: 0.26889161, Accuracy: 0.2757, StopCount/Limit:   0/  3, Time:4.73833990
+JDE ConfigID:   8, Epoch:   9, Training Loss: 0.26831116, Validation Loss: 0.26747769,Best: 0.26747769, Accuracy: 0.2817, StopCount/Limit:   0/  3, Time:4.77054429
+JDE ConfigID:   8, Epoch:  10, Training Loss: 0.26755888, Validation Loss: 0.26712206,Best: 0.26712206, Accuracy: 0.2731, StopCount/Limit:   0/  3, Time:4.77649999
+JDE ConfigID:   8, Epoch:  11, Training Loss: 0.26709181, Validation Loss: 0.26753460,Best: 0.26712206, Accuracy: 0.2669, StopCount/Limit:   1/  3, Time:4.80410838
+JDE ConfigID:   8, Epoch:  12, Training Loss: 0.26678987, Validation Loss: 0.26723979,Best: 0.26712206, Accuracy: 0.2491, StopCount/Limit:   2/  3, Time:4.88933825
+JDE ConfigID:   8, Epoch:  13, Training Loss: 0.26651734, Validation Loss: 0.26762303,Best: 0.26712206, Accuracy: 0.2459, StopCount/Limit:   3/  3, Time:4.89909434
+Next Gen: [784   2   2   2   2  10]
+JDE ConfigID:   9, Epoch:   0, Training Loss: 0.33768065, Validation Loss: 0.32501855,Best: 0.32501855, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.63425469
+JDE ConfigID:   9, Epoch:   1, Training Loss: 0.32502612, Validation Loss: 0.32499535,Best: 0.32499535, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.63908124
+JDE ConfigID:   9, Epoch:   2, Training Loss: 0.32501243, Validation Loss: 0.32501175,Best: 0.32499535, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.64241886
+JDE ConfigID:   9, Epoch:   3, Training Loss: 0.32501323, Validation Loss: 0.32500297,Best: 0.32499535, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:3.64062428
+JDE ConfigID:   9, Epoch:   4, Training Loss: 0.32502822, Validation Loss: 0.32500507,Best: 0.32499535, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.64789248
+JDE Gen 6 Run End
+JDE Run   6 CurrentBest: 0.20059354, Mean: 0.23927781, OverallBest: 0.20059354/  1, config: [784   3   2   3   2   3  10], updatecount:   0, Generation RunTime: 464.24613309
+Gen 7 Run Start
+Next Gen: [784   3   3   3   2   3   2  10]
+JDE ConfigID:   0, Epoch:   0, Training Loss: 0.28909065, Validation Loss: 0.25540070,Best: 0.25540070, Accuracy: 0.3676, StopCount/Limit:   0/  3, Time:4.66010022
+JDE ConfigID:   0, Epoch:   1, Training Loss: 0.24673133, Validation Loss: 0.23245398,Best: 0.23245398, Accuracy: 0.482, StopCount/Limit:   0/  3, Time:4.65978932
+JDE ConfigID:   0, Epoch:   2, Training Loss: 0.22393629, Validation Loss: 0.21335559,Best: 0.21335559, Accuracy: 0.5279, StopCount/Limit:   0/  3, Time:4.66021132
+JDE ConfigID:   0, Epoch:   3, Training Loss: 0.21118181, Validation Loss: 0.20694691,Best: 0.20694691, Accuracy: 0.54, StopCount/Limit:   0/  3, Time:4.66631031
+JDE ConfigID:   0, Epoch:   4, Training Loss: 0.20611104, Validation Loss: 0.20508927,Best: 0.20508927, Accuracy: 0.5771, StopCount/Limit:   0/  3, Time:4.65931249
+JDE ConfigID:   0, Epoch:   5, Training Loss: 0.20291790, Validation Loss: 0.20152388,Best: 0.20152388, Accuracy: 0.5677, StopCount/Limit:   0/  3, Time:4.66877007
+JDE ConfigID:   0, Epoch:   6, Training Loss: 0.20047149, Validation Loss: 0.19884020,Best: 0.19884020, Accuracy: 0.572, StopCount/Limit:   0/  3, Time:4.66471887
+JDE ConfigID:   0, Epoch:   7, Training Loss: 0.19907005, Validation Loss: 0.19814499,Best: 0.19814499, Accuracy: 0.5784, StopCount/Limit:   0/  3, Time:4.66512728
+JDE ConfigID:   0, Epoch:   8, Training Loss: 0.19756872, Validation Loss: 0.19702764,Best: 0.19702764, Accuracy: 0.5675, StopCount/Limit:   0/  3, Time:4.66910219
+JDE ConfigID:   0, Epoch:   9, Training Loss: 0.19688984, Validation Loss: 0.19698616,Best: 0.19698616, Accuracy: 0.588, StopCount/Limit:   0/  3, Time:4.67474031
+JDE ConfigID:   0, Epoch:  10, Training Loss: 0.19594344, Validation Loss: 0.19620803,Best: 0.19620803, Accuracy: 0.5695, StopCount/Limit:   0/  3, Time:4.66798162
+JDE ConfigID:   0, Epoch:  11, Training Loss: 0.19502773, Validation Loss: 0.19782318,Best: 0.19620803, Accuracy: 0.5701, StopCount/Limit:   1/  3, Time:4.67721105
+JDE ConfigID:   0, Epoch:  12, Training Loss: 0.19487201, Validation Loss: 0.19806224,Best: 0.19620803, Accuracy: 0.5743, StopCount/Limit:   2/  3, Time:4.68859100
+JDE ConfigID:   0, Epoch:  13, Training Loss: 0.19477259, Validation Loss: 0.19530039,Best: 0.19530039, Accuracy: 0.5729, StopCount/Limit:   2/  3, Time:4.68463230
+JDE ConfigID:   0, Epoch:  14, Training Loss: 0.19403965, Validation Loss: 0.19400693,Best: 0.19400693, Accuracy: 0.582, StopCount/Limit:   2/  3, Time:4.69309139
+JDE ConfigID:   0, Epoch:  15, Training Loss: 0.19344960, Validation Loss: 0.19459308,Best: 0.19400693, Accuracy: 0.6008, StopCount/Limit:   3/  3, Time:4.69662499
+Next Gen: [784   2   2   3   2   2  10]
+JDE ConfigID:   1, Epoch:   0, Training Loss: 0.39419581, Validation Loss: 0.32509349,Best: 0.32509349, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.16202378
+JDE ConfigID:   1, Epoch:   1, Training Loss: 0.32496393, Validation Loss: 0.32492574,Best: 0.32492574, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.17629361
+JDE ConfigID:   1, Epoch:   2, Training Loss: 0.32495468, Validation Loss: 0.32492481,Best: 0.32492481, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.17527771
+JDE ConfigID:   1, Epoch:   3, Training Loss: 0.32495324, Validation Loss: 0.32494019,Best: 0.32492481, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.18041110
+JDE ConfigID:   1, Epoch:   4, Training Loss: 0.32495672, Validation Loss: 0.32493567,Best: 0.32492481, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.17187214
+JDE ConfigID:   1, Epoch:   5, Training Loss: 0.32496091, Validation Loss: 0.32490134,Best: 0.32490134, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.17386270
+JDE ConfigID:   1, Epoch:   6, Training Loss: 0.32494894, Validation Loss: 0.32492048,Best: 0.32490134, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.18352246
+Next Gen: [784   3   3   3   2   3   2  10]
+JDE ConfigID:   2, Epoch:   0, Training Loss: 0.31019000, Validation Loss: 0.26289065,Best: 0.26289065, Accuracy: 0.3456, StopCount/Limit:   0/  3, Time:4.66620183
+JDE ConfigID:   2, Epoch:   1, Training Loss: 0.25941819, Validation Loss: 0.25892662,Best: 0.25892662, Accuracy: 0.331, StopCount/Limit:   0/  3, Time:4.67423081
+JDE ConfigID:   2, Epoch:   2, Training Loss: 0.25739780, Validation Loss: 0.25763226,Best: 0.25763226, Accuracy: 0.3431, StopCount/Limit:   0/  3, Time:4.68537712
+JDE ConfigID:   2, Epoch:   3, Training Loss: 0.25663101, Validation Loss: 0.25893581,Best: 0.25763226, Accuracy: 0.3474, StopCount/Limit:   1/  3, Time:4.67580485
+JDE ConfigID:   2, Epoch:   4, Training Loss: 0.25652821, Validation Loss: 0.25661814,Best: 0.25661814, Accuracy: 0.326, StopCount/Limit:   1/  3, Time:4.68608952
+JDE ConfigID:   2, Epoch:   5, Training Loss: 0.25613464, Validation Loss: 0.25635212,Best: 0.25635212, Accuracy: 0.3392, StopCount/Limit:   1/  3, Time:4.69387937
+JDE ConfigID:   2, Epoch:   6, Training Loss: 0.25575299, Validation Loss: 0.25738264,Best: 0.25635212, Accuracy: 0.3371, StopCount/Limit:   2/  3, Time:4.68710899
+JDE ConfigID:   2, Epoch:   7, Training Loss: 0.25581338, Validation Loss: 0.25689224,Best: 0.25635212, Accuracy: 0.3419, StopCount/Limit:   3/  3, Time:4.68552613
+Next Gen: [784   2   2   2   2  10]
+JDE ConfigID:   3, Epoch:   0, Training Loss: 0.34288490, Validation Loss: 0.32493745,Best: 0.32493745, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.65521574
+JDE ConfigID:   3, Epoch:   1, Training Loss: 0.32500318, Validation Loss: 0.32495449,Best: 0.32493745, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:3.67255092
+JDE ConfigID:   3, Epoch:   2, Training Loss: 0.32498540, Validation Loss: 0.32494938,Best: 0.32493745, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.67622495
+JDE ConfigID:   3, Epoch:   3, Training Loss: 0.32500006, Validation Loss: 0.32497582,Best: 0.32493745, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.67356205
+Next Gen: [784   2   2   2   2   2  10]
+JDE ConfigID:   4, Epoch:   0, Training Loss: 0.34391368, Validation Loss: 0.32493590,Best: 0.32493590, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.16627455
+JDE ConfigID:   4, Epoch:   1, Training Loss: 0.32500437, Validation Loss: 0.32497595,Best: 0.32493590, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.17765450
+JDE ConfigID:   4, Epoch:   2, Training Loss: 0.32500749, Validation Loss: 0.32491430,Best: 0.32491430, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.16480517
+JDE ConfigID:   4, Epoch:   3, Training Loss: 0.32276994, Validation Loss: 0.31668970,Best: 0.31668970, Accuracy: 0.2106, StopCount/Limit:   1/  3, Time:4.15940666
+JDE ConfigID:   4, Epoch:   4, Training Loss: 0.30690496, Validation Loss: 0.29815085,Best: 0.29815085, Accuracy: 0.2133, StopCount/Limit:   1/  3, Time:4.15323853
+JDE ConfigID:   4, Epoch:   5, Training Loss: 0.29485435, Validation Loss: 0.29117900,Best: 0.29117900, Accuracy: 0.213, StopCount/Limit:   1/  3, Time:4.14788413
+JDE ConfigID:   4, Epoch:   6, Training Loss: 0.29021679, Validation Loss: 0.28797527,Best: 0.28797527, Accuracy: 0.2124, StopCount/Limit:   1/  3, Time:4.14990163
+JDE ConfigID:   4, Epoch:   7, Training Loss: 0.28800355, Validation Loss: 0.28622536,Best: 0.28622536, Accuracy: 0.2137, StopCount/Limit:   1/  3, Time:4.14827847
+JDE ConfigID:   4, Epoch:   8, Training Loss: 0.28663758, Validation Loss: 0.28562172,Best: 0.28562172, Accuracy: 0.2142, StopCount/Limit:   1/  3, Time:4.15948987
+JDE ConfigID:   4, Epoch:   9, Training Loss: 0.28570643, Validation Loss: 0.28467423,Best: 0.28467423, Accuracy: 0.2131, StopCount/Limit:   1/  3, Time:4.17499924
+JDE ConfigID:   4, Epoch:  10, Training Loss: 0.28516567, Validation Loss: 0.28420041,Best: 0.28420041, Accuracy: 0.2067, StopCount/Limit:   1/  3, Time:4.19222021
+JDE ConfigID:   4, Epoch:  11, Training Loss: 0.28477108, Validation Loss: 0.28396446,Best: 0.28396446, Accuracy: 0.2138, StopCount/Limit:   1/  3, Time:4.18847084
+JDE ConfigID:   4, Epoch:  12, Training Loss: 0.28450373, Validation Loss: 0.28325918,Best: 0.28325918, Accuracy: 0.2148, StopCount/Limit:   1/  3, Time:4.23211217
+JDE ConfigID:   4, Epoch:  13, Training Loss: 0.28411928, Validation Loss: 0.28345418,Best: 0.28325918, Accuracy: 0.2132, StopCount/Limit:   2/  3, Time:4.24791765
+JDE ConfigID:   4, Epoch:  14, Training Loss: 0.28401492, Validation Loss: 0.28282816,Best: 0.28282816, Accuracy: 0.2138, StopCount/Limit:   2/  3, Time:4.25594640
+JDE ConfigID:   4, Epoch:  15, Training Loss: 0.28381537, Validation Loss: 0.28311789,Best: 0.28282816, Accuracy: 0.2075, StopCount/Limit:   3/  3, Time:4.24531293
+Next Gen: [784   3   2   3   2   2  10]
+JDE ConfigID:   5, Epoch:   0, Training Loss: 0.37954948, Validation Loss: 0.32505446,Best: 0.32505446, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.20847392
+JDE ConfigID:   5, Epoch:   1, Training Loss: 0.32496724, Validation Loss: 0.32491550,Best: 0.32491550, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.22527695
+JDE ConfigID:   5, Epoch:   2, Training Loss: 0.32495716, Validation Loss: 0.32491423,Best: 0.32491423, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.22201967
+JDE ConfigID:   5, Epoch:   3, Training Loss: 0.32495354, Validation Loss: 0.32491455,Best: 0.32491423, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.21538901
+JDE ConfigID:   5, Epoch:   4, Training Loss: 0.32495424, Validation Loss: 0.32491323,Best: 0.32491323, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.22298741
+JDE ConfigID:   5, Epoch:   5, Training Loss: 0.32494358, Validation Loss: 0.32495158,Best: 0.32491323, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.21437049
+JDE ConfigID:   5, Epoch:   6, Training Loss: 0.32495441, Validation Loss: 0.32494946,Best: 0.32491323, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.21823549
+Next Gen: [784   3   2   3   2   3  10]
+JDE ConfigID:   6, Epoch:   0, Training Loss: 0.31936652, Validation Loss: 0.28213652,Best: 0.28213652, Accuracy: 0.2117, StopCount/Limit:   0/  3, Time:4.17786622
+JDE ConfigID:   6, Epoch:   1, Training Loss: 0.28341553, Validation Loss: 0.28180980,Best: 0.28180980, Accuracy: 0.214, StopCount/Limit:   0/  3, Time:4.19891262
+JDE ConfigID:   6, Epoch:   2, Training Loss: 0.28293897, Validation Loss: 0.28161938,Best: 0.28161938, Accuracy: 0.2134, StopCount/Limit:   0/  3, Time:4.20205712
+JDE ConfigID:   6, Epoch:   3, Training Loss: 0.28274430, Validation Loss: 0.28173432,Best: 0.28161938, Accuracy: 0.215, StopCount/Limit:   1/  3, Time:4.21408749
+JDE ConfigID:   6, Epoch:   4, Training Loss: 0.28260633, Validation Loss: 0.28135763,Best: 0.28135763, Accuracy: 0.2128, StopCount/Limit:   1/  3, Time:4.21485972
+JDE ConfigID:   6, Epoch:   5, Training Loss: 0.28252644, Validation Loss: 0.28144535,Best: 0.28135763, Accuracy: 0.214, StopCount/Limit:   2/  3, Time:4.20682645
+JDE ConfigID:   6, Epoch:   6, Training Loss: 0.28236618, Validation Loss: 0.28144237,Best: 0.28135763, Accuracy: 0.2141, StopCount/Limit:   3/  3, Time:4.20916009
+Next Gen: [784   2   2   2   2   2  10]
+JDE ConfigID:   7, Epoch:   0, Training Loss: 0.34562383, Validation Loss: 0.28375658,Best: 0.28375658, Accuracy: 0.2116, StopCount/Limit:   0/  3, Time:4.13892817
+JDE ConfigID:   7, Epoch:   1, Training Loss: 0.28277765, Validation Loss: 0.28012389,Best: 0.28012389, Accuracy: 0.2156, StopCount/Limit:   0/  3, Time:4.14758039
+JDE ConfigID:   7, Epoch:   2, Training Loss: 0.28080947, Validation Loss: 0.28000857,Best: 0.28000857, Accuracy: 0.2259, StopCount/Limit:   0/  3, Time:4.14877844
+JDE ConfigID:   7, Epoch:   3, Training Loss: 0.27971647, Validation Loss: 0.27842639,Best: 0.27842639, Accuracy: 0.2414, StopCount/Limit:   0/  3, Time:4.14047837
+JDE ConfigID:   7, Epoch:   4, Training Loss: 0.27798453, Validation Loss: 0.27610797,Best: 0.27610797, Accuracy: 0.2459, StopCount/Limit:   0/  3, Time:4.14384556
+JDE ConfigID:   7, Epoch:   5, Training Loss: 0.27577957, Validation Loss: 0.27400032,Best: 0.27400032, Accuracy: 0.2431, StopCount/Limit:   0/  3, Time:4.14268470
+JDE ConfigID:   7, Epoch:   6, Training Loss: 0.27356850, Validation Loss: 0.27208814,Best: 0.27208814, Accuracy: 0.2263, StopCount/Limit:   0/  3, Time:4.14404178
+JDE ConfigID:   7, Epoch:   7, Training Loss: 0.27190572, Validation Loss: 0.27103958,Best: 0.27103958, Accuracy: 0.2258, StopCount/Limit:   0/  3, Time:4.15123224
+JDE ConfigID:   7, Epoch:   8, Training Loss: 0.27087895, Validation Loss: 0.27036110,Best: 0.27036110, Accuracy: 0.2187, StopCount/Limit:   0/  3, Time:4.17034698
+JDE ConfigID:   7, Epoch:   9, Training Loss: 0.27036670, Validation Loss: 0.27021213,Best: 0.27021213, Accuracy: 0.218, StopCount/Limit:   0/  3, Time:4.17746282
+JDE ConfigID:   7, Epoch:  10, Training Loss: 0.27008020, Validation Loss: 0.27004704,Best: 0.27004704, Accuracy: 0.219, StopCount/Limit:   0/  3, Time:4.18126178
+JDE ConfigID:   7, Epoch:  11, Training Loss: 0.26980399, Validation Loss: 0.27000052,Best: 0.27000052, Accuracy: 0.2151, StopCount/Limit:   0/  3, Time:4.20865369
+JDE ConfigID:   7, Epoch:  12, Training Loss: 0.26969854, Validation Loss: 0.27046793,Best: 0.27000052, Accuracy: 0.2208, StopCount/Limit:   1/  3, Time:4.22785640
+JDE ConfigID:   7, Epoch:  13, Training Loss: 0.26952848, Validation Loss: 0.27050133,Best: 0.27000052, Accuracy: 0.2124, StopCount/Limit:   2/  3, Time:4.22847009
+JDE ConfigID:   7, Epoch:  14, Training Loss: 0.26952680, Validation Loss: 0.27014834,Best: 0.27000052, Accuracy: 0.2174, StopCount/Limit:   3/  3, Time:4.23511529
+Next Gen: [784   3   2   3   2   3   2  10]
+JDE ConfigID:   8, Epoch:   0, Training Loss: 0.34584238, Validation Loss: 0.32497282,Best: 0.32497282, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.62881446
+JDE ConfigID:   8, Epoch:   1, Training Loss: 0.32499321, Validation Loss: 0.32492099,Best: 0.32492099, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.63517356
+JDE ConfigID:   8, Epoch:   2, Training Loss: 0.32498785, Validation Loss: 0.32497193,Best: 0.32492099, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.62722516
+JDE ConfigID:   8, Epoch:   3, Training Loss: 0.32498541, Validation Loss: 0.32493829,Best: 0.32492099, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.62682939
+JDE ConfigID:   8, Epoch:   4, Training Loss: 0.32498702, Validation Loss: 0.32499569,Best: 0.32492099, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.63245487
+Next Gen: [784   2   2   3   2  10]
+JDE ConfigID:   9, Epoch:   0, Training Loss: 0.31660824, Validation Loss: 0.28645921,Best: 0.28645921, Accuracy: 0.2093, StopCount/Limit:   0/  3, Time:3.64971852
+JDE ConfigID:   9, Epoch:   1, Training Loss: 0.28593739, Validation Loss: 0.28345302,Best: 0.28345302, Accuracy: 0.2073, StopCount/Limit:   0/  3, Time:3.67172790
+JDE ConfigID:   9, Epoch:   2, Training Loss: 0.28433565, Validation Loss: 0.28333908,Best: 0.28333908, Accuracy: 0.2063, StopCount/Limit:   0/  3, Time:3.66996121
+JDE ConfigID:   9, Epoch:   3, Training Loss: 0.28362462, Validation Loss: 0.28219618,Best: 0.28219618, Accuracy: 0.2119, StopCount/Limit:   0/  3, Time:3.66996813
+JDE ConfigID:   9, Epoch:   4, Training Loss: 0.28320945, Validation Loss: 0.28237753,Best: 0.28219618, Accuracy: 0.2119, StopCount/Limit:   1/  3, Time:3.67811275
+JDE ConfigID:   9, Epoch:   5, Training Loss: 0.28292662, Validation Loss: 0.28207652,Best: 0.28207652, Accuracy: 0.2114, StopCount/Limit:   1/  3, Time:3.66918612
+JDE ConfigID:   9, Epoch:   6, Training Loss: 0.28285704, Validation Loss: 0.28290692,Best: 0.28207652, Accuracy: 0.2144, StopCount/Limit:   2/  3, Time:3.66488528
+JDE ConfigID:   9, Epoch:   7, Training Loss: 0.28264288, Validation Loss: 0.28156420,Best: 0.28156420, Accuracy: 0.2149, StopCount/Limit:   2/  3, Time:3.67146468
+JDE ConfigID:   9, Epoch:   8, Training Loss: 0.28259497, Validation Loss: 0.28200862,Best: 0.28156420, Accuracy: 0.2135, StopCount/Limit:   3/  3, Time:3.67472339
+JDE Gen 7 Run End
+JDE Run   7 CurrentBest: 0.19400693, Mean: 0.22618829, OverallBest: 0.19400693/  7, config: [784   3   3   3   2   3   2  10], updatecount:   1, Generation RunTime: 400.81265926
+Gen 8 Run Start
+Next Gen: [784   2   2   2   2   2   2  10]
+JDE ConfigID:   0, Epoch:   0, Training Loss: 0.29034683, Validation Loss: 0.25226360,Best: 0.25226360, Accuracy: 0.3293, StopCount/Limit:   0/  3, Time:4.60158944
+JDE ConfigID:   0, Epoch:   1, Training Loss: 0.24764005, Validation Loss: 0.24518759,Best: 0.24518759, Accuracy: 0.3612, StopCount/Limit:   0/  3, Time:4.61991096
+JDE ConfigID:   0, Epoch:   2, Training Loss: 0.24116766, Validation Loss: 0.24172444,Best: 0.24172444, Accuracy: 0.3847, StopCount/Limit:   0/  3, Time:4.62217665
+JDE ConfigID:   0, Epoch:   3, Training Loss: 0.23706462, Validation Loss: 0.23635989,Best: 0.23635989, Accuracy: 0.3895, StopCount/Limit:   0/  3, Time:4.61847425
+JDE ConfigID:   0, Epoch:   4, Training Loss: 0.23564463, Validation Loss: 0.23950308,Best: 0.23635989, Accuracy: 0.3859, StopCount/Limit:   1/  3, Time:4.62526464
+JDE ConfigID:   0, Epoch:   5, Training Loss: 0.23409899, Validation Loss: 0.23323564,Best: 0.23323564, Accuracy: 0.4295, StopCount/Limit:   1/  3, Time:4.61599755
+JDE ConfigID:   0, Epoch:   6, Training Loss: 0.22679030, Validation Loss: 0.22440111,Best: 0.22440111, Accuracy: 0.4727, StopCount/Limit:   1/  3, Time:4.62242222
+JDE ConfigID:   0, Epoch:   7, Training Loss: 0.22251079, Validation Loss: 0.22371720,Best: 0.22371720, Accuracy: 0.4626, StopCount/Limit:   1/  3, Time:4.62502861
+JDE ConfigID:   0, Epoch:   8, Training Loss: 0.22006285, Validation Loss: 0.22041029,Best: 0.22041029, Accuracy: 0.4745, StopCount/Limit:   1/  3, Time:4.63495779
+JDE ConfigID:   0, Epoch:   9, Training Loss: 0.21791477, Validation Loss: 0.21853128,Best: 0.21853128, Accuracy: 0.4833, StopCount/Limit:   1/  3, Time:4.63044524
+JDE ConfigID:   0, Epoch:  10, Training Loss: 0.21626118, Validation Loss: 0.22373768,Best: 0.21853128, Accuracy: 0.4628, StopCount/Limit:   2/  3, Time:4.63142705
+JDE ConfigID:   0, Epoch:  11, Training Loss: 0.21601866, Validation Loss: 0.21969591,Best: 0.21853128, Accuracy: 0.4699, StopCount/Limit:   3/  3, Time:4.63768864
+Next Gen: [784   3   2   2   2   3  10]
+JDE ConfigID:   1, Epoch:   0, Training Loss: 0.34361695, Validation Loss: 0.32502605,Best: 0.32502605, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.21075487
+JDE ConfigID:   1, Epoch:   1, Training Loss: 0.32498819, Validation Loss: 0.32494144,Best: 0.32494144, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.20028520
+JDE ConfigID:   1, Epoch:   2, Training Loss: 0.32499484, Validation Loss: 0.32506500,Best: 0.32494144, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:4.20224738
+JDE ConfigID:   1, Epoch:   3, Training Loss: 0.32499965, Validation Loss: 0.32497721,Best: 0.32494144, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.21265817
+JDE ConfigID:   1, Epoch:   4, Training Loss: 0.32499429, Validation Loss: 0.32496051,Best: 0.32494144, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.21036005
+Next Gen: [784   3   2   3   2   3   2  10]
+JDE ConfigID:   2, Epoch:   0, Training Loss: 0.39994753, Validation Loss: 0.32515070,Best: 0.32515070, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.70469880
+JDE ConfigID:   2, Epoch:   1, Training Loss: 0.32497725, Validation Loss: 0.32491554,Best: 0.32491554, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.71443319
+JDE ConfigID:   2, Epoch:   2, Training Loss: 0.32495357, Validation Loss: 0.32494249,Best: 0.32491554, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.71701884
+JDE ConfigID:   2, Epoch:   3, Training Loss: 0.32495498, Validation Loss: 0.32495273,Best: 0.32491554, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.72115970
+JDE ConfigID:   2, Epoch:   4, Training Loss: 0.32494412, Validation Loss: 0.32495517,Best: 0.32491554, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.71878576
+Next Gen: [784   2   3   3   2  10]
+JDE ConfigID:   3, Epoch:   0, Training Loss: 0.34408907, Validation Loss: 0.32502446,Best: 0.32502446, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67676449
+JDE ConfigID:   3, Epoch:   1, Training Loss: 0.32502477, Validation Loss: 0.32498138,Best: 0.32498138, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:3.68666029
+JDE ConfigID:   3, Epoch:   2, Training Loss: 0.32502526, Validation Loss: 0.32503876,Best: 0.32498138, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:3.68954730
+JDE ConfigID:   3, Epoch:   3, Training Loss: 0.32502027, Validation Loss: 0.32502231,Best: 0.32498138, Accuracy: 0.1028, StopCount/Limit:   2/  3, Time:3.69001746
+JDE ConfigID:   3, Epoch:   4, Training Loss: 0.32502912, Validation Loss: 0.32494353,Best: 0.32494353, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.68769741
+JDE ConfigID:   3, Epoch:   5, Training Loss: 0.32501872, Validation Loss: 0.32504042,Best: 0.32494353, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:3.68798208
+Next Gen: [784   3   3   3   2   3   2  10]
+JDE ConfigID:   4, Epoch:   0, Training Loss: 0.38169965, Validation Loss: 0.32499670,Best: 0.32499670, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.67334342
+JDE ConfigID:   4, Epoch:   1, Training Loss: 0.32496121, Validation Loss: 0.32492542,Best: 0.32492542, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.68389320
+JDE ConfigID:   4, Epoch:   2, Training Loss: 0.32494421, Validation Loss: 0.32493617,Best: 0.32492542, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.68642879
+JDE ConfigID:   4, Epoch:   3, Training Loss: 0.32495295, Validation Loss: 0.32492174,Best: 0.32492174, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.68536568
+JDE ConfigID:   4, Epoch:   4, Training Loss: 0.32495140, Validation Loss: 0.32490588,Best: 0.32490588, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.67120934
+JDE ConfigID:   4, Epoch:   5, Training Loss: 0.32495484, Validation Loss: 0.32493510,Best: 0.32490588, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.68809605
+JDE ConfigID:   4, Epoch:   6, Training Loss: 0.32495503, Validation Loss: 0.32491391,Best: 0.32490588, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.68197107
+Next Gen: [784   2   3   2   2   2  10]
+JDE ConfigID:   5, Epoch:   0, Training Loss: 0.34364039, Validation Loss: 0.32499030,Best: 0.32499030, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:4.15956593
+JDE ConfigID:   5, Epoch:   1, Training Loss: 0.32502253, Validation Loss: 0.32495885,Best: 0.32495885, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.16881132
+JDE ConfigID:   5, Epoch:   2, Training Loss: 0.32500536, Validation Loss: 0.32498985,Best: 0.32495885, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.17199945
+JDE ConfigID:   5, Epoch:   3, Training Loss: 0.32501686, Validation Loss: 0.32492575,Best: 0.32492575, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.17282701
+JDE ConfigID:   5, Epoch:   4, Training Loss: 0.32501310, Validation Loss: 0.32496389,Best: 0.32492575, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.16856980
+JDE ConfigID:   5, Epoch:   5, Training Loss: 0.32501598, Validation Loss: 0.32495084,Best: 0.32492575, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.16079569
+Next Gen: [784   2   3   3   2   2  10]
+JDE ConfigID:   6, Epoch:   0, Training Loss: 0.38861972, Validation Loss: 0.32505046,Best: 0.32505046, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.16870904
+JDE ConfigID:   6, Epoch:   1, Training Loss: 0.32496408, Validation Loss: 0.32493208,Best: 0.32493208, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.17190337
+JDE ConfigID:   6, Epoch:   2, Training Loss: 0.32495608, Validation Loss: 0.32493512,Best: 0.32493208, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.17093468
+JDE ConfigID:   6, Epoch:   3, Training Loss: 0.32496006, Validation Loss: 0.32492379,Best: 0.32492379, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.17652273
+JDE ConfigID:   6, Epoch:   4, Training Loss: 0.32494544, Validation Loss: 0.32493188,Best: 0.32492379, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.17975664
+JDE ConfigID:   6, Epoch:   5, Training Loss: 0.32495382, Validation Loss: 0.32494535,Best: 0.32492379, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.17430878
+Next Gen: [784   2   2   3   2   2   2  10]
+JDE ConfigID:   7, Epoch:   0, Training Loss: 0.40039376, Validation Loss: 0.29942430,Best: 0.29942430, Accuracy: 0.1886, StopCount/Limit:   0/  3, Time:4.65225530
+JDE ConfigID:   7, Epoch:   1, Training Loss: 0.28725188, Validation Loss: 0.28071631,Best: 0.28071631, Accuracy: 0.24, StopCount/Limit:   0/  3, Time:4.64403987
+JDE ConfigID:   7, Epoch:   2, Training Loss: 0.28234154, Validation Loss: 0.28090280,Best: 0.28071631, Accuracy: 0.2137, StopCount/Limit:   1/  3, Time:4.64662051
+JDE ConfigID:   7, Epoch:   3, Training Loss: 0.28072655, Validation Loss: 0.27994253,Best: 0.27994253, Accuracy: 0.2091, StopCount/Limit:   1/  3, Time:4.64322400
+JDE ConfigID:   7, Epoch:   4, Training Loss: 0.28114929, Validation Loss: 0.28247102,Best: 0.27994253, Accuracy: 0.2029, StopCount/Limit:   2/  3, Time:4.64538550
+JDE ConfigID:   7, Epoch:   5, Training Loss: 0.28144597, Validation Loss: 0.28908271,Best: 0.27994253, Accuracy: 0.1969, StopCount/Limit:   3/  3, Time:4.64506555
+Next Gen: [784   2   3   3   2   2  10]
+JDE ConfigID:   8, Epoch:   0, Training Loss: 0.34349165, Validation Loss: 0.32502634,Best: 0.32502634, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.17050743
+JDE ConfigID:   8, Epoch:   1, Training Loss: 0.32504962, Validation Loss: 0.32499142,Best: 0.32499142, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.18411565
+JDE ConfigID:   8, Epoch:   2, Training Loss: 0.32503333, Validation Loss: 0.32495983,Best: 0.32495983, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.18070149
+JDE ConfigID:   8, Epoch:   3, Training Loss: 0.32504380, Validation Loss: 0.32501401,Best: 0.32495983, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.17379498
+JDE ConfigID:   8, Epoch:   4, Training Loss: 0.32504498, Validation Loss: 0.32507153,Best: 0.32495983, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.17128992
+JDE ConfigID:   8, Epoch:   5, Training Loss: 0.32503162, Validation Loss: 0.32506065,Best: 0.32495983, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.17802739
+Next Gen: [784   2   2   2   2  10]
+JDE ConfigID:   9, Epoch:   0, Training Loss: 0.37888836, Validation Loss: 0.32501174,Best: 0.32501174, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.60888720
+JDE ConfigID:   9, Epoch:   1, Training Loss: 0.32496401, Validation Loss: 0.32493787,Best: 0.32493787, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.62717867
+JDE ConfigID:   9, Epoch:   2, Training Loss: 0.32495744, Validation Loss: 0.32492067,Best: 0.32492067, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.60360456
+JDE ConfigID:   9, Epoch:   3, Training Loss: 0.32495398, Validation Loss: 0.32491971,Best: 0.32491971, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.62024379
+JDE ConfigID:   9, Epoch:   4, Training Loss: 0.32495600, Validation Loss: 0.32491509,Best: 0.32491509, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.61827874
+JDE ConfigID:   9, Epoch:   5, Training Loss: 0.32495603, Validation Loss: 0.32493195,Best: 0.32491509, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:3.61681199
+JDE ConfigID:   9, Epoch:   6, Training Loss: 0.32495986, Validation Loss: 0.32493219,Best: 0.32491509, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.60761666
+JDE ConfigID:   9, Epoch:   7, Training Loss: 0.32495953, Validation Loss: 0.32490855,Best: 0.32490855, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.61410856
+JDE ConfigID:   9, Epoch:   8, Training Loss: 0.32496083, Validation Loss: 0.32491880,Best: 0.32490855, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.61412168
+JDE Gen 8 Run End
+JDE Run   8 CurrentBest: 0.19400693, Mean: 0.22618829, OverallBest: 0.19400693/  7, config: [784   3   3   3   2   3   2  10], updatecount:   0, Generation RunTime: 290.52679491
+Gen 9 Run Start
+Next Gen: [784   2   2   2   2   2   2  10]
+JDE ConfigID:   0, Epoch:   0, Training Loss: 0.35239546, Validation Loss: 0.32499573,Best: 0.32499573, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.62683058
+JDE ConfigID:   0, Epoch:   1, Training Loss: 0.32499228, Validation Loss: 0.32495981,Best: 0.32495981, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.64923882
+JDE ConfigID:   0, Epoch:   2, Training Loss: 0.32501157, Validation Loss: 0.32496132,Best: 0.32495981, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.65077400
+JDE ConfigID:   0, Epoch:   3, Training Loss: 0.32500679, Validation Loss: 0.32492408,Best: 0.32492408, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.64367461
+JDE ConfigID:   0, Epoch:   4, Training Loss: 0.32499604, Validation Loss: 0.32495951,Best: 0.32492408, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.65212774
+JDE ConfigID:   0, Epoch:   5, Training Loss: 0.32499292, Validation Loss: 0.32497167,Best: 0.32492408, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.64886808
+Next Gen: [784   3   3   3   2   3   2  10]
+JDE ConfigID:   1, Epoch:   0, Training Loss: 0.37158604, Validation Loss: 0.32497440,Best: 0.32497440, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.62519741
+JDE ConfigID:   1, Epoch:   1, Training Loss: 0.32496627, Validation Loss: 0.32491411,Best: 0.32491411, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.64614892
+JDE ConfigID:   1, Epoch:   2, Training Loss: 0.32495196, Validation Loss: 0.32491598,Best: 0.32491411, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.63134289
+JDE ConfigID:   1, Epoch:   3, Training Loss: 0.32495384, Validation Loss: 0.32493295,Best: 0.32491411, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.62922382
+JDE ConfigID:   1, Epoch:   4, Training Loss: 0.32495398, Validation Loss: 0.32492907,Best: 0.32491411, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.64522314
+Next Gen: [784   2   2   2   2   2   2  10]
+JDE ConfigID:   2, Epoch:   0, Training Loss: 0.34965352, Validation Loss: 0.32493508,Best: 0.32493508, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.64658880
+JDE ConfigID:   2, Epoch:   1, Training Loss: 0.32504195, Validation Loss: 0.32496297,Best: 0.32493508, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.65325117
+JDE ConfigID:   2, Epoch:   2, Training Loss: 0.32502932, Validation Loss: 0.32514422,Best: 0.32493508, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.66031933
+JDE ConfigID:   2, Epoch:   3, Training Loss: 0.32502387, Validation Loss: 0.32516036,Best: 0.32493508, Accuracy: 0.1028, StopCount/Limit:   3/  3, Time:4.65546322
+Next Gen: [784   3   3   2   2   3  10]
+JDE ConfigID:   3, Epoch:   0, Training Loss: 0.33879642, Validation Loss: 0.32492642,Best: 0.32492642, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.20953155
+JDE ConfigID:   3, Epoch:   1, Training Loss: 0.32503168, Validation Loss: 0.32499124,Best: 0.32492642, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.21778250
+JDE ConfigID:   3, Epoch:   2, Training Loss: 0.32502272, Validation Loss: 0.32503128,Best: 0.32492642, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.22425437
+JDE ConfigID:   3, Epoch:   3, Training Loss: 0.32502041, Validation Loss: 0.32495593,Best: 0.32492642, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.22112346
+Next Gen: [784   3   3   3   2   3  10]
+JDE ConfigID:   4, Epoch:   0, Training Loss: 0.27654490, Validation Loss: 0.24425408,Best: 0.24425408, Accuracy: 0.3435, StopCount/Limit:   0/  3, Time:4.17021084
+JDE ConfigID:   4, Epoch:   1, Training Loss: 0.23805873, Validation Loss: 0.23346497,Best: 0.23346497, Accuracy: 0.3733, StopCount/Limit:   0/  3, Time:4.19909859
+JDE ConfigID:   4, Epoch:   2, Training Loss: 0.23191622, Validation Loss: 0.22935128,Best: 0.22935128, Accuracy: 0.4117, StopCount/Limit:   0/  3, Time:4.20122862
+JDE ConfigID:   4, Epoch:   3, Training Loss: 0.22780593, Validation Loss: 0.22652855,Best: 0.22652855, Accuracy: 0.4148, StopCount/Limit:   0/  3, Time:4.20430017
+JDE ConfigID:   4, Epoch:   4, Training Loss: 0.22411443, Validation Loss: 0.22270015,Best: 0.22270015, Accuracy: 0.4167, StopCount/Limit:   0/  3, Time:4.20470667
+JDE ConfigID:   4, Epoch:   5, Training Loss: 0.22119676, Validation Loss: 0.22164346,Best: 0.22164346, Accuracy: 0.4118, StopCount/Limit:   0/  3, Time:4.19504356
+JDE ConfigID:   4, Epoch:   6, Training Loss: 0.21956724, Validation Loss: 0.21942571,Best: 0.21942571, Accuracy: 0.4265, StopCount/Limit:   0/  3, Time:4.20328045
+JDE ConfigID:   4, Epoch:   7, Training Loss: 0.21807778, Validation Loss: 0.22006299,Best: 0.21942571, Accuracy: 0.4314, StopCount/Limit:   1/  3, Time:4.19426203
+JDE ConfigID:   4, Epoch:   8, Training Loss: 0.21696471, Validation Loss: 0.21991092,Best: 0.21942571, Accuracy: 0.4178, StopCount/Limit:   2/  3, Time:4.21645546
+JDE ConfigID:   4, Epoch:   9, Training Loss: 0.21670579, Validation Loss: 0.21974384,Best: 0.21942571, Accuracy: 0.4304, StopCount/Limit:   3/  3, Time:4.22203398
+Next Gen: [784   3   2   2   2   3  10]
+JDE ConfigID:   5, Epoch:   0, Training Loss: 0.34474991, Validation Loss: 0.32494059,Best: 0.32494059, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.20724535
+JDE ConfigID:   5, Epoch:   1, Training Loss: 0.32500379, Validation Loss: 0.32494855,Best: 0.32494059, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.21804166
+JDE ConfigID:   5, Epoch:   2, Training Loss: 0.32500140, Validation Loss: 0.32494930,Best: 0.32494059, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.22401810
+JDE ConfigID:   5, Epoch:   3, Training Loss: 0.32498858, Validation Loss: 0.32496128,Best: 0.32494059, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.22867274
+Next Gen: [784   3   3   3   2   3   2  10]
+JDE ConfigID:   6, Epoch:   0, Training Loss: 0.27882625, Validation Loss: 0.24090669,Best: 0.24090669, Accuracy: 0.3436, StopCount/Limit:   0/  3, Time:4.64522624
+JDE ConfigID:   6, Epoch:   1, Training Loss: 0.23497228, Validation Loss: 0.23083205,Best: 0.23083205, Accuracy: 0.3797, StopCount/Limit:   0/  3, Time:4.66718698
+JDE ConfigID:   6, Epoch:   2, Training Loss: 0.22721688, Validation Loss: 0.22347551,Best: 0.22347551, Accuracy: 0.453, StopCount/Limit:   0/  3, Time:4.67315555
+JDE ConfigID:   6, Epoch:   3, Training Loss: 0.21800232, Validation Loss: 0.21141663,Best: 0.21141663, Accuracy: 0.5289, StopCount/Limit:   0/  3, Time:4.67242908
+JDE ConfigID:   6, Epoch:   4, Training Loss: 0.20804454, Validation Loss: 0.20494509,Best: 0.20494509, Accuracy: 0.5514, StopCount/Limit:   0/  3, Time:4.67511129
+JDE ConfigID:   6, Epoch:   5, Training Loss: 0.20234762, Validation Loss: 0.20269199,Best: 0.20269199, Accuracy: 0.5301, StopCount/Limit:   0/  3, Time:4.67283821
+JDE ConfigID:   6, Epoch:   6, Training Loss: 0.20017045, Validation Loss: 0.20124658,Best: 0.20124658, Accuracy: 0.5353, StopCount/Limit:   0/  3, Time:4.67685223
+JDE ConfigID:   6, Epoch:   7, Training Loss: 0.19766905, Validation Loss: 0.19838694,Best: 0.19838694, Accuracy: 0.521, StopCount/Limit:   0/  3, Time:4.67475843
+JDE ConfigID:   6, Epoch:   8, Training Loss: 0.19633924, Validation Loss: 0.19815964,Best: 0.19815964, Accuracy: 0.5654, StopCount/Limit:   0/  3, Time:4.68031311
+JDE ConfigID:   6, Epoch:   9, Training Loss: 0.19598205, Validation Loss: 0.19794451,Best: 0.19794451, Accuracy: 0.5607, StopCount/Limit:   0/  3, Time:4.69033360
+JDE ConfigID:   6, Epoch:  10, Training Loss: 0.19377993, Validation Loss: 0.19344719,Best: 0.19344719, Accuracy: 0.6085, StopCount/Limit:   0/  3, Time:4.69339347
+JDE ConfigID:   6, Epoch:  11, Training Loss: 0.19166793, Validation Loss: 0.19129395,Best: 0.19129395, Accuracy: 0.5933, StopCount/Limit:   0/  3, Time:4.69106197
+JDE ConfigID:   6, Epoch:  12, Training Loss: 0.18892045, Validation Loss: 0.18961743,Best: 0.18961743, Accuracy: 0.5981, StopCount/Limit:   0/  3, Time:4.70500469
+JDE ConfigID:   6, Epoch:  13, Training Loss: 0.18820964, Validation Loss: 0.18904420,Best: 0.18904420, Accuracy: 0.5958, StopCount/Limit:   0/  3, Time:4.70128036
+JDE ConfigID:   6, Epoch:  14, Training Loss: 0.18853905, Validation Loss: 0.18921982,Best: 0.18904420, Accuracy: 0.6045, StopCount/Limit:   1/  3, Time:4.69592762
+JDE ConfigID:   6, Epoch:  15, Training Loss: 0.18711264, Validation Loss: 0.18800188,Best: 0.18800188, Accuracy: 0.5953, StopCount/Limit:   1/  3, Time:4.69850111
+JDE ConfigID:   6, Epoch:  16, Training Loss: 0.18754779, Validation Loss: 0.18889640,Best: 0.18800188, Accuracy: 0.5925, StopCount/Limit:   2/  3, Time:4.70300484
+JDE ConfigID:   6, Epoch:  17, Training Loss: 0.18632106, Validation Loss: 0.18984976,Best: 0.18800188, Accuracy: 0.5947, StopCount/Limit:   3/  3, Time:4.69490623
+Next Gen: [784   3   2   3   2   3  10]
+JDE ConfigID:   7, Epoch:   0, Training Loss: 0.31142947, Validation Loss: 0.27024093,Best: 0.27024093, Accuracy: 0.3028, StopCount/Limit:   0/  3, Time:4.18220067
+JDE ConfigID:   7, Epoch:   1, Training Loss: 0.26128397, Validation Loss: 0.25715958,Best: 0.25715958, Accuracy: 0.3303, StopCount/Limit:   0/  3, Time:4.20768428
+JDE ConfigID:   7, Epoch:   2, Training Loss: 0.25622324, Validation Loss: 0.25899551,Best: 0.25715958, Accuracy: 0.3219, StopCount/Limit:   1/  3, Time:4.20263290
+JDE ConfigID:   7, Epoch:   3, Training Loss: 0.25482993, Validation Loss: 0.25477249,Best: 0.25477249, Accuracy: 0.3547, StopCount/Limit:   1/  3, Time:4.21216011
+JDE ConfigID:   7, Epoch:   4, Training Loss: 0.25386838, Validation Loss: 0.25405110,Best: 0.25405110, Accuracy: 0.3546, StopCount/Limit:   1/  3, Time:4.19889283
+JDE ConfigID:   7, Epoch:   5, Training Loss: 0.25303475, Validation Loss: 0.25270330,Best: 0.25270330, Accuracy: 0.3662, StopCount/Limit:   1/  3, Time:4.19746780
+JDE ConfigID:   7, Epoch:   6, Training Loss: 0.25231446, Validation Loss: 0.25290142,Best: 0.25270330, Accuracy: 0.3417, StopCount/Limit:   2/  3, Time:4.19614291
+JDE ConfigID:   7, Epoch:   7, Training Loss: 0.25197165, Validation Loss: 0.25230338,Best: 0.25230338, Accuracy: 0.3652, StopCount/Limit:   2/  3, Time:4.21127033
+JDE ConfigID:   7, Epoch:   8, Training Loss: 0.25158166, Validation Loss: 0.25159639,Best: 0.25159639, Accuracy: 0.3512, StopCount/Limit:   2/  3, Time:4.20957255
+JDE ConfigID:   7, Epoch:   9, Training Loss: 0.25101560, Validation Loss: 0.25195157,Best: 0.25159639, Accuracy: 0.3668, StopCount/Limit:   3/  3, Time:4.24076796
+Next Gen: [784   3   3   3   2   3   2  10]
+JDE ConfigID:   8, Epoch:   0, Training Loss: 0.35210217, Validation Loss: 0.32499419,Best: 0.32499419, Accuracy: 0.1028, StopCount/Limit:   0/  3, Time:4.70193839
+JDE ConfigID:   8, Epoch:   1, Training Loss: 0.32502865, Validation Loss: 0.32498175,Best: 0.32498175, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.70642924
+JDE ConfigID:   8, Epoch:   2, Training Loss: 0.32501400, Validation Loss: 0.32494265,Best: 0.32494265, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:4.71574664
+JDE ConfigID:   8, Epoch:   3, Training Loss: 0.32501216, Validation Loss: 0.32499195,Best: 0.32494265, Accuracy: 0.1135, StopCount/Limit:   1/  3, Time:4.70423436
+JDE ConfigID:   8, Epoch:   4, Training Loss: 0.32502557, Validation Loss: 0.32497589,Best: 0.32494265, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:4.71029687
+JDE ConfigID:   8, Epoch:   5, Training Loss: 0.32502144, Validation Loss: 0.32499305,Best: 0.32494265, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:4.70038843
+Next Gen: [784   2   3   3   2  10]
+JDE ConfigID:   9, Epoch:   0, Training Loss: 0.34165558, Validation Loss: 0.32496751,Best: 0.32496751, Accuracy: 0.1135, StopCount/Limit:   0/  3, Time:3.67110944
+JDE ConfigID:   9, Epoch:   1, Training Loss: 0.32503543, Validation Loss: 0.32507289,Best: 0.32496751, Accuracy: 0.1028, StopCount/Limit:   1/  3, Time:3.69034386
+JDE ConfigID:   9, Epoch:   2, Training Loss: 0.32501994, Validation Loss: 0.32503788,Best: 0.32496751, Accuracy: 0.1135, StopCount/Limit:   2/  3, Time:3.68382263
+JDE ConfigID:   9, Epoch:   3, Training Loss: 0.32504769, Validation Loss: 0.32499217,Best: 0.32496751, Accuracy: 0.1135, StopCount/Limit:   3/  3, Time:3.68503857
+JDE Gen 9 Run End
+JDE Run   9 CurrentBest: 0.18800188, Mean: 0.22362237, OverallBest: 0.18800188/  9, config: [784   3   3   3   2   3   2  10], updatecount:   2, Generation RunTime: 314.79465437
+JDE Run Completed : Best Score: 0.1880018751397729 , Config: [784   3   3   3   2   3   2  10], find in Gen: 9

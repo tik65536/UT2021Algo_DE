@@ -109,7 +109,7 @@ class JADE_MLP():
             # updating stopping condition
             else: stop+=1
             end=time.time()
-            print(f'JADE ConfigID: {id_:3d}, Epoch: {e:3d}, Training Loss: {(batchloss/batch):10.8f}, Validation Loss: {(vloss):10.8f},Best: {best:10.8f}, Accuracy: {accuracy:4.4f}, StopCount/Limit: {stop:3d}/{self.stopcount:3d}, Time:{(end-start):10.8f}')
+            print(f'JADE ConfigID: {id_:3d}, Epoch: {e:3d}, Training Loss: {(batchloss/batch):10.8f}, Validation Loss: {(vloss):10.8f},Best: {best:10.8f}, Accuracy: {accuracy}, StopCount/Limit: {stop:3d}/{self.stopcount:3d}, Time:{(end-start):10.8f}')
             # stopping condition and stopping
             if(stop>=self.stopcount):
                 return best,bestaccuracy,config,id_
