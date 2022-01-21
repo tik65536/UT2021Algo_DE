@@ -129,3 +129,11 @@ Please, refer to the summary section on the flow from step 3.
 ####  runMP function ( not working , dont use..)
 parameters :
 1. `beta` : the parameter that used in mutation 
+
+# Comparison to Baselines
+
+One can find the baselines for hyperparamater tuning under the notebook named as algorithmics-optuna-baselines. We used Random Search and Bayesian Search for obtaining baselines, while expecting the Random Search to be the ultimate baseline because of it being most primitive among all the search methods we used.
+
+In short, DE is clearly superior to random search with best DE variant scoring ~0.05 validation loss compared to random search's validation loss of 2.30. DE obtained lower validation loss than bayesian search too, with the latter baseline having a loss value of 0.58 on the validation set. 
+
+Yet, in terms of runtime; neural architecture search through DE took more time to finish, which was around 100 minutes. Compared to this value, the best peforming  baseline, bayesian search, only required 25 minutes to achieve a loss of 0.58. Increasing the number of iterations for the bayesian search would have produced a more competitive result to the JDE variant of differential evolution.
