@@ -137,3 +137,17 @@ One can find the baselines for hyperparamater tuning under the notebook named as
 In short, DE is clearly superior to random search with best DE variant scoring ~0.05 validation loss compared to random search's validation loss of 2.30. DE obtained lower validation loss than bayesian search too, with the latter baseline having a loss value of 0.58 on the validation set. 
 
 Yet, in terms of runtime; neural architecture search through DE took more time to finish, which was around 100 minutes. Compared to this value, the best peforming  baseline, bayesian search, only required 25 minutes to achieve a loss of 0.58. Increasing the number of iterations for the bayesian search would have produced a more competitive result to the JDE variant of differential evolution.
+
+# DE with VAE for Kernel Size on the first CNN layer(the closest to input layer) as feature selection ? 
+It is a follow up investigation on the UT CNS project(https://medium.com/decoding-the-human-brain). Afte the presentation and comment by the lecturer, decoding brain signal from EEG/MEG is really a tough task for neurosciense as the the accuray of the model is heavily depending on  feature engineering in compare to which modelling method is used. For example on the MEG data set after FFT transform, the range of frequency selection and segmentation is already a big problem, and in additional to that, spatial information of those sensors are also under consideration which make the feature into a spatial-freqency domain. However, as the experiement is adopted with CNN, I was wondering why the CNN doesn't capture/perform well on this type of input, and after followup testing with different kernel size of the first layer (rectangle shape, large kernel (36x60) etc.), it does got some effect on the reconstruction loss. So, in result, I try to adopt the DE method to see if it would help on it problem. The experiement is still on going. 
+ 
+Coding under folder : DE_VAE_FirstlayerOnly
+1. mainDE_VAE.py - serial processing on the ordinary DE method. 
+2. DE_VAE_MPI.py - distribute version with MPI implementation on the ordinary DE method.
+
+Further thinking on distribute version with MPI ?
+During the implementation of distribute version with MPI, it is found that MPI is overkilling. Actually the whole DE schema can be develop with a much ligher architecture such as web API with nodejs. May be will do it during free time.
+
+ 
+
+
