@@ -9,13 +9,15 @@ import copy
 import sys
 from mpi4py import MPI
 from DE_VAE_FirstLayer.VAE_102x188_f8_DE import VAE
+import sharearray
 comm = MPI.COMM_WORLD
 request = MPI.Request
 rank = comm.Get_rank()
 size = comm.Get_size()
 startTag=9898
-endTag=9999
+waitTag=9999
 jobTag=8888
+
 
 kernelMaxW=10
 kernelMinW=4
@@ -25,14 +27,21 @@ bsize = 1
 epoch = 1
 stopcount = 3
 pplSize = 4
-maxiter = 10
+maxiter = 2
 kernelSizeList = []
+sleep=300
+dataPath = '../RawData/FFT_AllSubject_Training_AllClass_minmaxNorm'
+datawidth=188
+tb=SummaryWriter("./Tensorboard_/"+datetime.datetime.now().strftime("%Y%m%d-%H%M%S")+'_MaxH'+str(kernelMaxH)+'_MaxW'+str(kernelMaxW)+'_MinH'+str(kernelMinH)+'_MinW'+str(kernelMinW))
 
-def loadData(path,W):
-    f=open(path,'rb')
+@sharearray.decorator('CNSFFTDATA', verbose=False)
+def loadData():
+    global dataPath
+    global datawidth
+    f=open(dataPath,'rb')
     data=pickle.load(f)
-    if(W>1):
-        result = np.zeros((1,3,102,W))
+    if(datawidth>1):
+        result = np.zeros((1,3,102,datawidth))
         for i in range(len(data)):
             data[i]=np.where(data[i]>1,1,data[i])
             data[i]=np.where(data[i]<0,0,data[i])
@@ -97,7 +106,7 @@ def fit(config,id_,rank,C,H,W,trainingset,validationset):
             return best
     return best
 
-def crossoverRandomSwap(self,parent,u):
+def crossoverRandomSwap(parent,u):
     # the first one is with min len
     swap = np.random.choice(2,2)
     if(swap[0]!=0):
@@ -106,164 +115,135 @@ def crossoverRandomSwap(self,parent,u):
        parent[1]=u[1]
     return parent
 
-def mutation_rand_1_z(self,x0,x1,x2,beta):
+def mutation_rand_1_z(x0,x1,x2,beta):
     # number of hidden layer mutation
     #[0] is H , [1] is W
-    xnew = (x0[0]+beta*(x1[0]-x2[0]),x0[1]+beta*(x1[1]-x2[1]))
-    if( xnew[0] > self.kernelMaxH):
-        xnew[0]=self.kernelMaxH
-    if(xnew[0]<self.kernelMinH):
-        xnew[0]=self.kernelMinH
-    if(xnew[1]>self.kernelMaxW):
-        xnew[1]=self.kernelMaxW
-    if(xnew[1]<self.kernelMinW):
-        xnew[1]=self.kernelMinW
+    xnew = [x0[0]+beta*(x1[0]-x2[0]),x0[1]+beta*(x1[1]-x2[1])]
+    if( xnew[0] > kernelMaxH):
+        xnew[0]=kernelMaxH
+    if(xnew[0]<kernelMinH):
+        xnew[0]=kernelMinH
+    if(xnew[1]>kernelMaxW):
+        xnew[1]=kernelMaxW
+    if(xnew[1]<kernelMinW):
+        xnew[1]=kernelMinW
+    return xnew
+
 
 
 def run(beta=0.5):
     current_gen=kernelSizeList
-    scores = np.zeros((pplSize))
+    scores = np.full((pplSize),np.inf,dtype=float)
     jobidx=[ -1 for i in range(size)]
     jobReq=[]
-    jobreqBuf = np.empty((size,1))
-    resultReq=[]
-    resultBuf= np.empty((size,1),dtype=float)
-    Jobdone=False
-    head=0
+    jobreqBuf = np.zeros((size,1))
+    overallBest=float('inf')
+    overallBestConfig=None
+    bestGen=0
     #initial Run
-    print(f'Rank {rank} DE Initial Run Start')
     for i in range(size):
         jobReq.append(comm.Irecv(jobreqBuf[i],source=i,tag=startTag))
-    while(not Jobdone):
-        status = [ MPI.Status() for i in range(size) ]
-        reqJobResponse = request.Testsome(jobReq,status)
-        if(reqJobResponse is not None and  len(reqJobResponse)>0):
-            for i in status:
-                if(head<pplSize and i.source>0):
-                    src = i.source
-                    print(f"Rank {rank} Job Req received from: {src}")
-                    buf=np.array(list(current_gen[head]),dtype=int)
-                    print(f"Rank {rank} send Job Details ksize: {buf}")
-                    req=comm.Isend(buf.copy(),src,tag=jobTag)
-                    req.wait()
-                    jobidx[src]=head
-                    tmp=np.zeros(1)
-                    resultReq.append(comm.Irecv(tmp,source=src,tag=jobTag))
-                    resultBuf[src]= tmp
-                    head+=1
-                    jobReq[src]=comm.Irecv(jobreqBuf[src],tag=startTag)
-        status = [ MPI.Status() for i in range(size) ]
-        reqResultResponse = request.Testsome(resultReq,status)
-        if(reqResultResponse is not None and  len(reqResultResponse)>0):
-            for i in status:
-                if(i.source>0):
-                    src = i.source
-                    result = resultBuf[src].copy()
-                    print(f'Rank {rank} received Result from {src} : {result}')
-                    idx = jobidx[src]
-                    scores[idx]=result
-        if(request.Waitall(resultReq) and head==pplSize ):
-            Jobdone=True
-    print(f'Rank {rank} DE Initial Run End')
-    currentbest = np.min(scores)
-    overallBest = currentbest
-    currentmean = np.mean(scores)
-    currentbestidx = np.argmin(scores)
-    overallBestConfig = current_gen[currentbestidx]
-    bestGen = 0
-    print(f'Rank {rank} DE Init Run Best: {currentbest}, Mean: {currentmean}, ID:{currentbestidx}, config: {current_gen[currentbestidx]}')
-    #Generation Run
-    for i in range(maxiter):
-        updatecount=0
-        start=time.time()
-        print(f'Rank {rank} DE Gen {i} Run Start')
-        jobidx=[ -1 for i in range(size)]
-        jobReq=[]
-        jobreqBuf = np.empty((size,1))
+    for r in range(maxiter+1):
+        print(f'Rank {rank} DE Run {r} Start')
         resultReq=[]
-        resultBuf= np.empty((size,1),dtype=float)
-        nextGenlst = [() for i in range(size) ]
+        resultBuf= np.zeros((size,1),dtype=float)
+        nextGenlst = [ [] for i in range(size) ]
         Jobdone=False
         head=0
-        for i in range(size):
-            jobReq.append(comm.Irecv(jobreqBuf[i],source=i,tag=startTag))
+        updatecount=0
+        start = time.time()
         while(not Jobdone):
             status = [ MPI.Status() for i in range(size) ]
             reqJobResponse = request.Testsome(jobReq,status)
-            print(reqJobResponse)
-            if( reqJobResponse is not None and  len(reqJobResponse)>0):
+            if(reqJobResponse is not None and  len(reqJobResponse)>0):
                 for i in status:
-                     if(head<pplSize and i.source > 0):
-                        src = status[i].source
+                    if(head<pplSize and i.source>0):
+                        src = i.source
                         print(f"Rank {rank} Job Req received from: {src}")
-                        parent = current_gen[head]
-                        idx0,idx1,idxt = np.random.choice(range(0,pplSize),3,replace=False)
-                        unitvector = mutation_rand_1_z(current_gen[idxt],current_gen[idx0],current_gen[idx1],beta)
-                        nextGen = crossoverRandomSwap(parent,unitvector)
-                        print(f'Rank {rank} DE Next Gen: {nextGen}')
-                        buf=np.array(list(nextGen),dtype=int)
-                        print(f"Rank {rank} send Job Details ksize: {buf}")
-                        req=comm.Isend(buf,src,tag=jobTag)
+                        nextGen = current_gen[head]
+                        if(r>0):
+                            idx0,idx1,idxt = np.random.choice(range(0,pplSize),3,replace=False)
+                            unitvector = mutation_rand_1_z(current_gen[idxt],current_gen[idx0],current_gen[idx1],0.5)
+                            nextGen = crossoverRandomSwap(nextGen,unitvector)
                         nextGenlst[src]=nextGen
+                        print(f'Rank {rank} DE Next Gen: {nextGen}')
+                        buf=np.array(nextGen,dtype=int)
+                        print(f"Rank {rank} send Job Details ksize: {buf}")
+                        req=comm.Isend(buf.copy(),src,tag=jobTag)
                         jobidx[src]=head
-                        req.wait()
-                        tmp=np.zeros(1)
-                        resultReq.append(comm.Irecv(tmp,source=src,tag=jobTag))
-                        resultBuf[src]= tmp
+                        resultReq.append(comm.Irecv(resultBuf[src],src,tag=jobTag))
                         head+=1
-                        jobReq[src]=comm.Irecv(jobreqBuf[src],tag=startTag)
+                        jobReq[src]=comm.Irecv(jobreqBuf[src],src,tag=startTag)
+                        req.wait()
+                    elif(head>=pplSize and i.source>0):
+                        src=i.source
+                        print(f"Rank {rank} All job is sent out , set to Wait:{src}")
+                        req=comm.Isend(np.zeros(1),src,tag=waitTag)
+                        jobReq[src]=comm.Irecv(jobreqBuf[src],src,tag=startTag)
             status = [ MPI.Status() for i in range(size) ]
             reqResultResponse = request.Testsome(resultReq,status)
-            print(reqResultResponse)
-            if(reqResultResponse is not None and len(reqResultResponse)>0):
+            if(reqResultResponse is not None and  len(reqResultResponse)>0):
+                print(f'Debug {reqResultResponse}')
                 for i in status:
-                    if(i.source > 0):
-                        src = status[i].source
+                    if(i.source>0):
+                        src = i.source
+                        idx = jobidx[src]
                         result = resultBuf[src].copy()
                         print(f'Rank {rank} received Result from {src} : {result}')
-                        idx = jobidx[src]
                         if(result<scores[idx]):
                             updatecount+=1
                             scores[idx]=result
                             current_gen[idx]=nextGenlst[src]
-            if(request.Waitall(resultReq) and head==pplSize ):
+            if(request.Testall(resultReq) and head==pplSize ):
                 Jobdone=True
-        print(f'Rank {rank} DE Gen {i} Run End')
-        end=time.time()
+        print(f'Rank {rank} DE Run {r:3d} End')
+        end = time.time()
         currentbest = np.min(scores)
         currentmean = np.mean(scores)
-        currentmedian = np.median(scores)
-        currentq25 = np.quantile(scores,0.25)
-        currentq75 = np.quantile(scores,0.75)
+        sq75 = np.quantile(scores,0,75)
+        sq25 = np.quantile(scores,0,25)
+        smedian = np.median(scores)
         currentbestidx = np.argmin(scores)
+        median = np.median(current_gen,axis=0)
+        mean = np.mean(current_gen,axis=0)
+        q75=np.quantile(current_gen,0.75,axis=0)
+        q25=np.quantile(current_gen,0.25,axis=0)
         if(currentbest<overallBest):
             overallBest=currentbest
             overallBestConfig = current_gen[currentbestidx]
-            bestGen = i
-        print(f'Rank {rank} DE Run {i:3d} CurrentBest: {currentbest:10.8f}, Mean: {currentmean:10.8f}, OverallBest: {overallBest:10.8f}/{bestGen:3d}, config: {current_gen[currentbestidx]}, updatecount: {updatecount:3d}, Generation RunTime: {(end-start):10.8f}')
-        #if(tb is not None):
-        #    tb.add_histogram(f'Scores',scores,i)
-        #    tb.add_scalars("Scores Statistic (Generation)", {'best':currentbest,'mean':currentmean,'median':currentmedian,'q25':currentq25,'q75':currentq75 , 'OverAllBest':overallBest}, i)
-        #    tb.add_scalar('Update Count',updatecount,i)
-        #    tb.add_scalar('RunTime',(end-start),i)
+            bestGen = r
+        t = (end-start)
+        tb.add_scalars('KernerlSize H',{'q75':q75[0],'median':median[0],'mean':mean[0],'q25':q25[0]},r)
+        tb.add_scalars('KernerlSize W',{'q75':q75[1],'median':median[1],'mean':mean[1],'q25':q25[1]},r)
+        tb.add_scalars('Scores',{'q75':sq75,'median':smedian,'mean':currentmean,'q25':sq25},r)
+        print(f'Rank {rank} DE Run {r:3d} CurrentBest: {currentbest:10.8f}, Mean: {currentmean:10.8f}, OverallBest: {overallBest:10.8f}/{bestGen:3d}, config: {current_gen[currentbestidx]}, updatecount: {updatecount:3d}, Generation RunTime: {t:10.8f}')
     print(f'Rank {rank} DE Run Completed : Best Score: {overallBest} , Config: {overallBestConfig}, find in Gen: {bestGen}')
     return
 
 def runWorker(C,H,W,trainingset,validationset):
     count=0
     while(True):
+        print(f'{rank} Ask for job')
         comm.Isend(np.empty(1),0,tag=startTag)
         buf = np.zeros(2,dtype=int)
-        comm.Recv(buf,source=0,tag=jobTag)
-        #print(f'\tRank {rank} - Wait for job')
-        print(f'{rank} received ksize: {buf}')
-        r = fit((int(buf[0]),int(buf[1])),0,rank,C,H,W,trainingset,validationset)
-        req=comm.Isend(np.array([r],dtype=float),0,tag=jobTag)
-        req.wait()
-        count+=1
-
-
-fresult = loadData('../RawData/FFT_AllSubject_Training_AllClass_minmaxNorm',188)
+        s =MPI.Status()
+        comm.Recv(buf,source=0,tag=MPI.ANY_TAG,status=s)
+        if(s.tag==jobTag):
+            #print(f'\tRank {rank} - Wait for job')
+            print(f'{rank} received ksize: {buf}')
+            r = fit((int(buf[0]),int(buf[1])),0,rank,C,H,W,trainingset,validationset)
+            r = np.array(r)
+            print(f'{rank} job comp result: {np.array([r],dtype=float)}')
+            req=comm.Isend(r,0,tag=jobTag)
+            req.wait()
+            count+=1
+        elif(s.tag==waitTag):
+            print(f'{rank} no Job to exec, sleep for {sleep}s')
+            time.sleep(sleep)
+if(rank!=0):
+    sleep(10)
+fresult = loadData()
+#fresult = sharearray.cache('CNSFFTDATA', lambda: loadData('../RawData/FFT_AllSubject_Training_AllClass_minmaxNorm',188))
 training = torch.tensor(fresult).float()
 C = training.shape[1]
 H = training.shape[2]
@@ -278,7 +258,7 @@ vidxs=length[t:]
 if(rank==0):
     H=np.random.choice(range(kernelMinH,kernelMaxH+1),pplSize,replace=True)
     W=np.random.choice(range(kernelMinW,kernelMaxW+1),pplSize,replace=True)
-    kernelSizeList = list(zip(H,W))
+    kernelSizeList = [ [H[i],W[i]] for i in range(pplSize)  ]
     print(f"DE_VAE init ppl : {kernelSizeList}")
     run()
 else:
