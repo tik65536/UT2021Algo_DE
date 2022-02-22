@@ -8,7 +8,7 @@ import time
 import copy
 import sys
 from mpi4py import MPI
-from DE_VAE_FirstLayer.VAE_102x188_f8_DE import VAE
+from VAE_Model.VAE_102x188_f8_DE import VAE
 import sharearray
 comm = MPI.COMM_WORLD
 request = MPI.Request
@@ -19,18 +19,18 @@ waitTag=9999
 jobTag=8888
 
 
-kernelMaxW=10
+kernelMaxW=60
 kernelMinW=4
-kernelMaxH=10
+kernelMaxH=40
 kernelMinH=4
-bsize = 1
-epoch = 1
+bsize = 100
+epoch = 100
 stopcount = 3
-pplSize = 4
-maxiter = 2
+pplSize = 21
+maxiter = 10
 kernelSizeList = []
-sleep=300
-dataPath = '../RawData/FFT_AllSubject_Training_AllClass_minmaxNorm'
+sleep=60
+dataPath = './RawData/FFT_AllSubject_Training_AllClass_minmaxNorm'
 datawidth=188
 tb=SummaryWriter("./Tensorboard_/"+datetime.datetime.now().strftime("%Y%m%d-%H%M%S")+'_MaxH'+str(kernelMaxH)+'_MaxW'+str(kernelMaxW)+'_MinH'+str(kernelMinH)+'_MinW'+str(kernelMinW))
 
@@ -118,7 +118,7 @@ def crossoverRandomSwap(parent,u):
 def mutation_rand_1_z(x0,x1,x2,beta):
     # number of hidden layer mutation
     #[0] is H , [1] is W
-    xnew = [x0[0]+beta*(x1[0]-x2[0]),x0[1]+beta*(x1[1]-x2[1])]
+    xnew = [int(x0[0]+beta*(x1[0]-x2[0])),int(x0[1]+beta*(x1[1]-x2[1]))]
     if( xnew[0] > kernelMaxH):
         xnew[0]=kernelMaxH
     if(xnew[0]<kernelMinH):
@@ -134,7 +134,6 @@ def mutation_rand_1_z(x0,x1,x2,beta):
 def run(beta=0.5):
     current_gen=kernelSizeList
     scores = np.full((pplSize),np.inf,dtype=float)
-    jobidx=[ -1 for i in range(size)]
     jobReq=[]
     jobreqBuf = np.zeros((size,1))
     overallBest=float('inf')
@@ -145,9 +144,9 @@ def run(beta=0.5):
         jobReq.append(comm.Irecv(jobreqBuf[i],source=i,tag=startTag))
     for r in range(maxiter+1):
         print(f'Rank {rank} DE Run {r} Start')
+        print(f"DE_VAE Current Gen : {current_gen}")
         resultReq=[]
-        resultBuf= np.zeros((size,1),dtype=float)
-        nextGenlst = [ [] for i in range(size) ]
+        resultBuf= []
         Jobdone=False
         head=0
         updatecount=0
@@ -165,13 +164,13 @@ def run(beta=0.5):
                             idx0,idx1,idxt = np.random.choice(range(0,pplSize),3,replace=False)
                             unitvector = mutation_rand_1_z(current_gen[idxt],current_gen[idx0],current_gen[idx1],0.5)
                             nextGen = crossoverRandomSwap(nextGen,unitvector)
-                        nextGenlst[src]=nextGen
                         print(f'Rank {rank} DE Next Gen: {nextGen}')
-                        buf=np.array(nextGen,dtype=int)
-                        print(f"Rank {rank} send Job Details ksize: {buf}")
+                        buf=np.append(np.array(nextGen,dtype=int),head)
+                        print(f"Rank {rank} send Job({head}) Details ksize: {buf}")
                         req=comm.Isend(buf.copy(),src,tag=jobTag)
-                        jobidx[src]=head
-                        resultReq.append(comm.Irecv(resultBuf[src],src,tag=jobTag))
+                        tmp = np.zeros((4),dtype=float)
+                        resultReq.append(comm.Irecv(tmp,src,tag=jobTag))
+                        resultBuf.append(tmp)
                         head+=1
                         jobReq[src]=comm.Irecv(jobreqBuf[src],src,tag=startTag)
                         req.wait()
@@ -180,28 +179,33 @@ def run(beta=0.5):
                         print(f"Rank {rank} All job is sent out , set to Wait:{src}")
                         req=comm.Isend(np.zeros(1),src,tag=waitTag)
                         jobReq[src]=comm.Irecv(jobreqBuf[src],src,tag=startTag)
-            status = [ MPI.Status() for i in range(size) ]
+            status = [ MPI.Status() for i in range(len(resultReq)) ]
             reqResultResponse = request.Testsome(resultReq,status)
             if(reqResultResponse is not None and  len(reqResultResponse)>0):
                 print(f'Debug {reqResultResponse}')
-                for i in status:
-                    if(i.source>0):
-                        src = i.source
-                        idx = jobidx[src]
-                        result = resultBuf[src].copy()
-                        print(f'Rank {rank} received Result from {src} : {result}')
-                        if(result<scores[idx]):
-                            updatecount+=1
-                            scores[idx]=result
-                            current_gen[idx]=nextGenlst[src]
+                for j in reqResultResponse:
+                    result = resultBuf[j].copy()
+                    pos = int(result[3])
+                    KH = int(result[1])
+                    KW = int(result[2])
+                    s = result[0]
+                    if(s<scores[pos]):
+                        print(f'Rank {rank} received Result : {result}, {s} < {scores[pos]} ({KH},{KW})')
+                        updatecount+=1
+                        scores[pos]=s
+                        current_gen[pos]=[KH,KW]
+                    else:
+                        print(f'Rank {rank} received Result from : {result}, {s} > {scores[pos]}')
+                    del resultReq[j]
+                    del resultBuf[j]
             if(request.Testall(resultReq) and head==pplSize ):
                 Jobdone=True
         print(f'Rank {rank} DE Run {r:3d} End')
         end = time.time()
         currentbest = np.min(scores)
         currentmean = np.mean(scores)
-        sq75 = np.quantile(scores,0,75)
-        sq25 = np.quantile(scores,0,25)
+        sq75 = np.quantile(scores,0.75)
+        sq25 = np.quantile(scores,0.25)
         smedian = np.median(scores)
         currentbestidx = np.argmin(scores)
         median = np.median(current_gen,axis=0)
@@ -225,23 +229,25 @@ def runWorker(C,H,W,trainingset,validationset):
     while(True):
         print(f'{rank} Ask for job')
         comm.Isend(np.empty(1),0,tag=startTag)
-        buf = np.zeros(2,dtype=int)
+        buf = np.zeros(3,dtype=int)
         s =MPI.Status()
         comm.Recv(buf,source=0,tag=MPI.ANY_TAG,status=s)
         if(s.tag==jobTag):
             #print(f'\tRank {rank} - Wait for job')
             print(f'{rank} received ksize: {buf}')
-            r = fit((int(buf[0]),int(buf[1])),0,rank,C,H,W,trainingset,validationset)
-            r = np.array(r)
-            print(f'{rank} job comp result: {np.array([r],dtype=float)}')
+            pos = int(buf[2])
+            KH = int(buf[0])
+            KW = int(buf[1])
+            r = fit((KH,KW),pos,rank,C,H,W,trainingset,validationset)
+            r = np.array([r,KH,KW,pos],dtype=float)
+            print(f'{rank} job comp result: {r}')
             req=comm.Isend(r,0,tag=jobTag)
             req.wait()
             count+=1
         elif(s.tag==waitTag):
             print(f'{rank} no Job to exec, sleep for {sleep}s')
             time.sleep(sleep)
-if(rank!=0):
-    sleep(10)
+
 fresult = loadData()
 #fresult = sharearray.cache('CNSFFTDATA', lambda: loadData('../RawData/FFT_AllSubject_Training_AllClass_minmaxNorm',188))
 training = torch.tensor(fresult).float()
@@ -259,7 +265,6 @@ if(rank==0):
     H=np.random.choice(range(kernelMinH,kernelMaxH+1),pplSize,replace=True)
     W=np.random.choice(range(kernelMinW,kernelMaxW+1),pplSize,replace=True)
     kernelSizeList = [ [H[i],W[i]] for i in range(pplSize)  ]
-    print(f"DE_VAE init ppl : {kernelSizeList}")
     run()
 else:
     runWorker(C,H,W,training[tidxs],training[vidxs])
