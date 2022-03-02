@@ -167,7 +167,7 @@ def run(beta=0.5):
                         print("Rank {rank} Debug Wait jobReq Finished")
                         src = jobreqBuf[i][0]
                         print(f"Rank {rank} Job Req received from: {src}")
-                        nextGen = current_gen[head]
+                        nextGen = current_gen[head].copy()
                         if(r>0):
                             idx0,idx1,idxt = np.random.choice(range(0,pplSize),3,replace=False)
                             unitvector = mutation_rand_1_z(current_gen[idxt],current_gen[idx0],current_gen[idx1],0.5)
