@@ -144,8 +144,6 @@ def run(beta=0.5,cr=0.9):
     scores = np.full((pplSize),np.inf,dtype=float)
     jobreqBuf = [ np.full(1,-1,dtype=int) for x in range(1,size) ]
     jobReq = [ comm.Irecv(jobreqBuf[x-1],source=x,tag=startTag) for x in range(1,size)]
-    betalist = np.ones(pplSize)*beta
-    crlist = np.ones(pplSize)*cr
     overallBest=float('inf')
     overallBestConfig=None
     bestGen=0
@@ -157,8 +155,8 @@ def run(beta=0.5,cr=0.9):
         #resultReq = [ MPI.Request() for x in range(1,size) ]
         resultBuf = []
         resultReq = []
-        betalist = np.one(pplSize)*beta
-        crlist = np.one(pplSize)*cr
+        betalist = np.ones(pplSize)*beta
+        crlist = np.ones(pplSize)*cr
         joblist=np.full(pplSize,1,dtype=int)
         Jobdone=False
         head=0
