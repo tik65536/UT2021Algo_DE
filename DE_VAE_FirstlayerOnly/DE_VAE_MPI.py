@@ -23,12 +23,13 @@ kernelMaxH=40
 kernelMinH=4
 bsize = 100
 epoch = 100
-stopcount = 3
-pplSize = 21
-maxiter = 10
+stopcount = 10
+pplSize = 10
+maxiter = 15
 kernelSizeList = []
 sleep=60
 dataPath = './RawData/FFT_AllSubject_Training_AllClass_minmaxNorm'
+targetPath = './RawData/FFT_AllSubject_Training_AllClass_Target'
 datawidth=188
 tb=SummaryWriter("./Tensorboard_/"+datetime.datetime.now().strftime("%Y%m%d-%H%M%S")+'_MaxH'+str(kernelMaxH)+'_MaxW'+str(kernelMaxW)+'_MinH'+str(kernelMinH)+'_MinW'+str(kernelMinW))
 
@@ -51,8 +52,6 @@ def loadData():
             result = np.vstack((result,data[i]))
         return result[1:].reshape(-1,)
 
-fresult = loadData()
-training = torch.tensor(fresult).float()
 
 ## Asssume the dim of Traing and Testing are in shape [N,C,H,W]
 def fit(config,id_,rank,C,H,W,trainidx,validateidx):
@@ -142,7 +141,8 @@ def run(beta=0.5):
     #initial Run
     for r in range(maxiter+1):
         print(f'Rank {rank} DE Run {r} Start')
-        print(f"DE_VAE Current Gen : {current_gen}")
+        print(f"Rank {rank} DE_VAE Current Gen : {current_gen}")
+        print(f"Rank {rank} DE_VAE Current Scores : {scores}")
         #resultBuf = [ np.zeros((5),dtype=float) for x in range(1,size) ]
         #resultReq = [ MPI.Request() for x in range(1,size) ]
         resultBuf = []
@@ -213,12 +213,12 @@ def run(beta=0.5):
                     KW = int(result[2])
                     s = result[0]
                     if(s<scores[pos]):
-                        print(f'Rank {rank} received Result from {src} : {result}, {s} < {scores[pos]} ({KH},{KW})')
+                        print(f'Rank {rank:2d} received Result from {src:2d} : {KH:2d} {KW:2d} {pos:2d} , {s:4.8f} < {scores[pos]:4.8f} ({KH:2d},{KW:2d})')
                         updatecount+=1
                         scores[pos]=s
                         current_gen[pos]=[KH,KW]
                     else:
-                        print(f'Rank {rank} received Result from {src}: {result}, {s} > {scores[pos]}')
+                        print(f'Rank {rank:2d} received Result from {src:2d} : {KH:2d} {KW:2d} {pos:2d} , {s:4.8f} > {scores[pos]:4.8f}')
                     joblist[pos]=0
             if(np.sum(joblist)==0):
                 Jobdone=True
@@ -244,6 +244,8 @@ def run(beta=0.5):
         tb.add_scalars('KernerlSize W',{'q75':q75[1],'median':median[1],'mean':mean[1],'q25':q25[1]},r)
         tb.add_scalars('Scores',{'q75':sq75,'median':smedian,'mean':currentmean,'q25':sq25},r)
         print(f'Rank {rank} DE Run {r:3d} CurrentBest: {currentbest:10.8f}, Mean: {currentmean:10.8f}, OverallBest: {overallBest:10.8f}/{bestGen:3d}, config: {current_gen[currentbestidx]}, updatecount: {updatecount:3d}, Generation RunTime: {t:10.8f}')
+        print(f'Rank {rank} DE Run {r:3d} Kernel H: q25: {q25[0]},  mean: {mean[0]}, median :{median[0]}, q75: {q75[0]}')
+        print(f'Rank {rank} DE Run {r:3d} Kernel H: q25: {q25[1]},  mean: {mean[1]}, median :{median[1]}, q75: {q75[1]}')
     print(f'Rank {rank} DE Run Completed : Best Score: {overallBest} , Config: {overallBestConfig}, find in Gen: {bestGen}')
     return
 
@@ -271,9 +273,6 @@ def runWorker(C,H,W,trainingset,validationset):
             print(f'{rank} no Job to exec, sleep for {sleep}s')
             time.sleep(sleep)
 
-C = training.shape[1]
-H = training.shape[2]
-W = training.shape[3]
 
 
 if(rank==0):
@@ -284,11 +283,23 @@ if(rank==0):
 else:
     fresult = loadData()
     training = torch.tensor(fresult).float()
-    length=[x for x in range(fresult.shape[0])]
-    t=int(np.floor(fresult.shape[0]*0.7))
-    np.random.shuffle(length)
-    tidxs=length[:t]
-    vidxs=length[t:]
+    f=open(targetPath,'rb')
+    data=pickle.load(f)
+    result = np.zeros((1,1))
+    for i in range(len(data)):
+        result = np.vstack((result,data[i]))
+    target=result[1:].reshape(-1,)
+    faceidx = np.where(target==1)[0]
+    scrambleidx = np.where(target==0)[0]
+    np.random.shuffle(faceidx)
+    np.random.shuffle(scrambleidx)
+    t=int(np.floor(faceidx.shape[0]*0.7))
+    tidxs=np.append(faceidx[:t],scrambleidx[:t])
+    vidxs=np.append(faceidx[t:],scrambleidx[t:])
+    training = torch.tensor(fresult).float()
+    C = training.shape[1]
+    H = training.shape[2]
+    W = training.shape[3]
     runWorker(C,H,W,tidxs,vidxs)
 
 
